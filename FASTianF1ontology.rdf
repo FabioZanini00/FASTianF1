@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/fabiz/ontologies/2023/9/untitled-ontology-49/"
+     xml:base="http://www.semanticweb.org/fabiz/ontologies/2023/9/untitled-ontology-49/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/">
+        <owl:imports rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/countries"/>
+        <rdfs:comment>This ontology models the F1 domain, comprising drivers, races, circuits and other related stuff.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Christian_Marchiori"/>
+        <rdfs:isDefinedBy rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Fabio_Zanini"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Circuit -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Circuit"/>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Constructor -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Constructor"/>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Driver -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Driver">
+        <rdfs:subClassOf rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Person"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/LineUp -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/LineUp"/>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Location -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Location"/>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Partecipation -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Partecipation"/>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Person -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Person"/>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Qualify -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Qualify"/>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Race -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Race"/>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Season -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Season"/>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Sprint -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Sprint"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Christian_Marchiori -->
+
+    <owl:NamedIndividual rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Christian_Marchiori">
+        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Fabio_Zanini -->
+
+    <owl:NamedIndividual rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Fabio_Zanini">
+        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+            <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Circuit"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Constructor"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/LineUp"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Location"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Partecipation"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Person"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Qualify"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Race"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Season"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Sprint"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
