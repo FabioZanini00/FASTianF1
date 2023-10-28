@@ -22,6 +22,127 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/InA -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/InA">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Partecipation"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Qualify"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Race"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Sprint"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasA -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasA">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Race"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Qualify"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Sprint"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasCircuit -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasCircuit">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Race"/>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Circuit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasConstructor -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasConstructor">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/LineUp"/>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Constructor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasCountry -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasCountry">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Location"/>
+        <rdfs:range rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasLocation -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasLocation">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Circuit"/>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasNationality -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasNationality">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Constructor"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Driver"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/inSeason -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/inSeason">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/LineUp"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Race"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Season"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/partecipateTo -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/partecipateTo">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Driver"/>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Partecipation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
