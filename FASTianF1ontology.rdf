@@ -22,6 +22,29 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#time -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#time"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Object Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -215,11 +238,20 @@
     
 
 
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasConstructorRef -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasConstructorRef">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Constructor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasDateOfBirth -->
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasDateOfBirth">
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Driver"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
     </owl:DatatypeProperty>
     
 
@@ -233,11 +265,54 @@
     
 
 
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasDuration -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasDuration">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/PitStop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasFinalPosition -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasFinalPosition">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/QualifPartecipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasForename -->
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasForename">
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Driver"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasLapNumber -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasLapNumber">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Lap"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/PitStop"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasLapPosition -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasLapPosition">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Lap"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
@@ -260,6 +335,22 @@
     
 
 
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasMillisecondsTime -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasMillisecondsTime">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Lap"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/PitStop"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasName -->
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasName">
@@ -268,6 +359,7 @@
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Circuit"/>
                     <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Constructor"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Location"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
@@ -285,11 +377,63 @@
     
 
 
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasQ1Time -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasQ1Time">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/QualifPartecipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasQ2Time -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasQ2Time">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/QualifPartecipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasQ3Time -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasQ3Time">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/QualifPartecipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasStopNumber -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasStopNumber">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/PitStop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasSurname -->
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasSurname">
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Driver"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasTime -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasTime">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Lap"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/PitStop"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
     </owl:DatatypeProperty>
     
 
@@ -301,6 +445,7 @@
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Circuit"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Constructor"/>
                     <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Driver"/>
                 </owl:unionOf>
             </owl:Class>
