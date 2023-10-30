@@ -1,0 +1,475 @@
+Year,Fp,Position,Driver,Team,Laps,Km/h,Time
+2022,1,1,Pierre Gasly,Scuderia AlphaTauri,23,220.03.00,1:34.193
+2022,1,2,Charles Leclerc,Scuderia Ferrari,22,206.47.00,1:34.557
+2022,1,3,Carlos Sainz,Scuderia Ferrari,23,220.29.00,1:34.611
+2022,1,4,George Russell,Mercedes-AMG Petronas F1 Team,23,219.50.00,1:34.629
+2022,1,5,Max Verstappen,Oracle Red Bull Racing,22,215.44.00,1:34.742
+2022,1,6,Lance Stroll,Aston Martin Aramco Cognizant F1 Team,22,213.08.00,1:34.814
+2022,1,7,Lewis Hamilton,Mercedes-AMG Petronas F1 Team,17,208.29.00,1:34.943
+2022,1,8,Fernando Alonso,BWT Alpine F1 Team,14,206.26.00,1:35.000
+2022,1,9,Yuki Tsunoda,Scuderia AlphaTauri,20,205.25.00,1:35.028
+2022,1,10,Sergio Perez,Oracle Red Bull Racing,23,220.18.00,1:35.050
+2022,1,11,Guanyu Zhou,Alfa Romeo F1 Team ORLEN,20,220.11.00,1:35.053
+2022,1,12,Esteban Ocon,BWT Alpine F1 Team,15,216.40.00,1:35.151
+2022,1,13,Nicholas Latifi,Williams Racing,15,214.45.00,1:35.644
+2022,1,14,Nico Hulkenberg,Aston Martin Aramco Cognizant F1 Team,23,208.41.00,1:35.815
+2022,1,15,Alexander Albon,Williams Racing,17,204.52.00,1:35.923
+2022,1,16,Lando Norris,McLaren F1 Team,22,207.09.00,1:36.304
+2022,1,17,Daniel Ricciardo,McLaren F1 Team,20,203.43.00,1:36.402
+2022,1,18,Mick Schumacher,Haas F1 Team,23,214.43.00,1:36.536
+2022,1,19,Kevin Magnussen,Haas F1 Team,21,205.24.00,1:36.804
+2022,1,20,Valtteri Bottas,Alfa Romeo F1 Team ORLEN,2,,
+2022,2,1,Max Verstappen,Oracle Red Bull Racing,20,226.21.00,1:31.936
+2022,2,2,Charles Leclerc,Scuderia Ferrari,20,223.00.00,1:32.023
+2022,2,3,Carlos Sainz,Scuderia Ferrari,22,219.43.00,1:32.520
+2022,2,4,George Russell,Mercedes-AMG Petronas F1 Team,25,219.23.00,1:32.529
+2022,2,5,Fernando Alonso,BWT Alpine F1 Team,24,221.54.00,1:32.877
+2022,2,6,Valtteri Bottas,Alfa Romeo F1 Team ORLEN,30,219.07.00,1:32.951
+2022,2,7,Sergio Perez,Oracle Red Bull Racing,20,218.51.00,1:32.958
+2022,2,8,Mick Schumacher,Haas F1 Team,24,214.05.00,1:33.085
+2022,2,9,Lewis Hamilton,Mercedes-AMG Petronas F1 Team,23,211.52.00,1:33.144
+2022,2,10,Kevin Magnussen,Haas F1 Team,23,210.25.00,1:33.183
+2022,2,11,Lando Norris,McLaren F1 Team,27,222.27.00,1:33.280
+2022,2,12,Esteban Ocon,BWT Alpine F1 Team,25,219.28.00,1:33.360
+2022,2,13,Pierre Gasly,Scuderia AlphaTauri,24,209.47.00,1:33.621
+2022,2,14,Yuki Tsunoda,Scuderia AlphaTauri,26,219.14.00,1:33.789
+2022,2,15,Guanyu Zhou,Alfa Romeo F1 Team ORLEN,27,213.11.00,1:33.953
+2022,2,16,Lance Stroll,Aston Martin Aramco Cognizant F1 Team,25,213.00.00,1:33.958
+2022,2,17,Nico Hulkenberg,Aston Martin Aramco Cognizant F1 Team,28,209.13.00,1:34.061
+2022,2,18,Daniel Ricciardo,McLaren F1 Team,12,221.02.00,1:34.166
+2022,2,19,Nicholas Latifi,Williams Racing,28,209.21.00,1:34.486
+2022,2,20,Alexander Albon,Williams Racing,22,215.59.00,1:34.735
+2022,3,1,Max Verstappen,Oracle Red Bull Racing,15,218.49.00,1:32.544
+2022,3,2,Charles Leclerc,Scuderia Ferrari,16,215.10.00,1:32.640
+2022,3,3,Sergio Perez,Oracle Red Bull Racing,20,225.08.00,1:32.791
+2022,3,4,George Russell,Mercedes-AMG Petronas F1 Team,19,219.43.00,1:32.935
+2022,3,5,Carlos Sainz,Scuderia Ferrari,20,215.17.00,1:33.053
+2022,3,6,Lewis Hamilton,Mercedes-AMG Petronas F1 Team,15,212.44.00,1:33.121
+2022,3,7,Kevin Magnussen,Haas F1 Team,15,216.36.00,1:33.437
+2022,3,8,Valtteri Bottas,Alfa Romeo F1 Team ORLEN,21,221.18.00,1:33.733
+2022,3,9,Guanyu Zhou,Alfa Romeo F1 Team ORLEN,18,215.53.00,1:33.880
+2022,3,10,Lance Stroll,Aston Martin Aramco Cognizant F1 Team,14,214.24.00,1:33.920
+2022,3,11,Lando Norris,McLaren F1 Team,18,213.07.00,1:33.955
+2022,3,12,Nico Hulkenberg,Aston Martin Aramco Cognizant F1 Team,18,212.32.00,1:33.971
+2022,3,13,Pierre Gasly,Scuderia AlphaTauri,18,220.40.00,1:34.176
+2022,3,14,Mick Schumacher,Haas F1 Team,17,216.19.00,1:34.295
+2022,3,15,Daniel Ricciardo,McLaren F1 Team,20,213.17.00,1:34.378
+2022,3,16,Fernando Alonso,BWT Alpine F1 Team,15,219.52.00,1:34.628
+2022,3,17,Alexander Albon,Williams Racing,15,211.11.00,1:34.868
+2022,3,18,Esteban Ocon,BWT Alpine F1 Team,16,207.59.00,1:34.957
+2022,3,19,Nicholas Latifi,Williams Racing,14,213.56.00,1:35.667
+2021,1,1,Max Verstappen,Red Bull Racing Honda,12,215.58.00,1:31.394
+2021,1,2,Valtteri Bottas,Mercedes-AMG Petronas F1 Team,17,220.05.00,1:31.692
+2021,1,3,Lando Norris,McLaren F1 Team,20,212.11.00,1:31.897
+2021,1,4,Lewis Hamilton,Mercedes-AMG Petronas F1 Team,15,226.55.00,1:31.921
+2021,1,5,Charles Leclerc,Scuderia Ferrari,14,224.10.00,1:31.993
+2021,1,6,Sergio Perez,Red Bull Racing Honda,15,221.10.00,1:32.071
+2021,1,7,Pierre Gasly,Scuderia AlphaTauri Honda,23,216.25.00,1:32.195
+2021,1,8,Carlos Sainz,Scuderia Ferrari,15,225.34.00,1:32.366
+2021,1,9,Daniel Ricciardo,McLaren F1 Team,20,222.59.00,1:32.434
+2021,1,10,Antonio Giovinazzi,Alfa Romeo Racing ORLEN,16,225.19.00,1:32.786
+2021,1,11,Kimi Raikkonen,Alfa Romeo Racing ORLEN,18,212.15.00,1:33.134
+2021,1,12,Sebastian Vettel,Aston Martin Cognizant F1 Team,21,211.23.00,1:33.157
+2021,1,13,Lance Stroll,Aston Martin Cognizant F1 Team,20,224.13.00,1:33.233
+2021,1,14,Yuki Tsunoda,Scuderia AlphaTauri Honda,21,220.38.00,1:33.329
+2021,1,15,Esteban Ocon,Alpine F1 Team,20,213.14.00,1:33.528
+2021,1,16,Fernando Alonso,Alpine F1 Team,18,216.10.00,1:33.872
+2021,1,17,George Russell,Williams Racing,22,222.28.00,1:34.127
+2021,1,18,Nicholas Latifi,Williams Racing,22,214.41.00,1:34.340
+2021,1,19,Mick Schumacher,Uralkali Haas F1 Team,16,208.49.00,1:34.501
+2021,1,20,Nikita Mazepin,Uralkali Haas F1 Team,16,207.20.00,1:34.975
+2021,2,1,Max Verstappen,Red Bull Racing Honda,23,221.41.00,1:30.847
+2021,2,2,Lando Norris,McLaren F1 Team,25,217.57.00,1:30.942
+2021,2,3,Lewis Hamilton,Mercedes-AMG Petronas F1 Team,24,228.08.00,1:31.082
+2021,2,4,Carlos Sainz,Scuderia Ferrari,26,226.22.00,1:31.127
+2021,2,5,Valtteri Bottas,Mercedes-AMG Petronas F1 Team,23,222.49.00,1:31.218
+2021,2,6,Daniel Ricciardo,McLaren F1 Team,22,222.21.00,1:31.230
+2021,2,7,Yuki Tsunoda,Scuderia AlphaTauri Honda,23,219.51.00,1:31.294
+2021,2,8,Lance Stroll,Aston Martin Cognizant F1 Team,24,216.00.00,1:31.393
+2021,2,9,Pierre Gasly,Scuderia AlphaTauri Honda,27,228.10.00,1:31.483
+2021,2,10,Sergio Perez,Red Bull Racing Honda,23,227.24.00,1:31.503
+2021,2,11,Esteban Ocon,Alpine F1 Team,24,223.36.00,1:31.601
+2021,2,12,Charles Leclerc,Scuderia Ferrari,26,223.10.00,1:31.612
+2021,2,13,Antonio Giovinazzi,Alfa Romeo Racing ORLEN,27,218.14.00,1:31.740
+2021,2,14,Sebastian Vettel,Aston Martin Cognizant F1 Team,26,217.06.00,1:31.769
+2021,2,15,Fernando Alonso,Alpine F1 Team,24,217.04.00,1:31.770
+2021,2,16,Kimi Raikkonen,Alfa Romeo Racing ORLEN,15,213.32.00,1:31.862
+2021,2,17,George Russell,Williams Racing,28,211.14.00,1:32.331
+2021,2,18,Mick Schumacher,Uralkali Haas F1 Team,24,221.49.00,1:33.297
+2021,2,19,Nicholas Latifi,Williams Racing,28,217.59.00,1:33.400
+2021,2,20,Nikita Mazepin,Uralkali Haas F1 Team,19,216.10.00,1:33.449
+2021,3,1,Max Verstappen,Red Bull Racing Honda,11,216.40.00,1:30.577
+2021,3,2,Lewis Hamilton,Mercedes-AMG Petronas F1 Team,14,219.00.00,1:31.316
+2021,3,3,Pierre Gasly,Scuderia AlphaTauri Honda,13,224.18.00,1:31.583
+2021,3,4,Valtteri Bottas,Mercedes-AMG Petronas F1 Team,16,213.48.00,1:31.855
+2021,3,5,Sergio Perez,Red Bull Racing Honda,11,227.25.00,1:31.908
+2021,3,6,Carlos Sainz,Scuderia Ferrari,16,219.45.00,1:32.108
+2021,3,7,Kimi Raikkonen,Alfa Romeo Racing ORLEN,15,215.19.00,1:32.224
+2021,3,8,Esteban Ocon,Alpine F1 Team,11,223.24.00,1:32.423
+2021,3,9,Lance Stroll,Aston Martin Cognizant F1 Team,13,223.06.00,1:32.431
+2021,3,10,Daniel Ricciardo,McLaren F1 Team,12,221.21.00,1:32.477
+2021,3,11,Charles Leclerc,Scuderia Ferrari,17,221.10.00,1:32.482
+2021,3,12,Antonio Giovinazzi,Alfa Romeo Racing ORLEN,11,220.29.00,1:32.500
+2021,3,13,Yuki Tsunoda,Scuderia AlphaTauri Honda,15,212.34.00,1:32.709
+2021,3,14,Sebastian Vettel,Aston Martin Cognizant F1 Team,15,210.50.00,1:32.755
+2021,3,15,Fernando Alonso,Alpine F1 Team,15,224.03.00,1:32.820
+2021,3,16,Lando Norris,McLaren F1 Team,10,222.32.00,1:32.860
+2021,3,17,George Russell,Williams Racing,14,220.51.00,1:33.323
+2021,3,18,Mick Schumacher,Uralkali Haas F1 Team,14,217.10.00,1:33.422
+2021,3,19,Nikita Mazepin,Uralkali Haas F1 Team,14,209.44.00,1:33.622
+2021,3,20,Nicholas Latifi,Williams Racing,16,212.58.00,1:33.959
+2020,1,1,Lewis Hamilton,Mercedes-AMG Petronas F1 Team,40,231.51.00,1:29.033
+2020,1,2,Valtteri Bottas,Mercedes-AMG Petronas F1 Team,41,229.13.00,1:29.482
+2020,1,3,Sergio Perez,BWT Racing Point F1 Team,31,224.00.00,1:30.000
+2020,1,4,Carlos Sainz,McLaren F1 Team,31,223.16.00,1:30.018
+2020,1,5,Pierre Gasly,Scuderia AlphaTauri Honda,34,222.02.00,1:30.049
+2020,1,6,Max Verstappen,Aston Martin Red Bull Racing,18,227.55.00,1:30.294
+2020,1,7,Alexander Albon,Aston Martin Red Bull Racing,34,227.36.00,1:30.302
+2020,1,8,Esteban Ocon,Renault DP World F1 Team,28,224.20.00,1:30.384
+2020,1,9,Lance Stroll,BWT Racing Point F1 Team,30,222.40.00,1:30.426
+2020,1,10,Daniel Ricciardo,Renault DP World F1 Team,30,219.24.00,1:30.508
+2020,1,11,Charles Leclerc,Scuderia Ferrari,29,216.12.00,1:30.589
+2020,1,12,Sebastian Vettel,Scuderia Ferrari,24,230.19.00,1:30.628
+2020,1,13,Robert Kubica,Alfa Romeo Racing ORLEN,24,226.13.00,1:30.732
+2020,1,14,Romain Grosjean,Haas F1 Team,28,222.17.00,1:30.832
+2020,1,15,Kevin Magnussen,Haas F1 Team,29,221.25.00,1:30.854
+2020,1,16,Antonio Giovinazzi,Alfa Romeo Racing ORLEN,27,219.46.00,1:30.896
+2020,1,17,Daniil Kvyat,Scuderia AlphaTauri Honda,37,214.54.00,1:31.020
+2020,1,18,Lando Norris,McLaren F1 Team,27,216.02.00,1:31.392
+2020,1,19,Nicholas Latifi,Williams Racing,29,221.32.00,1:32.472
+2020,1,20,Roy Nissany,Williams Racing,27,224.46.00,1:32.801
+2020,2,1,Lewis Hamilton,Mercedes-AMG Petronas F1 Team,28,234.23.00,1:28.971
+2020,2,2,Max Verstappen,Aston Martin Red Bull Racing,34,220.12.00,1:29.318
+2020,2,3,Valtteri Bottas,Mercedes-AMG Petronas F1 Team,30,219.29.00,1:29.336
+2020,2,4,Sergio Perez,BWT Racing Point F1 Team,32,232.25.00,1:29.403
+2020,2,5,Daniel Ricciardo,Renault DP World F1 Team,27,230.01.00,1:29.462
+2020,2,6,Pierre Gasly,Scuderia AlphaTauri Honda,36,226.25.00,1:29.551
+2020,2,7,Lando Norris,McLaren F1 Team,30,230.23.00,1:29.841
+2020,2,8,Lance Stroll,BWT Racing Point F1 Team,32,229.10.00,1:29.871
+2020,2,9,Daniil Kvyat,Scuderia AlphaTauri Honda,34,228.00.00,1:29.900
+2020,2,10,Alexander Albon,Aston Martin Red Bull Racing,17,223.26.00,1:30.014
+2020,2,11,Esteban Ocon,Renault DP World F1 Team,30,220.35.00,1:30.085
+2020,2,12,Sebastian Vettel,Scuderia Ferrari,35,219.35.00,1:30.110
+2020,2,13,Carlos Sainz,McLaren F1 Team,33,228.50.00,1:30.271
+2020,2,14,Charles Leclerc,Scuderia Ferrari,30,223.25.00,1:30.407
+2020,2,15,Antonio Giovinazzi,Alfa Romeo Racing ORLEN,33,230.22.00,1:30.627
+2020,2,16,Kevin Magnussen,Haas F1 Team,27,221.36.00,1:30.849
+2020,2,17,Kimi Raikkonen,Alfa Romeo Racing ORLEN,34,218.30.00,1:30.928
+2020,2,18,Nicholas Latifi,Williams Racing,32,216.44.00,1:30.973
+2020,2,19,Romain Grosjean,Haas F1 Team,28,226.41.00,1:31.119
+2020,2,20,George Russell,Williams Racing,29,222.15.00,1:31.636
+2020,3,1,Max Verstappen,Aston Martin Red Bull Racing,11,228.30.00,1:28.355
+2020,3,2,Lewis Hamilton,Mercedes-AMG Petronas F1 Team,12,233.16.00,1:28.618
+2020,3,3,Valtteri Bottas,Mercedes-AMG Petronas F1 Team,14,229.00.00,1:28.721
+2020,3,4,Alexander Albon,Aston Martin Red Bull Racing,12,232.28.00,1:29.018
+2020,3,5,Carlos Sainz,McLaren F1 Team,12,230.18.00,1:29.455
+2020,3,6,Pierre Gasly,Scuderia AlphaTauri Honda,16,229.37.00,1:29.472
+2020,3,7,Lando Norris,McLaren F1 Team,8,225.46.00,1:29.567
+2020,3,8,Daniil Kvyat,Scuderia AlphaTauri Honda,17,225.02.00,1:29.585
+2020,3,9,Lance Stroll,BWT Racing Point F1 Team,13,222.00.00,1:29.660
+2020,3,10,Sergio Perez,BWT Racing Point F1 Team,12,221.31.00,1:29.672
+2020,3,11,Daniel Ricciardo,Renault DP World F1 Team,9,221.02.00,1:29.684
+2020,3,12,Esteban Ocon,Renault DP World F1 Team,11,220.45.00,1:29.691
+2020,3,13,Sebastian Vettel,Scuderia Ferrari,15,229.39.00,1:29.859
+2020,3,14,Antonio Giovinazzi,Alfa Romeo Racing ORLEN,10,225.12.00,1:29.970
+2020,3,15,Charles Leclerc,Scuderia Ferrari,14,216.40.00,1:30.183
+2020,3,16,George Russell,Williams Racing,16,217.23.00,1:30.559
+2020,3,17,Romain Grosjean,Haas F1 Team,16,229.23.00,1:30.652
+2020,3,18,Kevin Magnussen,Haas F1 Team,12,225.09.00,1:30.759
+2020,3,19,Kimi Raikkonen,Alfa Romeo Racing ORLEN,16,222.38.00,1:30.823
+2020,3,20,Nicholas Latifi,Williams Racing,19,218.56.00,1:30.917
+2019,1,1,Charles Leclerc,Scuderia Ferrari,20,225.31.00,1:30.354
+2019,1,2,Sebastian Vettel,Scuderia Ferrari,21,215.06.00,1:30.617
+2019,1,3,Valtteri Bottas,Mercedes AMG Petronas Motorsport,26,218.32.00,1:31.328
+2019,1,4,Lewis Hamilton,Mercedes AMG Petronas Motorsport,23,223.36.00,1:31.601
+2019,1,5,Max Verstappen,Aston Martin Red Bull Racing,21,220.49.00,1:31.673
+2019,1,6,Pierre Gasly,Aston Martin Red Bull Racing,17,215.20.00,1:31.815
+2019,1,7,Carlos Sainz Jr.,McLaren F1 Team,28,225.44.00,1:31.952
+2019,1,8,Nico Hulkenberg,Renault F1 Team,17,222.21.00,1:32.040
+2019,1,9,Daniil Kvyat,Red Bull Toro Rosso Honda,24,226.36.00,1:32.339
+2019,1,10,Kimi Raikkonen,Alfa Romeo Racing,23,224.51.00,1:32.385
+2019,1,11,Daniel Ricciardo,Renault F1 Team,19,224.14.00,1:32.401
+2019,1,12,Kevin Magnussen,Rich Energy Haas F1 Team,21,216.37.00,1:32.602
+2019,1,13,Alexander Albon,Red Bull Toro Rosso Honda,24,222.00.00,1:32.874
+2019,1,14,Sergio Perez Mendoza,Sportpesa Racing Point F1 Team,20,221.36.00,1:32.885
+2019,1,15,Lando Norris,McLaren F1 Team,29,219.20.00,1:32.945
+2019,1,16,Antonio Giovinazzi,Alfa Romeo Racing,22,219.11.00,1:32.949
+2019,1,17,Romain Grosjean,Rich Energy Haas F1 Team,22,217.30.00,1:32.994
+2019,1,18,Lance Stroll,Sportpesa Racing Point F1 Team,16,213.36.00,1:33.518
+2019,1,19,George Russell,Rokit Williams Racing,26,220.14.00,1:34.188
+2019,1,20,Robert Kubica,Rokit Williams Racing,27,217.51.00,1:34.253
+2019,2,1,Sebastian Vettel,Scuderia Ferrari,32,223.51.00,1:28.846
+2019,2,2,Charles Leclerc,Scuderia Ferrari,32,222.25.00,1:28.881
+2019,2,3,Lewis Hamilton,Mercedes AMG Petronas Motorsport,33,230.33.00,1:29.449
+2019,2,4,Valtteri Bottas,Mercedes AMG Petronas Motorsport,36,226.10.00,1:29.557
+2019,2,5,Nico Hulkenberg,Renault F1 Team,32,221.39.00,1:29.669
+2019,2,6,Max Verstappen,Aston Martin Red Bull Racing,34,219.23.00,1:29.725
+2019,2,7,Kevin Magnussen,Rich Energy Haas F1 Team,33,224.00.00,1:30.000
+2019,2,8,Lando Norris,McLaren F1 Team,25,223.19.00,1:30.017
+2019,2,9,Romain Grosjean,Rich Energy Haas F1 Team,34,221.16.00,1:30.068
+2019,2,10,Daniil Kvyat,Red Bull Toro Rosso Honda,36,220.16.00,1:30.093
+2019,2,11,Carlos Sainz Jr.,McLaren F1 Team,33,216.19.00,1:30.192
+2019,2,12,Pierre Gasly,Aston Martin Red Bull Racing,31,222.33.00,1:30.429
+2019,2,13,Alexander Albon,Red Bull Toro Rosso Honda,36,221.23.00,1:30.458
+2019,2,14,Sergio Perez Mendoza,Sportpesa Racing Point F1 Team,32,226.51.00,1:30.716
+2019,2,15,Daniel Ricciardo,Renault F1 Team,30,221.39.00,1:30.848
+2019,2,16,Kimi Raikkonen,Alfa Romeo Racing,6,227.54.00,1:31.088
+2019,2,17,Lance Stroll,Sportpesa Racing Point F1 Team,31,226.18.00,1:31.129
+2019,2,18,Antonio Giovinazzi,Alfa Romeo Racing,10,225.42.00,1:31.144
+2019,2,19,George Russell,Rokit Williams Racing,32,227.35.00,1:31.904
+2019,2,20,Robert Kubica,Rokit Williams Racing,37,219.50.00,1:32.932
+2019,3,1,Charles Leclerc,Scuderia Ferrari,15,225.41.00,1:29.569
+2019,3,2,Sebastian Vettel,Scuderia Ferrari,16,218.52.00,1:29.738
+2019,3,3,Lewis Hamilton,Mercedes AMG Petronas Motorsport,10,226.19.00,1:30.334
+2019,3,4,Valtteri Bottas,Mercedes AMG Petronas Motorsport,12,224.08.00,1:30.389
+2019,3,5,Romain Grosjean,Rich Energy Haas F1 Team,14,222.50.00,1:30.818
+2019,3,6,Nico Hulkenberg,Renault F1 Team,12,219.13.00,1:30.910
+2019,3,7,Lando Norris,McLaren F1 Team,15,217.27.00,1:30.955
+2019,3,8,Max Verstappen,Aston Martin Red Bull Racing,10,217.17.00,1:30.959
+2019,3,9,Carlos Sainz Jr.,McLaren F1 Team,14,217.03.00,1:30.965
+2019,3,10,Daniil Kvyat,Red Bull Toro Rosso Honda,17,224.34.00,1:31.173
+2019,3,11,Kimi Raikkonen,Alfa Romeo Racing,21,218.20.00,1:31.333
+2019,3,12,Pierre Gasly,Aston Martin Red Bull Racing,13,216.02.00,1:31.392
+2019,3,13,Kevin Magnussen,Rich Energy Haas F1 Team,13,225.58.00,1:31.540
+2019,3,14,Lance Stroll,Sportpesa Racing Point F1 Team,16,222.56.00,1:31.618
+2019,3,15,Sergio Perez Mendoza,Sportpesa Racing Point F1 Team,9,222.10.00,1:31.638
+2019,3,16,Daniel Ricciardo,Renault F1 Team,11,221.58.00,1:31.643
+2019,3,17,Alexander Albon,Red Bull Toro Rosso Honda,17,220.35.00,1:31.679
+2019,3,18,Antonio Giovinazzi,Alfa Romeo Racing,21,218.50.00,1:32.132
+2019,3,19,George Russell,Rokit Williams Racing,14,218.28.00,1:33.387
+2019,3,20,Robert Kubica,Rokit Williams Racing,13,213.20.00,1:33.525
+2018,1,1,Daniel Ricciardo,Aston Martin Red Bull Racing,14,229.00.00,1:31.060
+2018,1,2,Valtteri Bottas,Mercedes AMG Petronas Motorsport,24,217.08.00,1:31.364
+2018,1,3,Kimi Raikkonen,Scuderia Ferrari,18,213.28.00,1:31.458
+2018,1,4,Sebastian Vettel,Scuderia Ferrari,17,213.00.00,1:31.470
+2018,1,5,Lewis Hamilton,Mercedes AMG Petronas Motorsport,21,213.29.00,1:32.272
+2018,1,6,Romain Grosjean,Haas F1 Team,23,219.52.00,1:32.516
+2018,1,7,Pierre Gasly,Red Bull Toro Rosso Honda,26,225.35.00,1:32.779
+2018,1,8,Carlos Sainz Jr.,Renault Sport Formula One Team,21,221.36.00,1:32.885
+2018,1,9,Kevin Magnussen,Haas F1 Team,19,218.22.00,1:32.971
+2018,1,10,Nico Hulkenberg,Renault Sport Formula One Team,18,213.22.00,1:33.104
+2018,1,11,Fernando Alonso,McLaren F1 Team,24,224.35.00,1:33.223
+2018,1,12,Charles Leclerc,Alfa Romeo Sauber F1 Team,20,222.32.00,1:33.278
+2018,1,13,Stoffel Vandoorne,McLaren F1 Team,25,219.20.00,1:33.364
+2018,1,14,Lance Stroll,Williams Martini Racing,22,218.46.00,1:33.379
+2018,1,15,Sergey Sirotkin,Williams Martini Racing,29,215.30.00,1:33.467
+2018,1,16,Brendon Hartley,Red Bull Toro Rosso Honda,27,214.23.00,1:33.497
+2018,1,17,Marcus Ericsson,Alfa Romeo Sauber F1 Team,22,213.58.00,1:33.508
+2018,1,18,Sergio Perez,Sahara Force India F1 Team,26,208.16.00,1:33.662
+2018,1,19,Esteban Ocon,Sahara Force India F1 Team,23,219.03.00,1:33.794
+2018,1,20,Max Verstappen,Aston Martin Red Bull Racing,2,,
+2018,2,1,Kimi Raikkonen,Scuderia Ferrari,32,231.21.00,1:29.817
+2018,2,2,Sebastian Vettel,Scuderia Ferrari,37,230.54.00,1:29.828
+2018,2,3,Valtteri Bottas,Mercedes AMG Petronas Motorsport,31,224.29.00,1:30.380
+2018,2,4,Lewis Hamilton,Mercedes AMG Petronas Motorsport,32,220.50.00,1:30.472
+2018,2,5,Max Verstappen,Aston Martin Red Bull Racing,32,225.42.00,1:30.745
+2018,2,6,Daniel Ricciardo,Aston Martin Red Bull Racing,31,225.28.00,1:30.751
+2018,2,7,Nico Hulkenberg,Renault Sport Formula One Team,34,222.44.00,1:31.220
+2018,2,8,Pierre Gasly,Red Bull Toro Rosso Honda,38,222.16.00,1:31.232
+2018,2,9,Fernando Alonso,McLaren F1 Team,29,220.19.00,1:31.282
+2018,2,10,Stoffel Vandoorne,McLaren F1 Team,35,214.52.00,1:31.422
+2018,2,11,Romain Grosjean,Haas F1 Team,33,223.59.00,1:31.591
+2018,2,12,Carlos Sainz Jr.,Renault Sport Formula One Team,34,223.36.00,1:31.601
+2018,2,13,Esteban Ocon,Sahara Force India F1 Team,31,215.34.00,1:31.809
+2018,2,14,Sergio Perez,Sahara Force India F1 Team,34,213.18.00,1:31.868
+2018,2,15,Kevin Magnussen,Haas F1 Team,35,225.05.00,1:31.969
+2018,2,16,Charles Leclerc,Alfa Romeo Sauber F1 Team,37,225.21.00,1:32.372
+2018,2,17,Lance Stroll,Williams Martini Racing,30,224.58.00,1:32.382
+2018,2,18,Sergey Sirotkin,Williams Martini Racing,37,221.28.00,1:32.474
+2018,2,19,Marcus Ericsson,Alfa Romeo Sauber F1 Team,32,211.39.00,1:32.733
+2018,2,20,Brendon Hartley,Red Bull Toro Rosso Honda,38,220.44.00,1:32.908
+2018,3,1,Kimi Raikkonen,Scuderia Ferrari,15,229.17.00,1:29.868
+2018,3,2,Max Verstappen,Aston Martin Red Bull Racing,8,223.58.00,1:30.393
+2018,3,3,Daniel Ricciardo,Aston Martin Red Bull Racing,8,221.38.00,1:30.452
+2018,3,4,Lewis Hamilton,Mercedes AMG Petronas Motorsport,14,227.50.00,1:30.691
+2018,3,5,Sebastian Vettel,Scuderia Ferrari,8,226.44.00,1:30.719
+2018,3,6,Valtteri Bottas,Mercedes AMG Petronas Motorsport,16,224.17.00,1:30.781
+2018,3,7,Nico Hulkenberg,Renault Sport Formula One Team,11,225.42.00,1:31.144
+2018,3,8,Carlos Sainz Jr.,Renault Sport Formula One Team,12,223.31.00,1:31.200
+2018,3,9,Pierre Gasly,Red Bull Toro Rosso Honda,18,214.15.00,1:31.438
+2018,3,10,Fernando Alonso,McLaren F1 Team,13,213.59.00,1:31.445
+2018,3,11,Brendon Hartley,Red Bull Toro Rosso Honda,18,213.24.00,1:31.460
+2018,3,12,Romain Grosjean,Haas F1 Team,14,227.00.00,1:31.513
+2018,3,13,Esteban Ocon,Sahara Force India F1 Team,17,225.25.00,1:31.554
+2018,3,14,Sergio Perez,Sahara Force India F1 Team,14,225.02.00,1:31.564
+2018,3,15,Kevin Magnussen,Haas F1 Team,14,218.21.00,1:31.737
+2018,3,16,Marcus Ericsson,Alfa Romeo Sauber F1 Team,17,213.38.00,1:31.859
+2018,3,17,Stoffel Vandoorne,McLaren F1 Team,14,213.36.00,1:31.860
+2018,3,18,Charles Leclerc,Alfa Romeo Sauber F1 Team,19,222.05.00,1:32.047
+2018,3,19,Sergey Sirotkin,Williams Martini Racing,11,221.53.00,1:32.463
+2018,3,20,Lance Stroll,Williams Martini Racing,12,222.21.00,1:32.865
+2017,1,1,Sebastian Vettel,Scuderia Ferrari,21,213.01.00,1:32.697
+2017,1,2,Daniel Ricciardo,Red Bull Racing,22,213.38.00,1:33.097
+2017,1,3,Max Verstappen,Red Bull Racing,23,211.49.00,1:33.566
+2017,1,4,Sergio Perez,SAHARA FORCE INDIA F1 TEAM,22,207.58.00,1:34.095
+2017,1,5,Felipe Massa,Williams Martini Racing,24,218.07.00,1:34.246
+2017,1,6,Lance Stroll,Williams Martini Racing,25,215.20.00,1:34.322
+2017,1,7,Esteban Ocon,SAHARA FORCE INDIA F1 TEAM,23,214.58.00,1:34.332
+2017,1,8,Fernando Alonso,McLaren Honda,14,213.31.00,1:34.372
+2017,1,9,Romain Grosjean,Haas F1 Team,21,206.31.00,1:34.564
+2017,1,10,Lewis Hamilton,Mercedes AMG Petronas F1 Team,28,219.35.00,1:34.636
+2017,1,11,Daniil Kvyat,SCUDERIA TORO ROSSO,13,212.16.00,1:34.838
+2017,1,12,Nico Hulkenberg,Renault Sport F1 Team,13,209.04.00,1:34.927
+2017,1,13,Stoffel Vandoorne,McLaren Honda,10,206.32.00,1:34.997
+2017,1,14,Valtteri Bottas,Mercedes AMG Petronas F1 Team,27,206.21.00,1:35.002
+2017,1,15,Jolyon Palmer,Renault Sport F1 Team,19,219.39.00,1:35.068
+2017,1,16,Kevin Magnussen,Haas F1 Team,21,217.03.00,1:35.579
+2017,1,17,Marcus Ericsson,Sauber F1 Team,24,206.07.00,1:35.888
+2017,1,18,Pascal Wehrlein,Sauber F1 Team,23,203.36.00,1:35.959
+2017,1,19,Carlos Sainz Jr.,SCUDERIA TORO ROSSO,16,215.03.00,1:36.079
+2017,1,20,Kimi Raikkonen,Scuderia Ferrari,6,196.30.00,1:42.333
+2017,2,1,Sebastian Vettel,Scuderia Ferrari,29,219.14.00,1:31.310
+2017,2,2,Valtteri Bottas,Mercedes AMG Petronas F1 Team,35,217.38.00,1:31.351
+2017,2,3,Daniel Ricciardo,Red Bull Racing,28,216.40.00,1:31.376
+2017,2,4,Kimi Raikkonen,Scuderia Ferrari,34,228.22.00,1:31.478
+2017,2,5,Lewis Hamilton,Mercedes AMG Petronas F1 Team,35,223.52.00,1:31.594
+2017,2,6,Nico Hulkenberg,Renault Sport F1 Team,37,212.43.00,1:31.883
+2017,2,7,Felipe Massa,Williams Martini Racing,37,220.52.00,1:32.079
+2017,2,8,Max Verstappen,Red Bull Racing,18,214.31.00,1:32.245
+2017,2,9,Romain Grosjean,Haas F1 Team,34,220.17.00,1:32.505
+2017,2,10,Daniil Kvyat,SCUDERIA TORO ROSSO,35,212.38.00,1:32.707
+2017,2,11,Kevin Magnussen,Haas F1 Team,33,222.46.00,1:32.854
+2017,2,12,Esteban Ocon,SAHARA FORCE INDIA F1 TEAM,38,221.58.00,1:32.875
+2017,2,13,Jolyon Palmer,Renault Sport F1 Team,38,221.56.00,1:32.876
+2017,2,14,Fernando Alonso,McLaren Honda,31,221.09.00,1:32.897
+2017,2,15,Sergio Perez,SAHARA FORCE INDIA F1 TEAM,34,221.00.00,1:33.319
+2017,2,16,Lance Stroll,Williams Martini Racing,36,219.26.00,1:33.361
+2017,2,17,Marcus Ericsson,Sauber F1 Team,34,213.31.00,1:33.944
+2017,2,18,Carlos Sainz Jr.,SCUDERIA TORO ROSSO,5,208.49.00,1:34.072
+2017,2,19,Pascal Wehrlein,Sauber F1 Team,29,207.10.00,1:34.117
+2017,2,20,Stoffel Vandoorne,McLaren Honda,8,218.42.00,1:34.230
+2017,3,1,Max Verstappen,Red Bull Racing,8,216.28.00,1:32.194
+2017,3,2,Lewis Hamilton,Mercedes AMG Petronas F1 Team,10,212.16.00,1:32.304
+2017,3,3,Sebastian Vettel,Scuderia Ferrari,10,211.01.00,1:32.750
+2017,3,4,Valtteri Bottas,Mercedes AMG Petronas F1 Team,13,210.52.00,1:32.754
+2017,3,5,Kimi Raikkonen,Scuderia Ferrari,9,225.22.00,1:32.785
+2017,3,6,Felipe Massa,Williams Martini Racing,12,224.46.00,1:32.801
+2017,3,7,Daniel Ricciardo,Red Bull Racing,8,224.27.00,1:32.809
+2017,3,8,Nico Hulkenberg,Renault Sport F1 Team,9,219.47.00,1:32.933
+2017,3,9,Carlos Sainz Jr.,SCUDERIA TORO ROSSO,18,210.24.00,1:33.604
+2017,3,10,Daniil Kvyat,SCUDERIA TORO ROSSO,11,220.54.00,1:33.744
+2017,3,11,Sergio Perez,SAHARA FORCE INDIA F1 TEAM,14,214.33.00,1:33.916
+2017,3,12,Fernando Alonso,McLaren Honda,10,214.20.00,1:33.922
+2017,3,13,Pascal Wehrlein,Sauber F1 Team,15,213.25.00,1:33.947
+2017,3,14,Lance Stroll,Williams Martini Racing,15,212.45.00,1:33.965
+2017,3,15,Stoffel Vandoorne,McLaren Honda,15,210.28.00,1:34.027
+2017,3,16,Esteban Ocon,SAHARA FORCE INDIA F1 TEAM,17,209.07.00,1:34.064
+2017,3,17,Kevin Magnussen,Haas F1 Team,13,219.52.00,1:34.198
+2017,3,18,Romain Grosjean,Haas F1 Team,14,219.37.00,1:34.205
+2017,3,19,Marcus Ericsson,Sauber F1 Team,15,217.18.00,1:34.268
+2017,3,20,Jolyon Palmer,Renault Sport F1 Team,11,211.52.00,1:34.417
+2016,1,1,Nico Rosberg,Mercedes AMG Petronas F1 Team,24,212.39.00,1:32.294
+2016,1,2,Lewis Hamilton,Mercedes AMG Petronas F1 Team,24,224.50.00,1:32.799
+2016,1,3,Kimi Raikkonen,Scuderia Ferrari,16,222.26.00,1:34.128
+2016,1,4,Daniel Ricciardo,Red Bull Racing,27,210.16.00,1:34.461
+2016,1,5,Daniil Kvyat,Red Bull Racing,30,207.22.00,1:34.541
+2016,1,6,Nico Hulkenberg,Sahara Force India F1 Team,28,220.51.00,1:34.601
+2016,1,7,Carlos Sainz Jr.,Scuderia Toro Rosso,21,213.54.00,1:34.793
+2016,1,8,Max Verstappen,Scuderia Toro Rosso,19,211.28.00,1:34.860
+2016,1,9,Romain Grosjean,Haas F1 Team,18,206.26.00,1:35.000
+2016,1,10,Felipe Massa,Williams Martini Racing,19,206.13.00,1:35.006
+2016,1,11,Sebastian Vettel,Scuderia Ferrari,14,219.28.00,1:35.073
+2016,1,12,Valtteri Bottas,Williams Martini Racing,21,215.51.00,1:35.174
+2016,1,13,Esteban Gutiérrez,Haas F1 Team,19,211.01.00,1:35.309
+2016,1,14,Jenson Button,McLaren Honda,28,206.20.00,1:35.440
+2016,1,15,Kevin Magnussen,Renault Sport F1 Team,27,204.33.00,1:35.490
+2016,1,16,Marcus Ericsson,Sauber F1 Team,30,211.46.00,1:35.728
+2016,1,17,Pascal Wehrlein,Manor Racing MRT,26,204.48.00,1:36.371
+2016,1,18,Stoffel Vandoorne,McLaren Honda,25,204.04.00,1:36.392
+2016,1,19,Felipe Nasr,Sauber F1 Team,24,208.21.00,1:36.719
+2016,1,20,Jolyon Palmer,Renault Sport F1 Team,28,216.24.00,1:36.939
+2016,1,21,Alfonso Celis,SAHARA FORCE INDIA F1 TEAM,23,204.25.00,1:37.287
+2016,1,22,Rio Haryanto,Manor Racing MRT,27,205.30.00,1:37.714
+2016,2,1,Nico Rosberg,Mercedes AMG Petronas F1 Team,38,215.38.00,1:31.001
+2016,2,2,Lewis Hamilton,Mercedes AMG Petronas F1 Team,32,221.53.00,1:31.242
+2016,2,3,Jenson Button,McLaren Honda,32,213.09.00,1:32.281
+2016,2,4,Max Verstappen,Scuderia Toro Rosso,31,224.03.00,1:32.406
+2016,2,5,Kimi Raikkonen,Scuderia Ferrari,38,222.18.00,1:32.452
+2016,2,6,Sebastian Vettel,Scuderia Ferrari,26,214.48.00,1:32.650
+2016,2,7,Daniil Kvyat,Red Bull Racing,34,212.47.00,1:32.703
+2016,2,8,Valtteri Bottas,Williams Martini Racing,39,225.06.00,1:32.792
+2016,2,9,Daniel Ricciardo,Red Bull Racing,23,222.10.00,1:32.870
+2016,2,10,Felipe Massa,Williams Martini Racing,36,222.03.00,1:32.873
+2016,2,11,Stoffel Vandoorne,McLaren Honda,30,217.19.00,1:32.999
+2016,2,12,Esteban Gutiérrez,Haas F1 Team,31,212.26.00,1:33.129
+2016,2,13,Carlos Sainz Jr.,Scuderia Toro Rosso,36,210.38.00,1:33.177
+2016,2,14,Romain Grosjean,Haas F1 Team,23,218.35.00,1:33.384
+2016,2,15,Sergio Perez,Sahara Force India F1 Team,35,217.46.00,1:33.406
+2016,2,16,Kevin Magnussen,Renault Sport F1 Team,34,216.14.00,1:33.447
+2016,2,17,Nico Hulkenberg,Sahara Force India F1 Team,37,211.40.00,1:33.570
+2016,2,18,Jolyon Palmer,Renault Sport F1 Team,35,209.04.00,1:33.640
+2016,2,19,Pascal Wehrlein,Manor Racing MRT,21,213.11.00,1:33.953
+2016,2,20,Marcus Ericsson,Sauber F1 Team,31,218.55.00,1:34.224
+2016,2,21,Felipe Nasr,Sauber F1 Team,34,209.41.00,1:34.477
+2016,2,22,Rio Haryanto,Manor Racing MRT,33,206.36.00,1:34.562
+2016,3,1,Sebastian Vettel,Scuderia Ferrari,22,220.26.00,1:31.683
+2016,3,2,Kimi Raikkonen,Scuderia Ferrari,13,218.53.00,1:31.723
+2016,3,3,Nico Rosberg,Mercedes AMG Petronas F1 Team,18,219.54.00,1:32.104
+2016,3,4,Lewis Hamilton,Mercedes AMG Petronas F1 Team,14,217.46.00,1:32.160
+2016,3,5,Valtteri Bottas,Williams Martini Racing,18,213.51.00,1:32.675
+2016,3,6,Romain Grosjean,Haas F1 Team,14,214.12.00,1:33.082
+2016,3,7,Daniil Kvyat,Red Bull Racing,10,213.02.00,1:33.113
+2016,3,8,Esteban Gutiérrez,Haas F1 Team,14,220.20.00,1:33.337
+2016,3,9,Felipe Massa,Williams Martini Racing,18,219.22.00,1:33.363
+2016,3,10,Daniel Ricciardo,Red Bull Racing,20,213.34.00,1:33.519
+2016,3,11,Marcus Ericsson,Sauber F1 Team,16,211.42.00,1:33.569
+2016,3,12,Kevin Magnussen,Renault Sport F1 Team,9,209.56.00,1:33.617
+2016,3,13,Jenson Button,McLaren Honda,12,222.22.00,1:33.704
+2016,3,14,Stoffel Vandoorne,McLaren Honda,11,220.54.00,1:33.744
+2016,3,15,Max Verstappen,Scuderia Toro Rosso,20,219.38.00,1:33.778
+2016,3,16,Carlos Sainz Jr.,Scuderia Toro Rosso,20,211.21.00,1:34.003
+2016,3,17,Felipe Nasr,Sauber F1 Team,15,210.59.00,1:34.013
+2016,3,18,Nico Hulkenberg,Sahara Force India F1 Team,16,222.26.00,1:34.128
+2016,3,19,Sergio Perez,Sahara Force India F1 Team,15,216.50.00,1:34.281
+2016,3,20,Jolyon Palmer,Renault Sport F1 Team,9,211.37.00,1:34.424
+2016,3,21,Rio Haryanto,Manor Racing MRT,15,218.14.00,1:35.546
+2016,3,22,Pascal Wehrlein,Manor Racing MRT,16,211.55.00,1:35.724
+2015,1,1,Nico Rosberg,Mercedes AMG Petronas F1 Team,19,215.49.00,1:29.557
+2015,1,2,Lewis Hamilton,Mercedes AMG Petronas F1 Team,19,214.40.00,1:29.586
+2015,1,3,Valtteri Bottas,Williams Martini Racing,20,216.11.00,1:30.748
+2015,1,4,Carlos Sainz Jr.,Scuderia Toro Rosso,32,221.36.00,1:31.014
+2015,1,5,Sebastian Vettel,Scuderia Ferrari,13,221.02.00,1:31.029
+2015,1,6,Max Verstappen,Scuderia Toro Rosso,31,219.34.00,1:31.067
+2015,1,7,Felipe Massa,Williams Martini Racing,19,214.56.00,1:31.188
+2015,1,8,Kimi Raikkonen,Scuderia Ferrari,14,210.16.00,1:31.310
+2015,1,9,Pastor Maldonado,Lotus F1 Team,22,220.34.00,1:31.451
+2015,1,10,Daniel Ricciardo,Infiniti Red Bull Racing,9,216.03.00,1:31.570
+2015,1,11,Daniil Kvyat,Infiniti Red Bull Racing,18,212.44.00,1:32.073
+2015,1,12,Sergio Perez,Sahara Force India F1 Team,22,221.53.00,1:32.247
+2015,1,13,Nico Hulkenberg,Sahara Force India F1 Team,19,221.21.00,1:32.261
+2015,1,14,Jenson Button,McLaren Honda,6,216.29.00,1:34.542
+2015,1,15,Kevin Magnussen,McLaren Honda,7,207.51.00,1:34.785
+2015,1,16,Romain Grosjean,Lotus F1 Team,5,147.18.00,2:17.782
+2015,2,1,Nico Rosberg,Mercedes AMG Petronas F1 Team,29,228.30.00,1:27.697
+2015,2,2,Lewis Hamilton,Mercedes AMG Petronas F1 Team,25,224.22.00,1:27.797
+2015,2,3,Sebastian Vettel,Scuderia Ferrari,33,230.29.00,1:28.412
+2015,2,4,Kimi Raikkonen,Scuderia Ferrari,33,228.44.00,1:28.842
+2015,2,5,Valtteri Bottas,Williams Martini Racing,32,227.26.00,1:29.265
+2015,2,6,Daniil Kvyat,Infiniti Red Bull Racing,27,213.22.00,1:30.016
+2015,2,7,Carlos Sainz Jr.,Scuderia Toro Rosso,41,226.52.00,1:30.071
+2015,2,8,Pastor Maldonado,Lotus F1 Team,11,225.35.00,1:30.104
+2015,2,9,Romain Grosjean,Lotus F1 Team,37,221.37.00,1:30.205
+2015,2,10,Nico Hulkenberg,Sahara Force India F1 Team,30,211.11.00,1:30.473
+2015,2,11,Felipe Nasr,Sauber F1 Team,33,215.55.00,1:30.755
+2015,2,12,Sergio Perez,Sahara Force India F1 Team,32,222.55.00,1:30.980
+2015,2,13,Jenson Button,McLaren Honda,21,223.00.00,1:31.387
+2015,2,14,Max Verstappen,Scuderia Toro Rosso,6,222.42.00,1:31.395
+2015,2,15,Marcus Ericsson,Sauber F1 Team,14,219.47.00,1:32.303
+2015,3,1,Lewis Hamilton,Mercedes AMG Petronas F1 Team,11,221.29.00,1:27.867
+2015,3,2,Sebastian Vettel,Scuderia Ferrari,13,224.21.00,1:28.563
+2015,3,3,Nico Rosberg,Mercedes AMG Petronas F1 Team,14,229.35.00,1:28.821
+2015,3,4,Valtteri Bottas,Williams Martini Racing,14,225.55.00,1:28.912
+2015,3,5,Felipe Massa,Williams Martini Racing,18,222.52.00,1:28.988
+2015,3,6,Kimi Raikkonen,Scuderia Ferrari,13,221.42.00,1:29.017
+2015,3,7,Romain Grosjean,Lotus F1 Team,12,218.50.00,1:29.481
+2015,3,8,Pastor Maldonado,Lotus F1 Team,15,219.21.00,1:29.864
+2015,3,9,Carlos Sainz Jr.,Scuderia Toro Rosso,19,219.09.00,1:29.869
+2015,3,10,Felipe Nasr,Sauber F1 Team,24,216.35.00,1:29.934
+2015,3,11,Max Verstappen,Scuderia Toro Rosso,16,215.53.00,1:29.952
+2015,3,12,Marcus Ericsson,Sauber F1 Team,21,221.25.00,1:30.613
+2015,3,13,Nico Hulkenberg,Sahara Force India F1 Team,14,216.27.00,1:30.741
+2015,3,14,Sergio Perez,Sahara Force India F1 Team,17,222.25.00,1:30.993
+2015,3,15,Daniel Ricciardo,Infiniti Red Bull Racing,10,215.03.00,1:31.185
+2015,3,16,Kevin Magnussen,McLaren Honda,14,222.51.00,1:31.391
+2015,3,17,Jenson Button,McLaren Honda,13,212.24.00,1:31.666
+2015,3,18,Daniil Kvyat,Infiniti Red Bull Racing,6,215.53.00,1:32.830
