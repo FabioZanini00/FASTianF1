@@ -912,13 +912,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasLapNumber"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasLapPosition"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1123,7 +1123,14 @@
 
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Status -->
 
-    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Status"/>
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Status">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
