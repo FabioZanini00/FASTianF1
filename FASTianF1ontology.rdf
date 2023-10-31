@@ -875,6 +875,36 @@
                 <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Location"/>
             </owl:Restriction>
         </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasCircuitRef"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasLat"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasLng"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasURL"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1044,18 +1074,10 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasA"/>
-                                <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Qualifying"/>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasA"/>
-                                <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Sprint"/>
-                            </owl:Restriction>
-                        </owl:unionOf>
-                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasA"/>
+                        <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Qualifying"/>
+                    </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasCircuit"/>
                         <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Circuit"/>
@@ -1143,7 +1165,20 @@
 
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Season -->
 
-    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Season"/>
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Season">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasURL"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasYear"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
