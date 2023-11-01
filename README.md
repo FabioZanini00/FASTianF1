@@ -1,5 +1,5 @@
 ###
-<img src="FASTianF1Logo.png" width="100" alt="FASTianF1 Logo"/>
+<img src="FASTianF1Logo.png" width="500" alt="FASTianF1 Logo"/>
 
 ---
 # FASTianF1
