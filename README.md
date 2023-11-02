@@ -8,7 +8,10 @@
 # FASTianF1
 Group project for Database 2 course developed by Christian Marchiori and Fabio Zanini.
 
-Initial empty readme file
+---
+Description of work.
 
-Test commit
+---
+Various instruction to make the jupyter notebook work:
+- the path are compliant with windows path, so they use \. To make them work with macOS or Linux, they need to be changed with /.
 </div>
