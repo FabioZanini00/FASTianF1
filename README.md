@@ -17,4 +17,5 @@ This repository contains:
 
 ---
 Various instruction to make the jupyter notebook work:
+- make sure that the main working directory is called FASTianF1. Otherwise, put all the files in a directory called that way.
 - the path are compliant with windows path, so they use '\\\' . To make them work with macOS or Linux, they need to be changed with '/'.
