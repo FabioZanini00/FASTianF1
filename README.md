@@ -1,5 +1,9 @@
 ###
-<img src="FASTianF1Logo_V2.png" width="200" alt="FASTianF1 Logo"/>
+<div align="center">
+  <a href="https://github.com/FabioZanini00/FASTianF1">
+    <img src="FASTianF1Logo_V2.png" width="200" alt="FASTianF1 Logo"/>
+  </a>
+</div>
 
 ---
 # FASTianF1
