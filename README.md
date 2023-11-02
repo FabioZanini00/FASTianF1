@@ -13,4 +13,4 @@ Description of work.
 
 ---
 Various instruction to make the jupyter notebook work:
-- the path are compliant with windows path, so they use '\' . To make them work with macOS or Linux, they need to be changed with '/'.
+- the path are compliant with windows path, so they use '\\\' . To make them work with macOS or Linux, they need to be changed with '/'.
