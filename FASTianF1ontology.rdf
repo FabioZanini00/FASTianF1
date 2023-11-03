@@ -134,10 +134,9 @@
     
 
 
-    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasNationality -->
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasNation -->
 
-    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasNationality">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasNation">
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -555,6 +554,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Lap"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>Time duration of the lap.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -572,6 +572,7 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Number of laps completed by a driver in a race or sprint.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -582,6 +583,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Circuit"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>Latitude of the circuit.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -592,6 +594,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Circuit"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:comment>The longitude of the circuit.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -609,6 +612,7 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The time a driver used to finish the race, in milliseconds.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -626,6 +630,7 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Time duration of the lap ot pitstop in milliseconds.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -646,6 +651,7 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The name of the entity (Circuit/Constructor/Location/Race/Status).</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -656,6 +662,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/PitStop"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time of the day of the pitstop.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -673,6 +680,7 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The points earned by the river in a race or sprint.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -682,6 +690,7 @@
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasPosition">
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Partecipation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The final position of a driver in a partecipation in a race/sprint/qualifying.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -699,6 +708,7 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Final rank of the position of the drivers in a race or sprint.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -708,6 +718,7 @@
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasPositionText">
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Partecipation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The final position of a driver in a partecipation in a race/sprint/qualifying, in text.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -718,6 +729,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/QualifPartecipation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time of the first qualifying session for a driver.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -728,6 +740,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/QualifPartecipation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time of the second qualifying session for a driver.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -738,6 +751,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/QualifPartecipation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time of the third qualifying session for a driver.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -747,6 +761,7 @@
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasQualiDate">
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Qualifying"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment>The date of the qualifying session related to a race.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -756,6 +771,7 @@
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasQualiTime">
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Qualifying"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time of day of the qualifying session related to a race.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -765,6 +781,7 @@
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasRaceTime">
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Race"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time of day of the race.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -781,6 +798,7 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time a driver used to finish the race.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -791,6 +809,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Race"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The race number of order in the season.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -800,6 +819,7 @@
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasSprintDate">
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Sprint"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment>The date of the sprint race session related to a race.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -809,6 +829,7 @@
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasSprintTime">
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Sprint"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time of day of the sprint race session related to a race.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -825,6 +846,7 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The position on the starting grid for a sdriver in a race or sprint.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -835,6 +857,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/PitStop"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The number of pitstop of the driver in the race.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -865,6 +888,7 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>URL related to the individual.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -875,6 +899,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Season"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+        <rdfs:comment>The year related to the season.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -947,7 +972,7 @@
     <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Constructor">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasNationality"/>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasNation"/>
                 <owl:someValuesFrom rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -980,7 +1005,7 @@
         <rdfs:subClassOf rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Person"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasNationality"/>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1/hasNation"/>
                 <owl:someValuesFrom rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
             </owl:Restriction>
         </rdfs:subClassOf>
