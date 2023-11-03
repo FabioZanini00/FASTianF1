@@ -861,6 +861,14 @@
     
 
 
+    <!-- http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country -->
+
+    <rdf:Description rdf:about="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country">
+        <rdfs:comment>This class represents world countries.</rdfs:comment>
+    </rdf:Description>
+    
+
+
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Circuit -->
 
     <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Circuit">
@@ -900,6 +908,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>This class represents the circuits on which the F1 races are done.</rdfs:comment>
     </owl:Class>
     
 
@@ -931,6 +940,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>This class represents the constructors, so basically the F1 teams related to a particular car brand.</rdfs:comment>
     </owl:Class>
     
 
@@ -975,6 +985,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>This class represents a F1 driver.</rdfs:comment>
     </owl:Class>
     
 
@@ -1000,6 +1011,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>This class represents a single lap in a race.</rdfs:comment>
     </owl:Class>
     
 
@@ -1019,6 +1031,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>This class represents the location (or city) of a Circuit.</rdfs:comment>
     </owl:Class>
     
 
@@ -1076,13 +1089,16 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>This class represents the partecipation of a driver and his related constructor team to a race or sprint or qualifying.</rdfs:comment>
     </owl:Class>
     
 
 
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Person -->
 
-    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Person"/>
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Person">
+        <rdfs:comment>This class represents a person in general.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -1119,6 +1135,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>This class represents a single pitstop in a F1 race.</rdfs:comment>
     </owl:Class>
     
 
@@ -1137,13 +1154,16 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:comment>This class represents the partecipation of a driver and his related constructor team to a qualifying.</rdfs:comment>
     </owl:Class>
     
 
 
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Qualifying -->
 
-    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Qualifying"/>
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Qualifying">
+        <rdfs:comment>This class represents a qualifying related to a particular race.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -1192,6 +1212,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>This class represents a particular F1 race.</rdfs:comment>
     </owl:Class>
     
 
@@ -1244,6 +1265,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>This class represents the partecipation of a driver and his related constructor team to a race.</rdfs:comment>
     </owl:Class>
     
 
@@ -1263,13 +1285,16 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>Thi class represents a F1 season, which develops during one year.</rdfs:comment>
     </owl:Class>
     
 
 
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1/Sprint -->
 
-    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Sprint"/>
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1/Sprint">
+        <rdfs:comment>This class represents a sprint race related to a particular race.</rdfs:comment>
+    </owl:Class>
     
 
 
@@ -1315,6 +1340,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>This class represents the partecipation of a driver and his related constructor team to a sprint race.</rdfs:comment>
     </owl:Class>
     
 
@@ -1328,6 +1354,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>This class represents a status of a driver or a car in a race/sprint.</rdfs:comment>
     </owl:Class>
     
 
