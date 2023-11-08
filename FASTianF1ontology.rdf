@@ -985,6 +985,7 @@
     <!-- http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country -->
 
     <rdf:Description rdf:about="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country">
+        <owl:equivalentClass rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
         <rdfs:comment>This class represents world countries.</rdfs:comment>
     </rdf:Description>
     
@@ -1063,6 +1064,12 @@
         </rdfs:subClassOf>
         <rdfs:comment>This class represents the constructors, so basically the F1 teams related to a particular car brand.</rdfs:comment>
     </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
     
 
 
