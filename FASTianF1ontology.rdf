@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="https://www.dei.unipd.it/db2/groupProject/FASTianF1#"
      xml:base="https://www.dei.unipd.it/db2/groupProject/FASTianF1"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:jur="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -986,7 +987,6 @@
     <!-- http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country -->
 
     <rdf:Description rdf:about="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country">
-        <owl:equivalentClass rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
         <rdfs:comment>This class represents world countries.</rdfs:comment>
     </rdf:Description>
     
@@ -1065,12 +1065,6 @@
         </rdfs:subClassOf>
         <rdfs:comment>This class represents the constructors, so basically the F1 teams related to a particular car brand.</rdfs:comment>
     </owl:Class>
-    
-
-
-    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country -->
-
-    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
     
 
 
@@ -1496,7 +1490,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ad -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ad">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1504,7 +1498,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ae -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ae">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1512,7 +1506,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#af -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#af">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1520,7 +1514,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ag -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ag">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1528,7 +1522,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ai -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ai">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1536,7 +1530,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#al -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#al">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1544,7 +1538,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#am -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#am">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1552,7 +1546,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#an -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#an">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1560,7 +1554,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ao -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ao">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1568,7 +1562,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#aq -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#aq">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1576,7 +1570,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ar -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ar">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1584,7 +1578,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#as -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#as">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1592,7 +1586,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#at -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#at">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1600,7 +1594,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#au -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#au">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1608,7 +1602,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#aw -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#aw">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1616,7 +1610,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ax -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ax">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1624,7 +1618,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#az -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#az">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1632,7 +1626,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ba -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ba">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1640,7 +1634,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bb -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bb">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1648,7 +1642,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bd -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bd">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1656,7 +1650,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#be -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#be">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1664,7 +1658,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bf -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bf">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1672,7 +1666,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bg -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bg">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1680,7 +1674,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bh -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bh">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1688,7 +1682,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bi -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bi">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1696,7 +1690,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bj -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bj">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1704,7 +1698,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bl -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bl">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1712,7 +1706,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bm -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bm">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1720,7 +1714,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bn -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bn">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1728,7 +1722,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bo -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bo">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1736,7 +1730,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#br -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#br">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1744,7 +1738,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bs -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bs">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1752,7 +1746,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bt -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bt">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1760,7 +1754,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bv -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bv">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1768,7 +1762,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bw -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bw">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1776,7 +1770,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#by -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#by">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1784,7 +1778,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bz -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bz">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1792,7 +1786,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ca -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ca">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1800,7 +1794,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cc -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cc">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1808,7 +1802,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cd -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cd">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1816,7 +1810,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cf -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cf">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1824,7 +1818,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cg -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cg">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1832,7 +1826,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ch -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ch">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1840,7 +1834,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ci -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ci">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1848,7 +1842,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ck -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ck">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1856,7 +1850,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cl -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cl">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1864,7 +1858,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cm -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cm">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1872,7 +1866,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cn -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cn">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1880,7 +1874,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#co -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#co">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1888,7 +1882,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cr -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cr">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1896,7 +1890,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cu -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cu">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1904,7 +1898,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cv -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cv">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1912,7 +1906,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cx -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cx">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1920,7 +1914,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cy -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cy">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1928,7 +1922,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cz -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cz">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1936,7 +1930,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#de -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#de">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1944,7 +1938,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#dj -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#dj">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1952,7 +1946,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#dk -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#dk">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1960,7 +1954,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#dm -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#dm">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1968,7 +1962,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#do -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#do">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1976,7 +1970,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#dz -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#dz">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1984,7 +1978,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ec -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ec">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -1992,7 +1986,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ee -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ee">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2000,7 +1994,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#eg -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#eg">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2008,7 +2002,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#eh -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#eh">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2016,7 +2010,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#er -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#er">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2024,7 +2018,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#es -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#es">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2032,7 +2026,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#et -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#et">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2040,7 +2034,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#fi -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#fi">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2048,7 +2042,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#fj -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#fj">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2056,7 +2050,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#fk -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#fk">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2064,7 +2058,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#fm -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#fm">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2072,7 +2066,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#fo -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#fo">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2080,7 +2074,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#fr -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#fr">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2088,7 +2082,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ga -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ga">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2096,7 +2090,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gb -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gb">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2104,7 +2098,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gd -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gd">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2112,7 +2106,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ge -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ge">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2120,7 +2114,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gf -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gf">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2128,7 +2122,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gg -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gg">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2136,7 +2130,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gh -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gh">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2144,7 +2138,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gi -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gi">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2152,7 +2146,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gl -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gl">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2160,7 +2154,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gm -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gm">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2168,7 +2162,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gn -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gn">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2176,7 +2170,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gp -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gp">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2184,7 +2178,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gq -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gq">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2192,7 +2186,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gr -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gr">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2200,7 +2194,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gs -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gs">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2208,7 +2202,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gt -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gt">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2216,7 +2210,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gu -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gu">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2224,7 +2218,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gw -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gw">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2232,7 +2226,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gy -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gy">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2240,7 +2234,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#hk -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#hk">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2248,7 +2242,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#hm -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#hm">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2256,7 +2250,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#hn -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#hn">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2264,7 +2258,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#hr -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#hr">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2272,7 +2266,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ht -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ht">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2280,7 +2274,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#hu -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#hu">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2288,7 +2282,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#id -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#id">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2296,7 +2290,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ie -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ie">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2304,7 +2298,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#il -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#il">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2312,7 +2306,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#im -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#im">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2320,7 +2314,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#in -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#in">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2328,7 +2322,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#io -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#io">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2336,7 +2330,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#iq -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#iq">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2344,7 +2338,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ir -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ir">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2352,7 +2346,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#is -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#is">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2360,7 +2354,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#it -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#it">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2368,7 +2362,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#je -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#je">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2376,7 +2370,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#jm -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#jm">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2384,7 +2378,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#jo -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#jo">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2392,7 +2386,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#jp -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#jp">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2400,7 +2394,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ke -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ke">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2408,7 +2402,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#kg -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#kg">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2416,7 +2410,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#kh -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#kh">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2424,7 +2418,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ki -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ki">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2432,7 +2426,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#km -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#km">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2440,7 +2434,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#kn -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#kn">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2448,7 +2442,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#kp -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#kp">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2456,7 +2450,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#kr -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#kr">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2464,7 +2458,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#kw -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#kw">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2472,7 +2466,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ky -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ky">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2480,7 +2474,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#kz -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#kz">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2488,7 +2482,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#la -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#la">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2496,7 +2490,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#lb -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#lb">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2504,7 +2498,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#lc -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#lc">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2512,7 +2506,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#li -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#li">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2520,7 +2514,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#lk -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#lk">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2528,7 +2522,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#lr -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#lr">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2536,7 +2530,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ls -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ls">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2544,7 +2538,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#lt -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#lt">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2552,7 +2546,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#lu -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#lu">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2560,7 +2554,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#lv -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#lv">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2568,7 +2562,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ly -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ly">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2576,7 +2570,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ma -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ma">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2584,7 +2578,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mc -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mc">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2592,7 +2586,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#md -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#md">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2600,7 +2594,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#me -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#me">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2608,7 +2602,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mf -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mf">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2616,7 +2610,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mg -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mg">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2624,7 +2618,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mh -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mh">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2632,7 +2626,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mk -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mk">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2640,7 +2634,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ml -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ml">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2648,7 +2642,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mm -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mm">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2656,7 +2650,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mn -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mn">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2664,7 +2658,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mo -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mo">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2672,7 +2666,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mp -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mp">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2680,7 +2674,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mq -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mq">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2688,7 +2682,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mr -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mr">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2696,7 +2690,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ms -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ms">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2704,7 +2698,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mt -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mt">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2712,7 +2706,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mu -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mu">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2720,7 +2714,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mv -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mv">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2728,7 +2722,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mw -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mw">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2736,7 +2730,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mx -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mx">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2744,7 +2738,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#my -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#my">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2752,7 +2746,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mz -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mz">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2760,7 +2754,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#na -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#na">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2768,7 +2762,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#nc -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#nc">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2776,7 +2770,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ne -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ne">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2784,7 +2778,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#nf -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#nf">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2792,7 +2786,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ng -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ng">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2800,7 +2794,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ni -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ni">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2808,7 +2802,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#nl -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#nl">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2816,7 +2810,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#no -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#no">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2824,7 +2818,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#np -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#np">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2832,7 +2826,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#nr -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#nr">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2840,7 +2834,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#nu -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#nu">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2848,7 +2842,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#nz -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#nz">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2856,7 +2850,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#om -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#om">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2864,7 +2858,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pa -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pa">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2872,7 +2866,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pe -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pe">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2880,7 +2874,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pf -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pf">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2888,7 +2882,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pg -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pg">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2896,7 +2890,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ph -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ph">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2904,7 +2898,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pk -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pk">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2912,7 +2906,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pl -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pl">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2920,7 +2914,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pm -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pm">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2928,7 +2922,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pn -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pn">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2936,7 +2930,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pr -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pr">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2944,7 +2938,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ps -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ps">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2952,7 +2946,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pt -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pt">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2960,7 +2954,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pw -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pw">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2968,7 +2962,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#py -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#py">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2976,7 +2970,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#qa -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#qa">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2984,7 +2978,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#re -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#re">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -2992,7 +2986,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ro -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ro">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3000,7 +2994,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#rs -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#rs">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3008,7 +3002,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ru -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ru">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3016,7 +3010,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#rw -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#rw">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3024,7 +3018,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sa -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sa">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3032,7 +3026,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sb -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sb">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3040,7 +3034,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sc -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sc">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3048,7 +3042,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sd -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sd">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3056,7 +3050,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#se -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#se">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3064,7 +3058,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sg -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sg">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3072,7 +3066,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sh -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sh">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3080,7 +3074,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#si -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#si">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3088,7 +3082,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sj -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sj">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3096,7 +3090,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sk -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sk">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3104,7 +3098,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sl -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sl">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3112,7 +3106,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sm -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sm">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3120,7 +3114,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sn -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sn">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3128,7 +3122,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#so -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#so">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3136,7 +3130,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sr -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sr">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3144,7 +3138,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#st -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#st">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3152,7 +3146,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sv -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sv">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3160,7 +3154,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sy -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sy">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3168,7 +3162,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sz -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sz">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3176,7 +3170,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tc -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tc">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3184,7 +3178,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#td -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#td">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3192,7 +3186,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tf -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tf">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3200,7 +3194,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tg -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tg">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3208,7 +3202,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#th -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#th">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3216,7 +3210,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tj -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tj">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3224,7 +3218,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tk -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tk">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3232,7 +3226,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tl -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tl">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3240,7 +3234,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tm -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tm">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3248,7 +3242,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tn -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tn">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3256,7 +3250,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#to -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#to">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3264,7 +3258,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tr -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tr">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3272,7 +3266,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tt -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tt">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3280,7 +3274,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tv -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tv">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3288,7 +3282,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tw -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tw">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3296,7 +3290,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tz -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tz">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3304,7 +3298,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ua -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ua">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3312,7 +3306,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ug -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ug">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3320,7 +3314,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#um -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#um">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3328,7 +3322,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#us -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#us">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3336,7 +3330,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#uy -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#uy">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3344,7 +3338,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#uz -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#uz">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3352,7 +3346,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#va -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#va">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3360,7 +3354,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#vc -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#vc">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3368,7 +3362,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ve -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ve">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3376,7 +3370,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#vg -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#vg">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3384,7 +3378,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#vi -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#vi">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3392,7 +3386,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#vn -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#vn">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3400,7 +3394,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#vu -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#vu">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3408,7 +3402,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#wf -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#wf">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3416,7 +3410,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ws -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ws">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3424,7 +3418,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ye -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ye">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3432,7 +3426,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#yt -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#yt">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3440,7 +3434,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#za -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#za">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3448,7 +3442,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#zm -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#zm">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
@@ -3456,7 +3450,7 @@
     <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#zw -->
 
     <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#zw">
-        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Country"/>
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
     </rdf:Description>
     
 
