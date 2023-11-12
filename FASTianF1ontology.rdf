@@ -430,7 +430,7 @@
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDuration">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#PitStop"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
         <rdfs:comment>The amount of time spent for the pitstop</rdfs:comment>
     </owl:DatatypeProperty>
     
