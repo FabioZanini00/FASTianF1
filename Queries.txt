@@ -52,3 +52,23 @@ ORDER BY DESC (?finalPoints)
 
 ----
 
+# Final 2022 season constructor's classification
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?name (MAX(?totPoints) AS ?finalPoints) WHERE {
+    ?season :hasYear "2022"^^xsd:integer;
+            a :Season.
+    ?race :inSeason ?season;
+          a :Race.
+    ?racePart :partecipatedInRace ?race;
+              :hasConstructorTotalPoints ?totPoints;
+              :hasConstructor ?constructor;
+              a :RacePartecipation.
+    ?constructor :hasName ?name;
+            a :Constructor.
+}
+GROUP BY (?name)
+ORDER BY DESC (?finalPoints)
+
+----
+
