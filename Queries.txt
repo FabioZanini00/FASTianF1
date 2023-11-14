@@ -75,7 +75,7 @@ ORDER BY DESC (?finalPoints)
 # Complete name of the driver winner of 2021 season
 PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-SELECT ?name WHERE {
+SELECT (?name AS ?2021winnersName) WHERE {
     {
 		SELECT ?name (MAX(?totPoints) AS ?finalPoints) WHERE {
     		?season :hasYear "2021"^^xsd:integer;
@@ -102,7 +102,7 @@ LIMIT 1
 # Name of the constructor team winner of 2021 season
 PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-SELECT ?name WHERE {
+SELECT (?name AS ?2021winnersName) WHERE {
     {
 		SELECT ?name (MAX(?totPoints) AS ?finalPoints) WHERE {
     		?season :hasYear "2021"^^xsd:integer;
