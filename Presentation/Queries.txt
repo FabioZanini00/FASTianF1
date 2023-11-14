@@ -1,0 +1,54 @@
+# 10 younger drivers ever
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+SELECT ?name ?bdate WHERE { 
+	?driver a :Driver ;
+    :hasForename ?fname ;
+    :hasSurname ?sname ;
+    :hasDateOfBirth ?bdate .
+    BIND(CONCAT(?fname, " ", ?sname) AS ?name).
+} 
+ORDER BY DESC (?bdate)
+LIMIT 10
+
+----
+
+# Drivers who partecipated in the 2023 season
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?name WHERE { 
+    ?season :hasYear "2023"^^xsd:integer;
+            a :Season.
+    ?race :inSeason ?season;
+          a :Race.
+    ?racePart :partecipatedInRace ?race;
+              :hasDriver ?driver.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?name).
+} GROUP BY (?name)
+
+----
+
+# Final 2022 season driver's classification
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?name (MAX(?totPoints) AS ?finalPoints) WHERE {
+    ?season :hasYear "2022"^^xsd:integer;
+            a :Season.
+    ?race :inSeason ?season;
+          a :Race.
+    ?racePart :partecipatedInRace ?race;
+              :hasTotalPoints ?totPoints;
+              :hasDriver ?driver;
+              a :RacePartecipation.
+    ?driver :hasForename ?fname;
+            :hasSurname ?sname;
+            a :Driver.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?name).
+}
+GROUP BY (?name)
+ORDER BY DESC (?finalPoints)
+
+----
+
