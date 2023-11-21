@@ -124,3 +124,23 @@ LIMIT 1
 
 ----
 
+# Complete names of the 20 drivers with the most pit stops made in their careers.
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+SELECT ?name (SUM(?maxNumb) AS ?totalPitStops) WHERE{
+    {
+        SELECT ?partecipation ?name (MAX(?numb) AS ?maxNumb) WHERE { 
+            ?driver :hasForename ?fname ;
+                    :hasSurname ?sname .
+            ?partecipation :hasDriver ?driver ;
+                           :hasLap ?lap .
+            ?stop :hasPitStopLap ?lap ;
+                  :hasStopNumber ?numb .
+            BIND(CONCAT(?fname, " ", ?sname) AS ?name).
+        }
+        GROUP BY ?partecipation ?name
+    }
+}
+GROUP BY ?name
+ORDER BY DESC(?totalPitStops)
+LIMIT 20
+
