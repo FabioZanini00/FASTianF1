@@ -124,23 +124,24 @@ LIMIT 1
 
 ----
 
-# Complete names of the 20 drivers with the most pit stops made in their careers.
+# Complete names of the 20 drivers with the most pit stops made with a single constructor.
 PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
-SELECT ?name (SUM(?maxNumb) AS ?totalPitStops) WHERE{
+SELECT ?name (?cname AS ?constructorName) (SUM(?maxNumb) AS ?totalPitStops) WHERE{
     {
-        SELECT ?partecipation ?name (MAX(?numb) AS ?maxNumb) WHERE { 
+        SELECT ?partecipation ?name ?cname (MAX(?numb) AS ?maxNumb) WHERE { 
             ?driver :hasForename ?fname ;
                     :hasSurname ?sname .
             ?partecipation :hasDriver ?driver ;
-                           :hasLap ?lap .
-            ?stop :hasPitStopLap ?lap ;
-                  :hasStopNumber ?numb .
+                           :hasPitStop ?stop ;
+                           :hasConstructor ?constructor .
+            ?constructor :hasName ?cname .
+            ?stop :hasStopNumber ?numb .
             BIND(CONCAT(?fname, " ", ?sname) AS ?name).
         }
-        GROUP BY ?partecipation ?name
+        GROUP BY ?partecipation ?name ?cname
     }
 }
-GROUP BY ?name
+GROUP BY ?name ?cname
 ORDER BY DESC(?totalPitStops)
 LIMIT 20
 
