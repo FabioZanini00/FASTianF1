@@ -270,6 +270,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The awarness value in the rating of a driver.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -279,6 +280,7 @@
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasBuyout">
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+        <rdfs:comment>The buyout value in the rating of a driver.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -410,6 +412,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+        <rdfs:comment>The contract cost in the rating of a driver.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -486,6 +489,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The experience value in the rating of a driver.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -755,6 +759,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The pace value in the rating of a driver.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -765,6 +770,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment>The period value (date) in the rating of a driver.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -897,6 +903,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The race craft value in the rating of a driver.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -917,6 +924,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The rating value in the rating of a driver.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -956,6 +964,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+        <rdfs:comment>The salary value in the rating of a driver.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -1562,6 +1571,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:comment>This class represents a rating tab for a driver.</rdfs:comment>
     </owl:Class>
     
 
