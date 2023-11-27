@@ -286,6 +286,7 @@
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCarNumber -->
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCarNumber">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>The number related to a specific F1 car partecipating in a specific race.</rdfs:comment>
@@ -800,6 +801,7 @@
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPosition -->
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPosition">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:comment>The final position of a driver in a partecipation in a race/sprint/qualifying.</rdfs:comment>
@@ -828,6 +830,7 @@
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPositionText -->
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPositionText">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The final position of a driver in a partecipation in a race/sprint/qualifying, in text.</rdfs:comment>
@@ -921,6 +924,7 @@
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasResultTime -->
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasResultTime">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -979,6 +983,7 @@
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasStartingGridPosition -->
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasStartingGridPosition">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -1051,6 +1056,7 @@
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasURL -->
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasURL">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -1325,7 +1331,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDuration"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1535,7 +1541,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPeriod"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3667,6 +3673,7 @@
             <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#PitStop"/>
             <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Qualifying"/>
             <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
             <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Season"/>
             <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Sprint"/>
             <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Status"/>
