@@ -163,4 +163,24 @@ SELECT ?name (MAX(?ratVal) as ?maxRating) WHERE {
     BIND(CONCAT(?fname, " ", ?sname) AS ?name).
 }
 GROUP BY (?name)
-ORDER BY DESC (?ratVal)
+ORDER BY DESC (?maxRating)
+
+----
+
+# Most payed driver of 2023 season
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?name (MAX(?sal) as ?salary) WHERE {
+    ?season :hasYear "2023"^^xsd:integer;
+            a :Season.
+    ?rating :inSeason ?season;
+            :hasDriver ?driver;
+            :hasSalary ?sal;
+          	a :Rating.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?name).
+}
+GROUP BY (?name)
+ORDER BY DESC (?salary)
