@@ -145,3 +145,22 @@ GROUP BY ?name ?cname
 ORDER BY DESC(?totalPitStops)
 LIMIT 20
 
+----
+
+# 2023 drivers ordered by maximum rating value
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?name (MAX(?ratVal) as ?maxRating) WHERE {
+    ?season :hasYear "2023"^^xsd:integer;
+            a :Season.
+    ?rating :inSeason ?season;
+            :hasDriver ?driver;
+            :hasRating ?ratVal;
+          	a :Rating.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?name).
+}
+GROUP BY (?name)
+ORDER BY DESC (?ratVal)
