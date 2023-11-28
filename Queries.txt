@@ -191,9 +191,7 @@ ORDER BY DESC (?salary)
 PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 SELECT ?name WHERE { 
-    ?season a :Season.
-    ?race :inSeason ?season;
-          :hasCircuit ?circuit;
+    ?race :hasCircuit ?circuit;
           a :Race.
     ?circuit :hasName ?name;
              a :Circuit.
@@ -227,9 +225,7 @@ SELECT ?name WHERE {
 PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 SELECT ?name WHERE { 
-    ?season a :Season.
-    ?race :inSeason ?season;
-          :hasCircuit ?circuit;
+    ?race :hasCircuit ?circuit;
           a :Race.
     ?circuit :hasName "Autodromo Nazionale di Monza";
              a :Circuit.
@@ -248,9 +244,7 @@ SELECT ?name WHERE {
 PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 SELECT ?name (COUNT(?name) as ?numOfWins) WHERE { 
-    ?season a :Season.
-    ?race :inSeason ?season;
-          :hasCircuit ?circuit;
+    ?race :hasCircuit ?circuit;
           a :Race.
     ?circuit :hasName "Autodromo Nazionale di Monza";
              a :Circuit.
@@ -270,9 +264,7 @@ ORDER BY DESC (?numOfWins)
 PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 SELECT ?name (COUNT(?name) as ?numOfWins) WHERE { 
-    ?season a :Season.
-    ?race :inSeason ?season;
-          :hasCircuit ?circuit;
+    ?race :hasCircuit ?circuit;
           a :Race.
     ?circuit :hasName "Autodromo Enzo e Dino Ferrari";
              a :Circuit.
@@ -293,9 +285,7 @@ PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX countries: <http://eulersharp.sourceforge.net/2003/03swap/countries#>
 SELECT ?name (COUNT(?name) as ?numOfWins) WHERE { 
-    ?season a :Season.
-    ?race :inSeason ?season;
-          :hasCircuit ?circuit;
+    ?race :hasCircuit ?circuit;
           a :Race.
     ?circuit :hasLocation ?location;
              a :Circuit.
@@ -318,9 +308,7 @@ PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX countries: <http://eulersharp.sourceforge.net/2003/03swap/countries#>
 SELECT ?name (COUNT(?name) as ?numOfWins) ?consName WHERE { 
-    ?season a :Season.
-    ?race :inSeason ?season;
-          :hasCircuit ?circuit;
+    ?race :hasCircuit ?circuit;
           a :Race.
     ?circuit :hasLocation ?location;
              a :Circuit.
@@ -347,9 +335,7 @@ PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX countries: <http://eulersharp.sourceforge.net/2003/03swap/countries#>
 SELECT ?name (COUNT(?name) as ?numOfWins) ?consName WHERE { 
-    ?season a :Season.
-    ?race :inSeason ?season;
-          :hasCircuit ?circuit;
+    ?race :hasCircuit ?circuit;
           a :Race.
     ?circuit :hasLocation ?location;
              a :Circuit.
@@ -377,9 +363,7 @@ PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX countries: <http://eulersharp.sourceforge.net/2003/03swap/countries#>
 SELECT ?name (COUNT(?name) as ?numOfWins) ?consName WHERE { 
-    ?season a :Season.
-    ?race :inSeason ?season;
-          :hasCircuit ?circuit;
+    ?race :hasCircuit ?circuit;
           a :Race.
     ?circuit :hasLocation ?location;
              a :Circuit.
@@ -407,9 +391,7 @@ PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX countries: <http://eulersharp.sourceforge.net/2003/03swap/countries#>
 SELECT ?name (COUNT(?name) as ?numOfWins) WHERE { 
-    ?season a :Season.
-    ?race :inSeason ?season;
-          :hasCircuit ?circuit;
+    ?race :hasCircuit ?circuit;
           a :Race.
     ?circuit :hasLocation ?location;
              a :Circuit.
@@ -432,10 +414,8 @@ ORDER BY DESC (?numOfWins)
 PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX countries: <http://eulersharp.sourceforge.net/2003/03swap/countries#>
-SELECT ?name (COUNT(?name) as ?numOfWins) WHERE { 
-    ?season a :Season.
-    ?race :inSeason ?season;
-          :hasCircuit ?circuit;
+SELECT ?name (COUNT(?name) as ?numOfWins) WHERE {
+    ?race :hasCircuit ?circuit;
           a :Race.
     ?circuit :hasLocation ?location;
              a :Circuit.
@@ -459,9 +439,7 @@ PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX countries: <http://eulersharp.sourceforge.net/2003/03swap/countries#>
 SELECT ?name (COUNT(?name) as ?numOfWins) WHERE { 
-    ?season a :Season.
-    ?race :inSeason ?season;
-          :hasCircuit ?circuit;
+    ?race :hasCircuit ?circuit;
           a :Race.
     ?racePart :partecipatedInRace ?race;
               :hasPositionOrder "1"^^xsd:integer;
@@ -481,9 +459,7 @@ LIMIT 1
 PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 SELECT ?name (COUNT(?name) as ?numOfWins) WHERE { 
-    ?season a :Season.
-    ?race :inSeason ?season;
-          :hasCircuit ?circuit;
+    ?race :hasCircuit ?circuit;
           a :Race.
     ?racePart :partecipatedInRace ?race;
               :hasPositionOrder "1"^^xsd:integer;
@@ -495,6 +471,107 @@ SELECT ?name (COUNT(?name) as ?numOfWins) WHERE {
 } GROUP BY ?name
 ORDER BY DESC (?numOfWins)
 LIMIT 5
+
+----
+
+# The name of the driver who drove the fastest lap in F1 history, the lap time and the circuit
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?driversName (MIN(?lapTime) as ?fastestLap) ?circuitName WHERE {
+    ?racePart :hasLap ?lap;
+              :hasDriver ?driver;
+              :partecipatedInRace ?race;
+              a :RacePartecipation.
+    ?race a :Race;
+          :hasCircuit ?circ.
+    ?circ a :Circuit;
+             :hasName ?circuitName.
+    ?lap a :Lap;
+         :hasLapTime ?lapTime.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
+} GROUP BY ?driversName ?circuitName
+ORDER BY (?fastestLap)
+LIMIT 1
+
+----
+
+# The name of the driver who drove the fastest lap in F1 history, the lap time, the circuit and the race name
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?driversName (MIN(?lapTime) as ?fastestLap) ?circuitName ?raceName WHERE {
+    ?racePart :hasLap ?lap;
+              :hasDriver ?driver;
+              :partecipatedInRace ?race;
+              a :RacePartecipation.
+    ?race a :Race;
+          :hasName ?raceName;
+          :hasCircuit ?circ.
+    ?circ a :Circuit;
+             :hasName ?circuitName.
+    ?lap a :Lap;
+         :hasLapTime ?lapTime.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
+} GROUP BY ?driversName ?circuitName ?raceName
+ORDER BY (?fastestLap)
+LIMIT 1
+
+----
+
+# The name of the driver who drove the slowest lap in F1 history, the lap time, the circuit, the race name and the race date
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?driversName (MAX(?lapTime) as ?slowestLap) ?circuitName ?raceName ?raceDate WHERE {
+    ?racePart :hasLap ?lap;
+              :hasDriver ?driver;
+              :partecipatedInRace ?race;
+              a :RacePartecipation.
+    ?race a :Race;
+          :hasName ?raceName;
+          :hasDate ?raceDate;
+          :hasCircuit ?circ.
+    ?circ a :Circuit;
+             :hasName ?circuitName.
+    ?lap a :Lap;
+         :hasLapTime ?lapTime.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
+} GROUP BY ?driversName ?circuitName ?raceName ?raceDate
+ORDER BY DESC (?slowestLap)
+LIMIT 1
+
+----
+
+# Data of 10 slowest laps in F1 history
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?driversName (MAX(?lapTime) as ?slowestLap) ?circuitName ?raceName ?raceDate WHERE {
+    ?racePart :hasLap ?lap;
+              :hasDriver ?driver;
+              :partecipatedInRace ?race;
+              a :RacePartecipation.
+    ?race a :Race;
+          :hasName ?raceName;
+          :hasDate ?raceDate;
+          :hasCircuit ?circ.
+    ?circ a :Circuit;
+             :hasName ?circuitName.
+    ?lap a :Lap;
+         :hasLapTime ?lapTime.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
+} GROUP BY ?driversName ?circuitName ?raceName ?raceDate
+ORDER BY DESC (?slowestLap)
+LIMIT 1
 
 ----
 
