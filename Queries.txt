@@ -342,3 +342,159 @@ ORDER BY DESC (?numOfWins)
 
 ----
 
+# All the italian drivers who won an italian grand prix, driving an italian car, ordered by number of wins
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX countries: <http://eulersharp.sourceforge.net/2003/03swap/countries#>
+SELECT ?name (COUNT(?name) as ?numOfWins) ?consName WHERE { 
+    ?season a :Season.
+    ?race :inSeason ?season;
+          :hasCircuit ?circuit;
+          a :Race.
+    ?circuit :hasLocation ?location;
+             a :Circuit.
+    ?location :hasCountry countries:it;
+              a :Location.
+    ?racePart :partecipatedInRace ?race;
+              :hasPositionOrder "1"^^xsd:integer;
+              :hasConstructor ?constructor;
+              :hasDriver ?driver.
+    ?constructor a :Constructor;
+                 :hasName ?consName;
+                 :hasNation countries:it.
+    ?driver a :Driver;
+            :hasNation countries:it;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?name).
+} GROUP BY ?name ?consName
+ORDER BY DESC (?numOfWins)
+
+----
+
+# All the english (Great Britain) drivers who won an english grand prix, driving an english car, ordered by number of wins
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX countries: <http://eulersharp.sourceforge.net/2003/03swap/countries#>
+SELECT ?name (COUNT(?name) as ?numOfWins) ?consName WHERE { 
+    ?season a :Season.
+    ?race :inSeason ?season;
+          :hasCircuit ?circuit;
+          a :Race.
+    ?circuit :hasLocation ?location;
+             a :Circuit.
+    ?location :hasCountry countries:gb;
+              a :Location.
+    ?racePart :partecipatedInRace ?race;
+              :hasPositionOrder "1"^^xsd:integer;
+              :hasConstructor ?constructor;
+              :hasDriver ?driver.
+    ?constructor a :Constructor;
+                 :hasName ?consName;
+                 :hasNation countries:gb.
+    ?driver a :Driver;
+            :hasNation countries:gb;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?name).
+} GROUP BY ?name ?consName
+ORDER BY DESC (?numOfWins)
+
+----
+
+# All the english (Great Britain) drivers who won an english grand prix, ordered by number of wins
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX countries: <http://eulersharp.sourceforge.net/2003/03swap/countries#>
+SELECT ?name (COUNT(?name) as ?numOfWins) WHERE { 
+    ?season a :Season.
+    ?race :inSeason ?season;
+          :hasCircuit ?circuit;
+          a :Race.
+    ?circuit :hasLocation ?location;
+             a :Circuit.
+    ?location :hasCountry countries:gb;
+              a :Location.
+    ?racePart :partecipatedInRace ?race;
+              :hasPositionOrder "1"^^xsd:integer;
+              :hasDriver ?driver.
+    ?driver a :Driver;
+            :hasNation countries:gb;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?name).
+} GROUP BY ?name
+ORDER BY DESC (?numOfWins)
+
+----
+
+# All the italian drivers who won an italian grand prix, ordered by number of wins
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX countries: <http://eulersharp.sourceforge.net/2003/03swap/countries#>
+SELECT ?name (COUNT(?name) as ?numOfWins) WHERE { 
+    ?season a :Season.
+    ?race :inSeason ?season;
+          :hasCircuit ?circuit;
+          a :Race.
+    ?circuit :hasLocation ?location;
+             a :Circuit.
+    ?location :hasCountry countries:it;
+              a :Location.
+    ?racePart :partecipatedInRace ?race;
+              :hasPositionOrder "1"^^xsd:integer;
+              :hasDriver ?driver.
+    ?driver a :Driver;
+            :hasNation countries:it;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?name).
+} GROUP BY ?name
+ORDER BY DESC (?numOfWins)
+
+----
+
+# The most winning italian driver in F1 history
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX countries: <http://eulersharp.sourceforge.net/2003/03swap/countries#>
+SELECT ?name (COUNT(?name) as ?numOfWins) WHERE { 
+    ?season a :Season.
+    ?race :inSeason ?season;
+          :hasCircuit ?circuit;
+          a :Race.
+    ?racePart :partecipatedInRace ?race;
+              :hasPositionOrder "1"^^xsd:integer;
+              :hasDriver ?driver.
+    ?driver a :Driver;
+            :hasNation countries:it;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?name).
+} GROUP BY ?name
+ORDER BY DESC (?numOfWins)
+LIMIT 1
+
+----
+
+# The 5 most winning drivers in F1 history, ordered by number of grand prix wins
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?name (COUNT(?name) as ?numOfWins) WHERE { 
+    ?season a :Season.
+    ?race :inSeason ?season;
+          :hasCircuit ?circuit;
+          a :Race.
+    ?racePart :partecipatedInRace ?race;
+              :hasPositionOrder "1"^^xsd:integer;
+              :hasDriver ?driver.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?name).
+} GROUP BY ?name
+ORDER BY DESC (?numOfWins)
+LIMIT 5
+
+----
+
