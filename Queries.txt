@@ -523,6 +523,31 @@ LIMIT 1
 
 ----
 
+# Data about 10 fastest laps in F1 history
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?driversName ?lapTime ?circuitName ?raceName WHERE {
+    ?racePart :hasLap ?lap;
+              :hasDriver ?driver;
+              :partecipatedInRace ?race;
+              a :RacePartecipation.
+    ?race a :Race;
+          :hasName ?raceName;
+          :hasCircuit ?circ.
+    ?circ a :Circuit;
+             :hasName ?circuitName.
+    ?lap a :Lap;
+         :hasLapTime ?lapTime.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
+}
+ORDER BY (?lapTime)
+LIMIT 10
+
+----
+
 # The name of the driver who drove the slowest lap in F1 history, the lap time, the circuit, the race name and the race date
 PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
