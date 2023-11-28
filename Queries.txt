@@ -477,7 +477,7 @@ LIMIT 5
 # The name of the driver who drove the fastest lap in F1 history, the lap time and the circuit
 PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-SELECT ?driversName (MIN(?lapTime) as ?fastestLap) ?circuitName WHERE {
+SELECT ?driversName ?lapTime ?circuitName WHERE {
     ?racePart :hasLap ?lap;
               :hasDriver ?driver;
               :partecipatedInRace ?race;
@@ -492,8 +492,8 @@ SELECT ?driversName (MIN(?lapTime) as ?fastestLap) ?circuitName WHERE {
             :hasForename ?fname;
             :hasSurname ?sname.
     BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
-} GROUP BY ?driversName ?circuitName
-ORDER BY (?fastestLap)
+} 
+ORDER BY (?lapTime)
 LIMIT 1
 
 ----
@@ -501,7 +501,7 @@ LIMIT 1
 # The name of the driver who drove the fastest lap in F1 history, the lap time, the circuit and the race name
 PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-SELECT ?driversName (MIN(?lapTime) as ?fastestLap) ?circuitName ?raceName WHERE {
+SELECT ?driversName ?lapTime ?circuitName ?raceName WHERE {
     ?racePart :hasLap ?lap;
               :hasDriver ?driver;
               :partecipatedInRace ?race;
@@ -517,8 +517,8 @@ SELECT ?driversName (MIN(?lapTime) as ?fastestLap) ?circuitName ?raceName WHERE 
             :hasForename ?fname;
             :hasSurname ?sname.
     BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
-} GROUP BY ?driversName ?circuitName ?raceName
-ORDER BY (?fastestLap)
+}
+ORDER BY (?lapTime)
 LIMIT 1
 
 ----
@@ -526,7 +526,7 @@ LIMIT 1
 # The name of the driver who drove the slowest lap in F1 history, the lap time, the circuit, the race name and the race date
 PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-SELECT ?driversName (MAX(?lapTime) as ?slowestLap) ?circuitName ?raceName ?raceDate WHERE {
+SELECT ?driversName ?lapTime ?circuitName ?raceName ?raceDate WHERE {
     ?racePart :hasLap ?lap;
               :hasDriver ?driver;
               :partecipatedInRace ?race;
@@ -543,8 +543,8 @@ SELECT ?driversName (MAX(?lapTime) as ?slowestLap) ?circuitName ?raceName ?raceD
             :hasForename ?fname;
             :hasSurname ?sname.
     BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
-} GROUP BY ?driversName ?circuitName ?raceName ?raceDate
-ORDER BY DESC (?slowestLap)
+}
+ORDER BY DESC (?lapTime)
 LIMIT 1
 
 ----
@@ -552,7 +552,7 @@ LIMIT 1
 # Data of 10 slowest laps in F1 history
 PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-SELECT ?driversName (MAX(?lapTime) as ?slowestLap) ?circuitName ?raceName ?raceDate WHERE {
+SELECT ?driversName ?lapTime ?circuitName ?raceName ?raceDate WHERE {
     ?racePart :hasLap ?lap;
               :hasDriver ?driver;
               :partecipatedInRace ?race;
@@ -569,9 +569,9 @@ SELECT ?driversName (MAX(?lapTime) as ?slowestLap) ?circuitName ?raceName ?raceD
             :hasForename ?fname;
             :hasSurname ?sname.
     BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
-} GROUP BY ?driversName ?circuitName ?raceName ?raceDate
-ORDER BY DESC (?slowestLap)
-LIMIT 1
+}
+ORDER BY DESC (?lapTime)
+LIMIT 10
 
 ----
 
