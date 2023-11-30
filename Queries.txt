@@ -914,4 +914,25 @@ SELECT ?name (COUNT(?name) AS ?totalWins) (GROUP_CONCAT(DISTINCT ?outerYear ; se
 GROUP BY ?name
 ORDER BY DESC (?totalWins)
 
+----
 
+# How many races did Leclerc end because of an accident
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?driversName (COUNT(?driversName) as ?numOfWins) WHERE {
+    ?racePart a :RacePartecipation;
+              :hasStatus ?status;
+              :hasDriver ?driver.
+    ?status a :Status;
+            :hasName "Accident".
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
+    FILTER (?driversName = "Charles Leclerc")
+}
+GROUP BY (?driversName)
+
+----
+
+Idea -> fare query per trovare la data in cui leclerc e vettel si sono buttati fuori tra di loro (Status = Accident e la date va trovata, ma è Interlagos del 2019)
