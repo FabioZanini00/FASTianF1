@@ -714,4 +714,32 @@ LIMIT 100
 
 ----
 
+#Constructors with most wins in the constructors' championship
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+SELECT ?name (COUNT(?name) AS ?totalWins) (GROUP_CONCAT(DISTINCT ?outerYear ; separator=",") AS ?years) WHERE{
+    {
+        SELECT ?name ?race (AVG(?pos) AS ?finalPosition) ?outerYear WHERE{
+            ?part :partecipatedInRace ?race ;
+                  :hasConstructorTotalPosition ?pos ;
+                  :hasConstructor ?cons .
+            ?race :hasRound ?outerRound ;
+                  :inSeason ?outerSeason .
+            ?outerSeason :hasYear ?outerYear .
+            ?cons :hasName ?name .
+            FILTER(?outerRound = ?maxRound && ?outerYear = ?year && ?pos = 1)
+            {
+                SELECT ?year (MAX(?round) AS ?maxRound) WHERE {
+                    ?race :inSeason ?season ;
+                          :hasRound ?round .
+                    ?season :hasYear ?year .
+                }
+                GROUP BY ?year
+            }
+        }
+        GROUP BY ?name ?race ?outerYear
+    }
+}
+GROUP BY ?name
+ORDER BY DESC (?totalWins)
+
 
