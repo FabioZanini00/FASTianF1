@@ -714,6 +714,178 @@ LIMIT 100
 
 ----
 
+# Data about 10 fastest pit stop in F1 history
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?driversName ?pitDuration ?circuitName ?raceName ?raceDate WHERE {
+    ?racePart :hasPitStop ?pit;
+              :hasDriver ?driver;
+              :partecipatedInRace ?race;
+              a :RacePartecipation.
+    ?race a :Race;
+          :hasName ?raceName;
+          :hasDate ?raceDate;
+          :hasCircuit ?circ.
+    ?circ a :Circuit;
+             :hasName ?circuitName.
+    ?pit a :PitStop;
+         :hasDuration ?pitDuration.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
+}
+ORDER BY (?pitDuration)
+LIMIT 10
+
+----
+
+# Data about 10 slowest pit stop in F1 history
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?driversName ?pitDuration ?circuitName ?raceName ?raceDate WHERE {
+    ?racePart :hasPitStop ?pit;
+              :hasDriver ?driver;
+              :partecipatedInRace ?race;
+              a :RacePartecipation.
+    ?race a :Race;
+          :hasName ?raceName;
+          :hasDate ?raceDate;
+          :hasCircuit ?circ.
+    ?circ a :Circuit;
+             :hasName ?circuitName.
+    ?pit a :PitStop;
+         :hasDuration ?pitDuration.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
+}
+ORDER BY DESC (?pitDuration)
+LIMIT 10
+
+----
+
+# Name of the F1 driver with the highest number of pole position achieved
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?driversName (COUNT(?driversName) as ?numOfPoles) WHERE {
+    ?qualiPart a :QualifPartecipation;
+               :hasPosition "1"^^xsd:integer;
+               :hasDriver ?driver.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
+}
+GROUP BY (?driversName)
+ORDER BY DESC (?numOfPoles)
+LIMIT 1
+
+----
+
+# Date of the first qualifying in the dataset
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?date WHERE {
+    ?qualiPart a :QualifPartecipation;
+               :partecipatedInQualif ?quali.
+    ?quali a :Qualifying.
+    ?race a :Race;
+          :hasA ?quali;
+          :hasDate ?date.
+}
+ORDER BY (?date)
+LIMIT 1
+
+----
+
+# Data about 10 fastest pit stop in F1 history
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?driversName ?pitDuration ?circuitName ?raceName ?raceDate WHERE {
+    ?racePart :hasPitStop ?pit;
+              :hasDriver ?driver;
+              :partecipatedInRace ?race;
+              a :RacePartecipation.
+    ?race a :Race;
+          :hasName ?raceName;
+          :hasDate ?raceDate;
+          :hasCircuit ?circ.
+    ?circ a :Circuit;
+             :hasName ?circuitName.
+    ?pit a :PitStop;
+         :hasDuration ?pitDuration.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
+}
+ORDER BY (?pitDuration)
+LIMIT 10
+
+----
+
+# Data about 10 slowest pit stop in F1 history
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?driversName ?pitDuration ?circuitName ?raceName ?raceDate WHERE {
+    ?racePart :hasPitStop ?pit;
+              :hasDriver ?driver;
+              :partecipatedInRace ?race;
+              a :RacePartecipation.
+    ?race a :Race;
+          :hasName ?raceName;
+          :hasDate ?raceDate;
+          :hasCircuit ?circ.
+    ?circ a :Circuit;
+             :hasName ?circuitName.
+    ?pit a :PitStop;
+         :hasDuration ?pitDuration.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
+}
+ORDER BY DESC (?pitDuration)
+LIMIT 10
+
+----
+
+# Name of the F1 driver with the highest number of pole position achieved
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?driversName (COUNT(?driversName) as ?numOfPoles) WHERE {
+    ?qualiPart a :QualifPartecipation;
+               :hasPosition "1"^^xsd:integer;
+               :hasDriver ?driver.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
+}
+GROUP BY (?driversName)
+ORDER BY DESC (?numOfPoles)
+LIMIT 1
+
+----
+
+# Date of the first qualifying in the dataset
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?date WHERE {
+    ?qualiPart a :QualifPartecipation;
+               :partecipatedInQualif ?quali.
+    ?quali a :Qualifying.
+    ?race a :Race;
+          :hasA ?quali;
+          :hasDate ?date.
+}
+ORDER BY (?date)
+LIMIT 1
+
+----
+
 #Constructors with most wins in the constructors' championship
 PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
 SELECT ?name (COUNT(?name) AS ?totalWins) (GROUP_CONCAT(DISTINCT ?outerYear ; separator=",") AS ?years) WHERE{
