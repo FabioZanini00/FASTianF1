@@ -124,6 +124,22 @@
     
 
 
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLap -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLap">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Lap"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLap -->
 
     <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLap">
@@ -472,24 +488,6 @@
     
 
 
-    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLap -->
-
-    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLap">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
-                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <rdfs:comment>The number of the fastest lap of a driver in a particular race.</rdfs:comment>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLapRank -->
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLapRank">
@@ -506,7 +504,7 @@
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLapSpeed">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:comment>The speed of the driver&apos;s fastest lap in the race.</rdfs:comment>
     </owl:DatatypeProperty>
     
@@ -907,6 +905,23 @@
     
 
 
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasResultGap -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasResultGap">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time gap from the first driver, ate the end of the race</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasResultTime -->
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasResultTime">
@@ -919,7 +934,7 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
         <rdfs:comment>The time a driver used to finish the race.</rdfs:comment>
     </owl:DatatypeProperty>
     

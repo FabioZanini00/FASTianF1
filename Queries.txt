@@ -936,3 +936,11 @@ GROUP BY (?driversName)
 ----
 
 Idea -> fare query per trovare la data in cui leclerc e vettel si sono buttati fuori tra di loro (Status = Accident e la date va trovata, ma è Interlagos del 2019)
+
+----
+
+Idea -> prendere una gara a random e clacolare, per ogni driver, la media dei tempi su tutti i giri. Quindi "stampare" driver e tempo medio
+
+----
+
+
