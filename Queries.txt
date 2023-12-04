@@ -935,12 +935,33 @@ GROUP BY (?driversName)
 
 ----
 
-Idea -> fare query per trovare la data in cui leclerc e vettel si sono buttati fuori tra di loro (Status = Accident e la date va trovata, ma è Interlagos del 2019)
+# For each driver, the average lap time duration of Monza 2023 grand prix, ordered by duration.
+PREFIX : <https://www.dei.unipd.it/db2/groupProject/FASTianF1#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?driversName (AVG(?lapTime) AS ?averageLapTime) WHERE {
+    ?racePart :hasLap ?lap;
+              :hasDriver ?driver;
+              :partecipatedInRace ?race;
+              a :RacePartecipation.
+    ?race a :Race;
+          :inSeason ?season;
+          :hasCircuit ?circ.
+    ?season a :Season;
+            :hasYear "2023"^^xsd:integer.
+    ?circ a :Circuit;
+             :hasName "Autodromo Nazionale di Monza".
+    ?lap a :Lap;
+         :hasMillisecondsTime ?lapTime.
+    ?driver a :Driver;
+            :hasForename ?fname;
+            :hasSurname ?sname.
+    BIND(CONCAT(?fname, " ", ?sname) AS ?driversName).
+} 
+GROUP BY (?driversName)
+ORDER BY (?averageLapTime)
 
 ----
 
-Idea -> prendere una gara a random e clacolare, per ogni driver, la media dei tempi su tutti i giri. Quindi "stampare" driver e tempo medio
+Controllare tutte le query per cambiamenti hasRaceDate/hasRaceTime in hasDate/hasTime
 
 ----
-
-
