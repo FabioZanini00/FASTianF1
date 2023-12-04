@@ -1,0 +1,3676 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.dei.unipd.it/db2/groupProject/FASTianF1#"
+     xml:base="https://www.dei.unipd.it/db2/groupProject/FASTianF1"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:jur="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:countries="http://eulersharp.sourceforge.net/2003/03swap/countries#">
+    <owl:Ontology rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#">
+        <owl:imports rdf:resource="http://eulersharp.sourceforge.net/2003/03swap/countries"/>
+        <rdfs:comment>This ontology models the F1 domain, comprising drivers, races, circuits and other related stuff.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Christian_Marchiori"/>
+        <rdfs:isDefinedBy rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Fabio_Zanini"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gYear -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gYear"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#time -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#time"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasA -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasA">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Qualifying"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Sprint"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCircuit -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCircuit">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Circuit"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasConstructor -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasConstructor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#ConstructorStanding"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Constructor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCountry -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCountry">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Location"/>
+        <rdfs:range rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDriver -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDriver">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#DriverStanding"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Driver"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLap -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLap">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Lap"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLap -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLap">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Lap"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLocation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Circuit"/>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasNation -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasNation">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Constructor"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Driver"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPitStop -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPitStop">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#PitStop"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPitStopLap -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPitStopLap">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#PitStop"/>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Lap"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasRace -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasRace">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Standing"/>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasStatus -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasStatus">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Status"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#inSeason -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#inSeason">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Season"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#partecipatedInQualif -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#partecipatedInQualif">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#QualifPartecipation"/>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Qualifying"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#partecipatedInRace -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#partecipatedInRace">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#partecipatedInSprint -->
+
+    <owl:ObjectProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#partecipatedInSprint">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
+        <rdfs:range rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Sprint"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasAlt -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasAlt">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Circuit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>The altitude of a circuit.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasAwareness -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasAwareness">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The awarness value in the rating of a driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasBuyout -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasBuyout">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+        <rdfs:comment>The buyout value in the rating of a driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCarNumber -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCarNumber">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The number related to a specific F1 car partecipating in a specific race.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCircuitRef -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCircuitRef">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Circuit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>URL reference related to a circuit.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCode -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCode">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Driver"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>3 letters code related to a F1 driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasConstructorPoints -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasConstructorPoints">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Final amount of points earned by a constructor who took part in a F1 race.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasConstructorRef -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasConstructorRef">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Constructor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>URL reference related to a constructor.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasContractCost -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasContractCost">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+        <rdfs:comment>The contract cost in the rating of a driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDate -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Qualifying"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Sprint"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment>The date of a race.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDateOfBirth -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDateOfBirth">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Driver"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment>The date of birth of a driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDriverNumber -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDriverNumber">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Driver"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The number related to a driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDriverRef -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDriverRef">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Driver"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>URL reference related to a driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDuration -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDuration">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#PitStop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The amount of time spent for the pitstop</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasExperience -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasExperience">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The experience value in the rating of a driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLapRank -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLapRank">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The rank of the driver&apos;s fastest lap in a race, compared to all the other driver&apos;s fastest laps.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLapSpeed -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLapSpeed">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>The speed of the driver&apos;s fastest lap in the race.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLapTime -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLapTime">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time duration of the driver&apos;s fastest lap in the race.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasForename -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasForename">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Driver"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The forename of the driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFp1Date -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFp1Date">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment>The date of the first free practice session related to a race.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFp1Time -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFp1Time">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time of day of the first free practice session related to a race.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFp2Date -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFp2Date">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment>The date of the second free practice session related to a race.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFp2Time -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFp2Time">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time of day of the second free practice session related to a race.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFp3Date -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFp3Date">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment>The date of the third free practice session related to a race.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFp3Time -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFp3Time">
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time of day of the third free practice session related to a race.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLapNumber -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLapNumber">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Lap"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The number of the lap.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLapPosition -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLapPosition">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Lap"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The position of the driver at the end of the lap.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLapTime -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLapTime">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Lap"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>Time duration of the lap.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLaps -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLaps">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Number of laps completed by a driver in a race or sprint.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLat -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLat">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Circuit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>Latitude of the circuit.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLng -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLng">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Circuit"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>The longitude of the circuit.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasMillisecondsResultTime -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasMillisecondsResultTime">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The time a driver used to finish the race, in milliseconds.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasMillisecondsTime -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasMillisecondsTime">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Lap"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#PitStop"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Time duration of the lap ot pitstop in milliseconds.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasName -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasName">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Circuit"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Constructor"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Location"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Status"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The name of the entity (Circuit/Constructor/Location/Race/Status).</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPace -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPace">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The pace value in the rating of a driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPeriod -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPeriod">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment>The period value (date) in the rating of a driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPitStopTimeOfDay -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPitStopTimeOfDay">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#PitStop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time of the day of the pitstop.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPoints -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPoints">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The points earned by the river in a race or sprint.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPosition -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPosition">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The final position of a driver in a partecipation in a race/sprint/qualifying.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPositionOrder -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPositionOrder">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Final rank of the position of the drivers in a race or sprint.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPositionText -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPositionText">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The final position of a driver in a partecipation in a race/sprint/qualifying, in text.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasQ1Time -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasQ1Time">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#QualifPartecipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time of the first qualifying session for a driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasQ2Time -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasQ2Time">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#QualifPartecipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time of the second qualifying session for a driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasQ3Time -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasQ3Time">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#QualifPartecipation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time of the third qualifying session for a driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasRaceCraft -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasRaceCraft">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The race craft value in the rating of a driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasRating -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasRating">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The rating value in the rating of a driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasResultGap -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasResultGap">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time gap from the first driver, ate the end of the race</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasResultTime -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasResultTime">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+        <rdfs:comment>The time a driver used to finish the race.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasRound -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasRound">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The race number of order in the season.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasSalary -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasSalary">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+        <rdfs:comment>The salary value in the rating of a driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasStartingGridPosition -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasStartingGridPosition">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The position on the starting grid for a sdriver in a race or sprint.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasStopNumber -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasStopNumber">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#PitStop"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The number of pitstop of the driver in the race.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasSurname -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasSurname">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Driver"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The surname of the driver.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasTime -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasTime">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Qualifying"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Sprint"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasTotalPoints -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasTotalPoints">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Standing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Driver&apos;s total points during a season.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasTotalPosition -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasTotalPosition">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Standing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Driver&apos;s total position in the rank of the season.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasTotalPositionText -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasTotalPositionText">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Standing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Driver&apos;s total position in the rank of the season, in text format.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasURL -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasURL">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Circuit"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Constructor"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Driver"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Season"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>URL related to the individual.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasWins -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasWins">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Standing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasYear -->
+
+    <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasYear">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Season"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+        <rdfs:comment>The year related to the season.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country -->
+
+    <rdf:Description rdf:about="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country">
+        <rdfs:comment>This class represents world countries.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Circuit -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Circuit">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLocation"/>
+                <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Location"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCircuitRef"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLat"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLng"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasURL"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This class represents the circuits on which the F1 races are done.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Constructor -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Constructor">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasNation"/>
+                <owl:someValuesFrom rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasConstructorRef"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasURL"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This class represents the constructors, so basically the F1 teams related to a particular car brand.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#ConstructorStanding -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#ConstructorStanding">
+        <rdfs:subClassOf rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Standing"/>
+        <owl:disjointWith rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#DriverStanding"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Driver -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Driver">
+        <rdfs:subClassOf rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasNation"/>
+                <owl:someValuesFrom rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDateOfBirth"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDriverRef"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasForename"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasSurname"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasURL"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This class represents a F1 driver.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#DriverStanding -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#DriverStanding">
+        <rdfs:subClassOf rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Standing"/>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Lap -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Lap">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLapNumber"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLapPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLapTime"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasMillisecondsTime"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This class represents a single lap in a race.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Location -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Location">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCountry"/>
+                <owl:someValuesFrom rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This class represents the location (or city) of a Circuit.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasConstructor"/>
+                        <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Constructor"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDriver"/>
+                        <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Driver"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCarNumber"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This class represents the partecipation of a driver and his related constructor team to a race or sprint or qualifying.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Person -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Person">
+        <rdfs:comment>This class represents a person in general.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#PitStop -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#PitStop">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPitStopLap"/>
+                <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Lap"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDuration"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasMillisecondsTime"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPitStopTimeOfDay"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasStopNumber"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This class represents a single pitstop in a F1 race.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#QualifPartecipation -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#QualifPartecipation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#partecipatedInQualif"/>
+                        <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Qualifying"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>This class represents the partecipation of a driver and his related constructor team to a qualifying.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Qualifying -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Qualifying">
+        <rdfs:comment>This class represents a qualifying related to a particular race.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasA"/>
+                        <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Qualifying"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasCircuit"/>
+                        <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Circuit"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#inSeason"/>
+                        <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Season"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasDate"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasRound"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasURL"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This class represents a particular F1 race.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasStatus"/>
+                        <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Status"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#partecipatedInRace"/>
+                        <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasConstructorPoints"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLaps"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPoints"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPositionOrder"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasStartingGridPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This class represents the partecipation of a driver and his related constructor team to a race.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasAwareness"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasBuyout"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasContractCost"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasExperience"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPace"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPeriod"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasRaceCraft"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasRating"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasSalary"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This class represents a rating tab for a driver.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Season -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Season">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasURL"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasYear"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Thi class represents a F1 season, which develops during one year.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Sprint -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Sprint">
+        <rdfs:comment>This class represents a sprint race related to a particular race.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasStatus"/>
+                        <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Status"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#partecipatedInSprint"/>
+                        <owl:someValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Sprint"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLaps"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPoints"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPositionOrder"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasStartingGridPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This class represents the partecipation of a driver and his related constructor team to a sprint race.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Standing -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Standing">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasTotalPoints"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasTotalPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasTotalPositionText"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasWins"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Status -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Status">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This class represents a status of a driver or a car in a race/sprint.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ad -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ad">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ae -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ae">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#af -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#af">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ag -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ag">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ai -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ai">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#al -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#al">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#am -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#am">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#an -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#an">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ao -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ao">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#aq -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#aq">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ar -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ar">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#as -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#as">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#at -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#at">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#au -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#au">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#aw -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#aw">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ax -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ax">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#az -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#az">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ba -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ba">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bb -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bb">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bd -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bd">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#be -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#be">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bf -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bf">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bg -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bg">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bh -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bh">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bi -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bi">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bj -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bj">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bl -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bl">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bm -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bm">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bn -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bn">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bo -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bo">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#br -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#br">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bs -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bs">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bt -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bt">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bv -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bv">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bw -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bw">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#by -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#by">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#bz -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#bz">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ca -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ca">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cc -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cc">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cd -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cd">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cf -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cf">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cg -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cg">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ch -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ch">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ci -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ci">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ck -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ck">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cl -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cl">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cm -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cm">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cn -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cn">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#co -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#co">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cr -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cr">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cu -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cu">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cv -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cv">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cx -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cx">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cy -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cy">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#cz -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#cz">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#de -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#de">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#dj -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#dj">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#dk -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#dk">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#dm -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#dm">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#do -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#do">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#dz -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#dz">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ec -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ec">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ee -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ee">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#eg -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#eg">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#eh -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#eh">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#er -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#er">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#es -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#es">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#et -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#et">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#fi -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#fi">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#fj -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#fj">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#fk -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#fk">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#fm -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#fm">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#fo -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#fo">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#fr -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#fr">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ga -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ga">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gb -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gb">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gd -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gd">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ge -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ge">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gf -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gf">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gg -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gg">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gh -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gh">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gi -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gi">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gl -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gl">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gm -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gm">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gn -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gn">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gp -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gp">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gq -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gq">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gr -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gr">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gs -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gs">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gt -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gt">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gu -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gu">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gw -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gw">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#gy -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#gy">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#hk -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#hk">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#hm -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#hm">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#hn -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#hn">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#hr -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#hr">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ht -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ht">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#hu -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#hu">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#id -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#id">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ie -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ie">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#il -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#il">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#im -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#im">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#in -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#in">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#io -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#io">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#iq -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#iq">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ir -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ir">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#is -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#is">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#it -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#it">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#je -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#je">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#jm -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#jm">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#jo -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#jo">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#jp -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#jp">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ke -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ke">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#kg -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#kg">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#kh -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#kh">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ki -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ki">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#km -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#km">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#kn -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#kn">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#kp -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#kp">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#kr -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#kr">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#kw -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#kw">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ky -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ky">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#kz -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#kz">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#la -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#la">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#lb -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#lb">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#lc -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#lc">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#li -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#li">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#lk -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#lk">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#lr -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#lr">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ls -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ls">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#lt -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#lt">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#lu -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#lu">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#lv -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#lv">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ly -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ly">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ma -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ma">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mc -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mc">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#md -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#md">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#me -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#me">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mf -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mf">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mg -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mg">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mh -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mh">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mk -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mk">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ml -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ml">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mm -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mm">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mn -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mn">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mo -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mo">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mp -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mp">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mq -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mq">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mr -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mr">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ms -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ms">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mt -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mt">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mu -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mu">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mv -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mv">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mw -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mw">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mx -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mx">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#my -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#my">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#mz -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#mz">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#na -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#na">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#nc -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#nc">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ne -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ne">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#nf -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#nf">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ng -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ng">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ni -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ni">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#nl -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#nl">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#no -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#no">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#np -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#np">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#nr -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#nr">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#nu -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#nu">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#nz -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#nz">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#om -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#om">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pa -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pa">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pe -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pe">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pf -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pf">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pg -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pg">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ph -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ph">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pk -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pk">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pl -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pl">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pm -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pm">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pn -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pn">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pr -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pr">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ps -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ps">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pt -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pt">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#pw -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#pw">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#py -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#py">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#qa -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#qa">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#re -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#re">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ro -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ro">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#rs -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#rs">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ru -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ru">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#rw -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#rw">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sa -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sa">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sb -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sb">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sc -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sc">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sd -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sd">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#se -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#se">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sg -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sg">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sh -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sh">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#si -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#si">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sj -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sj">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sk -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sk">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sl -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sl">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sm -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sm">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sn -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sn">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#so -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#so">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sr -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sr">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#st -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#st">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sv -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sv">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sy -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sy">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#sz -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#sz">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tc -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tc">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#td -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#td">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tf -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tf">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tg -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tg">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#th -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#th">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tj -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tj">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tk -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tk">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tl -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tl">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tm -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tm">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tn -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tn">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#to -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#to">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tr -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tr">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tt -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tt">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tv -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tv">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tw -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tw">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#tz -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#tz">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ua -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ua">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ug -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ug">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#um -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#um">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#us -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#us">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#uy -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#uy">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#uz -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#uz">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#va -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#va">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#vc -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#vc">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ve -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ve">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#vg -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#vg">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#vi -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#vi">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#vn -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#vn">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#vu -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#vu">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#wf -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#wf">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ws -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ws">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#ye -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#ye">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#yt -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#yt">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#za -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#za">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#zm -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#zm">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://eulersharp.sourceforge.net/2003/03swap/countries#zw -->
+
+    <rdf:Description rdf:about="http://eulersharp.sourceforge.net/2003/03swap/countries#zw">
+        <rdf:type rdf:resource="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Christian_Marchiori -->
+
+    <owl:NamedIndividual rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Christian_Marchiori">
+        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#Fabio_Zanini -->
+
+    <owl:NamedIndividual rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Fabio_Zanini">
+        <rdf:type rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://sweet.jpl.nasa.gov/2.3/humanJurisdiction.owl#Country"/>
+            <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+            <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Circuit"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Constructor"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Lap"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Location"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Person"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#PitStop"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Qualifying"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Race"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Season"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Sprint"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Status"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#QualifPartecipation"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+            <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
