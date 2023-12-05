@@ -312,6 +312,7 @@
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasBuyout -->
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasBuyout">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Rating"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
         <rdfs:comment>The buyout value in the rating of a driver.</rdfs:comment>
@@ -849,6 +850,7 @@
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasResultGap -->
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasResultGap">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -946,6 +948,7 @@
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasTime -->
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasTime">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
