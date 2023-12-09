@@ -26,6 +26,6 @@ Various instruction to make the jupyter notebook work:
 Schema of the FASTianF1 ontology:
 <div align="center">
   <a href="https://github.com/FabioZanini00/FASTianF1">
-    <img src="FASTianF1scheme.png" width="800" alt="FASTianF1 ontology schema"/>
+    <img src="FASTianF1scheme.svg" width="800" alt="FASTianF1 ontology schema"/>
   </a>
 </div>
