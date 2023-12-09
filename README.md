@@ -14,7 +14,7 @@ This repository contains:
 - the visual graph (.png and .svg)
 - the datasets used (\data)
 - the jupyter notebook developed for data cleaning, ingestion and serialization (\Serialization)
-- the serialization files of our rdf data (\data\rdf\)
+- the turtle files produced by serialization (\data\rdf\)
 - a notebook containing the queries (\Queries)
 - other useful files
 
