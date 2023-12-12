@@ -6,7 +6,7 @@
 </div>
 
 # FASTianF1
-Group project for Database 2 course developed by Christian Marchiori and Fabio Zanini.
+Group project for Database 2 course, developed by Christian Marchiori and Fabio Zanini.
 
 ---
 This repository contains:
@@ -16,7 +16,8 @@ This repository contains:
 - the jupyter notebook developed for data cleaning, ingestion and serialization (\Serialization)
 - the turtle files produced by serialization (\data\rdf\)
 - a notebook containing the queries (\Queries)
-- other useful files
+- the logo for our project
+- other useful files (also for presentation)
 
 ---
 Data sources:
