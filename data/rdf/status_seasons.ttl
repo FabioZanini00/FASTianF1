@@ -1,0 +1,1980 @@
+@prefix countries: <http://eulersharp.sourceforge.net/2003/03swap/countries#> .
+@prefix fo: <https://www.dei.unipd.it/db2/groupProject/FASTianF1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fo:constructor1 a fo:Constructor ;
+    fo:hasConstructorRef "mclaren"^^xsd:string ;
+    fo:hasName "McLaren"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/McLaren"^^xsd:string .
+
+fo:constructor10 a fo:Constructor ;
+    fo:hasConstructorRef "force_india"^^xsd:string ;
+    fo:hasName "Force India"^^xsd:string ;
+    fo:hasNation countries:in ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Racing_Point_Force_India"^^xsd:string .
+
+fo:constructor100 a fo:Constructor ;
+    fo:hasConstructorRef "enb"^^xsd:string ;
+    fo:hasName "ENB"^^xsd:string ;
+    fo:hasNation countries:be ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Ecurie_Nationale_Belge"^^xsd:string .
+
+fo:constructor101 a fo:Constructor ;
+    fo:hasConstructorRef "jbw"^^xsd:string ;
+    fo:hasName "JBW"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/JBW"^^xsd:string .
+
+fo:constructor102 a fo:Constructor ;
+    fo:hasConstructorRef "ferguson"^^xsd:string ;
+    fo:hasName "Ferguson"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Ferguson_Research_Ltd."^^xsd:string .
+
+fo:constructor103 a fo:Constructor ;
+    fo:hasConstructorRef "mbm"^^xsd:string ;
+    fo:hasName "MBM"^^xsd:string ;
+    fo:hasNation countries:ch ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Monteverdi_Basel_Motors"^^xsd:string .
+
+fo:constructor104 a fo:Constructor ;
+    fo:hasConstructorRef "behra-porsche"^^xsd:string ;
+    fo:hasName "Behra-Porsche"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Behra-Porsche"^^xsd:string .
+
+fo:constructor105 a fo:Constructor ;
+    fo:hasConstructorRef "maserati"^^xsd:string ;
+    fo:hasName "Maserati"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Maserati"^^xsd:string .
+
+fo:constructor106 a fo:Constructor ;
+    fo:hasConstructorRef "scarab"^^xsd:string ;
+    fo:hasName "Scarab"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Scarab_(constructor)"^^xsd:string .
+
+fo:constructor107 a fo:Constructor ;
+    fo:hasConstructorRef "watson"^^xsd:string ;
+    fo:hasName "Watson"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/A.J._Watson"^^xsd:string .
+
+fo:constructor108 a fo:Constructor ;
+    fo:hasConstructorRef "epperly"^^xsd:string ;
+    fo:hasName "Epperly"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Epperly"^^xsd:string .
+
+fo:constructor109 a fo:Constructor ;
+    fo:hasConstructorRef "phillips"^^xsd:string ;
+    fo:hasName "Phillips"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Phillips_(constructor)"^^xsd:string .
+
+fo:constructor11 a fo:Constructor ;
+    fo:hasConstructorRef "honda"^^xsd:string ;
+    fo:hasName "Honda"^^xsd:string ;
+    fo:hasNation countries:jp ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Honda_Racing_F1"^^xsd:string .
+
+fo:constructor110 a fo:Constructor ;
+    fo:hasConstructorRef "lesovsky"^^xsd:string ;
+    fo:hasName "Lesovsky"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Lesovsky"^^xsd:string .
+
+fo:constructor111 a fo:Constructor ;
+    fo:hasConstructorRef "trevis"^^xsd:string ;
+    fo:hasName "Trevis"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Trevis"^^xsd:string .
+
+fo:constructor112 a fo:Constructor ;
+    fo:hasConstructorRef "meskowski"^^xsd:string ;
+    fo:hasName "Meskowski"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Meskowski"^^xsd:string .
+
+fo:constructor113 a fo:Constructor ;
+    fo:hasConstructorRef "kurtis_kraft"^^xsd:string ;
+    fo:hasName "Kurtis Kraft"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Kurtis_Kraft"^^xsd:string .
+
+fo:constructor114 a fo:Constructor ;
+    fo:hasConstructorRef "kuzma"^^xsd:string ;
+    fo:hasName "Kuzma"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Kuzma_(constructor)"^^xsd:string .
+
+fo:constructor115 a fo:Constructor ;
+    fo:hasConstructorRef "vhristensen"^^xsd:string ;
+    fo:hasName "Christensen"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Christensen_(constructor)"^^xsd:string .
+
+fo:constructor116 a fo:Constructor ;
+    fo:hasConstructorRef "ewing"^^xsd:string ;
+    fo:hasName "Ewing"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Ewing_(constructor)"^^xsd:string .
+
+fo:constructor117 a fo:Constructor ;
+    fo:hasConstructorRef "aston_martin"^^xsd:string ;
+    fo:hasName "Aston Martin"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One"^^xsd:string .
+
+fo:constructor118 a fo:Constructor ;
+    fo:hasConstructorRef "vanwall"^^xsd:string ;
+    fo:hasName "Vanwall"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Vanwall"^^xsd:string .
+
+fo:constructor119 a fo:Constructor ;
+    fo:hasConstructorRef "moore"^^xsd:string ;
+    fo:hasName "Moore"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Moore_(constructor)"^^xsd:string .
+
+fo:constructor12 a fo:Constructor ;
+    fo:hasConstructorRef "spyker"^^xsd:string ;
+    fo:hasName "Spyker"^^xsd:string ;
+    fo:hasNation countries:nl ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Spyker_F1"^^xsd:string .
+
+fo:constructor120 a fo:Constructor ;
+    fo:hasConstructorRef "dunn"^^xsd:string ;
+    fo:hasName "Dunn"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Dunn_Engineering"^^xsd:string .
+
+fo:constructor121 a fo:Constructor ;
+    fo:hasConstructorRef "elder"^^xsd:string ;
+    fo:hasName "Elder"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Elder_(constructor)"^^xsd:string .
+
+fo:constructor122 a fo:Constructor ;
+    fo:hasConstructorRef "sutton"^^xsd:string ;
+    fo:hasName "Sutton"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Sutton_(constructor)"^^xsd:string .
+
+fo:constructor123 a fo:Constructor ;
+    fo:hasConstructorRef "fry"^^xsd:string ;
+    fo:hasName "Fry"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Fry_(racing_team)"^^xsd:string .
+
+fo:constructor124 a fo:Constructor ;
+    fo:hasConstructorRef "tec-mec"^^xsd:string ;
+    fo:hasName "Tec-Mec"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Tec-Mec"^^xsd:string .
+
+fo:constructor125 a fo:Constructor ;
+    fo:hasConstructorRef "connaught"^^xsd:string ;
+    fo:hasName "Connaught"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Connaught_Engineering"^^xsd:string .
+
+fo:constructor126 a fo:Constructor ;
+    fo:hasConstructorRef "alta"^^xsd:string ;
+    fo:hasName "Alta"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Alta_auto_racing_team"^^xsd:string .
+
+fo:constructor127 a fo:Constructor ;
+    fo:hasConstructorRef "osca"^^xsd:string ;
+    fo:hasName "OSCA"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Officine_Specializate_Costruzione_Automobili"^^xsd:string .
+
+fo:constructor128 a fo:Constructor ;
+    fo:hasConstructorRef "gordini"^^xsd:string ;
+    fo:hasName "Gordini"^^xsd:string ;
+    fo:hasNation countries:fr ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Gordini"^^xsd:string .
+
+fo:constructor129 a fo:Constructor ;
+    fo:hasConstructorRef "stevens"^^xsd:string ;
+    fo:hasName "Stevens"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Stevens_(constructor)"^^xsd:string .
+
+fo:constructor13 a fo:Constructor ;
+    fo:hasConstructorRef "mf1"^^xsd:string ;
+    fo:hasName "MF1"^^xsd:string ;
+    fo:hasNation countries:ru ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Midland_F1_Racing"^^xsd:string .
+
+fo:constructor130 a fo:Constructor ;
+    fo:hasConstructorRef "bugatti"^^xsd:string ;
+    fo:hasName "Bugatti"^^xsd:string ;
+    fo:hasNation countries:fr ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Bugatti"^^xsd:string .
+
+fo:constructor131 a fo:Constructor ;
+    fo:hasConstructorRef "mercedes"^^xsd:string ;
+    fo:hasName "Mercedes"^^xsd:string ;
+    fo:hasNation countries:de ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One"^^xsd:string .
+
+fo:constructor132 a fo:Constructor ;
+    fo:hasConstructorRef "lancia"^^xsd:string ;
+    fo:hasName "Lancia"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Lancia_in_Formula_One"^^xsd:string .
+
+fo:constructor133 a fo:Constructor ;
+    fo:hasConstructorRef "hwm"^^xsd:string ;
+    fo:hasName "HWM"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Hersham_and_Walton_Motors"^^xsd:string .
+
+fo:constructor134 a fo:Constructor ;
+    fo:hasConstructorRef "schroeder"^^xsd:string ;
+    fo:hasName "Schroeder"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Schroeder_(constructor)"^^xsd:string .
+
+fo:constructor135 a fo:Constructor ;
+    fo:hasConstructorRef "pawl"^^xsd:string ;
+    fo:hasName "Pawl"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Pawl_(constructor)"^^xsd:string .
+
+fo:constructor136 a fo:Constructor ;
+    fo:hasConstructorRef "pankratz"^^xsd:string ;
+    fo:hasName "Pankratz"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Pankratz"^^xsd:string .
+
+fo:constructor137 a fo:Constructor ;
+    fo:hasConstructorRef "arzani-volpini"^^xsd:string ;
+    fo:hasName "Arzani-Volpini"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Arzani-Volpini"^^xsd:string .
+
+fo:constructor138 a fo:Constructor ;
+    fo:hasConstructorRef "nichels"^^xsd:string ;
+    fo:hasName "Nichels"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Nichels"^^xsd:string .
+
+fo:constructor139 a fo:Constructor ;
+    fo:hasConstructorRef "bromme"^^xsd:string ;
+    fo:hasName "Bromme"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Bromme"^^xsd:string .
+
+fo:constructor14 a fo:Constructor ;
+    fo:hasConstructorRef "spyker_mf1"^^xsd:string ;
+    fo:hasName "Spyker MF1"^^xsd:string ;
+    fo:hasNation countries:nl ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Midland_F1_Racing"^^xsd:string .
+
+fo:constructor140 a fo:Constructor ;
+    fo:hasConstructorRef "klenk"^^xsd:string ;
+    fo:hasName "Klenk"^^xsd:string ;
+    fo:hasNation countries:de ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Klenk"^^xsd:string .
+
+fo:constructor141 a fo:Constructor ;
+    fo:hasConstructorRef "simca"^^xsd:string ;
+    fo:hasName "Simca"^^xsd:string ;
+    fo:hasNation countries:fr ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Simca"^^xsd:string .
+
+fo:constructor142 a fo:Constructor ;
+    fo:hasConstructorRef "turner"^^xsd:string ;
+    fo:hasName "Turner"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Turner_(constructor)"^^xsd:string .
+
+fo:constructor143 a fo:Constructor ;
+    fo:hasConstructorRef "del_roy"^^xsd:string ;
+    fo:hasName "Del Roy"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Del_Roy"^^xsd:string .
+
+fo:constructor144 a fo:Constructor ;
+    fo:hasConstructorRef "veritas"^^xsd:string ;
+    fo:hasName "Veritas"^^xsd:string ;
+    fo:hasNation countries:de ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Veritas_(constructor)"^^xsd:string .
+
+fo:constructor145 a fo:Constructor ;
+    fo:hasConstructorRef "bmw"^^xsd:string ;
+    fo:hasName "BMW"^^xsd:string ;
+    fo:hasNation countries:de ;
+    fo:hasURL "http://en.wikipedia.org/wiki/BMW"^^xsd:string .
+
+fo:constructor146 a fo:Constructor ;
+    fo:hasConstructorRef "emw"^^xsd:string ;
+    fo:hasName "EMW"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Eisenacher_Motorenwerk"^^xsd:string .
+
+fo:constructor147 a fo:Constructor ;
+    fo:hasConstructorRef "afm"^^xsd:string ;
+    fo:hasName "AFM"^^xsd:string ;
+    fo:hasNation countries:de ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Alex_von_Falkenhausen_Motorenbau"^^xsd:string .
+
+fo:constructor148 a fo:Constructor ;
+    fo:hasConstructorRef "frazer_nash"^^xsd:string ;
+    fo:hasName "Frazer Nash"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Frazer_Nash"^^xsd:string .
+
+fo:constructor149 a fo:Constructor ;
+    fo:hasConstructorRef "sherman"^^xsd:string ;
+    fo:hasName "Sherman"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Sherman_(constructor)"^^xsd:string .
+
+fo:constructor15 a fo:Constructor ;
+    fo:hasConstructorRef "sauber"^^xsd:string ;
+    fo:hasName "Sauber"^^xsd:string ;
+    fo:hasNation countries:ch ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Sauber"^^xsd:string .
+
+fo:constructor150 a fo:Constructor ;
+    fo:hasConstructorRef "deidt"^^xsd:string ;
+    fo:hasName "Deidt"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Deidt"^^xsd:string .
+
+fo:constructor151 a fo:Constructor ;
+    fo:hasConstructorRef "era"^^xsd:string ;
+    fo:hasName "ERA"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/English_Racing_Automobiles"^^xsd:string .
+
+fo:constructor152 a fo:Constructor ;
+    fo:hasConstructorRef "butterworth"^^xsd:string ;
+    fo:hasName "Aston Butterworth"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Aston_Butterworth"^^xsd:string .
+
+fo:constructor153 a fo:Constructor ;
+    fo:hasConstructorRef "cisitalia"^^xsd:string ;
+    fo:hasName "Cisitalia"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Cisitalia"^^xsd:string .
+
+fo:constructor154 a fo:Constructor ;
+    fo:hasConstructorRef "lago"^^xsd:string ;
+    fo:hasName "Talbot-Lago"^^xsd:string ;
+    fo:hasNation countries:fr ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Talbot-Lago"^^xsd:string .
+
+fo:constructor155 a fo:Constructor ;
+    fo:hasConstructorRef "hall"^^xsd:string ;
+    fo:hasName "Hall"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Hall_(constructor)"^^xsd:string .
+
+fo:constructor156 a fo:Constructor ;
+    fo:hasConstructorRef "marchese"^^xsd:string ;
+    fo:hasName "Marchese"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Marchese_(constructor)"^^xsd:string .
+
+fo:constructor157 a fo:Constructor ;
+    fo:hasConstructorRef "langley"^^xsd:string ;
+    fo:hasName "Langley"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Langley_(constructor)"^^xsd:string .
+
+fo:constructor158 a fo:Constructor ;
+    fo:hasConstructorRef "rae"^^xsd:string ;
+    fo:hasName "Rae"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Rae_(motorsport)"^^xsd:string .
+
+fo:constructor159 a fo:Constructor ;
+    fo:hasConstructorRef "olson"^^xsd:string ;
+    fo:hasName "Olson"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Olson_(constructor)"^^xsd:string .
+
+fo:constructor16 a fo:Constructor ;
+    fo:hasConstructorRef "bar"^^xsd:string ;
+    fo:hasName "BAR"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/British_American_Racing"^^xsd:string .
+
+fo:constructor160 a fo:Constructor ;
+    fo:hasConstructorRef "wetteroth"^^xsd:string ;
+    fo:hasName "Wetteroth"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Wetteroth"^^xsd:string .
+
+fo:constructor161 a fo:Constructor ;
+    fo:hasConstructorRef "adams"^^xsd:string ;
+    fo:hasName "Adams"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Adams_(constructor)"^^xsd:string .
+
+fo:constructor162 a fo:Constructor ;
+    fo:hasConstructorRef "snowberger"^^xsd:string ;
+    fo:hasName "Snowberger"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Snowberger"^^xsd:string .
+
+fo:constructor163 a fo:Constructor ;
+    fo:hasConstructorRef "milano"^^xsd:string ;
+    fo:hasName "Milano"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Scuderia_Milano"^^xsd:string .
+
+fo:constructor164 a fo:Constructor ;
+    fo:hasConstructorRef "hrt"^^xsd:string ;
+    fo:hasName "HRT"^^xsd:string ;
+    fo:hasNation countries:es ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Hispania_Racing"^^xsd:string .
+
+fo:constructor166 a fo:Constructor ;
+    fo:hasConstructorRef "virgin"^^xsd:string ;
+    fo:hasName "Virgin"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Virgin_Racing"^^xsd:string .
+
+fo:constructor167 a fo:Constructor ;
+    fo:hasConstructorRef "cooper-maserati"^^xsd:string ;
+    fo:hasName "Cooper-Maserati"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Cooper_Car_Company"^^xsd:string .
+
+fo:constructor168 a fo:Constructor ;
+    fo:hasConstructorRef "cooper-osca"^^xsd:string ;
+    fo:hasName "Cooper-OSCA"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Cooper_Car_Company"^^xsd:string .
+
+fo:constructor169 a fo:Constructor ;
+    fo:hasConstructorRef "cooper-borgward"^^xsd:string ;
+    fo:hasName "Cooper-Borgward"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Cooper_Car_Company"^^xsd:string .
+
+fo:constructor17 a fo:Constructor ;
+    fo:hasConstructorRef "jordan"^^xsd:string ;
+    fo:hasName "Jordan"^^xsd:string ;
+    fo:hasNation countries:ie ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Jordan_Grand_Prix"^^xsd:string .
+
+fo:constructor170 a fo:Constructor ;
+    fo:hasConstructorRef "cooper-climax"^^xsd:string ;
+    fo:hasName "Cooper-Climax"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Cooper_Car_Company"^^xsd:string .
+
+fo:constructor171 a fo:Constructor ;
+    fo:hasConstructorRef "cooper-castellotti"^^xsd:string ;
+    fo:hasName "Cooper-Castellotti"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Cooper_Car_Company"^^xsd:string .
+
+fo:constructor172 a fo:Constructor ;
+    fo:hasConstructorRef "lotus-climax"^^xsd:string ;
+    fo:hasName "Lotus-Climax"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Team_Lotus"^^xsd:string .
+
+fo:constructor173 a fo:Constructor ;
+    fo:hasConstructorRef "lotus-maserati"^^xsd:string ;
+    fo:hasName "Lotus-Maserati"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Team_Lotus"^^xsd:string .
+
+fo:constructor174 a fo:Constructor ;
+    fo:hasConstructorRef "de_tomaso-osca"^^xsd:string ;
+    fo:hasName "De Tomaso-Osca"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/De_Tomaso"^^xsd:string .
+
+fo:constructor175 a fo:Constructor ;
+    fo:hasConstructorRef "de_tomaso-alfa_romeo"^^xsd:string ;
+    fo:hasName "De Tomaso-Alfa Romeo"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/De_Tomaso"^^xsd:string .
+
+fo:constructor176 a fo:Constructor ;
+    fo:hasConstructorRef "lotus-brm"^^xsd:string ;
+    fo:hasName "Lotus-BRM"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Team_Lotus"^^xsd:string .
+
+fo:constructor177 a fo:Constructor ;
+    fo:hasConstructorRef "lotus-borgward"^^xsd:string ;
+    fo:hasName "Lotus-Borgward"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Team_Lotus"^^xsd:string .
+
+fo:constructor178 a fo:Constructor ;
+    fo:hasConstructorRef "cooper-alfa_romeo"^^xsd:string ;
+    fo:hasName "Cooper-Alfa Romeo"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Cooper_Car_Company"^^xsd:string .
+
+fo:constructor179 a fo:Constructor ;
+    fo:hasConstructorRef "de_tomaso-ferrari"^^xsd:string ;
+    fo:hasName "De Tomaso-Ferrari"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/De_Tomaso"^^xsd:string .
+
+fo:constructor18 a fo:Constructor ;
+    fo:hasConstructorRef "minardi"^^xsd:string ;
+    fo:hasName "Minardi"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Minardi"^^xsd:string .
+
+fo:constructor180 a fo:Constructor ;
+    fo:hasConstructorRef "lotus-ford"^^xsd:string ;
+    fo:hasName "Lotus-Ford"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Team_Lotus"^^xsd:string .
+
+fo:constructor181 a fo:Constructor ;
+    fo:hasConstructorRef "brabham-brm"^^xsd:string ;
+    fo:hasName "Brabham-BRM"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Brabham"^^xsd:string .
+
+fo:constructor182 a fo:Constructor ;
+    fo:hasConstructorRef "brabham-ford"^^xsd:string ;
+    fo:hasName "Brabham-Ford"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Brabham"^^xsd:string .
+
+fo:constructor183 a fo:Constructor ;
+    fo:hasConstructorRef "brabham-climax"^^xsd:string ;
+    fo:hasName "Brabham-Climax"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Brabham"^^xsd:string .
+
+fo:constructor184 a fo:Constructor ;
+    fo:hasConstructorRef "lds-climax"^^xsd:string ;
+    fo:hasName "LDS-Climax"^^xsd:string ;
+    fo:hasNation countries:za ;
+    fo:hasURL "http://en.wikipedia.org/wiki/LDS_(automobile)"^^xsd:string .
+
+fo:constructor185 a fo:Constructor ;
+    fo:hasConstructorRef "lds-alfa_romeo"^^xsd:string ;
+    fo:hasName "LDS-Alfa Romeo"^^xsd:string ;
+    fo:hasNation countries:za ;
+    fo:hasURL "http://en.wikipedia.org/wiki/LDS_(automobile)"^^xsd:string .
+
+fo:constructor186 a fo:Constructor ;
+    fo:hasConstructorRef "cooper-ford"^^xsd:string ;
+    fo:hasName "Cooper-Ford"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Cooper_Car_Company"^^xsd:string .
+
+fo:constructor187 a fo:Constructor ;
+    fo:hasConstructorRef "mclaren-ford"^^xsd:string ;
+    fo:hasName "McLaren-Ford"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Team_McLaren"^^xsd:string .
+
+fo:constructor188 a fo:Constructor ;
+    fo:hasConstructorRef "mclaren-seren"^^xsd:string ;
+    fo:hasName "McLaren-Serenissima"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Team_McLaren"^^xsd:string .
+
+fo:constructor189 a fo:Constructor ;
+    fo:hasConstructorRef "eagle-climax"^^xsd:string ;
+    fo:hasName "Eagle-Climax"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Anglo_American_Racers"^^xsd:string .
+
+fo:constructor19 a fo:Constructor ;
+    fo:hasConstructorRef "jaguar"^^xsd:string ;
+    fo:hasName "Jaguar"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Jaguar_Racing"^^xsd:string .
+
+fo:constructor190 a fo:Constructor ;
+    fo:hasConstructorRef "eagle-weslake"^^xsd:string ;
+    fo:hasName "Eagle-Weslake"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Anglo_American_Racers"^^xsd:string .
+
+fo:constructor191 a fo:Constructor ;
+    fo:hasConstructorRef "brabham-repco"^^xsd:string ;
+    fo:hasName "Brabham-Repco"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Brabham"^^xsd:string .
+
+fo:constructor192 a fo:Constructor ;
+    fo:hasConstructorRef "cooper-ferrari"^^xsd:string ;
+    fo:hasName "Cooper-Ferrari"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Cooper_Car_Company"^^xsd:string .
+
+fo:constructor193 a fo:Constructor ;
+    fo:hasConstructorRef "cooper-ats"^^xsd:string ;
+    fo:hasName "Cooper-ATS"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Cooper_Car_Company"^^xsd:string .
+
+fo:constructor194 a fo:Constructor ;
+    fo:hasConstructorRef "mclaren-brm"^^xsd:string ;
+    fo:hasName "McLaren-BRM"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/McLaren_(racing)"^^xsd:string .
+
+fo:constructor195 a fo:Constructor ;
+    fo:hasConstructorRef "cooper-brm"^^xsd:string ;
+    fo:hasName "Cooper-BRM"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Cooper_Car_Company"^^xsd:string .
+
+fo:constructor196 a fo:Constructor ;
+    fo:hasConstructorRef "matra-ford"^^xsd:string ;
+    fo:hasName "Matra-Ford"^^xsd:string ;
+    fo:hasNation countries:fr ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Matra"^^xsd:string .
+
+fo:constructor197 a fo:Constructor ;
+    fo:hasConstructorRef "brm-ford"^^xsd:string ;
+    fo:hasName "BRM-Ford"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/BRM"^^xsd:string .
+
+fo:constructor198 a fo:Constructor ;
+    fo:hasConstructorRef "mclaren-alfa_romeo"^^xsd:string ;
+    fo:hasName "McLaren-Alfa Romeo"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/McLaren_(racing)"^^xsd:string .
+
+fo:constructor199 a fo:Constructor ;
+    fo:hasConstructorRef "march-alfa_romeo"^^xsd:string ;
+    fo:hasName "March-Alfa Romeo"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/March_Engineering"^^xsd:string .
+
+fo:constructor2 a fo:Constructor ;
+    fo:hasConstructorRef "bmw_sauber"^^xsd:string ;
+    fo:hasName "BMW Sauber"^^xsd:string ;
+    fo:hasNation countries:de ;
+    fo:hasURL "http://en.wikipedia.org/wiki/BMW_Sauber"^^xsd:string .
+
+fo:constructor20 a fo:Constructor ;
+    fo:hasConstructorRef "prost"^^xsd:string ;
+    fo:hasName "Prost"^^xsd:string ;
+    fo:hasNation countries:fr ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Prost_Grand_Prix"^^xsd:string .
+
+fo:constructor200 a fo:Constructor ;
+    fo:hasConstructorRef "march-ford"^^xsd:string ;
+    fo:hasName "March-Ford"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/March_Engineering"^^xsd:string .
+
+fo:constructor201 a fo:Constructor ;
+    fo:hasConstructorRef "lotus-pw"^^xsd:string ;
+    fo:hasName "Lotus-Pratt &amp; Whitney"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Team_Lotus"^^xsd:string .
+
+fo:constructor202 a fo:Constructor ;
+    fo:hasConstructorRef "shadow-ford"^^xsd:string ;
+    fo:hasName "Shadow-Ford"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Shadow_Racing_Cars"^^xsd:string .
+
+fo:constructor203 a fo:Constructor ;
+    fo:hasConstructorRef "shadow-matra"^^xsd:string ;
+    fo:hasName "Shadow-Matra"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Shadow_Racing_Cars"^^xsd:string .
+
+fo:constructor204 a fo:Constructor ;
+    fo:hasConstructorRef "brabham-alfa_romeo"^^xsd:string ;
+    fo:hasName "Brabham-Alfa Romeo"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Brabham"^^xsd:string .
+
+fo:constructor205 a fo:Constructor ;
+    fo:hasConstructorRef "lotus_racing"^^xsd:string ;
+    fo:hasName "Lotus"^^xsd:string ;
+    fo:hasNation countries:my ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Lotus_Racing"^^xsd:string .
+
+fo:constructor206 a fo:Constructor ;
+    fo:hasConstructorRef "marussia"^^xsd:string ;
+    fo:hasName "Marussia"^^xsd:string ;
+    fo:hasNation countries:ru ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Marussia_F1"^^xsd:string .
+
+fo:constructor207 a fo:Constructor ;
+    fo:hasConstructorRef "caterham"^^xsd:string ;
+    fo:hasName "Caterham"^^xsd:string ;
+    fo:hasNation countries:my ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Caterham_F1"^^xsd:string .
+
+fo:constructor208 a fo:Constructor ;
+    fo:hasConstructorRef "lotus_f1"^^xsd:string ;
+    fo:hasName "Lotus F1"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Lotus_F1"^^xsd:string .
+
+fo:constructor209 a fo:Constructor ;
+    fo:hasConstructorRef "manor"^^xsd:string ;
+    fo:hasName "Manor Marussia"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Manor_Motorsport"^^xsd:string .
+
+fo:constructor21 a fo:Constructor ;
+    fo:hasConstructorRef "arrows"^^xsd:string ;
+    fo:hasName "Arrows"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International"^^xsd:string .
+
+fo:constructor210 a fo:Constructor ;
+    fo:hasConstructorRef "haas"^^xsd:string ;
+    fo:hasName "Haas F1 Team"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Haas_F1_Team"^^xsd:string .
+
+fo:constructor211 a fo:Constructor ;
+    fo:hasConstructorRef "racing_point"^^xsd:string ;
+    fo:hasName "Racing Point"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Racing_Point_F1_Team"^^xsd:string .
+
+fo:constructor213 a fo:Constructor ;
+    fo:hasConstructorRef "alphatauri"^^xsd:string ;
+    fo:hasName "AlphaTauri"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Scuderia_AlphaTauri"^^xsd:string .
+
+fo:constructor214 a fo:Constructor ;
+    fo:hasConstructorRef "alpine"^^xsd:string ;
+    fo:hasName "Alpine F1 Team"^^xsd:string ;
+    fo:hasNation countries:fr ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Alpine_F1_Team"^^xsd:string .
+
+fo:constructor22 a fo:Constructor ;
+    fo:hasConstructorRef "benetton"^^xsd:string ;
+    fo:hasName "Benetton"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Benetton_Formula"^^xsd:string .
+
+fo:constructor23 a fo:Constructor ;
+    fo:hasConstructorRef "brawn"^^xsd:string ;
+    fo:hasName "Brawn"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Brawn_GP"^^xsd:string .
+
+fo:constructor24 a fo:Constructor ;
+    fo:hasConstructorRef "stewart"^^xsd:string ;
+    fo:hasName "Stewart"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Stewart_Grand_Prix"^^xsd:string .
+
+fo:constructor25 a fo:Constructor ;
+    fo:hasConstructorRef "tyrrell"^^xsd:string ;
+    fo:hasName "Tyrrell"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Tyrrell_Racing"^^xsd:string .
+
+fo:constructor26 a fo:Constructor ;
+    fo:hasConstructorRef "lola"^^xsd:string ;
+    fo:hasName "Lola"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/MasterCard_Lola"^^xsd:string .
+
+fo:constructor27 a fo:Constructor ;
+    fo:hasConstructorRef "ligier"^^xsd:string ;
+    fo:hasName "Ligier"^^xsd:string ;
+    fo:hasNation countries:fr ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Ligier"^^xsd:string .
+
+fo:constructor28 a fo:Constructor ;
+    fo:hasConstructorRef "forti"^^xsd:string ;
+    fo:hasName "Forti"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Forti"^^xsd:string .
+
+fo:constructor29 a fo:Constructor ;
+    fo:hasConstructorRef "footwork"^^xsd:string ;
+    fo:hasName "Footwork"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Footwork_Arrows"^^xsd:string .
+
+fo:constructor3 a fo:Constructor ;
+    fo:hasConstructorRef "williams"^^xsd:string ;
+    fo:hasName "Williams"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering"^^xsd:string .
+
+fo:constructor30 a fo:Constructor ;
+    fo:hasConstructorRef "pacific"^^xsd:string ;
+    fo:hasName "Pacific"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Pacific_Racing"^^xsd:string .
+
+fo:constructor31 a fo:Constructor ;
+    fo:hasConstructorRef "simtek"^^xsd:string ;
+    fo:hasName "Simtek"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Simtek"^^xsd:string .
+
+fo:constructor32 a fo:Constructor ;
+    fo:hasConstructorRef "team_lotus"^^xsd:string ;
+    fo:hasName "Team Lotus"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Team_Lotus"^^xsd:string .
+
+fo:constructor33 a fo:Constructor ;
+    fo:hasConstructorRef "larrousse"^^xsd:string ;
+    fo:hasName "Larrousse"^^xsd:string ;
+    fo:hasNation countries:fr ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Larrousse"^^xsd:string .
+
+fo:constructor34 a fo:Constructor ;
+    fo:hasConstructorRef "brabham"^^xsd:string ;
+    fo:hasName "Brabham"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Brabham"^^xsd:string .
+
+fo:constructor35 a fo:Constructor ;
+    fo:hasConstructorRef "dallara"^^xsd:string ;
+    fo:hasName "Dallara"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Dallara"^^xsd:string .
+
+fo:constructor36 a fo:Constructor ;
+    fo:hasConstructorRef "fondmetal"^^xsd:string ;
+    fo:hasName "Fondmetal"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Fondmetal"^^xsd:string .
+
+fo:constructor37 a fo:Constructor ;
+    fo:hasConstructorRef "march"^^xsd:string ;
+    fo:hasName "March"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/March_Engineering"^^xsd:string .
+
+fo:constructor38 a fo:Constructor ;
+    fo:hasConstructorRef "moda"^^xsd:string ;
+    fo:hasName "Andrea Moda"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Andrea_Moda_Formula"^^xsd:string .
+
+fo:constructor39 a fo:Constructor ;
+    fo:hasConstructorRef "ags"^^xsd:string ;
+    fo:hasName "AGS"^^xsd:string ;
+    fo:hasNation countries:fr ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Automobiles_Gonfaronnaises_Sportives"^^xsd:string .
+
+fo:constructor4 a fo:Constructor ;
+    fo:hasConstructorRef "renault"^^xsd:string ;
+    fo:hasName "Renault"^^xsd:string ;
+    fo:hasNation countries:fr ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Renault_in_Formula_One"^^xsd:string .
+
+fo:constructor40 a fo:Constructor ;
+    fo:hasConstructorRef "lambo"^^xsd:string ;
+    fo:hasName "Lambo"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Modena_(racing_team)"^^xsd:string .
+
+fo:constructor41 a fo:Constructor ;
+    fo:hasConstructorRef "leyton"^^xsd:string ;
+    fo:hasName "Leyton House"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Leyton_House"^^xsd:string .
+
+fo:constructor42 a fo:Constructor ;
+    fo:hasConstructorRef "coloni"^^xsd:string ;
+    fo:hasName "Coloni"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Enzo_Coloni_Racing_Car_Systems"^^xsd:string .
+
+fo:constructor44 a fo:Constructor ;
+    fo:hasConstructorRef "eurobrun"^^xsd:string ;
+    fo:hasName "Euro Brun"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Euro_Brun"^^xsd:string .
+
+fo:constructor45 a fo:Constructor ;
+    fo:hasConstructorRef "osella"^^xsd:string ;
+    fo:hasName "Osella"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Osella"^^xsd:string .
+
+fo:constructor46 a fo:Constructor ;
+    fo:hasConstructorRef "onyx"^^xsd:string ;
+    fo:hasName "Onyx"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Onyx_(racing_team)"^^xsd:string .
+
+fo:constructor47 a fo:Constructor ;
+    fo:hasConstructorRef "life"^^xsd:string ;
+    fo:hasName "Life"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Life_(Racing_Team)"^^xsd:string .
+
+fo:constructor48 a fo:Constructor ;
+    fo:hasConstructorRef "rial"^^xsd:string ;
+    fo:hasName "Rial"^^xsd:string ;
+    fo:hasNation countries:de ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Rial_%28racing_team%29"^^xsd:string .
+
+fo:constructor49 a fo:Constructor ;
+    fo:hasConstructorRef "zakspeed"^^xsd:string ;
+    fo:hasName "Zakspeed"^^xsd:string ;
+    fo:hasNation countries:de ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Zakspeed"^^xsd:string .
+
+fo:constructor5 a fo:Constructor ;
+    fo:hasConstructorRef "toro_rosso"^^xsd:string ;
+    fo:hasName "Toro Rosso"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Scuderia_Toro_Rosso"^^xsd:string .
+
+fo:constructor50 a fo:Constructor ;
+    fo:hasConstructorRef "ram"^^xsd:string ;
+    fo:hasName "RAM"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/RAM_Racing"^^xsd:string .
+
+fo:constructor51 a fo:Constructor ;
+    fo:hasConstructorRef "alfa"^^xsd:string ;
+    fo:hasName "Alfa Romeo"^^xsd:string ;
+    fo:hasNation countries:ch ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One"^^xsd:string .
+
+fo:constructor52 a fo:Constructor ;
+    fo:hasConstructorRef "spirit"^^xsd:string ;
+    fo:hasName "Spirit"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Spirit_(racing_team)"^^xsd:string .
+
+fo:constructor53 a fo:Constructor ;
+    fo:hasConstructorRef "toleman"^^xsd:string ;
+    fo:hasName "Toleman"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Toleman"^^xsd:string .
+
+fo:constructor54 a fo:Constructor ;
+    fo:hasConstructorRef "ats"^^xsd:string ;
+    fo:hasName "ATS"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/ATS_(wheels)"^^xsd:string .
+
+fo:constructor55 a fo:Constructor ;
+    fo:hasConstructorRef "theodore"^^xsd:string ;
+    fo:hasName "Theodore"^^xsd:string ;
+    fo:hasNation countries:hk ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Theodore_Racing"^^xsd:string .
+
+fo:constructor56 a fo:Constructor ;
+    fo:hasConstructorRef "fittipaldi"^^xsd:string ;
+    fo:hasName "Fittipaldi"^^xsd:string ;
+    fo:hasNation countries:br ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Fittipaldi_%28constructor%29"^^xsd:string .
+
+fo:constructor57 a fo:Constructor ;
+    fo:hasConstructorRef "ensign"^^xsd:string ;
+    fo:hasName "Ensign"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Ensign_%28racing_team%29"^^xsd:string .
+
+fo:constructor58 a fo:Constructor ;
+    fo:hasConstructorRef "shadow"^^xsd:string ;
+    fo:hasName "Shadow"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Shadow_Racing_Cars"^^xsd:string .
+
+fo:constructor59 a fo:Constructor ;
+    fo:hasConstructorRef "wolf"^^xsd:string ;
+    fo:hasName "Wolf"^^xsd:string ;
+    fo:hasNation countries:ca ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Walter_Wolf_Racing"^^xsd:string .
+
+fo:constructor6 a fo:Constructor ;
+    fo:hasConstructorRef "ferrari"^^xsd:string ;
+    fo:hasName "Ferrari"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Scuderia_Ferrari"^^xsd:string .
+
+fo:constructor60 a fo:Constructor ;
+    fo:hasConstructorRef "merzario"^^xsd:string ;
+    fo:hasName "Merzario"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Merzario"^^xsd:string .
+
+fo:constructor61 a fo:Constructor ;
+    fo:hasConstructorRef "kauhsen"^^xsd:string ;
+    fo:hasName "Kauhsen"^^xsd:string ;
+    fo:hasNation countries:de ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Kauhsen"^^xsd:string .
+
+fo:constructor62 a fo:Constructor ;
+    fo:hasConstructorRef "rebaque"^^xsd:string ;
+    fo:hasName "Rebaque"^^xsd:string ;
+    fo:hasNation countries:mx ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Rebaque"^^xsd:string .
+
+fo:constructor63 a fo:Constructor ;
+    fo:hasConstructorRef "surtees"^^xsd:string ;
+    fo:hasName "Surtees"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Surtees"^^xsd:string .
+
+fo:constructor64 a fo:Constructor ;
+    fo:hasConstructorRef "hesketh"^^xsd:string ;
+    fo:hasName "Hesketh"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Hesketh_Racing"^^xsd:string .
+
+fo:constructor65 a fo:Constructor ;
+    fo:hasConstructorRef "martini"^^xsd:string ;
+    fo:hasName "Martini"^^xsd:string ;
+    fo:hasNation countries:fr ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Martini_(cars)"^^xsd:string .
+
+fo:constructor66 a fo:Constructor ;
+    fo:hasConstructorRef "brm"^^xsd:string ;
+    fo:hasName "BRM"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/BRM"^^xsd:string .
+
+fo:constructor67 a fo:Constructor ;
+    fo:hasConstructorRef "penske"^^xsd:string ;
+    fo:hasName "Penske"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Penske_Racing"^^xsd:string .
+
+fo:constructor68 a fo:Constructor ;
+    fo:hasConstructorRef "lec"^^xsd:string ;
+    fo:hasName "LEC"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/LEC_(Formula_One)"^^xsd:string .
+
+fo:constructor69 a fo:Constructor ;
+    fo:hasConstructorRef "mcguire"^^xsd:string ;
+    fo:hasName "McGuire"^^xsd:string ;
+    fo:hasNation countries:au ;
+    fo:hasURL "http://en.wikipedia.org/wiki/McGuire_(Formula_One)"^^xsd:string .
+
+fo:constructor7 a fo:Constructor ;
+    fo:hasConstructorRef "toyota"^^xsd:string ;
+    fo:hasName "Toyota"^^xsd:string ;
+    fo:hasNation countries:jp ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Toyota_Racing"^^xsd:string .
+
+fo:constructor70 a fo:Constructor ;
+    fo:hasConstructorRef "boro"^^xsd:string ;
+    fo:hasName "Boro"^^xsd:string ;
+    fo:hasNation countries:nl ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Boro_(Formula_One)"^^xsd:string .
+
+fo:constructor71 a fo:Constructor ;
+    fo:hasConstructorRef "apollon"^^xsd:string ;
+    fo:hasName "Apollon"^^xsd:string ;
+    fo:hasNation countries:ch ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Apollon_(Formula_One)"^^xsd:string .
+
+fo:constructor72 a fo:Constructor ;
+    fo:hasConstructorRef "kojima"^^xsd:string ;
+    fo:hasName "Kojima"^^xsd:string ;
+    fo:hasNation countries:jp ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Kojima_Engineering"^^xsd:string .
+
+fo:constructor73 a fo:Constructor ;
+    fo:hasConstructorRef "parnelli"^^xsd:string ;
+    fo:hasName "Parnelli"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Parnelli"^^xsd:string .
+
+fo:constructor74 a fo:Constructor ;
+    fo:hasConstructorRef "maki"^^xsd:string ;
+    fo:hasName "Maki"^^xsd:string ;
+    fo:hasNation countries:jp ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Maki_(cars)"^^xsd:string .
+
+fo:constructor75 a fo:Constructor ;
+    fo:hasConstructorRef "hill"^^xsd:string ;
+    fo:hasName "Embassy Hill"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Hill_(constructor)"^^xsd:string .
+
+fo:constructor76 a fo:Constructor ;
+    fo:hasConstructorRef "lyncar"^^xsd:string ;
+    fo:hasName "Lyncar"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Lyncar"^^xsd:string .
+
+fo:constructor77 a fo:Constructor ;
+    fo:hasConstructorRef "trojan"^^xsd:string ;
+    fo:hasName "Trojan"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Trojan_(Racing_team)"^^xsd:string .
+
+fo:constructor78 a fo:Constructor ;
+    fo:hasConstructorRef "amon"^^xsd:string ;
+    fo:hasName "Amon"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Amon_(Formula_One_team)"^^xsd:string .
+
+fo:constructor79 a fo:Constructor ;
+    fo:hasConstructorRef "token"^^xsd:string ;
+    fo:hasName "Token"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Token_(Racing_team)"^^xsd:string .
+
+fo:constructor8 a fo:Constructor ;
+    fo:hasConstructorRef "super_aguri"^^xsd:string ;
+    fo:hasName "Super Aguri"^^xsd:string ;
+    fo:hasNation countries:jp ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Super_Aguri_F1"^^xsd:string .
+
+fo:constructor80 a fo:Constructor ;
+    fo:hasConstructorRef "iso_marlboro"^^xsd:string ;
+    fo:hasName "Iso Marlboro"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Iso_Marlboro"^^xsd:string .
+
+fo:constructor81 a fo:Constructor ;
+    fo:hasConstructorRef "tecno"^^xsd:string ;
+    fo:hasName "Tecno"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Tecno"^^xsd:string .
+
+fo:constructor82 a fo:Constructor ;
+    fo:hasConstructorRef "matra"^^xsd:string ;
+    fo:hasName "Matra"^^xsd:string ;
+    fo:hasNation countries:fr ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Matra"^^xsd:string .
+
+fo:constructor83 a fo:Constructor ;
+    fo:hasConstructorRef "politoys"^^xsd:string ;
+    fo:hasName "Politoys"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Frank_Williams_Racing_Cars"^^xsd:string .
+
+fo:constructor84 a fo:Constructor ;
+    fo:hasConstructorRef "connew"^^xsd:string ;
+    fo:hasName "Connew"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Connew"^^xsd:string .
+
+fo:constructor85 a fo:Constructor ;
+    fo:hasConstructorRef "bellasi"^^xsd:string ;
+    fo:hasName "Bellasi"^^xsd:string ;
+    fo:hasNation countries:ch ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Bellasi"^^xsd:string .
+
+fo:constructor86 a fo:Constructor ;
+    fo:hasConstructorRef "tomaso"^^xsd:string ;
+    fo:hasName "De Tomaso"^^xsd:string ;
+    fo:hasNation countries:it ;
+    fo:hasURL "http://en.wikipedia.org/wiki/De_Tomaso"^^xsd:string .
+
+fo:constructor87 a fo:Constructor ;
+    fo:hasConstructorRef "cooper"^^xsd:string ;
+    fo:hasName "Cooper"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Cooper_Car_Company"^^xsd:string .
+
+fo:constructor88 a fo:Constructor ;
+    fo:hasConstructorRef "eagle"^^xsd:string ;
+    fo:hasName "Eagle"^^xsd:string ;
+    fo:hasNation countries:us ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Anglo_American_Racers"^^xsd:string .
+
+fo:constructor89 a fo:Constructor ;
+    fo:hasConstructorRef "lds"^^xsd:string ;
+    fo:hasName "LDS"^^xsd:string ;
+    fo:hasNation countries:za ;
+    fo:hasURL "http://en.wikipedia.org/wiki/LDS_(automobile)"^^xsd:string .
+
+fo:constructor9 a fo:Constructor ;
+    fo:hasConstructorRef "red_bull"^^xsd:string ;
+    fo:hasName "Red Bull"^^xsd:string ;
+    fo:hasNation countries:at ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Red_Bull_Racing"^^xsd:string .
+
+fo:constructor90 a fo:Constructor ;
+    fo:hasConstructorRef "protos"^^xsd:string ;
+    fo:hasName "Protos"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Protos_(constructor)"^^xsd:string .
+
+fo:constructor91 a fo:Constructor ;
+    fo:hasConstructorRef "shannon"^^xsd:string ;
+    fo:hasName "Shannon"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Shannon_(Formula_One)"^^xsd:string .
+
+fo:constructor92 a fo:Constructor ;
+    fo:hasConstructorRef "scirocco"^^xsd:string ;
+    fo:hasName "Scirocco"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Scirocco-Powell"^^xsd:string .
+
+fo:constructor93 a fo:Constructor ;
+    fo:hasConstructorRef "re"^^xsd:string ;
+    fo:hasName "RE"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/RE_%28automobile%29"^^xsd:string .
+
+fo:constructor94 a fo:Constructor ;
+    fo:hasConstructorRef "brp"^^xsd:string ;
+    fo:hasName "BRP"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/British_Racing_Partnership"^^xsd:string .
+
+fo:constructor95 a fo:Constructor ;
+    fo:hasConstructorRef "porsche"^^xsd:string ;
+    fo:hasName "Porsche"^^xsd:string ;
+    fo:hasNation countries:de ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Porsche_in_Formula_One"^^xsd:string .
+
+fo:constructor96 a fo:Constructor ;
+    fo:hasConstructorRef "derrington"^^xsd:string ;
+    fo:hasName "Derrington"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Derrington-Francis"^^xsd:string .
+
+fo:constructor97 a fo:Constructor ;
+    fo:hasConstructorRef "gilby"^^xsd:string ;
+    fo:hasName "Gilby"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Gilby"^^xsd:string .
+
+fo:constructor98 a fo:Constructor ;
+    fo:hasConstructorRef "stebro"^^xsd:string ;
+    fo:hasName "Stebro"^^xsd:string ;
+    fo:hasNation countries:ca ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Stebro"^^xsd:string .
+
+fo:constructor99 a fo:Constructor ;
+    fo:hasConstructorRef "emeryson"^^xsd:string ;
+    fo:hasName "Emeryson"^^xsd:string ;
+    fo:hasNation countries:gb ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Emeryson"^^xsd:string .
+
+fo:season1950 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1950_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1950 .
+
+fo:season1951 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1951_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1951 .
+
+fo:season1952 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1952_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1952 .
+
+fo:season1953 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1953_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1953 .
+
+fo:season1954 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1954_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1954 .
+
+fo:season1955 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1955_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1955 .
+
+fo:season1956 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1956_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1956 .
+
+fo:season1957 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1957_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1957 .
+
+fo:season1958 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1958_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1958 .
+
+fo:season1959 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1959_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1959 .
+
+fo:season1960 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1960_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1960 .
+
+fo:season1961 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1961_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1961 .
+
+fo:season1962 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1962_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1962 .
+
+fo:season1963 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1963_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1963 .
+
+fo:season1964 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1964_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1964 .
+
+fo:season1965 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1965_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1965 .
+
+fo:season1966 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1966_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1966 .
+
+fo:season1967 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1967_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1967 .
+
+fo:season1968 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1968_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1968 .
+
+fo:season1969 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1969_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1969 .
+
+fo:season1970 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1970_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1970 .
+
+fo:season1971 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1971_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1971 .
+
+fo:season1972 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1972_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1972 .
+
+fo:season1973 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1973_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1973 .
+
+fo:season1974 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1974_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1974 .
+
+fo:season1975 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1975_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1975 .
+
+fo:season1976 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1976_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1976 .
+
+fo:season1977 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1977_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1977 .
+
+fo:season1978 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1978_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1978 .
+
+fo:season1979 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1979_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1979 .
+
+fo:season1980 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1980_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1980 .
+
+fo:season1981 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1981_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1981 .
+
+fo:season1982 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1982_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1982 .
+
+fo:season1983 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1983_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1983 .
+
+fo:season1984 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1984_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1984 .
+
+fo:season1985 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1985_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1985 .
+
+fo:season1986 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1986_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1986 .
+
+fo:season1987 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1987_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1987 .
+
+fo:season1988 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1988_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1988 .
+
+fo:season1989 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1989_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1989 .
+
+fo:season1990 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1990_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1990 .
+
+fo:season1991 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1991_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1991 .
+
+fo:season1992 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1992_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1992 .
+
+fo:season1993 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1993_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1993 .
+
+fo:season1994 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1994_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1994 .
+
+fo:season1995 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1995_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1995 .
+
+fo:season1996 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1996_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1996 .
+
+fo:season1997 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1997_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1997 .
+
+fo:season1998 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1998_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1998 .
+
+fo:season1999 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/1999_Formula_One_season"^^xsd:string ;
+    fo:hasYear 1999 .
+
+fo:season2000 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2000_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2000 .
+
+fo:season2001 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2001_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2001 .
+
+fo:season2002 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2002_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2002 .
+
+fo:season2003 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2003_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2003 .
+
+fo:season2004 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2004_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2004 .
+
+fo:season2005 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2005_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2005 .
+
+fo:season2006 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2006_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2006 .
+
+fo:season2007 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2007_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2007 .
+
+fo:season2008 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2008_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2008 .
+
+fo:season2009 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2009_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2009 .
+
+fo:season2010 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2010_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2010 .
+
+fo:season2011 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2011_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2011 .
+
+fo:season2012 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2012_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2012 .
+
+fo:season2013 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2013_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2013 .
+
+fo:season2014 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2014_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2014 .
+
+fo:season2015 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2015_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2015 .
+
+fo:season2016 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2016_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2016 .
+
+fo:season2017 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2017_Formula_One_season"^^xsd:string ;
+    fo:hasYear 2017 .
+
+fo:season2018 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2018_Formula_One_World_Championship"^^xsd:string ;
+    fo:hasYear 2018 .
+
+fo:season2019 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2019_Formula_One_World_Championship"^^xsd:string ;
+    fo:hasYear 2019 .
+
+fo:season2020 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2020_Formula_One_World_Championship"^^xsd:string ;
+    fo:hasYear 2020 .
+
+fo:season2021 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2021_Formula_One_World_Championship"^^xsd:string ;
+    fo:hasYear 2021 .
+
+fo:season2022 a fo:Season ;
+    fo:hasURL "http://en.wikipedia.org/wiki/2022_Formula_One_World_Championship"^^xsd:string ;
+    fo:hasYear 2022 .
+
+fo:season2023 a fo:Season ;
+    fo:hasURL "https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship"^^xsd:string ;
+    fo:hasYear 2023 .
+
+fo:status1 a fo:Status ;
+    fo:hasName "Finished"^^xsd:string .
+
+fo:status10 a fo:Status ;
+    fo:hasName "Electrical"^^xsd:string .
+
+fo:status100 a fo:Status ;
+    fo:hasName "Driver unwell"^^xsd:string .
+
+fo:status101 a fo:Status ;
+    fo:hasName "Turbo"^^xsd:string .
+
+fo:status102 a fo:Status ;
+    fo:hasName "CV joint"^^xsd:string .
+
+fo:status103 a fo:Status ;
+    fo:hasName "Water pump"^^xsd:string .
+
+fo:status104 a fo:Status ;
+    fo:hasName "Fatal accident"^^xsd:string .
+
+fo:status105 a fo:Status ;
+    fo:hasName "Spark plugs"^^xsd:string .
+
+fo:status106 a fo:Status ;
+    fo:hasName "Fuel pipe"^^xsd:string .
+
+fo:status107 a fo:Status ;
+    fo:hasName "Eye injury"^^xsd:string .
+
+fo:status108 a fo:Status ;
+    fo:hasName "Oil pipe"^^xsd:string .
+
+fo:status109 a fo:Status ;
+    fo:hasName "Axle"^^xsd:string .
+
+fo:status11 a fo:Status ;
+    fo:hasName "+1 Lap"^^xsd:string .
+
+fo:status110 a fo:Status ;
+    fo:hasName "Water pipe"^^xsd:string .
+
+fo:status111 a fo:Status ;
+    fo:hasName "+14 Laps"^^xsd:string .
+
+fo:status112 a fo:Status ;
+    fo:hasName "+15 Laps"^^xsd:string .
+
+fo:status113 a fo:Status ;
+    fo:hasName "+25 Laps"^^xsd:string .
+
+fo:status114 a fo:Status ;
+    fo:hasName "+18 Laps"^^xsd:string .
+
+fo:status115 a fo:Status ;
+    fo:hasName "+22 Laps"^^xsd:string .
+
+fo:status116 a fo:Status ;
+    fo:hasName "+16 Laps"^^xsd:string .
+
+fo:status117 a fo:Status ;
+    fo:hasName "+24 Laps"^^xsd:string .
+
+fo:status118 a fo:Status ;
+    fo:hasName "+29 Laps"^^xsd:string .
+
+fo:status119 a fo:Status ;
+    fo:hasName "+23 Laps"^^xsd:string .
+
+fo:status12 a fo:Status ;
+    fo:hasName "+2 Laps"^^xsd:string .
+
+fo:status120 a fo:Status ;
+    fo:hasName "+21 Laps"^^xsd:string .
+
+fo:status121 a fo:Status ;
+    fo:hasName "Magneto"^^xsd:string .
+
+fo:status122 a fo:Status ;
+    fo:hasName "+44 Laps"^^xsd:string .
+
+fo:status123 a fo:Status ;
+    fo:hasName "+30 Laps"^^xsd:string .
+
+fo:status124 a fo:Status ;
+    fo:hasName "+19 Laps"^^xsd:string .
+
+fo:status125 a fo:Status ;
+    fo:hasName "+46 Laps"^^xsd:string .
+
+fo:status126 a fo:Status ;
+    fo:hasName "Supercharger"^^xsd:string .
+
+fo:status127 a fo:Status ;
+    fo:hasName "+20 Laps"^^xsd:string .
+
+fo:status128 a fo:Status ;
+    fo:hasName "+42 Laps"^^xsd:string .
+
+fo:status129 a fo:Status ;
+    fo:hasName "Engine misfire"^^xsd:string .
+
+fo:status13 a fo:Status ;
+    fo:hasName "+3 Laps"^^xsd:string .
+
+fo:status130 a fo:Status ;
+    fo:hasName "Collision damage"^^xsd:string .
+
+fo:status131 a fo:Status ;
+    fo:hasName "Power Unit"^^xsd:string .
+
+fo:status132 a fo:Status ;
+    fo:hasName "ERS"^^xsd:string .
+
+fo:status133 a fo:Status ;
+    fo:hasName "+49 Laps"^^xsd:string .
+
+fo:status134 a fo:Status ;
+    fo:hasName "+38 Laps"^^xsd:string .
+
+fo:status135 a fo:Status ;
+    fo:hasName "Brake duct"^^xsd:string .
+
+fo:status136 a fo:Status ;
+    fo:hasName "Seat"^^xsd:string .
+
+fo:status137 a fo:Status ;
+    fo:hasName "Damage"^^xsd:string .
+
+fo:status138 a fo:Status ;
+    fo:hasName "Debris"^^xsd:string .
+
+fo:status139 a fo:Status ;
+    fo:hasName "Illness"^^xsd:string .
+
+fo:status14 a fo:Status ;
+    fo:hasName "+4 Laps"^^xsd:string .
+
+fo:status140 a fo:Status ;
+    fo:hasName "Undertray"^^xsd:string .
+
+fo:status141 a fo:Status ;
+    fo:hasName "Cooling system"^^xsd:string .
+
+fo:status15 a fo:Status ;
+    fo:hasName "+5 Laps"^^xsd:string .
+
+fo:status16 a fo:Status ;
+    fo:hasName "+6 Laps"^^xsd:string .
+
+fo:status17 a fo:Status ;
+    fo:hasName "+7 Laps"^^xsd:string .
+
+fo:status18 a fo:Status ;
+    fo:hasName "+8 Laps"^^xsd:string .
+
+fo:status19 a fo:Status ;
+    fo:hasName "+9 Laps"^^xsd:string .
+
+fo:status2 a fo:Status ;
+    fo:hasName "Disqualified"^^xsd:string .
+
+fo:status20 a fo:Status ;
+    fo:hasName "Spun off"^^xsd:string .
+
+fo:status21 a fo:Status ;
+    fo:hasName "Radiator"^^xsd:string .
+
+fo:status22 a fo:Status ;
+    fo:hasName "Suspension"^^xsd:string .
+
+fo:status23 a fo:Status ;
+    fo:hasName "Brakes"^^xsd:string .
+
+fo:status24 a fo:Status ;
+    fo:hasName "Differential"^^xsd:string .
+
+fo:status25 a fo:Status ;
+    fo:hasName "Overheating"^^xsd:string .
+
+fo:status26 a fo:Status ;
+    fo:hasName "Mechanical"^^xsd:string .
+
+fo:status27 a fo:Status ;
+    fo:hasName "Tyre"^^xsd:string .
+
+fo:status28 a fo:Status ;
+    fo:hasName "Driver Seat"^^xsd:string .
+
+fo:status29 a fo:Status ;
+    fo:hasName "Puncture"^^xsd:string .
+
+fo:status3 a fo:Status ;
+    fo:hasName "Accident"^^xsd:string .
+
+fo:status30 a fo:Status ;
+    fo:hasName "Driveshaft"^^xsd:string .
+
+fo:status31 a fo:Status ;
+    fo:hasName "Retired"^^xsd:string .
+
+fo:status32 a fo:Status ;
+    fo:hasName "Fuel pressure"^^xsd:string .
+
+fo:status33 a fo:Status ;
+    fo:hasName "Front wing"^^xsd:string .
+
+fo:status34 a fo:Status ;
+    fo:hasName "Water pressure"^^xsd:string .
+
+fo:status35 a fo:Status ;
+    fo:hasName "Refuelling"^^xsd:string .
+
+fo:status36 a fo:Status ;
+    fo:hasName "Wheel"^^xsd:string .
+
+fo:status37 a fo:Status ;
+    fo:hasName "Throttle"^^xsd:string .
+
+fo:status38 a fo:Status ;
+    fo:hasName "Steering"^^xsd:string .
+
+fo:status39 a fo:Status ;
+    fo:hasName "Technical"^^xsd:string .
+
+fo:status4 a fo:Status ;
+    fo:hasName "Collision"^^xsd:string .
+
+fo:status40 a fo:Status ;
+    fo:hasName "Electronics"^^xsd:string .
+
+fo:status41 a fo:Status ;
+    fo:hasName "Broken wing"^^xsd:string .
+
+fo:status42 a fo:Status ;
+    fo:hasName "Heat shield fire"^^xsd:string .
+
+fo:status43 a fo:Status ;
+    fo:hasName "Exhaust"^^xsd:string .
+
+fo:status44 a fo:Status ;
+    fo:hasName "Oil leak"^^xsd:string .
+
+fo:status45 a fo:Status ;
+    fo:hasName "+11 Laps"^^xsd:string .
+
+fo:status46 a fo:Status ;
+    fo:hasName "Wheel rim"^^xsd:string .
+
+fo:status47 a fo:Status ;
+    fo:hasName "Water leak"^^xsd:string .
+
+fo:status48 a fo:Status ;
+    fo:hasName "Fuel pump"^^xsd:string .
+
+fo:status49 a fo:Status ;
+    fo:hasName "Track rod"^^xsd:string .
+
+fo:status5 a fo:Status ;
+    fo:hasName "Engine"^^xsd:string .
+
+fo:status50 a fo:Status ;
+    fo:hasName "+17 Laps"^^xsd:string .
+
+fo:status51 a fo:Status ;
+    fo:hasName "Oil pressure"^^xsd:string .
+
+fo:status53 a fo:Status ;
+    fo:hasName "+13 Laps"^^xsd:string .
+
+fo:status54 a fo:Status ;
+    fo:hasName "Withdrew"^^xsd:string .
+
+fo:status55 a fo:Status ;
+    fo:hasName "+12 Laps"^^xsd:string .
+
+fo:status56 a fo:Status ;
+    fo:hasName "Engine fire"^^xsd:string .
+
+fo:status58 a fo:Status ;
+    fo:hasName "+26 Laps"^^xsd:string .
+
+fo:status59 a fo:Status ;
+    fo:hasName "Tyre puncture"^^xsd:string .
+
+fo:status6 a fo:Status ;
+    fo:hasName "Gearbox"^^xsd:string .
+
+fo:status60 a fo:Status ;
+    fo:hasName "Out of fuel"^^xsd:string .
+
+fo:status61 a fo:Status ;
+    fo:hasName "Wheel nut"^^xsd:string .
+
+fo:status62 a fo:Status ;
+    fo:hasName "Not classified"^^xsd:string .
+
+fo:status63 a fo:Status ;
+    fo:hasName "Pneumatics"^^xsd:string .
+
+fo:status64 a fo:Status ;
+    fo:hasName "Handling"^^xsd:string .
+
+fo:status65 a fo:Status ;
+    fo:hasName "Rear wing"^^xsd:string .
+
+fo:status66 a fo:Status ;
+    fo:hasName "Fire"^^xsd:string .
+
+fo:status67 a fo:Status ;
+    fo:hasName "Wheel bearing"^^xsd:string .
+
+fo:status68 a fo:Status ;
+    fo:hasName "Physical"^^xsd:string .
+
+fo:status69 a fo:Status ;
+    fo:hasName "Fuel system"^^xsd:string .
+
+fo:status7 a fo:Status ;
+    fo:hasName "Transmission"^^xsd:string .
+
+fo:status70 a fo:Status ;
+    fo:hasName "Oil line"^^xsd:string .
+
+fo:status71 a fo:Status ;
+    fo:hasName "Fuel rig"^^xsd:string .
+
+fo:status72 a fo:Status ;
+    fo:hasName "Launch control"^^xsd:string .
+
+fo:status73 a fo:Status ;
+    fo:hasName "Injured"^^xsd:string .
+
+fo:status74 a fo:Status ;
+    fo:hasName "Fuel"^^xsd:string .
+
+fo:status75 a fo:Status ;
+    fo:hasName "Power loss"^^xsd:string .
+
+fo:status76 a fo:Status ;
+    fo:hasName "Vibrations"^^xsd:string .
+
+fo:status77 a fo:Status ;
+    fo:hasName "107% Rule"^^xsd:string .
+
+fo:status78 a fo:Status ;
+    fo:hasName "Safety"^^xsd:string .
+
+fo:status79 a fo:Status ;
+    fo:hasName "Drivetrain"^^xsd:string .
+
+fo:status8 a fo:Status ;
+    fo:hasName "Clutch"^^xsd:string .
+
+fo:status80 a fo:Status ;
+    fo:hasName "Ignition"^^xsd:string .
+
+fo:status81 a fo:Status ;
+    fo:hasName "Did not qualify"^^xsd:string .
+
+fo:status82 a fo:Status ;
+    fo:hasName "Injury"^^xsd:string .
+
+fo:status83 a fo:Status ;
+    fo:hasName "Chassis"^^xsd:string .
+
+fo:status84 a fo:Status ;
+    fo:hasName "Battery"^^xsd:string .
+
+fo:status85 a fo:Status ;
+    fo:hasName "Stalled"^^xsd:string .
+
+fo:status86 a fo:Status ;
+    fo:hasName "Halfshaft"^^xsd:string .
+
+fo:status87 a fo:Status ;
+    fo:hasName "Crankshaft"^^xsd:string .
+
+fo:status88 a fo:Status ;
+    fo:hasName "+10 Laps"^^xsd:string .
+
+fo:status89 a fo:Status ;
+    fo:hasName "Safety concerns"^^xsd:string .
+
+fo:status9 a fo:Status ;
+    fo:hasName "Hydraulics"^^xsd:string .
+
+fo:status90 a fo:Status ;
+    fo:hasName "Not restarted"^^xsd:string .
+
+fo:status91 a fo:Status ;
+    fo:hasName "Alternator"^^xsd:string .
+
+fo:status92 a fo:Status ;
+    fo:hasName "Underweight"^^xsd:string .
+
+fo:status93 a fo:Status ;
+    fo:hasName "Safety belt"^^xsd:string .
+
+fo:status94 a fo:Status ;
+    fo:hasName "Oil pump"^^xsd:string .
+
+fo:status95 a fo:Status ;
+    fo:hasName "Fuel leak"^^xsd:string .
+
+fo:status96 a fo:Status ;
+    fo:hasName "Excluded"^^xsd:string .
+
+fo:status97 a fo:Status ;
+    fo:hasName "Did not prequalify"^^xsd:string .
+
+fo:status98 a fo:Status ;
+    fo:hasName "Injection"^^xsd:string .
+
+fo:status99 a fo:Status ;
+    fo:hasName "Distributor"^^xsd:string .
+

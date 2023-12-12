@@ -1,0 +1,919 @@
+@prefix countries: <http://eulersharp.sourceforge.net/2003/03swap/countries#> .
+@prefix fo: <https://www.dei.unipd.it/db2/groupProject/FASTianF1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fo:circuit1 a fo:Circuit ;
+    fo:hasAlt "10.0"^^xsd:float ;
+    fo:hasCircuitRef "albert_park"^^xsd:string ;
+    fo:hasLat "-37.8497"^^xsd:float ;
+    fo:hasLng "144.968"^^xsd:float ;
+    fo:hasLocation fo:locationMelbourne ;
+    fo:hasName "Albert Park Grand Prix Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Melbourne_Grand_Prix_Circuit"^^xsd:string .
+
+fo:circuit10 a fo:Circuit ;
+    fo:hasAlt "103.0"^^xsd:float ;
+    fo:hasCircuitRef "hockenheimring"^^xsd:string ;
+    fo:hasLat "49.3278"^^xsd:float ;
+    fo:hasLng "8.56583"^^xsd:float ;
+    fo:hasLocation fo:locationHockenheim ;
+    fo:hasName "Hockenheimring"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Hockenheimring"^^xsd:string .
+
+fo:circuit11 a fo:Circuit ;
+    fo:hasAlt "264.0"^^xsd:float ;
+    fo:hasCircuitRef "hungaroring"^^xsd:string ;
+    fo:hasLat "47.5789"^^xsd:float ;
+    fo:hasLng "19.2486"^^xsd:float ;
+    fo:hasLocation fo:locationBudapest ;
+    fo:hasName "Hungaroring"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Hungaroring"^^xsd:string .
+
+fo:circuit12 a fo:Circuit ;
+    fo:hasAlt "4.0"^^xsd:float ;
+    fo:hasCircuitRef "valencia"^^xsd:string ;
+    fo:hasLat "39.4589"^^xsd:float ;
+    fo:hasLng "-0.331667"^^xsd:float ;
+    fo:hasLocation fo:locationValencia ;
+    fo:hasName "Valencia Street Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Valencia_Street_Circuit"^^xsd:string .
+
+fo:circuit13 a fo:Circuit ;
+    fo:hasAlt "401.0"^^xsd:float ;
+    fo:hasCircuitRef "spa"^^xsd:string ;
+    fo:hasLat "50.4372"^^xsd:float ;
+    fo:hasLng "5.97139"^^xsd:float ;
+    fo:hasLocation fo:locationSpa ;
+    fo:hasName "Circuit de Spa-Francorchamps"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps"^^xsd:string .
+
+fo:circuit14 a fo:Circuit ;
+    fo:hasAlt "162.0"^^xsd:float ;
+    fo:hasCircuitRef "monza"^^xsd:string ;
+    fo:hasLat "45.6156"^^xsd:float ;
+    fo:hasLng "9.28111"^^xsd:float ;
+    fo:hasLocation fo:locationMonza ;
+    fo:hasName "Autodromo Nazionale di Monza"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Autodromo_Nazionale_Monza"^^xsd:string .
+
+fo:circuit15 a fo:Circuit ;
+    fo:hasAlt "18.0"^^xsd:float ;
+    fo:hasCircuitRef "marina_bay"^^xsd:string ;
+    fo:hasLat "1.2914"^^xsd:float ;
+    fo:hasLng "103.864"^^xsd:float ;
+    fo:hasLocation fo:locationMarinaBay ;
+    fo:hasName "Marina Bay Street Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit"^^xsd:string .
+
+fo:circuit16 a fo:Circuit ;
+    fo:hasAlt "583.0"^^xsd:float ;
+    fo:hasCircuitRef "fuji"^^xsd:string ;
+    fo:hasLat "35.3717"^^xsd:float ;
+    fo:hasLng "138.927"^^xsd:float ;
+    fo:hasLocation fo:locationOyama ;
+    fo:hasName "Fuji Speedway"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Fuji_Speedway"^^xsd:string .
+
+fo:circuit17 a fo:Circuit ;
+    fo:hasAlt "5.0"^^xsd:float ;
+    fo:hasCircuitRef "shanghai"^^xsd:string ;
+    fo:hasLat "31.3389"^^xsd:float ;
+    fo:hasLng "121.22"^^xsd:float ;
+    fo:hasLocation fo:locationShanghai ;
+    fo:hasName "Shanghai International Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Shanghai_International_Circuit"^^xsd:string .
+
+fo:circuit18 a fo:Circuit ;
+    fo:hasAlt "785.0"^^xsd:float ;
+    fo:hasCircuitRef "interlagos"^^xsd:string ;
+    fo:hasLat "-23.7036"^^xsd:float ;
+    fo:hasLng "-46.6997"^^xsd:float ;
+    fo:hasLocation fo:locationSaoPaulo ;
+    fo:hasName "Autódromo José Carlos Pace"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace"^^xsd:string .
+
+fo:circuit19 a fo:Circuit ;
+    fo:hasAlt "223.0"^^xsd:float ;
+    fo:hasCircuitRef "indianapolis"^^xsd:string ;
+    fo:hasLat "39.795"^^xsd:float ;
+    fo:hasLng "-86.2347"^^xsd:float ;
+    fo:hasLocation fo:locationIndianapolis ;
+    fo:hasName "Indianapolis Motor Speedway"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway"^^xsd:string .
+
+fo:circuit2 a fo:Circuit ;
+    fo:hasAlt "18.0"^^xsd:float ;
+    fo:hasCircuitRef "sepang"^^xsd:string ;
+    fo:hasLat "2.76083"^^xsd:float ;
+    fo:hasLng "101.738"^^xsd:float ;
+    fo:hasLocation fo:locationKualaLumpur ;
+    fo:hasName "Sepang International Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Sepang_International_Circuit"^^xsd:string .
+
+fo:circuit20 a fo:Circuit ;
+    fo:hasAlt "578.0"^^xsd:float ;
+    fo:hasCircuitRef "nurburgring"^^xsd:string ;
+    fo:hasLat "50.3356"^^xsd:float ;
+    fo:hasLng "6.9475"^^xsd:float ;
+    fo:hasLocation fo:locationNurburg ;
+    fo:hasName "Nürburgring"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/N%C3%BCrburgring"^^xsd:string .
+
+fo:circuit21 a fo:Circuit ;
+    fo:hasAlt "37.0"^^xsd:float ;
+    fo:hasCircuitRef "imola"^^xsd:string ;
+    fo:hasLat "44.3439"^^xsd:float ;
+    fo:hasLng "11.7167"^^xsd:float ;
+    fo:hasLocation fo:locationImola ;
+    fo:hasName "Autodromo Enzo e Dino Ferrari"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Autodromo_Enzo_e_Dino_Ferrari"^^xsd:string .
+
+fo:circuit22 a fo:Circuit ;
+    fo:hasAlt "45.0"^^xsd:float ;
+    fo:hasCircuitRef "suzuka"^^xsd:string ;
+    fo:hasLat "34.8431"^^xsd:float ;
+    fo:hasLng "136.541"^^xsd:float ;
+    fo:hasLocation fo:locationSuzuka ;
+    fo:hasName "Suzuka Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Suzuka_Circuit"^^xsd:string .
+
+fo:circuit24 a fo:Circuit ;
+    fo:hasAlt "3.0"^^xsd:float ;
+    fo:hasCircuitRef "yas_marina"^^xsd:string ;
+    fo:hasLat "24.4672"^^xsd:float ;
+    fo:hasLng "54.6031"^^xsd:float ;
+    fo:hasLocation fo:locationAbuDhabi ;
+    fo:hasName "Yas Marina Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Yas_Marina_Circuit"^^xsd:string .
+
+fo:circuit25 a fo:Circuit ;
+    fo:hasAlt "8.0"^^xsd:float ;
+    fo:hasCircuitRef "galvez"^^xsd:string ;
+    fo:hasLat "-34.6943"^^xsd:float ;
+    fo:hasLng "-58.4593"^^xsd:float ;
+    fo:hasLocation fo:locationBuenosAires ;
+    fo:hasName "Autódromo Juan y Oscar Gálvez"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Oscar_Alfredo_G%C3%A1lvez"^^xsd:string .
+
+fo:circuit26 a fo:Circuit ;
+    fo:hasAlt "37.0"^^xsd:float ;
+    fo:hasCircuitRef "jerez"^^xsd:string ;
+    fo:hasLat "36.7083"^^xsd:float ;
+    fo:hasLng "-6.03417"^^xsd:float ;
+    fo:hasLocation fo:locationJerezdelaFrontera ;
+    fo:hasName "Circuito de Jerez"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Circuito_Permanente_de_Jerez"^^xsd:string .
+
+fo:circuit27 a fo:Circuit ;
+    fo:hasAlt "130.0"^^xsd:float ;
+    fo:hasCircuitRef "estoril"^^xsd:string ;
+    fo:hasLat "38.7506"^^xsd:float ;
+    fo:hasLng "-9.39417"^^xsd:float ;
+    fo:hasLocation fo:locationEstoril ;
+    fo:hasName "Autódromo do Estoril"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_do_Estoril"^^xsd:string .
+
+fo:circuit28 a fo:Circuit ;
+    fo:hasAlt "266.0"^^xsd:float ;
+    fo:hasCircuitRef "okayama"^^xsd:string ;
+    fo:hasLat "34.915"^^xsd:float ;
+    fo:hasLng "134.221"^^xsd:float ;
+    fo:hasLocation fo:locationOkayama ;
+    fo:hasName "Okayama International Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/TI_Circuit"^^xsd:string .
+
+fo:circuit29 a fo:Circuit ;
+    fo:hasAlt "58.0"^^xsd:float ;
+    fo:hasCircuitRef "adelaide"^^xsd:string ;
+    fo:hasLat "-34.9272"^^xsd:float ;
+    fo:hasLng "138.617"^^xsd:float ;
+    fo:hasLocation fo:locationAdelaide ;
+    fo:hasName "Adelaide Street Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Adelaide_Street_Circuit"^^xsd:string .
+
+fo:circuit3 a fo:Circuit ;
+    fo:hasAlt "7.0"^^xsd:float ;
+    fo:hasCircuitRef "bahrain"^^xsd:string ;
+    fo:hasLat "26.0325"^^xsd:float ;
+    fo:hasLng "50.5106"^^xsd:float ;
+    fo:hasLocation fo:locationSakhir ;
+    fo:hasName "Bahrain International Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Bahrain_International_Circuit"^^xsd:string .
+
+fo:circuit30 a fo:Circuit ;
+    fo:hasAlt "1460.0"^^xsd:float ;
+    fo:hasCircuitRef "kyalami"^^xsd:string ;
+    fo:hasLat "-25.9894"^^xsd:float ;
+    fo:hasLng "28.0767"^^xsd:float ;
+    fo:hasLocation fo:locationMidrand ;
+    fo:hasName "Kyalami"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Kyalami"^^xsd:string .
+
+fo:circuit31 a fo:Circuit ;
+    fo:hasAlt "88.0"^^xsd:float ;
+    fo:hasCircuitRef "donington"^^xsd:string ;
+    fo:hasLat "52.8306"^^xsd:float ;
+    fo:hasLng "-1.37528"^^xsd:float ;
+    fo:hasLocation fo:locationCastleDonington ;
+    fo:hasName "Donington Park"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Donington_Park"^^xsd:string .
+
+fo:circuit32 a fo:Circuit ;
+    fo:hasAlt "2227.0"^^xsd:float ;
+    fo:hasCircuitRef "rodriguez"^^xsd:string ;
+    fo:hasLat "19.4042"^^xsd:float ;
+    fo:hasLng "-99.0907"^^xsd:float ;
+    fo:hasLocation fo:locationMexicoCity ;
+    fo:hasName "Autódromo Hermanos Rodríguez"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez"^^xsd:string .
+
+fo:circuit33 a fo:Circuit ;
+    fo:hasAlt "345.0"^^xsd:float ;
+    fo:hasCircuitRef "phoenix"^^xsd:string ;
+    fo:hasLat "33.4479"^^xsd:float ;
+    fo:hasLng "-112.075"^^xsd:float ;
+    fo:hasLocation fo:locationPhoenix ;
+    fo:hasName "Phoenix street circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Phoenix_street_circuit"^^xsd:string .
+
+fo:circuit34 a fo:Circuit ;
+    fo:hasAlt "432.0"^^xsd:float ;
+    fo:hasCircuitRef "ricard"^^xsd:string ;
+    fo:hasLat "43.2506"^^xsd:float ;
+    fo:hasLng "5.79167"^^xsd:float ;
+    fo:hasLocation fo:locationLeCastellet ;
+    fo:hasName "Circuit Paul Ricard"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Paul_Ricard_Circuit"^^xsd:string .
+
+fo:circuit35 a fo:Circuit ;
+    fo:hasAlt "0.0"^^xsd:float ;
+    fo:hasCircuitRef "yeongam"^^xsd:string ;
+    fo:hasLat "34.7333"^^xsd:float ;
+    fo:hasLng "126.417"^^xsd:float ;
+    fo:hasLocation fo:locationYeongamCounty ;
+    fo:hasName "Korean International Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Korean_International_Circuit"^^xsd:string .
+
+fo:circuit36 a fo:Circuit ;
+    fo:hasAlt "1126.0"^^xsd:float ;
+    fo:hasCircuitRef "jacarepagua"^^xsd:string ;
+    fo:hasLat "-22.9756"^^xsd:float ;
+    fo:hasLng "-43.395"^^xsd:float ;
+    fo:hasLocation fo:locationRiodeJaneiro ;
+    fo:hasName "Autódromo Internacional Nelson Piquet"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_Nelson_Piquet"^^xsd:string .
+
+fo:circuit37 a fo:Circuit ;
+    fo:hasAlt "177.0"^^xsd:float ;
+    fo:hasCircuitRef "detroit"^^xsd:string ;
+    fo:hasLat "42.3298"^^xsd:float ;
+    fo:hasLng "-83.0401"^^xsd:float ;
+    fo:hasLocation fo:locationDetroit ;
+    fo:hasName "Detroit Street Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Detroit_street_circuit"^^xsd:string .
+
+fo:circuit38 a fo:Circuit ;
+    fo:hasAlt "145.0"^^xsd:float ;
+    fo:hasCircuitRef "brands_hatch"^^xsd:string ;
+    fo:hasLat "51.3569"^^xsd:float ;
+    fo:hasLng "0.263056"^^xsd:float ;
+    fo:hasLocation fo:locationKent ;
+    fo:hasName "Brands Hatch"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Brands_Hatch"^^xsd:string .
+
+fo:circuit39 a fo:Circuit ;
+    fo:hasAlt "6.0"^^xsd:float ;
+    fo:hasCircuitRef "zandvoort"^^xsd:string ;
+    fo:hasLat "52.3888"^^xsd:float ;
+    fo:hasLng "4.54092"^^xsd:float ;
+    fo:hasLocation fo:locationZandvoort ;
+    fo:hasName "Circuit Park Zandvoort"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Circuit_Zandvoort"^^xsd:string .
+
+fo:circuit4 a fo:Circuit ;
+    fo:hasAlt "109.0"^^xsd:float ;
+    fo:hasCircuitRef "catalunya"^^xsd:string ;
+    fo:hasLat "41.57"^^xsd:float ;
+    fo:hasLng "2.26111"^^xsd:float ;
+    fo:hasLocation fo:locationMontmelo ;
+    fo:hasName "Circuit de Barcelona-Catalunya"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya"^^xsd:string .
+
+fo:circuit40 a fo:Circuit ;
+    fo:hasAlt "36.0"^^xsd:float ;
+    fo:hasCircuitRef "zolder"^^xsd:string ;
+    fo:hasLat "50.9894"^^xsd:float ;
+    fo:hasLng "5.25694"^^xsd:float ;
+    fo:hasLocation fo:locationHeusden-Zolder ;
+    fo:hasName "Zolder"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Zolder"^^xsd:string .
+
+fo:circuit41 a fo:Circuit ;
+    fo:hasAlt "484.0"^^xsd:float ;
+    fo:hasCircuitRef "dijon"^^xsd:string ;
+    fo:hasLat "47.3625"^^xsd:float ;
+    fo:hasLng "4.89913"^^xsd:float ;
+    fo:hasLocation fo:locationDijon ;
+    fo:hasName "Dijon-Prenois"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Dijon-Prenois"^^xsd:string .
+
+fo:circuit42 a fo:Circuit ;
+    fo:hasAlt "139.0"^^xsd:float ;
+    fo:hasCircuitRef "dallas"^^xsd:string ;
+    fo:hasLat "32.7774"^^xsd:float ;
+    fo:hasLng "-96.7587"^^xsd:float ;
+    fo:hasLocation fo:locationDallas ;
+    fo:hasName "Fair Park"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Fair_Park"^^xsd:string .
+
+fo:circuit43 a fo:Circuit ;
+    fo:hasAlt "12.0"^^xsd:float ;
+    fo:hasCircuitRef "long_beach"^^xsd:string ;
+    fo:hasLat "33.7651"^^xsd:float ;
+    fo:hasLng "-118.189"^^xsd:float ;
+    fo:hasLocation fo:locationCalifornia ;
+    fo:hasName "Long Beach"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Long_Beach,_California"^^xsd:string .
+
+fo:circuit44 a fo:Circuit ;
+    fo:hasAlt "639.0"^^xsd:float ;
+    fo:hasCircuitRef "las_vegas"^^xsd:string ;
+    fo:hasLat "36.1162"^^xsd:float ;
+    fo:hasLng "-115.174"^^xsd:float ;
+    fo:hasLocation fo:locationNevada ;
+    fo:hasName "Las Vegas Street Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Las_Vegas_Street_Circuit"^^xsd:string .
+
+fo:circuit45 a fo:Circuit ;
+    fo:hasAlt "609.0"^^xsd:float ;
+    fo:hasCircuitRef "jarama"^^xsd:string ;
+    fo:hasLat "40.6171"^^xsd:float ;
+    fo:hasLng "-3.58558"^^xsd:float ;
+    fo:hasLocation fo:locationMadrid ;
+    fo:hasName "Jarama"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Circuito_Permanente_Del_Jarama"^^xsd:string .
+
+fo:circuit46 a fo:Circuit ;
+    fo:hasAlt "485.0"^^xsd:float ;
+    fo:hasCircuitRef "watkins_glen"^^xsd:string ;
+    fo:hasLat "42.3369"^^xsd:float ;
+    fo:hasLng "-76.9272"^^xsd:float ;
+    fo:hasLocation fo:locationNewYorkState ;
+    fo:hasName "Watkins Glen"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Watkins_Glen_International"^^xsd:string .
+
+fo:circuit47 a fo:Circuit ;
+    fo:hasAlt "153.0"^^xsd:float ;
+    fo:hasCircuitRef "anderstorp"^^xsd:string ;
+    fo:hasLat "57.2653"^^xsd:float ;
+    fo:hasLng "13.6042"^^xsd:float ;
+    fo:hasLocation fo:locationAnderstorp ;
+    fo:hasName "Scandinavian Raceway"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Scandinavian_Raceway"^^xsd:string .
+
+fo:circuit48 a fo:Circuit ;
+    fo:hasAlt "332.0"^^xsd:float ;
+    fo:hasCircuitRef "mosport"^^xsd:string ;
+    fo:hasLat "44.0481"^^xsd:float ;
+    fo:hasLng "-78.6756"^^xsd:float ;
+    fo:hasLocation fo:locationOntario ;
+    fo:hasName "Mosport International Raceway"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Mosport"^^xsd:string .
+
+fo:circuit49 a fo:Circuit ;
+    fo:hasAlt "79.0"^^xsd:float ;
+    fo:hasCircuitRef "montjuic"^^xsd:string ;
+    fo:hasLat "41.3664"^^xsd:float ;
+    fo:hasLng "2.15167"^^xsd:float ;
+    fo:hasLocation fo:locationBarcelona ;
+    fo:hasName "Montjuïc"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Montju%C3%AFc_circuit"^^xsd:string .
+
+fo:circuit5 a fo:Circuit ;
+    fo:hasAlt "130.0"^^xsd:float ;
+    fo:hasCircuitRef "istanbul"^^xsd:string ;
+    fo:hasLat "40.9517"^^xsd:float ;
+    fo:hasLng "29.405"^^xsd:float ;
+    fo:hasLocation fo:locationIstanbul ;
+    fo:hasName "Istanbul Park"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Istanbul_Park"^^xsd:string .
+
+fo:circuit50 a fo:Circuit ;
+    fo:hasAlt "139.0"^^xsd:float ;
+    fo:hasCircuitRef "nivelles"^^xsd:string ;
+    fo:hasLat "50.6211"^^xsd:float ;
+    fo:hasLng "4.32694"^^xsd:float ;
+    fo:hasLocation fo:locationBrussels ;
+    fo:hasName "Nivelles-Baulers"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Nivelles-Baulers"^^xsd:string .
+
+fo:circuit51 a fo:Circuit ;
+    fo:hasAlt "790.0"^^xsd:float ;
+    fo:hasCircuitRef "charade"^^xsd:string ;
+    fo:hasLat "45.7472"^^xsd:float ;
+    fo:hasLng "3.03889"^^xsd:float ;
+    fo:hasLocation fo:locationClermont-Ferrand ;
+    fo:hasName "Charade Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Charade_Circuit"^^xsd:string .
+
+fo:circuit52 a fo:Circuit ;
+    fo:hasAlt "214.0"^^xsd:float ;
+    fo:hasCircuitRef "tremblant"^^xsd:string ;
+    fo:hasLat "46.1877"^^xsd:float ;
+    fo:hasLng "-74.6099"^^xsd:float ;
+    fo:hasLocation fo:locationQuebec ;
+    fo:hasName "Circuit Mont-Tremblant"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Circuit_Mont-Tremblant"^^xsd:string .
+
+fo:circuit53 a fo:Circuit ;
+    fo:hasAlt "81.0"^^xsd:float ;
+    fo:hasCircuitRef "essarts"^^xsd:string ;
+    fo:hasLat "49.3306"^^xsd:float ;
+    fo:hasLng "1.00458"^^xsd:float ;
+    fo:hasLocation fo:locationRouen ;
+    fo:hasName "Rouen-Les-Essarts"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Rouen-Les-Essarts"^^xsd:string .
+
+fo:circuit54 a fo:Circuit ;
+    fo:hasAlt "67.0"^^xsd:float ;
+    fo:hasCircuitRef "lemans"^^xsd:string ;
+    fo:hasLat "47.95"^^xsd:float ;
+    fo:hasLng "0.224231"^^xsd:float ;
+    fo:hasLocation fo:locationLeMans ;
+    fo:hasName "Le Mans"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Circuit_de_la_Sarthe#Bugatti_Circuit"^^xsd:string .
+
+fo:circuit55 a fo:Circuit ;
+    fo:hasAlt "88.0"^^xsd:float ;
+    fo:hasCircuitRef "reims"^^xsd:string ;
+    fo:hasLat "49.2542"^^xsd:float ;
+    fo:hasLng "3.93083"^^xsd:float ;
+    fo:hasLocation fo:locationReims ;
+    fo:hasName "Reims-Gueux"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Reims-Gueux"^^xsd:string .
+
+fo:circuit56 a fo:Circuit ;
+    fo:hasAlt "15.0"^^xsd:float ;
+    fo:hasCircuitRef "george"^^xsd:string ;
+    fo:hasLat "-33.0486"^^xsd:float ;
+    fo:hasLng "27.8736"^^xsd:float ;
+    fo:hasLocation fo:locationEasternCapeProvince ;
+    fo:hasName "Prince George Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Prince_George_Circuit"^^xsd:string .
+
+fo:circuit57 a fo:Circuit ;
+    fo:hasAlt "676.0"^^xsd:float ;
+    fo:hasCircuitRef "zeltweg"^^xsd:string ;
+    fo:hasLat "47.2039"^^xsd:float ;
+    fo:hasLng "14.7478"^^xsd:float ;
+    fo:hasLocation fo:locationStyria ;
+    fo:hasName "Zeltweg"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Zeltweg_Airfield"^^xsd:string .
+
+fo:circuit58 a fo:Circuit ;
+    fo:hasAlt "20.0"^^xsd:float ;
+    fo:hasCircuitRef "aintree"^^xsd:string ;
+    fo:hasLat "53.4769"^^xsd:float ;
+    fo:hasLng "-2.94056"^^xsd:float ;
+    fo:hasLocation fo:locationLiverpool ;
+    fo:hasName "Aintree"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Aintree_Motor_Racing_Circuit"^^xsd:string .
+
+fo:circuit59 a fo:Circuit ;
+    fo:hasAlt "28.0"^^xsd:float ;
+    fo:hasCircuitRef "boavista"^^xsd:string ;
+    fo:hasLat "41.1705"^^xsd:float ;
+    fo:hasLng "-8.67325"^^xsd:float ;
+    fo:hasLocation fo:locationOporto ;
+    fo:hasName "Circuito da Boavista"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Circuito_da_Boavista"^^xsd:string .
+
+fo:circuit6 a fo:Circuit ;
+    fo:hasAlt "7.0"^^xsd:float ;
+    fo:hasCircuitRef "monaco"^^xsd:string ;
+    fo:hasLat "43.7347"^^xsd:float ;
+    fo:hasLng "7.42056"^^xsd:float ;
+    fo:hasLocation fo:locationMonte-Carlo ;
+    fo:hasName "Circuit de Monaco"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Circuit_de_Monaco"^^xsd:string .
+
+fo:circuit60 a fo:Circuit ;
+    fo:hasAlt "470.0"^^xsd:float ;
+    fo:hasCircuitRef "riverside"^^xsd:string ;
+    fo:hasLat "33.937"^^xsd:float ;
+    fo:hasLng "-117.273"^^xsd:float ;
+    fo:hasLocation fo:locationCalifornia ;
+    fo:hasName "Riverside International Raceway"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Riverside_International_Raceway"^^xsd:string .
+
+fo:circuit61 a fo:Circuit ;
+    fo:hasAlt "53.0"^^xsd:float ;
+    fo:hasCircuitRef "avus"^^xsd:string ;
+    fo:hasLat "52.4806"^^xsd:float ;
+    fo:hasLng "13.2514"^^xsd:float ;
+    fo:hasLocation fo:locationBerlin ;
+    fo:hasName "AVUS"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/AVUS"^^xsd:string .
+
+fo:circuit62 a fo:Circuit ;
+    fo:hasAlt "158.0"^^xsd:float ;
+    fo:hasCircuitRef "monsanto"^^xsd:string ;
+    fo:hasLat "38.7197"^^xsd:float ;
+    fo:hasLng "-9.20306"^^xsd:float ;
+    fo:hasLocation fo:locationLisbon ;
+    fo:hasName "Monsanto Park Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Monsanto_Park_Circuit"^^xsd:string .
+
+fo:circuit63 a fo:Circuit ;
+    fo:hasAlt "18.0"^^xsd:float ;
+    fo:hasCircuitRef "sebring"^^xsd:string ;
+    fo:hasLat "27.4547"^^xsd:float ;
+    fo:hasLng "-81.3483"^^xsd:float ;
+    fo:hasLocation fo:locationFlorida ;
+    fo:hasName "Sebring International Raceway"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Sebring_Raceway"^^xsd:string .
+
+fo:circuit64 a fo:Circuit ;
+    fo:hasAlt "19.0"^^xsd:float ;
+    fo:hasCircuitRef "ain-diab"^^xsd:string ;
+    fo:hasLat "33.5786"^^xsd:float ;
+    fo:hasLng "-7.6875"^^xsd:float ;
+    fo:hasLocation fo:locationCasablanca ;
+    fo:hasName "Ain Diab"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Ain-Diab_Circuit"^^xsd:string .
+
+fo:circuit65 a fo:Circuit ;
+    fo:hasAlt "129.0"^^xsd:float ;
+    fo:hasCircuitRef "pescara"^^xsd:string ;
+    fo:hasLat "42.475"^^xsd:float ;
+    fo:hasLng "14.1508"^^xsd:float ;
+    fo:hasLocation fo:locationPescara ;
+    fo:hasName "Pescara Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Pescara_Circuit"^^xsd:string .
+
+fo:circuit66 a fo:Circuit ;
+    fo:hasAlt "551.0"^^xsd:float ;
+    fo:hasCircuitRef "bremgarten"^^xsd:string ;
+    fo:hasLat "46.9589"^^xsd:float ;
+    fo:hasLng "7.40194"^^xsd:float ;
+    fo:hasLocation fo:locationBern ;
+    fo:hasName "Circuit Bremgarten"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Circuit_Bremgarten"^^xsd:string .
+
+fo:circuit67 a fo:Circuit ;
+    fo:hasAlt "85.0"^^xsd:float ;
+    fo:hasCircuitRef "pedralbes"^^xsd:string ;
+    fo:hasLat "41.3903"^^xsd:float ;
+    fo:hasLng "2.11667"^^xsd:float ;
+    fo:hasLocation fo:locationBarcelona ;
+    fo:hasName "Circuit de Pedralbes"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Pedralbes_Circuit"^^xsd:string .
+
+fo:circuit68 a fo:Circuit ;
+    fo:hasAlt "194.0"^^xsd:float ;
+    fo:hasCircuitRef "buddh"^^xsd:string ;
+    fo:hasLat "28.3487"^^xsd:float ;
+    fo:hasLng "77.5331"^^xsd:float ;
+    fo:hasLocation fo:locationUttarPradesh ;
+    fo:hasName "Buddh International Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Buddh_International_Circuit"^^xsd:string .
+
+fo:circuit69 a fo:Circuit ;
+    fo:hasAlt "161.0"^^xsd:float ;
+    fo:hasCircuitRef "americas"^^xsd:string ;
+    fo:hasLat "30.1328"^^xsd:float ;
+    fo:hasLng "-97.6411"^^xsd:float ;
+    fo:hasLocation fo:locationAustin ;
+    fo:hasName "Circuit of the Americas"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Circuit_of_the_Americas"^^xsd:string .
+
+fo:circuit7 a fo:Circuit ;
+    fo:hasAlt "13.0"^^xsd:float ;
+    fo:hasCircuitRef "villeneuve"^^xsd:string ;
+    fo:hasLat "45.5"^^xsd:float ;
+    fo:hasLng "-73.5228"^^xsd:float ;
+    fo:hasLocation fo:locationMontreal ;
+    fo:hasName "Circuit Gilles Villeneuve"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve"^^xsd:string .
+
+fo:circuit70 a fo:Circuit ;
+    fo:hasAlt "678.0"^^xsd:float ;
+    fo:hasCircuitRef "red_bull_ring"^^xsd:string ;
+    fo:hasLat "47.2197"^^xsd:float ;
+    fo:hasLng "14.7647"^^xsd:float ;
+    fo:hasLocation fo:locationSpielberg ;
+    fo:hasName "Red Bull Ring"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Red_Bull_Ring"^^xsd:string .
+
+fo:circuit71 a fo:Circuit ;
+    fo:hasAlt "2.0"^^xsd:float ;
+    fo:hasCircuitRef "sochi"^^xsd:string ;
+    fo:hasLat "43.4057"^^xsd:float ;
+    fo:hasLng "39.9578"^^xsd:float ;
+    fo:hasLocation fo:locationSochi ;
+    fo:hasName "Sochi Autodrom"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Sochi_Autodrom"^^xsd:string .
+
+fo:circuit73 a fo:Circuit ;
+    fo:hasAlt "-7.0"^^xsd:float ;
+    fo:hasCircuitRef "baku"^^xsd:string ;
+    fo:hasLat "40.3725"^^xsd:float ;
+    fo:hasLng "49.8533"^^xsd:float ;
+    fo:hasLocation fo:locationBaku ;
+    fo:hasName "Baku City Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Baku_City_Circuit"^^xsd:string .
+
+fo:circuit75 a fo:Circuit ;
+    fo:hasAlt "108.0"^^xsd:float ;
+    fo:hasCircuitRef "portimao"^^xsd:string ;
+    fo:hasLat "37.227"^^xsd:float ;
+    fo:hasLng "-8.6267"^^xsd:float ;
+    fo:hasLocation fo:locationPortimao ;
+    fo:hasName "Autódromo Internacional do Algarve"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Algarve_International_Circuit"^^xsd:string .
+
+fo:circuit76 a fo:Circuit ;
+    fo:hasAlt "255.0"^^xsd:float ;
+    fo:hasCircuitRef "mugello"^^xsd:string ;
+    fo:hasLat "43.9975"^^xsd:float ;
+    fo:hasLng "11.3719"^^xsd:float ;
+    fo:hasLocation fo:locationMugello ;
+    fo:hasName "Autodromo Internazionale del Mugello"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Mugello_Circuit"^^xsd:string .
+
+fo:circuit77 a fo:Circuit ;
+    fo:hasAlt "15.0"^^xsd:float ;
+    fo:hasCircuitRef "jeddah"^^xsd:string ;
+    fo:hasLat "21.6319"^^xsd:float ;
+    fo:hasLng "39.1044"^^xsd:float ;
+    fo:hasLocation fo:locationJeddah ;
+    fo:hasName "Jeddah Corniche Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Jeddah_Street_Circuit"^^xsd:string .
+
+fo:circuit78 a fo:Circuit ;
+    fo:hasCircuitRef "losail"^^xsd:string ;
+    fo:hasLat "25.49"^^xsd:float ;
+    fo:hasLng "51.4542"^^xsd:float ;
+    fo:hasLocation fo:locationAlDaayen ;
+    fo:hasName "Losail International Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Losail_International_Circuit"^^xsd:string .
+
+fo:circuit79 a fo:Circuit ;
+    fo:hasCircuitRef "miami"^^xsd:string ;
+    fo:hasLat "25.9581"^^xsd:float ;
+    fo:hasLng "-80.2389"^^xsd:float ;
+    fo:hasLocation fo:locationMiami ;
+    fo:hasName "Miami International Autodrome"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Miami_International_Autodrome"^^xsd:string .
+
+fo:circuit8 a fo:Circuit ;
+    fo:hasAlt "228.0"^^xsd:float ;
+    fo:hasCircuitRef "magny_cours"^^xsd:string ;
+    fo:hasLat "46.8642"^^xsd:float ;
+    fo:hasLng "3.16361"^^xsd:float ;
+    fo:hasLocation fo:locationMagnyCours ;
+    fo:hasName "Circuit de Nevers Magny-Cours"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Circuit_de_Nevers_Magny-Cours"^^xsd:string .
+
+fo:circuit80 a fo:Circuit ;
+    fo:hasCircuitRef "vegas"^^xsd:string ;
+    fo:hasLat "36.1147"^^xsd:float ;
+    fo:hasLng "-115.173"^^xsd:float ;
+    fo:hasLocation fo:locationLasVegas ;
+    fo:hasName "Las Vegas Strip Street Circuit"^^xsd:string ;
+    fo:hasURL "https://en.wikipedia.org/wiki/Las_Vegas_Grand_Prix#Circuit"^^xsd:string .
+
+fo:circuit9 a fo:Circuit ;
+    fo:hasAlt "153.0"^^xsd:float ;
+    fo:hasCircuitRef "silverstone"^^xsd:string ;
+    fo:hasLat "52.0786"^^xsd:float ;
+    fo:hasLng "-1.01694"^^xsd:float ;
+    fo:hasLocation fo:locationSilverstone ;
+    fo:hasName "Silverstone Circuit"^^xsd:string ;
+    fo:hasURL "http://en.wikipedia.org/wiki/Silverstone_Circuit"^^xsd:string .
+
+fo:locationAbuDhabi a fo:Location ;
+    fo:hasCountry countries:ae .
+
+fo:locationAdelaide a fo:Location ;
+    fo:hasCountry countries:au .
+
+fo:locationAlDaayen a fo:Location ;
+    fo:hasCountry countries:qa .
+
+fo:locationAnderstorp a fo:Location ;
+    fo:hasCountry countries:se .
+
+fo:locationAustin a fo:Location ;
+    fo:hasCountry countries:us .
+
+fo:locationBaku a fo:Location ;
+    fo:hasCountry countries:az .
+
+fo:locationBerlin a fo:Location ;
+    fo:hasCountry countries:de .
+
+fo:locationBern a fo:Location ;
+    fo:hasCountry countries:ch .
+
+fo:locationBrussels a fo:Location ;
+    fo:hasCountry countries:be .
+
+fo:locationBudapest a fo:Location ;
+    fo:hasCountry countries:hu .
+
+fo:locationBuenosAires a fo:Location ;
+    fo:hasCountry countries:ar .
+
+fo:locationCasablanca a fo:Location ;
+    fo:hasCountry countries:ma .
+
+fo:locationCastleDonington a fo:Location ;
+    fo:hasCountry countries:gb .
+
+fo:locationClermont-Ferrand a fo:Location ;
+    fo:hasCountry countries:fr .
+
+fo:locationDallas a fo:Location ;
+    fo:hasCountry countries:us .
+
+fo:locationDetroit a fo:Location ;
+    fo:hasCountry countries:us .
+
+fo:locationDijon a fo:Location ;
+    fo:hasCountry countries:fr .
+
+fo:locationEasternCapeProvince a fo:Location ;
+    fo:hasCountry countries:za .
+
+fo:locationEstoril a fo:Location ;
+    fo:hasCountry countries:pt .
+
+fo:locationFlorida a fo:Location ;
+    fo:hasCountry countries:us .
+
+fo:locationHeusden-Zolder a fo:Location ;
+    fo:hasCountry countries:be .
+
+fo:locationHockenheim a fo:Location ;
+    fo:hasCountry countries:de .
+
+fo:locationImola a fo:Location ;
+    fo:hasCountry countries:it .
+
+fo:locationIndianapolis a fo:Location ;
+    fo:hasCountry countries:us .
+
+fo:locationIstanbul a fo:Location ;
+    fo:hasCountry countries:tr .
+
+fo:locationJeddah a fo:Location ;
+    fo:hasCountry countries:sa .
+
+fo:locationJerezdelaFrontera a fo:Location ;
+    fo:hasCountry countries:es .
+
+fo:locationKent a fo:Location ;
+    fo:hasCountry countries:gb .
+
+fo:locationKualaLumpur a fo:Location ;
+    fo:hasCountry countries:my .
+
+fo:locationLasVegas a fo:Location ;
+    fo:hasCountry countries:us .
+
+fo:locationLeCastellet a fo:Location ;
+    fo:hasCountry countries:fr .
+
+fo:locationLeMans a fo:Location ;
+    fo:hasCountry countries:fr .
+
+fo:locationLisbon a fo:Location ;
+    fo:hasCountry countries:pt .
+
+fo:locationLiverpool a fo:Location ;
+    fo:hasCountry countries:gb .
+
+fo:locationMadrid a fo:Location ;
+    fo:hasCountry countries:es .
+
+fo:locationMagnyCours a fo:Location ;
+    fo:hasCountry countries:fr .
+
+fo:locationMarinaBay a fo:Location ;
+    fo:hasCountry countries:sg .
+
+fo:locationMelbourne a fo:Location ;
+    fo:hasCountry countries:au .
+
+fo:locationMexicoCity a fo:Location ;
+    fo:hasCountry countries:mx .
+
+fo:locationMiami a fo:Location ;
+    fo:hasCountry countries:us .
+
+fo:locationMidrand a fo:Location ;
+    fo:hasCountry countries:za .
+
+fo:locationMonte-Carlo a fo:Location ;
+    fo:hasCountry countries:mc .
+
+fo:locationMontmelo a fo:Location ;
+    fo:hasCountry countries:es .
+
+fo:locationMontreal a fo:Location ;
+    fo:hasCountry countries:ca .
+
+fo:locationMonza a fo:Location ;
+    fo:hasCountry countries:it .
+
+fo:locationMugello a fo:Location ;
+    fo:hasCountry countries:it .
+
+fo:locationNevada a fo:Location ;
+    fo:hasCountry countries:us .
+
+fo:locationNewYorkState a fo:Location ;
+    fo:hasCountry countries:us .
+
+fo:locationNurburg a fo:Location ;
+    fo:hasCountry countries:de .
+
+fo:locationOkayama a fo:Location ;
+    fo:hasCountry countries:jp .
+
+fo:locationOntario a fo:Location ;
+    fo:hasCountry countries:ca .
+
+fo:locationOporto a fo:Location ;
+    fo:hasCountry countries:pt .
+
+fo:locationOyama a fo:Location ;
+    fo:hasCountry countries:jp .
+
+fo:locationPescara a fo:Location ;
+    fo:hasCountry countries:it .
+
+fo:locationPhoenix a fo:Location ;
+    fo:hasCountry countries:us .
+
+fo:locationPortimao a fo:Location ;
+    fo:hasCountry countries:pt .
+
+fo:locationQuebec a fo:Location ;
+    fo:hasCountry countries:ca .
+
+fo:locationReims a fo:Location ;
+    fo:hasCountry countries:fr .
+
+fo:locationRiodeJaneiro a fo:Location ;
+    fo:hasCountry countries:br .
+
+fo:locationRouen a fo:Location ;
+    fo:hasCountry countries:fr .
+
+fo:locationSakhir a fo:Location ;
+    fo:hasCountry countries:bh .
+
+fo:locationSaoPaulo a fo:Location ;
+    fo:hasCountry countries:br .
+
+fo:locationShanghai a fo:Location ;
+    fo:hasCountry countries:cn .
+
+fo:locationSilverstone a fo:Location ;
+    fo:hasCountry countries:gb .
+
+fo:locationSochi a fo:Location ;
+    fo:hasCountry countries:ru .
+
+fo:locationSpa a fo:Location ;
+    fo:hasCountry countries:be .
+
+fo:locationSpielberg a fo:Location ;
+    fo:hasCountry countries:at .
+
+fo:locationStyria a fo:Location ;
+    fo:hasCountry countries:at .
+
+fo:locationSuzuka a fo:Location ;
+    fo:hasCountry countries:jp .
+
+fo:locationUttarPradesh a fo:Location ;
+    fo:hasCountry countries:in .
+
+fo:locationValencia a fo:Location ;
+    fo:hasCountry countries:es .
+
+fo:locationYeongamCounty a fo:Location ;
+    fo:hasCountry countries:kr .
+
+fo:locationZandvoort a fo:Location ;
+    fo:hasCountry countries:nl .
+
+fo:locationBarcelona a fo:Location ;
+    fo:hasCountry countries:es .
+
+fo:locationCalifornia a fo:Location ;
+    fo:hasCountry countries:us .
+

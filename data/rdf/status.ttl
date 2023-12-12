@@ -1,0 +1,420 @@
+@prefix fo: <https://www.dei.unipd.it/db2/groupProject/FASTianF1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fo:status1 a fo:Status ;
+    fo:hasName "Finished"^^xsd:string .
+
+fo:status10 a fo:Status ;
+    fo:hasName "Electrical"^^xsd:string .
+
+fo:status100 a fo:Status ;
+    fo:hasName "Driver unwell"^^xsd:string .
+
+fo:status101 a fo:Status ;
+    fo:hasName "Turbo"^^xsd:string .
+
+fo:status102 a fo:Status ;
+    fo:hasName "CV joint"^^xsd:string .
+
+fo:status103 a fo:Status ;
+    fo:hasName "Water pump"^^xsd:string .
+
+fo:status104 a fo:Status ;
+    fo:hasName "Fatal accident"^^xsd:string .
+
+fo:status105 a fo:Status ;
+    fo:hasName "Spark plugs"^^xsd:string .
+
+fo:status106 a fo:Status ;
+    fo:hasName "Fuel pipe"^^xsd:string .
+
+fo:status107 a fo:Status ;
+    fo:hasName "Eye injury"^^xsd:string .
+
+fo:status108 a fo:Status ;
+    fo:hasName "Oil pipe"^^xsd:string .
+
+fo:status109 a fo:Status ;
+    fo:hasName "Axle"^^xsd:string .
+
+fo:status11 a fo:Status ;
+    fo:hasName "+1 Lap"^^xsd:string .
+
+fo:status110 a fo:Status ;
+    fo:hasName "Water pipe"^^xsd:string .
+
+fo:status111 a fo:Status ;
+    fo:hasName "+14 Laps"^^xsd:string .
+
+fo:status112 a fo:Status ;
+    fo:hasName "+15 Laps"^^xsd:string .
+
+fo:status113 a fo:Status ;
+    fo:hasName "+25 Laps"^^xsd:string .
+
+fo:status114 a fo:Status ;
+    fo:hasName "+18 Laps"^^xsd:string .
+
+fo:status115 a fo:Status ;
+    fo:hasName "+22 Laps"^^xsd:string .
+
+fo:status116 a fo:Status ;
+    fo:hasName "+16 Laps"^^xsd:string .
+
+fo:status117 a fo:Status ;
+    fo:hasName "+24 Laps"^^xsd:string .
+
+fo:status118 a fo:Status ;
+    fo:hasName "+29 Laps"^^xsd:string .
+
+fo:status119 a fo:Status ;
+    fo:hasName "+23 Laps"^^xsd:string .
+
+fo:status12 a fo:Status ;
+    fo:hasName "+2 Laps"^^xsd:string .
+
+fo:status120 a fo:Status ;
+    fo:hasName "+21 Laps"^^xsd:string .
+
+fo:status121 a fo:Status ;
+    fo:hasName "Magneto"^^xsd:string .
+
+fo:status122 a fo:Status ;
+    fo:hasName "+44 Laps"^^xsd:string .
+
+fo:status123 a fo:Status ;
+    fo:hasName "+30 Laps"^^xsd:string .
+
+fo:status124 a fo:Status ;
+    fo:hasName "+19 Laps"^^xsd:string .
+
+fo:status125 a fo:Status ;
+    fo:hasName "+46 Laps"^^xsd:string .
+
+fo:status126 a fo:Status ;
+    fo:hasName "Supercharger"^^xsd:string .
+
+fo:status127 a fo:Status ;
+    fo:hasName "+20 Laps"^^xsd:string .
+
+fo:status128 a fo:Status ;
+    fo:hasName "+42 Laps"^^xsd:string .
+
+fo:status129 a fo:Status ;
+    fo:hasName "Engine misfire"^^xsd:string .
+
+fo:status13 a fo:Status ;
+    fo:hasName "+3 Laps"^^xsd:string .
+
+fo:status130 a fo:Status ;
+    fo:hasName "Collision damage"^^xsd:string .
+
+fo:status131 a fo:Status ;
+    fo:hasName "Power Unit"^^xsd:string .
+
+fo:status132 a fo:Status ;
+    fo:hasName "ERS"^^xsd:string .
+
+fo:status133 a fo:Status ;
+    fo:hasName "+49 Laps"^^xsd:string .
+
+fo:status134 a fo:Status ;
+    fo:hasName "+38 Laps"^^xsd:string .
+
+fo:status135 a fo:Status ;
+    fo:hasName "Brake duct"^^xsd:string .
+
+fo:status136 a fo:Status ;
+    fo:hasName "Seat"^^xsd:string .
+
+fo:status137 a fo:Status ;
+    fo:hasName "Damage"^^xsd:string .
+
+fo:status138 a fo:Status ;
+    fo:hasName "Debris"^^xsd:string .
+
+fo:status139 a fo:Status ;
+    fo:hasName "Illness"^^xsd:string .
+
+fo:status14 a fo:Status ;
+    fo:hasName "+4 Laps"^^xsd:string .
+
+fo:status140 a fo:Status ;
+    fo:hasName "Undertray"^^xsd:string .
+
+fo:status141 a fo:Status ;
+    fo:hasName "Cooling system"^^xsd:string .
+
+fo:status15 a fo:Status ;
+    fo:hasName "+5 Laps"^^xsd:string .
+
+fo:status16 a fo:Status ;
+    fo:hasName "+6 Laps"^^xsd:string .
+
+fo:status17 a fo:Status ;
+    fo:hasName "+7 Laps"^^xsd:string .
+
+fo:status18 a fo:Status ;
+    fo:hasName "+8 Laps"^^xsd:string .
+
+fo:status19 a fo:Status ;
+    fo:hasName "+9 Laps"^^xsd:string .
+
+fo:status2 a fo:Status ;
+    fo:hasName "Disqualified"^^xsd:string .
+
+fo:status20 a fo:Status ;
+    fo:hasName "Spun off"^^xsd:string .
+
+fo:status21 a fo:Status ;
+    fo:hasName "Radiator"^^xsd:string .
+
+fo:status22 a fo:Status ;
+    fo:hasName "Suspension"^^xsd:string .
+
+fo:status23 a fo:Status ;
+    fo:hasName "Brakes"^^xsd:string .
+
+fo:status24 a fo:Status ;
+    fo:hasName "Differential"^^xsd:string .
+
+fo:status25 a fo:Status ;
+    fo:hasName "Overheating"^^xsd:string .
+
+fo:status26 a fo:Status ;
+    fo:hasName "Mechanical"^^xsd:string .
+
+fo:status27 a fo:Status ;
+    fo:hasName "Tyre"^^xsd:string .
+
+fo:status28 a fo:Status ;
+    fo:hasName "Driver Seat"^^xsd:string .
+
+fo:status29 a fo:Status ;
+    fo:hasName "Puncture"^^xsd:string .
+
+fo:status3 a fo:Status ;
+    fo:hasName "Accident"^^xsd:string .
+
+fo:status30 a fo:Status ;
+    fo:hasName "Driveshaft"^^xsd:string .
+
+fo:status31 a fo:Status ;
+    fo:hasName "Retired"^^xsd:string .
+
+fo:status32 a fo:Status ;
+    fo:hasName "Fuel pressure"^^xsd:string .
+
+fo:status33 a fo:Status ;
+    fo:hasName "Front wing"^^xsd:string .
+
+fo:status34 a fo:Status ;
+    fo:hasName "Water pressure"^^xsd:string .
+
+fo:status35 a fo:Status ;
+    fo:hasName "Refuelling"^^xsd:string .
+
+fo:status36 a fo:Status ;
+    fo:hasName "Wheel"^^xsd:string .
+
+fo:status37 a fo:Status ;
+    fo:hasName "Throttle"^^xsd:string .
+
+fo:status38 a fo:Status ;
+    fo:hasName "Steering"^^xsd:string .
+
+fo:status39 a fo:Status ;
+    fo:hasName "Technical"^^xsd:string .
+
+fo:status4 a fo:Status ;
+    fo:hasName "Collision"^^xsd:string .
+
+fo:status40 a fo:Status ;
+    fo:hasName "Electronics"^^xsd:string .
+
+fo:status41 a fo:Status ;
+    fo:hasName "Broken wing"^^xsd:string .
+
+fo:status42 a fo:Status ;
+    fo:hasName "Heat shield fire"^^xsd:string .
+
+fo:status43 a fo:Status ;
+    fo:hasName "Exhaust"^^xsd:string .
+
+fo:status44 a fo:Status ;
+    fo:hasName "Oil leak"^^xsd:string .
+
+fo:status45 a fo:Status ;
+    fo:hasName "+11 Laps"^^xsd:string .
+
+fo:status46 a fo:Status ;
+    fo:hasName "Wheel rim"^^xsd:string .
+
+fo:status47 a fo:Status ;
+    fo:hasName "Water leak"^^xsd:string .
+
+fo:status48 a fo:Status ;
+    fo:hasName "Fuel pump"^^xsd:string .
+
+fo:status49 a fo:Status ;
+    fo:hasName "Track rod"^^xsd:string .
+
+fo:status5 a fo:Status ;
+    fo:hasName "Engine"^^xsd:string .
+
+fo:status50 a fo:Status ;
+    fo:hasName "+17 Laps"^^xsd:string .
+
+fo:status51 a fo:Status ;
+    fo:hasName "Oil pressure"^^xsd:string .
+
+fo:status53 a fo:Status ;
+    fo:hasName "+13 Laps"^^xsd:string .
+
+fo:status54 a fo:Status ;
+    fo:hasName "Withdrew"^^xsd:string .
+
+fo:status55 a fo:Status ;
+    fo:hasName "+12 Laps"^^xsd:string .
+
+fo:status56 a fo:Status ;
+    fo:hasName "Engine fire"^^xsd:string .
+
+fo:status58 a fo:Status ;
+    fo:hasName "+26 Laps"^^xsd:string .
+
+fo:status59 a fo:Status ;
+    fo:hasName "Tyre puncture"^^xsd:string .
+
+fo:status6 a fo:Status ;
+    fo:hasName "Gearbox"^^xsd:string .
+
+fo:status60 a fo:Status ;
+    fo:hasName "Out of fuel"^^xsd:string .
+
+fo:status61 a fo:Status ;
+    fo:hasName "Wheel nut"^^xsd:string .
+
+fo:status62 a fo:Status ;
+    fo:hasName "Not classified"^^xsd:string .
+
+fo:status63 a fo:Status ;
+    fo:hasName "Pneumatics"^^xsd:string .
+
+fo:status64 a fo:Status ;
+    fo:hasName "Handling"^^xsd:string .
+
+fo:status65 a fo:Status ;
+    fo:hasName "Rear wing"^^xsd:string .
+
+fo:status66 a fo:Status ;
+    fo:hasName "Fire"^^xsd:string .
+
+fo:status67 a fo:Status ;
+    fo:hasName "Wheel bearing"^^xsd:string .
+
+fo:status68 a fo:Status ;
+    fo:hasName "Physical"^^xsd:string .
+
+fo:status69 a fo:Status ;
+    fo:hasName "Fuel system"^^xsd:string .
+
+fo:status7 a fo:Status ;
+    fo:hasName "Transmission"^^xsd:string .
+
+fo:status70 a fo:Status ;
+    fo:hasName "Oil line"^^xsd:string .
+
+fo:status71 a fo:Status ;
+    fo:hasName "Fuel rig"^^xsd:string .
+
+fo:status72 a fo:Status ;
+    fo:hasName "Launch control"^^xsd:string .
+
+fo:status73 a fo:Status ;
+    fo:hasName "Injured"^^xsd:string .
+
+fo:status74 a fo:Status ;
+    fo:hasName "Fuel"^^xsd:string .
+
+fo:status75 a fo:Status ;
+    fo:hasName "Power loss"^^xsd:string .
+
+fo:status76 a fo:Status ;
+    fo:hasName "Vibrations"^^xsd:string .
+
+fo:status77 a fo:Status ;
+    fo:hasName "107% Rule"^^xsd:string .
+
+fo:status78 a fo:Status ;
+    fo:hasName "Safety"^^xsd:string .
+
+fo:status79 a fo:Status ;
+    fo:hasName "Drivetrain"^^xsd:string .
+
+fo:status8 a fo:Status ;
+    fo:hasName "Clutch"^^xsd:string .
+
+fo:status80 a fo:Status ;
+    fo:hasName "Ignition"^^xsd:string .
+
+fo:status81 a fo:Status ;
+    fo:hasName "Did not qualify"^^xsd:string .
+
+fo:status82 a fo:Status ;
+    fo:hasName "Injury"^^xsd:string .
+
+fo:status83 a fo:Status ;
+    fo:hasName "Chassis"^^xsd:string .
+
+fo:status84 a fo:Status ;
+    fo:hasName "Battery"^^xsd:string .
+
+fo:status85 a fo:Status ;
+    fo:hasName "Stalled"^^xsd:string .
+
+fo:status86 a fo:Status ;
+    fo:hasName "Halfshaft"^^xsd:string .
+
+fo:status87 a fo:Status ;
+    fo:hasName "Crankshaft"^^xsd:string .
+
+fo:status88 a fo:Status ;
+    fo:hasName "+10 Laps"^^xsd:string .
+
+fo:status89 a fo:Status ;
+    fo:hasName "Safety concerns"^^xsd:string .
+
+fo:status9 a fo:Status ;
+    fo:hasName "Hydraulics"^^xsd:string .
+
+fo:status90 a fo:Status ;
+    fo:hasName "Not restarted"^^xsd:string .
+
+fo:status91 a fo:Status ;
+    fo:hasName "Alternator"^^xsd:string .
+
+fo:status92 a fo:Status ;
+    fo:hasName "Underweight"^^xsd:string .
+
+fo:status93 a fo:Status ;
+    fo:hasName "Safety belt"^^xsd:string .
+
+fo:status94 a fo:Status ;
+    fo:hasName "Oil pump"^^xsd:string .
+
+fo:status95 a fo:Status ;
+    fo:hasName "Fuel leak"^^xsd:string .
+
+fo:status96 a fo:Status ;
+    fo:hasName "Excluded"^^xsd:string .
+
+fo:status97 a fo:Status ;
+    fo:hasName "Did not prequalify"^^xsd:string .
+
+fo:status98 a fo:Status ;
+    fo:hasName "Injection"^^xsd:string .
+
+fo:status99 a fo:Status ;
+    fo:hasName "Distributor"^^xsd:string .
+

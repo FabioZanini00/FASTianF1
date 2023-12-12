@@ -9,8 +9,5 @@
 *.tar.gz
 *.rar
 
-# jupyter notebook
+# jupyter notebook checkpoints
 .ipynb_checkpoints
-
-# turtle files
-data/rdf/*
