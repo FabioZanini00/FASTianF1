@@ -115,8 +115,12 @@
 |Property|Datatype|
 |-|-|
 |hasLapNumber|xsd:integer|
-|hasLapPosition|xsd:integer|
 |hasLapTime|xsd:time|
+
+### RACE LAP:
+|Property|Datatype|
+|-|-|
+|hasLapPosition|xsd:integer|
 |hasMillisecondsTime|xsd:integer|
 
 ### PIT STOP:

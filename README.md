@@ -5,7 +5,7 @@
   </a>
 </div>
 
-# FASTianF1 - <span style="font-size:11;">University of Padova</span>
+# FASTianF1
 Group project for [Database 2](https://didattica.unipd.it/off/2022/LM/IN/IN2547/004PD/INQ0091645/N0) course, developed by Christian Marchiori and Fabio Zanini.
 
 The aim of this project was to create a graph database representing the world of Formula 1. Formula 1 (a.k.a. F1 or Formula One) is the highest category of single-seat auto racing sanctioned by the Fédération Internationale de l'Automobile (FIA) and owned by the Formula One Group.
