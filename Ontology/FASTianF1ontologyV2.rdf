@@ -1252,20 +1252,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLapPosition"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLapTime"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasMillisecondsTime"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>This class represents a single lap in a race.</rdfs:comment>
@@ -1458,6 +1446,28 @@
     
 
 
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#RaceLap -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RaceLap">
+        <rdfs:subClassOf rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Lap"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLapPosition"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasMillisecondsTime"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintLap"/>
+        <rdfs:comment>This class represents a single lap in a race.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation -->
 
     <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation">
@@ -1613,6 +1623,15 @@
 
     <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Sprint">
         <rdfs:comment>This class represents a sprint race related to a particular race.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintLap -->
+
+    <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintLap">
+        <rdfs:subClassOf rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Lap"/>
+        <rdfs:comment>This class represents a single lap in a sprint.</rdfs:comment>
     </owl:Class>
     
 
