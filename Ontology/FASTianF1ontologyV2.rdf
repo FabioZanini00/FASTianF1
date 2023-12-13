@@ -792,7 +792,14 @@
 
     <owl:DatatypeProperty rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasPositionText">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RacePartecipation"/>
+                    <rdf:Description rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintPartecipation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The final position of a driver in a partecipation in a race/sprint/qualifying, in text.</rdfs:comment>
     </owl:DatatypeProperty>
