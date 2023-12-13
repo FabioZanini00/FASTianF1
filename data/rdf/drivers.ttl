@@ -6837,9 +6837,9 @@ fo:driver855 a fo:Driver ;
     fo:hasDateOfBirth "1999-05-30"^^xsd:date ;
     fo:hasDriverNumber 24 ;
     fo:hasDriverRef "zhou"^^xsd:string ;
-    fo:hasForename "Guanyu"^^xsd:string ;
+    fo:hasForename "Zhou"^^xsd:string ;
     fo:hasNation countries:cn ;
-    fo:hasSurname "Zhou"^^xsd:string ;
+    fo:hasSurname "Guanyu"^^xsd:string ;
     fo:hasURL "http://en.wikipedia.org/wiki/Zhou_Guanyu"^^xsd:string .
 
 fo:driver856 a fo:Driver ;
