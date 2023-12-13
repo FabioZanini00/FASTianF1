@@ -23,11 +23,14 @@ fo:race1115 fo:hasA fo:sprint1115 .
 
 fo:race1116 fo:hasA fo:sprint1116 .
 
+fo:race1118 fo:hasA fo:sprint1118 .
+
 fo:s_partecipation1 a fo:SprintPartecipation ;
     fo:hasCarNumber 33 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver830 ;
-    fo:hasFastestLap 14 ;
+    fo:hasFastestLap fo:s_lap1,
+        14 ;
     fo:hasFastestLapTime "00:01:30.013000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1538426 ;
@@ -45,7 +48,8 @@ fo:s_partecipation10 a fo:SprintPartecipation ;
     fo:hasCarNumber 31 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver839 ;
-    fo:hasFastestLap 16 ;
+    fo:hasFastestLap fo:s_lap10,
+        16 ;
     fo:hasFastestLapTime "00:01:32.183000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1585821 ;
@@ -75,7 +79,8 @@ fo:s_partecipation101 a fo:SprintPartecipation ;
     fo:hasCarNumber 63 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver847 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap101,
+        4 ;
     fo:hasFastestLapTime "00:01:14.233000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1811307 ;
@@ -93,7 +98,8 @@ fo:s_partecipation102 a fo:SprintPartecipation ;
     fo:hasCarNumber 55 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver832 ;
-    fo:hasFastestLap 2 ;
+    fo:hasFastestLap fo:s_lap102,
+        2 ;
     fo:hasFastestLapTime "00:01:14.522000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1815302 ;
@@ -111,7 +117,8 @@ fo:s_partecipation103 a fo:SprintPartecipation ;
     fo:hasCarNumber 44 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver1 ;
-    fo:hasFastestLap 3 ;
+    fo:hasFastestLap fo:s_lap103,
+        3 ;
     fo:hasFastestLapTime "00:01:14.317000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1815799 ;
@@ -129,7 +136,8 @@ fo:s_partecipation104 a fo:SprintPartecipation ;
     fo:hasCarNumber 1 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver830 ;
-    fo:hasFastestLap 5 ;
+    fo:hasFastestLap fo:s_lap104,
+        5 ;
     fo:hasFastestLapTime "00:01:14.507000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1821801 ;
@@ -147,7 +155,8 @@ fo:s_partecipation105 a fo:SprintPartecipation ;
     fo:hasCarNumber 11 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver815 ;
-    fo:hasFastestLap 5 ;
+    fo:hasFastestLap fo:s_lap105,
+        5 ;
     fo:hasFastestLapTime "00:01:14.699000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1823162 ;
@@ -165,7 +174,8 @@ fo:s_partecipation106 a fo:SprintPartecipation ;
     fo:hasCarNumber 16 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver844 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap106,
+        4 ;
     fo:hasFastestLapTime "00:01:15.236000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1824440 ;
@@ -183,7 +193,8 @@ fo:s_partecipation107 a fo:SprintPartecipation ;
     fo:hasCarNumber 4 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver846 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap107,
+        4 ;
     fo:hasFastestLapTime "00:01:15.380000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1836931 ;
@@ -201,7 +212,8 @@ fo:s_partecipation108 a fo:SprintPartecipation ;
     fo:hasCarNumber 20 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver825 ;
-    fo:hasFastestLap 2 ;
+    fo:hasFastestLap fo:s_lap108,
+        2 ;
     fo:hasFastestLapTime "00:01:15.110000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1840075 ;
@@ -219,7 +231,8 @@ fo:s_partecipation109 a fo:SprintPartecipation ;
     fo:hasCarNumber 5 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver20 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap109,
+        4 ;
     fo:hasFastestLapTime "00:01:15.451000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1841525 ;
@@ -237,7 +250,8 @@ fo:s_partecipation11 a fo:SprintPartecipation ;
     fo:hasCarNumber 55 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver832 ;
-    fo:hasFastestLap 10 ;
+    fo:hasFastestLap fo:s_lap11,
+        10 ;
     fo:hasFastestLapTime "00:01:31.991000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1586224 ;
@@ -255,7 +269,8 @@ fo:s_partecipation110 a fo:SprintPartecipation ;
     fo:hasCarNumber 10 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver842 ;
-    fo:hasFastestLap 3 ;
+    fo:hasFastestLap fo:s_lap110,
+        3 ;
     fo:hasFastestLapTime "00:01:15.290000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1845477 ;
@@ -273,7 +288,8 @@ fo:s_partecipation111 a fo:SprintPartecipation ;
     fo:hasCarNumber 3 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver817 ;
-    fo:hasFastestLap 5 ;
+    fo:hasFastestLap fo:s_lap111,
+        5 ;
     fo:hasFastestLapTime "00:01:15.385000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1850702 ;
@@ -291,7 +307,8 @@ fo:s_partecipation112 a fo:SprintPartecipation ;
     fo:hasCarNumber 47 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver854 ;
-    fo:hasFastestLap 5 ;
+    fo:hasFastestLap fo:s_lap112,
+        5 ;
     fo:hasFastestLapTime "00:01:15.771000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1852466 ;
@@ -309,7 +326,8 @@ fo:s_partecipation113 a fo:SprintPartecipation ;
     fo:hasCarNumber 24 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver855 ;
-    fo:hasFastestLap 7 ;
+    fo:hasFastestLap fo:s_lap113,
+        7 ;
     fo:hasFastestLapTime "00:01:15.765000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1853070 ;
@@ -327,7 +345,8 @@ fo:s_partecipation114 a fo:SprintPartecipation ;
     fo:hasCarNumber 77 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver822 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap114,
+        8 ;
     fo:hasFastestLapTime "00:01:15.980000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1853645 ;
@@ -345,7 +364,8 @@ fo:s_partecipation115 a fo:SprintPartecipation ;
     fo:hasCarNumber 22 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver852 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap115,
+        4 ;
     fo:hasFastestLapTime "00:01:16.413000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1861613 ;
@@ -363,7 +383,8 @@ fo:s_partecipation116 a fo:SprintPartecipation ;
     fo:hasCarNumber 18 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver840 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap116,
+        4 ;
     fo:hasFastestLapTime "00:01:15.425000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1862007 ;
@@ -381,7 +402,8 @@ fo:s_partecipation117 a fo:SprintPartecipation ;
     fo:hasCarNumber 31 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver839 ;
-    fo:hasFastestLap 5 ;
+    fo:hasFastestLap fo:s_lap117,
+        5 ;
     fo:hasFastestLapTime "00:01:16.097000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1863063 ;
@@ -399,7 +421,8 @@ fo:s_partecipation118 a fo:SprintPartecipation ;
     fo:hasCarNumber 14 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver4 ;
-    fo:hasFastestLap 5 ;
+    fo:hasFastestLap fo:s_lap118,
+        5 ;
     fo:hasFastestLapTime "00:01:14.764000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1865292 ;
@@ -417,7 +440,8 @@ fo:s_partecipation119 a fo:SprintPartecipation ;
     fo:hasCarNumber 6 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver849 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap119,
+        4 ;
     fo:hasFastestLapTime "00:01:16.525000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1888157 ;
@@ -435,7 +459,8 @@ fo:s_partecipation12 a fo:SprintPartecipation ;
     fo:hasCarNumber 10 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver842 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap12,
+        17 ;
     fo:hasFastestLapTime "00:01:32.072000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1587189 ;
@@ -453,7 +478,8 @@ fo:s_partecipation120 a fo:SprintPartecipation ;
     fo:hasCarNumber 23 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver848 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap120,
+        4 ;
     fo:hasFastestLapTime "00:01:15.998000"^^xsd:time ;
     fo:hasLaps 12 ;
     fo:hasPoints 0 ;
@@ -467,7 +493,8 @@ fo:s_partecipation121 a fo:SprintPartecipation ;
     fo:hasCarNumber 11 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver815 ;
-    fo:hasFastestLap 11 ;
+    fo:hasFastestLap fo:s_lap121,
+        11 ;
     fo:hasFastestLapTime "00:01:43.616000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1997667 ;
@@ -485,7 +512,8 @@ fo:s_partecipation122 a fo:SprintPartecipation ;
     fo:hasCarNumber 16 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver844 ;
-    fo:hasFastestLap 12 ;
+    fo:hasFastestLap fo:s_lap122,
+        12 ;
     fo:hasFastestLapTime "00:01:43.646000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2002130 ;
@@ -503,7 +531,8 @@ fo:s_partecipation123 a fo:SprintPartecipation ;
     fo:hasCarNumber 1 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver830 ;
-    fo:hasFastestLap 10 ;
+    fo:hasFastestLap fo:s_lap123,
+        10 ;
     fo:hasFastestLapTime "00:01:43.723000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2002732 ;
@@ -521,7 +550,8 @@ fo:s_partecipation124 a fo:SprintPartecipation ;
     fo:hasCarNumber 63 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver847 ;
-    fo:hasFastestLap 10 ;
+    fo:hasFastestLap fo:s_lap124,
+        10 ;
     fo:hasFastestLapTime "00:01:44.409000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2001134 ;
@@ -539,7 +569,8 @@ fo:s_partecipation125 a fo:SprintPartecipation ;
     fo:hasCarNumber 55 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver832 ;
-    fo:hasFastestLap 11 ;
+    fo:hasFastestLap fo:s_lap125,
+        11 ;
     fo:hasFastestLapTime "00:01:44.398000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2008055 ;
@@ -557,7 +588,8 @@ fo:s_partecipation126 a fo:SprintPartecipation ;
     fo:hasCarNumber 14 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver4 ;
-    fo:hasFastestLap 12 ;
+    fo:hasFastestLap fo:s_lap126,
+        12 ;
     fo:hasFastestLapTime "00:01:44.544000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2009280 ;
@@ -575,7 +607,8 @@ fo:s_partecipation127 a fo:SprintPartecipation ;
     fo:hasCarNumber 44 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver1 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap127,
+        8 ;
     fo:hasFastestLapTime "00:01:44.601000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2002557 ;
@@ -593,7 +626,8 @@ fo:s_partecipation128 a fo:SprintPartecipation ;
     fo:hasCarNumber 18 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver840 ;
-    fo:hasFastestLap 14 ;
+    fo:hasFastestLap fo:s_lap128,
+        14 ;
     fo:hasFastestLapTime "00:01:44.855000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2016084 ;
@@ -611,7 +645,8 @@ fo:s_partecipation129 a fo:SprintPartecipation ;
     fo:hasCarNumber 23 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver848 ;
-    fo:hasFastestLap 10 ;
+    fo:hasFastestLap fo:s_lap129,
+        10 ;
     fo:hasFastestLapTime "00:01:44.915000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2019424 ;
@@ -629,7 +664,8 @@ fo:s_partecipation13 a fo:SprintPartecipation ;
     fo:hasCarNumber 7 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver8 ;
-    fo:hasFastestLap 12 ;
+    fo:hasFastestLap fo:s_lap13,
+        12 ;
     fo:hasFastestLapTime "00:01:32.139000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1589103 ;
@@ -647,7 +683,8 @@ fo:s_partecipation130 a fo:SprintPartecipation ;
     fo:hasCarNumber 81 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver857 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap130,
+        8 ;
     fo:hasFastestLapTime "00:01:44.776000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2020518 ;
@@ -665,7 +702,8 @@ fo:s_partecipation131 a fo:SprintPartecipation ;
     fo:hasCarNumber 20 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver825 ;
-    fo:hasFastestLap 14 ;
+    fo:hasFastestLap fo:s_lap131,
+        14 ;
     fo:hasFastestLapTime "00:01:45.349000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2025657 ;
@@ -683,7 +721,8 @@ fo:s_partecipation132 a fo:SprintPartecipation ;
     fo:hasCarNumber 24 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver855 ;
-    fo:hasFastestLap 16 ;
+    fo:hasFastestLap fo:s_lap132,
+        16 ;
     fo:hasFastestLapTime "00:01:45.766000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2032269 ;
@@ -701,7 +740,8 @@ fo:s_partecipation133 a fo:SprintPartecipation ;
     fo:hasCarNumber 10 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver842 ;
-    fo:hasFastestLap 12 ;
+    fo:hasFastestLap fo:s_lap133,
+        12 ;
     fo:hasFastestLapTime "00:01:45.883000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2034585 ;
@@ -719,7 +759,8 @@ fo:s_partecipation134 a fo:SprintPartecipation ;
     fo:hasCarNumber 21 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver856 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap134,
+        17 ;
     fo:hasFastestLapTime "00:01:45.768000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2039293 ;
@@ -737,7 +778,8 @@ fo:s_partecipation135 a fo:SprintPartecipation ;
     fo:hasCarNumber 27 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver807 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap135,
+        8 ;
     fo:hasFastestLapTime "00:01:45.971000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2046254 ;
@@ -755,7 +797,8 @@ fo:s_partecipation136 a fo:SprintPartecipation ;
     fo:hasCarNumber 77 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver822 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap136,
+        9 ;
     fo:hasFastestLapTime "00:01:46.277000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2047584 ;
@@ -773,7 +816,8 @@ fo:s_partecipation137 a fo:SprintPartecipation ;
     fo:hasCarNumber 4 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver846 ;
-    fo:hasFastestLap 15 ;
+    fo:hasFastestLap fo:s_lap137,
+        15 ;
     fo:hasFastestLapTime "00:01:44.484000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2048771 ;
@@ -791,7 +835,8 @@ fo:s_partecipation138 a fo:SprintPartecipation ;
     fo:hasCarNumber 31 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver839 ;
-    fo:hasFastestLap 15 ;
+    fo:hasFastestLap fo:s_lap138,
+        15 ;
     fo:hasFastestLapTime "00:01:45.090000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 2058288 ;
@@ -821,7 +866,8 @@ fo:s_partecipation14 a fo:SprintPartecipation ;
     fo:hasCarNumber 18 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver840 ;
-    fo:hasFastestLap 12 ;
+    fo:hasFastestLap fo:s_lap14,
+        12 ;
     fo:hasFastestLapTime "00:01:32.210000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1590605 ;
@@ -851,7 +897,8 @@ fo:s_partecipation141 a fo:SprintPartecipation ;
     fo:hasCarNumber 1 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver830 ;
-    fo:hasFastestLap 19 ;
+    fo:hasFastestLap fo:s_lap141,
+        19 ;
     fo:hasFastestLapTime "00:01:14.292000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1826730 ;
@@ -869,7 +916,8 @@ fo:s_partecipation142 a fo:SprintPartecipation ;
     fo:hasCarNumber 11 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver815 ;
-    fo:hasFastestLap 16 ;
+    fo:hasFastestLap fo:s_lap142,
+        16 ;
     fo:hasFastestLapTime "00:01:15.492000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1847778 ;
@@ -887,7 +935,8 @@ fo:s_partecipation143 a fo:SprintPartecipation ;
     fo:hasCarNumber 55 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver832 ;
-    fo:hasFastestLap 16 ;
+    fo:hasFastestLap fo:s_lap143,
+        16 ;
     fo:hasFastestLapTime "00:01:15.457000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1849818 ;
@@ -905,7 +954,8 @@ fo:s_partecipation144 a fo:SprintPartecipation ;
     fo:hasCarNumber 18 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver840 ;
-    fo:hasFastestLap 23 ;
+    fo:hasFastestLap fo:s_lap144,
+        23 ;
     fo:hasFastestLapTime "00:01:15.531000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1856433 ;
@@ -923,7 +973,8 @@ fo:s_partecipation145 a fo:SprintPartecipation ;
     fo:hasCarNumber 14 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver4 ;
-    fo:hasFastestLap 18 ;
+    fo:hasFastestLap fo:s_lap145,
+        18 ;
     fo:hasFastestLapTime "00:01:14.978000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1856839 ;
@@ -941,7 +992,8 @@ fo:s_partecipation146 a fo:SprintPartecipation ;
     fo:hasCarNumber 27 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver807 ;
-    fo:hasFastestLap 24 ;
+    fo:hasFastestLap fo:s_lap146,
+        24 ;
     fo:hasFastestLapTime "00:01:10.180000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1858027 ;
@@ -959,7 +1011,8 @@ fo:s_partecipation147 a fo:SprintPartecipation ;
     fo:hasCarNumber 31 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver839 ;
-    fo:hasFastestLap 22 ;
+    fo:hasFastestLap fo:s_lap147,
+        22 ;
     fo:hasFastestLapTime "00:01:15.512000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1863332 ;
@@ -977,7 +1030,8 @@ fo:s_partecipation148 a fo:SprintPartecipation ;
     fo:hasCarNumber 63 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver847 ;
-    fo:hasFastestLap 23 ;
+    fo:hasFastestLap fo:s_lap148,
+        23 ;
     fo:hasFastestLapTime "00:01:10.385000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1863341 ;
@@ -995,7 +1049,8 @@ fo:s_partecipation149 a fo:SprintPartecipation ;
     fo:hasCarNumber 4 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver846 ;
-    fo:hasFastestLap 19 ;
+    fo:hasFastestLap fo:s_lap149,
+        19 ;
     fo:hasFastestLapTime "00:01:15.627000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1865338 ;
@@ -1013,7 +1068,8 @@ fo:s_partecipation15 a fo:SprintPartecipation ;
     fo:hasCarNumber 99 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver841 ;
-    fo:hasFastestLap 14 ;
+    fo:hasFastestLap fo:s_lap15,
+        14 ;
     fo:hasFastestLapTime "00:01:32.457000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1591651 ;
@@ -1031,7 +1087,8 @@ fo:s_partecipation150 a fo:SprintPartecipation ;
     fo:hasCarNumber 44 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver1 ;
-    fo:hasFastestLap 24 ;
+    fo:hasFastestLap fo:s_lap150,
+        24 ;
     fo:hasFastestLapTime "00:01:10.775000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1873105 ;
@@ -1049,7 +1106,8 @@ fo:s_partecipation151 a fo:SprintPartecipation ;
     fo:hasCarNumber 81 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver857 ;
-    fo:hasFastestLap 24 ;
+    fo:hasFastestLap fo:s_lap151,
+        24 ;
     fo:hasFastestLapTime "00:01:10.274000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1876537 ;
@@ -1067,7 +1125,8 @@ fo:s_partecipation152 a fo:SprintPartecipation ;
     fo:hasCarNumber 16 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver844 ;
-    fo:hasFastestLap 24 ;
+    fo:hasFastestLap fo:s_lap152,
+        24 ;
     fo:hasFastestLapTime "00:01:10.686000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1877519 ;
@@ -1085,7 +1144,8 @@ fo:s_partecipation153 a fo:SprintPartecipation ;
     fo:hasCarNumber 23 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver848 ;
-    fo:hasFastestLap 24 ;
+    fo:hasFastestLap fo:s_lap153,
+        24 ;
     fo:hasFastestLapTime "00:01:11.635000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1879578 ;
@@ -1103,7 +1163,8 @@ fo:s_partecipation154 a fo:SprintPartecipation ;
     fo:hasCarNumber 20 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver825 ;
-    fo:hasFastestLap 23 ;
+    fo:hasFastestLap fo:s_lap154,
+        23 ;
     fo:hasFastestLapTime "00:01:10.539000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1883323 ;
@@ -1121,7 +1182,8 @@ fo:s_partecipation155 a fo:SprintPartecipation ;
     fo:hasCarNumber 10 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver842 ;
-    fo:hasFastestLap 22 ;
+    fo:hasFastestLap fo:s_lap155,
+        22 ;
     fo:hasFastestLapTime "00:01:16.109000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1884382 ;
@@ -1139,7 +1201,8 @@ fo:s_partecipation156 a fo:SprintPartecipation ;
     fo:hasCarNumber 22 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver852 ;
-    fo:hasFastestLap 23 ;
+    fo:hasFastestLap fo:s_lap156,
+        23 ;
     fo:hasFastestLapTime "00:01:11.363000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1891552 ;
@@ -1157,7 +1220,8 @@ fo:s_partecipation157 a fo:SprintPartecipation ;
     fo:hasCarNumber 21 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver856 ;
-    fo:hasFastestLap 22 ;
+    fo:hasFastestLap fo:s_lap157,
+        22 ;
     fo:hasFastestLapTime "00:01:11.701000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1892347 ;
@@ -1175,7 +1239,8 @@ fo:s_partecipation158 a fo:SprintPartecipation ;
     fo:hasCarNumber 2 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver858 ;
-    fo:hasFastestLap 21 ;
+    fo:hasFastestLap fo:s_lap158,
+        21 ;
     fo:hasFastestLapTime "00:01:11.829000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1892789 ;
@@ -1193,7 +1258,8 @@ fo:s_partecipation159 a fo:SprintPartecipation ;
     fo:hasCarNumber 24 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver855 ;
-    fo:hasFastestLap 22 ;
+    fo:hasFastestLap fo:s_lap159,
+        22 ;
     fo:hasFastestLapTime "00:01:11.305000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1897555 ;
@@ -1211,7 +1277,8 @@ fo:s_partecipation16 a fo:SprintPartecipation ;
     fo:hasCarNumber 22 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver852 ;
-    fo:hasFastestLap 14 ;
+    fo:hasFastestLap fo:s_lap16,
+        14 ;
     fo:hasFastestLapTime "00:01:32.270000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1591993 ;
@@ -1229,7 +1296,8 @@ fo:s_partecipation160 a fo:SprintPartecipation ;
     fo:hasCarNumber 77 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver822 ;
-    fo:hasFastestLap 22 ;
+    fo:hasFastestLap fo:s_lap160,
+        22 ;
     fo:hasFastestLapTime "00:01:16.758000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1903165 ;
@@ -1247,7 +1315,8 @@ fo:s_partecipation161 a fo:SprintPartecipation ;
     fo:hasCarNumber 1 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver830 ;
-    fo:hasFastestLap 6 ;
+    fo:hasFastestLap fo:s_lap161,
+        6 ;
     fo:hasFastestLapTime "00:01:58.943000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1498433 ;
@@ -1265,7 +1334,8 @@ fo:s_partecipation162 a fo:SprintPartecipation ;
     fo:hasCarNumber 81 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver857 ;
-    fo:hasFastestLap 2 ;
+    fo:hasFastestLap fo:s_lap162,
+        2 ;
     fo:hasFastestLapTime "00:02:00.360000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1505110 ;
@@ -1283,7 +1353,8 @@ fo:s_partecipation163 a fo:SprintPartecipation ;
     fo:hasCarNumber 10 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver842 ;
-    fo:hasFastestLap 6 ;
+    fo:hasFastestLap fo:s_lap163,
+        6 ;
     fo:hasFastestLapTime "00:02:01.857000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1509166 ;
@@ -1301,7 +1372,8 @@ fo:s_partecipation164 a fo:SprintPartecipation ;
     fo:hasCarNumber 55 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver832 ;
-    fo:hasFastestLap 7 ;
+    fo:hasFastestLap fo:s_lap164,
+        7 ;
     fo:hasFastestLapTime "00:02:01.472000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1511081 ;
@@ -1319,7 +1391,8 @@ fo:s_partecipation165 a fo:SprintPartecipation ;
     fo:hasCarNumber 16 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver844 ;
-    fo:hasFastestLap 7 ;
+    fo:hasFastestLap fo:s_lap165,
+        7 ;
     fo:hasFastestLapTime "00:02:02.635000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1513449 ;
@@ -1337,7 +1410,8 @@ fo:s_partecipation166 a fo:SprintPartecipation ;
     fo:hasCarNumber 4 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver846 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap166,
+        8 ;
     fo:hasFastestLapTime "00:02:02.085000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1514485 ;
@@ -1355,7 +1429,8 @@ fo:s_partecipation167 a fo:SprintPartecipation ;
     fo:hasCarNumber 44 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver1 ;
-    fo:hasFastestLap 7 ;
+    fo:hasFastestLap fo:s_lap167,
+        7 ;
     fo:hasFastestLapTime "00:02:00.920000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1515190 ;
@@ -1373,7 +1448,8 @@ fo:s_partecipation168 a fo:SprintPartecipation ;
     fo:hasCarNumber 63 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver847 ;
-    fo:hasFastestLap 10 ;
+    fo:hasFastestLap fo:s_lap168,
+        10 ;
     fo:hasFastestLapTime "00:02:01.935000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1515255 ;
@@ -1391,7 +1467,8 @@ fo:s_partecipation169 a fo:SprintPartecipation ;
     fo:hasCarNumber 31 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver839 ;
-    fo:hasFastestLap 6 ;
+    fo:hasFastestLap fo:s_lap169,
+        6 ;
     fo:hasFastestLapTime "00:02:03.061000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1520843 ;
@@ -1409,7 +1486,8 @@ fo:s_partecipation17 a fo:SprintPartecipation ;
     fo:hasCarNumber 6 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver849 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap17,
+        17 ;
     fo:hasFastestLapTime "00:01:32.143000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1593588 ;
@@ -1427,7 +1505,8 @@ fo:s_partecipation170 a fo:SprintPartecipation ;
     fo:hasCarNumber 3 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver817 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap170,
+        8 ;
     fo:hasFastestLapTime "00:02:02.967000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1521239 ;
@@ -1445,7 +1524,8 @@ fo:s_partecipation171 a fo:SprintPartecipation ;
     fo:hasCarNumber 18 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver840 ;
-    fo:hasFastestLap 6 ;
+    fo:hasFastestLap fo:s_lap171,
+        6 ;
     fo:hasFastestLapTime "00:02:03.356000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1523440 ;
@@ -1463,7 +1543,8 @@ fo:s_partecipation172 a fo:SprintPartecipation ;
     fo:hasCarNumber 23 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver848 ;
-    fo:hasFastestLap 6 ;
+    fo:hasFastestLap fo:s_lap172,
+        6 ;
     fo:hasFastestLapTime "00:02:03.674000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1524736 ;
@@ -1481,7 +1562,8 @@ fo:s_partecipation173 a fo:SprintPartecipation ;
     fo:hasCarNumber 77 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver822 ;
-    fo:hasFastestLap 6 ;
+    fo:hasFastestLap fo:s_lap173,
+        6 ;
     fo:hasFastestLapTime "00:02:03.595000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1525439 ;
@@ -1499,7 +1581,8 @@ fo:s_partecipation174 a fo:SprintPartecipation ;
     fo:hasCarNumber 20 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver825 ;
-    fo:hasFastestLap 6 ;
+    fo:hasFastestLap fo:s_lap174,
+        6 ;
     fo:hasFastestLapTime "00:02:03.965000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1531419 ;
@@ -1517,7 +1600,8 @@ fo:s_partecipation175 a fo:SprintPartecipation ;
     fo:hasCarNumber 24 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver855 ;
-    fo:hasFastestLap 6 ;
+    fo:hasFastestLap fo:s_lap175,
+        6 ;
     fo:hasFastestLapTime "00:02:04.760000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1534775 ;
@@ -1535,7 +1619,8 @@ fo:s_partecipation176 a fo:SprintPartecipation ;
     fo:hasCarNumber 2 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver858 ;
-    fo:hasFastestLap 6 ;
+    fo:hasFastestLap fo:s_lap176,
+        6 ;
     fo:hasFastestLapTime "00:02:03.482000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1536004 ;
@@ -1553,7 +1638,8 @@ fo:s_partecipation177 a fo:SprintPartecipation ;
     fo:hasCarNumber 27 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver807 ;
-    fo:hasFastestLap 6 ;
+    fo:hasFastestLap fo:s_lap177,
+        6 ;
     fo:hasFastestLapTime "00:02:03.472000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1536260 ;
@@ -1571,7 +1657,8 @@ fo:s_partecipation178 a fo:SprintPartecipation ;
     fo:hasCarNumber 22 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver852 ;
-    fo:hasFastestLap 7 ;
+    fo:hasFastestLap fo:s_lap178,
+        7 ;
     fo:hasFastestLapTime "00:02:02.080000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasMillisecondsResultTime 1537700 ;
@@ -1589,7 +1676,8 @@ fo:s_partecipation179 a fo:SprintPartecipation ;
     fo:hasCarNumber 11 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver815 ;
-    fo:hasFastestLap 2 ;
+    fo:hasFastestLap fo:s_lap179,
+        2 ;
     fo:hasFastestLapTime "00:02:02.516000"^^xsd:time ;
     fo:hasLaps 8 ;
     fo:hasPoints 0 ;
@@ -1603,7 +1691,8 @@ fo:s_partecipation18 a fo:SprintPartecipation ;
     fo:hasCarNumber 47 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver854 ;
-    fo:hasFastestLap 15 ;
+    fo:hasFastestLap fo:s_lap18,
+        15 ;
     fo:hasFastestLapTime "00:01:32.567000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1606639 ;
@@ -1633,7 +1722,8 @@ fo:s_partecipation181 a fo:SprintPartecipation ;
     fo:hasCarNumber 81 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver857 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap181,
+        17 ;
     fo:hasFastestLapTime "00:01:25.926000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 2101297 ;
@@ -1651,7 +1741,8 @@ fo:s_partecipation182 a fo:SprintPartecipation ;
     fo:hasCarNumber 1 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver830 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap182,
+        17 ;
     fo:hasFastestLapTime "00:01:25.604000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 2103168 ;
@@ -1669,7 +1760,8 @@ fo:s_partecipation183 a fo:SprintPartecipation ;
     fo:hasCarNumber 4 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver846 ;
-    fo:hasFastestLap 19 ;
+    fo:hasFastestLap fo:s_lap183,
+        19 ;
     fo:hasFastestLapTime "00:01:25.662000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 2109794 ;
@@ -1687,7 +1779,8 @@ fo:s_partecipation184 a fo:SprintPartecipation ;
     fo:hasCarNumber 63 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver847 ;
-    fo:hasFastestLap 18 ;
+    fo:hasFastestLap fo:s_lap184,
+        18 ;
     fo:hasFastestLapTime "00:01:27.220000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 2112333 ;
@@ -1705,7 +1798,8 @@ fo:s_partecipation185 a fo:SprintPartecipation ;
     fo:hasCarNumber 44 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver1 ;
-    fo:hasFastestLap 19 ;
+    fo:hasFastestLap fo:s_lap185,
+        19 ;
     fo:hasFastestLapTime "00:01:27.968000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 2118611 ;
@@ -1723,7 +1817,8 @@ fo:s_partecipation186 a fo:SprintPartecipation ;
     fo:hasCarNumber 55 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver832 ;
-    fo:hasFastestLap 7 ;
+    fo:hasFastestLap fo:s_lap186,
+        7 ;
     fo:hasFastestLapTime "00:01:28.644000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 2120103 ;
@@ -1741,7 +1836,8 @@ fo:s_partecipation187 a fo:SprintPartecipation ;
     fo:hasCarNumber 23 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver848 ;
-    fo:hasFastestLap 16 ;
+    fo:hasFastestLap fo:s_lap187,
+        16 ;
     fo:hasFastestLapTime "00:01:28.717000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 2121161 ;
@@ -1759,7 +1855,8 @@ fo:s_partecipation188 a fo:SprintPartecipation ;
     fo:hasCarNumber 14 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver4 ;
-    fo:hasFastestLap 16 ;
+    fo:hasFastestLap fo:s_lap188,
+        16 ;
     fo:hasFastestLapTime "00:01:28.717000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 2122477 ;
@@ -1777,7 +1874,8 @@ fo:s_partecipation189 a fo:SprintPartecipation ;
     fo:hasCarNumber 10 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver842 ;
-    fo:hasFastestLap 16 ;
+    fo:hasFastestLap fo:s_lap189,
+        16 ;
     fo:hasFastestLapTime "00:01:28.769000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 2123039 ;
@@ -1795,7 +1893,8 @@ fo:s_partecipation19 a fo:SprintPartecipation ;
     fo:hasCarNumber 9 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver853 ;
-    fo:hasFastestLap 3 ;
+    fo:hasFastestLap fo:s_lap19,
+        3 ;
     fo:hasFastestLapTime "00:01:33.462000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1616074 ;
@@ -1813,7 +1912,8 @@ fo:s_partecipation190 a fo:SprintPartecipation ;
     fo:hasCarNumber 77 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver822 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap190,
+        17 ;
     fo:hasFastestLapTime "00:01:29.017000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 2123505 ;
@@ -1831,7 +1931,8 @@ fo:s_partecipation191 a fo:SprintPartecipation ;
     fo:hasCarNumber 22 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver852 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap191,
+        17 ;
     fo:hasFastestLapTime "00:01:29.381000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 2124160 ;
@@ -1849,7 +1950,8 @@ fo:s_partecipation192 a fo:SprintPartecipation ;
     fo:hasCarNumber 16 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver844 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap192,
+        8 ;
     fo:hasFastestLapTime "00:01:28.759000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 2126157 ;
@@ -1867,7 +1969,8 @@ fo:s_partecipation193 a fo:SprintPartecipation ;
     fo:hasCarNumber 18 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver840 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap193,
+        17 ;
     fo:hasFastestLapTime "00:01:29.536000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 2125820 ;
@@ -1885,7 +1988,8 @@ fo:s_partecipation194 a fo:SprintPartecipation ;
     fo:hasCarNumber 20 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver825 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap194,
+        17 ;
     fo:hasFastestLapTime "00:01:29.560000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 2126267 ;
@@ -1903,7 +2007,8 @@ fo:s_partecipation195 a fo:SprintPartecipation ;
     fo:hasCarNumber 24 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver855 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap195,
+        17 ;
     fo:hasFastestLapTime "00:01:29.553000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 2128165 ;
@@ -1921,7 +2026,8 @@ fo:s_partecipation196 a fo:SprintPartecipation ;
     fo:hasCarNumber 27 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver807 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap196,
+        9 ;
     fo:hasFastestLapTime "00:01:29.307000"^^xsd:time ;
     fo:hasLaps 11 ;
     fo:hasPoints 0 ;
@@ -1935,7 +2041,8 @@ fo:s_partecipation197 a fo:SprintPartecipation ;
     fo:hasCarNumber 31 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver839 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap197,
+        8 ;
     fo:hasFastestLapTime "00:01:29.388000"^^xsd:time ;
     fo:hasLaps 10 ;
     fo:hasPoints 0 ;
@@ -1949,7 +2056,8 @@ fo:s_partecipation198 a fo:SprintPartecipation ;
     fo:hasCarNumber 11 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver815 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap198,
+        9 ;
     fo:hasFastestLapTime "00:01:28.584000"^^xsd:time ;
     fo:hasLaps 10 ;
     fo:hasPoints 0 ;
@@ -1963,7 +2071,8 @@ fo:s_partecipation199 a fo:SprintPartecipation ;
     fo:hasCarNumber 2 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver858 ;
-    fo:hasFastestLap 2 ;
+    fo:hasFastestLap fo:s_lap199,
+        2 ;
     fo:hasFastestLapTime "00:02:03.562000"^^xsd:time ;
     fo:hasLaps 2 ;
     fo:hasPoints 0 ;
@@ -1977,7 +2086,8 @@ fo:s_partecipation2 a fo:SprintPartecipation ;
     fo:hasCarNumber 44 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver1 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap2,
+        17 ;
     fo:hasFastestLapTime "00:01:29.937000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1539856 ;
@@ -1995,7 +2105,8 @@ fo:s_partecipation20 a fo:SprintPartecipation ;
     fo:hasCarNumber 11 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver815 ;
-    fo:hasFastestLap 6 ;
+    fo:hasFastestLap fo:s_lap20,
+        6 ;
     fo:hasFastestLapTime "00:01:31.465000"^^xsd:time ;
     fo:hasLaps 16 ;
     fo:hasPoints 0 ;
@@ -2021,7 +2132,8 @@ fo:s_partecipation201 a fo:SprintPartecipation ;
     fo:hasCarNumber 1 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver830 ;
-    fo:hasFastestLap 2 ;
+    fo:hasFastestLap fo:s_lap201,
+        2 ;
     fo:hasFastestLapTime "00:01:39.060000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1890849 ;
@@ -2039,7 +2151,8 @@ fo:s_partecipation202 a fo:SprintPartecipation ;
     fo:hasCarNumber 44 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver1 ;
-    fo:hasFastestLap 3 ;
+    fo:hasFastestLap fo:s_lap202,
+        3 ;
     fo:hasFastestLapTime "00:01:39.138000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1900314 ;
@@ -2057,7 +2170,8 @@ fo:s_partecipation203 a fo:SprintPartecipation ;
     fo:hasCarNumber 16 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver844 ;
-    fo:hasFastestLap 3 ;
+    fo:hasFastestLap fo:s_lap203,
+        3 ;
     fo:hasFastestLapTime "00:01:39.634000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1908836 ;
@@ -2075,7 +2189,8 @@ fo:s_partecipation204 a fo:SprintPartecipation ;
     fo:hasCarNumber 4 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver846 ;
-    fo:hasFastestLap 15 ;
+    fo:hasFastestLap fo:s_lap204,
+        15 ;
     fo:hasFastestLapTime "00:01:39.795000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1909712 ;
@@ -2093,7 +2208,8 @@ fo:s_partecipation205 a fo:SprintPartecipation ;
     fo:hasCarNumber 11 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver815 ;
-    fo:hasFastestLap 6 ;
+    fo:hasFastestLap fo:s_lap205,
+        6 ;
     fo:hasFastestLapTime "00:01:39.824000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1913777 ;
@@ -2111,7 +2227,8 @@ fo:s_partecipation206 a fo:SprintPartecipation ;
     fo:hasCarNumber 55 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver832 ;
-    fo:hasFastestLap 5 ;
+    fo:hasFastestLap fo:s_lap206,
+        5 ;
     fo:hasFastestLapTime "00:01:40.223000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1919156 ;
@@ -2129,7 +2246,8 @@ fo:s_partecipation207 a fo:SprintPartecipation ;
     fo:hasCarNumber 10 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver842 ;
-    fo:hasFastestLap 5 ;
+    fo:hasFastestLap fo:s_lap207,
+        5 ;
     fo:hasFastestLapTime "00:01:40.155000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1923252 ;
@@ -2147,7 +2265,8 @@ fo:s_partecipation208 a fo:SprintPartecipation ;
     fo:hasCarNumber 63 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver847 ;
-    fo:hasFastestLap 10 ;
+    fo:hasFastestLap fo:s_lap208,
+        10 ;
     fo:hasFastestLapTime "00:01:40.253000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1925099 ;
@@ -2165,7 +2284,8 @@ fo:s_partecipation209 a fo:SprintPartecipation ;
     fo:hasCarNumber 23 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver848 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap209,
+        17 ;
     fo:hasFastestLapTime "00:01:40.094000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1925416 ;
@@ -2183,7 +2303,8 @@ fo:s_partecipation21 a fo:SprintPartecipation ;
     fo:hasCarNumber 77 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver822 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap21,
+        9 ;
     fo:hasFastestLapTime "00:01:23.540000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1674078 ;
@@ -2201,7 +2322,8 @@ fo:s_partecipation210 a fo:SprintPartecipation ;
     fo:hasCarNumber 81 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver857 ;
-    fo:hasFastestLap 16 ;
+    fo:hasFastestLap fo:s_lap210,
+        16 ;
     fo:hasFastestLapTime "00:01:41.037000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1933252 ;
@@ -2219,7 +2341,8 @@ fo:s_partecipation211 a fo:SprintPartecipation ;
     fo:hasCarNumber 31 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver839 ;
-    fo:hasFastestLap 15 ;
+    fo:hasFastestLap fo:s_lap211,
+        15 ;
     fo:hasFastestLapTime "00:01:41.013000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1935835 ;
@@ -2237,7 +2360,8 @@ fo:s_partecipation212 a fo:SprintPartecipation ;
     fo:hasCarNumber 3 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver817 ;
-    fo:hasFastestLap 14 ;
+    fo:hasFastestLap fo:s_lap212,
+        14 ;
     fo:hasFastestLapTime "00:01:40.434000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1936358 ;
@@ -2255,7 +2379,8 @@ fo:s_partecipation213 a fo:SprintPartecipation ;
     fo:hasCarNumber 14 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver4 ;
-    fo:hasFastestLap 16 ;
+    fo:hasFastestLap fo:s_lap213,
+        16 ;
     fo:hasFastestLapTime "00:01:40.805000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1939935 ;
@@ -2273,7 +2398,8 @@ fo:s_partecipation214 a fo:SprintPartecipation ;
     fo:hasCarNumber 22 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver852 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap214,
+        17 ;
     fo:hasFastestLapTime "00:01:40.632000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1940582 ;
@@ -2291,7 +2417,8 @@ fo:s_partecipation215 a fo:SprintPartecipation ;
     fo:hasCarNumber 27 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver807 ;
-    fo:hasFastestLap 18 ;
+    fo:hasFastestLap fo:s_lap215,
+        18 ;
     fo:hasFastestLapTime "00:01:41.232000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1947499 ;
@@ -2309,7 +2436,8 @@ fo:s_partecipation216 a fo:SprintPartecipation ;
     fo:hasCarNumber 77 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver822 ;
-    fo:hasFastestLap 18 ;
+    fo:hasFastestLap fo:s_lap216,
+        18 ;
     fo:hasFastestLapTime "00:01:41.503000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1955250 ;
@@ -2327,7 +2455,8 @@ fo:s_partecipation217 a fo:SprintPartecipation ;
     fo:hasCarNumber 24 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver855 ;
-    fo:hasFastestLap 18 ;
+    fo:hasFastestLap fo:s_lap217,
+        18 ;
     fo:hasFastestLapTime "00:01:41.595000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1958821 ;
@@ -2345,7 +2474,8 @@ fo:s_partecipation218 a fo:SprintPartecipation ;
     fo:hasCarNumber 20 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver825 ;
-    fo:hasFastestLap 3 ;
+    fo:hasFastestLap fo:s_lap218,
+        3 ;
     fo:hasFastestLapTime "00:01:41.699000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1961971 ;
@@ -2363,7 +2493,8 @@ fo:s_partecipation219 a fo:SprintPartecipation ;
     fo:hasCarNumber 2 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver858 ;
-    fo:hasFastestLap 6 ;
+    fo:hasFastestLap fo:s_lap219,
+        6 ;
     fo:hasFastestLapTime "00:01:41.947000"^^xsd:time ;
     fo:hasLaps 19 ;
     fo:hasMillisecondsResultTime 1962298 ;
@@ -2381,7 +2512,8 @@ fo:s_partecipation22 a fo:SprintPartecipation ;
     fo:hasCarNumber 33 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver830 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap22,
+        9 ;
     fo:hasFastestLapTime "00:01:23.502000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1676403 ;
@@ -2399,7 +2531,8 @@ fo:s_partecipation220 a fo:SprintPartecipation ;
     fo:hasCarNumber 18 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver840 ;
-    fo:hasFastestLap 5 ;
+    fo:hasFastestLap fo:s_lap220,
+        5 ;
     fo:hasFastestLapTime "00:01:41.460000"^^xsd:time ;
     fo:hasLaps 16 ;
     fo:hasPoints 0 ;
@@ -2409,11 +2542,183 @@ fo:s_partecipation220 a fo:SprintPartecipation ;
     fo:hasStatus fo:status23 ;
     fo:partecipatedInSprint fo:sprint1116 .
 
+fo:s_partecipation221 a fo:SprintPartecipation ;
+    fo:hasCarNumber 1 ;
+    fo:hasConstructor fo:constructor9 ;
+    fo:hasDriver fo:driver830 ;
+    fo:hasFastestLap fo:s_lap221,
+        3 ;
+    fo:hasFastestLapTime "00:01:14.540000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1807209 ;
+    fo:hasPoints 8 ;
+    fo:hasPosition 1 ;
+    fo:hasPositionOrder 1 ;
+    fo:hasPositionText "1"^^xsd:string ;
+    fo:hasResultGap "00:00:00"^^xsd:time ;
+    fo:hasResultTime "00:30:07.209000"^^xsd:time ;
+    fo:hasStartingGridPosition 2 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation222 a fo:SprintPartecipation ;
+    fo:hasCarNumber 4 ;
+    fo:hasConstructor fo:constructor1 ;
+    fo:hasDriver fo:driver846 ;
+    fo:hasFastestLap fo:s_lap222,
+        3 ;
+    fo:hasFastestLapTime "00:01:14.647000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1811496 ;
+    fo:hasPoints 7 ;
+    fo:hasPosition 2 ;
+    fo:hasPositionOrder 2 ;
+    fo:hasPositionText "2"^^xsd:string ;
+    fo:hasResultGap "00:00:04.287000"^^xsd:time ;
+    fo:hasResultTime "01:56:53.181000"^^xsd:time ;
+    fo:hasStartingGridPosition 1 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation223 a fo:SprintPartecipation ;
+    fo:hasCarNumber 11 ;
+    fo:hasConstructor fo:constructor9 ;
+    fo:hasDriver fo:driver815 ;
+    fo:hasFastestLap fo:s_lap223,
+        2 ;
+    fo:hasFastestLapTime "00:01:15.008000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1820826 ;
+    fo:hasPoints 6 ;
+    fo:hasPosition 3 ;
+    fo:hasPositionOrder 3 ;
+    fo:hasPositionText "3"^^xsd:string ;
+    fo:hasResultGap "00:00:13.617000"^^xsd:time ;
+    fo:hasResultTime "01:57:02.511000"^^xsd:time ;
+    fo:hasStartingGridPosition 3 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation224 a fo:SprintPartecipation ;
+    fo:hasCarNumber 63 ;
+    fo:hasConstructor fo:constructor131 ;
+    fo:hasDriver fo:driver847 ;
+    fo:hasFastestLap fo:s_lap224,
+        2 ;
+    fo:hasFastestLapTime "00:01:14.422000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1833088 ;
+    fo:hasPoints 5 ;
+    fo:hasPosition 4 ;
+    fo:hasPositionOrder 4 ;
+    fo:hasPositionText "4"^^xsd:string ;
+    fo:hasResultGap "00:00:25.879000"^^xsd:time ;
+    fo:hasResultTime "01:57:14.773000"^^xsd:time ;
+    fo:hasStartingGridPosition 4 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation225 a fo:SprintPartecipation ;
+    fo:hasCarNumber 16 ;
+    fo:hasConstructor fo:constructor6 ;
+    fo:hasDriver fo:driver844 ;
+    fo:hasFastestLap fo:s_lap225,
+        3 ;
+    fo:hasFastestLapTime "00:01:15.411000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1835769 ;
+    fo:hasPoints 4 ;
+    fo:hasPosition 5 ;
+    fo:hasPositionOrder 5 ;
+    fo:hasPositionText "5"^^xsd:string ;
+    fo:hasResultGap "00:00:28.560000"^^xsd:time ;
+    fo:hasResultTime "01:57:17.454000"^^xsd:time ;
+    fo:hasStartingGridPosition 7 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation226 a fo:SprintPartecipation ;
+    fo:hasCarNumber 22 ;
+    fo:hasConstructor fo:constructor213 ;
+    fo:hasDriver fo:driver852 ;
+    fo:hasFastestLap fo:s_lap226,
+        2 ;
+    fo:hasFastestLapTime "00:01:15.532000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1836419 ;
+    fo:hasPoints 3 ;
+    fo:hasPosition 6 ;
+    fo:hasPositionOrder 6 ;
+    fo:hasPositionText "6"^^xsd:string ;
+    fo:hasResultGap "00:00:29.210000"^^xsd:time ;
+    fo:hasResultTime "01:57:18.104000"^^xsd:time ;
+    fo:hasStartingGridPosition 6 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation227 a fo:SprintPartecipation ;
+    fo:hasCarNumber 44 ;
+    fo:hasConstructor fo:constructor131 ;
+    fo:hasDriver fo:driver1 ;
+    fo:hasFastestLap fo:s_lap227,
+        2 ;
+    fo:hasFastestLapTime "00:01:15.276000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1841935 ;
+    fo:hasPoints 2 ;
+    fo:hasPosition 7 ;
+    fo:hasPositionOrder 7 ;
+    fo:hasPositionText "7"^^xsd:string ;
+    fo:hasResultGap "00:00:34.726000"^^xsd:time ;
+    fo:hasResultTime "01:57:23.620000"^^xsd:time ;
+    fo:hasStartingGridPosition 5 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation228 a fo:SprintPartecipation ;
+    fo:hasCarNumber 55 ;
+    fo:hasConstructor fo:constructor6 ;
+    fo:hasDriver fo:driver832 ;
+    fo:hasFastestLap fo:s_lap228,
+        3 ;
+    fo:hasFastestLapTime "00:01:15.362000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1842315 ;
+    fo:hasPoints 1 ;
+    fo:hasPosition 8 ;
+    fo:hasPositionOrder 8 ;
+    fo:hasPositionText "8"^^xsd:string ;
+    fo:hasResultGap "00:00:35.106000"^^xsd:time ;
+    fo:hasResultTime "01:57:24"^^xsd:time ;
+    fo:hasStartingGridPosition 9 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation229 a fo:SprintPartecipation ;
+    fo:hasCarNumber 3 ;
+    fo:hasConstructor fo:constructor213 ;
+    fo:hasDriver fo:driver817 ;
+    fo:hasFastestLap fo:s_lap229,
+        2 ;
+    fo:hasFastestLapTime "00:01:15.460000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1842512 ;
+    fo:hasPoints 0 ;
+    fo:hasPosition 9 ;
+    fo:hasPositionOrder 9 ;
+    fo:hasPositionText "9"^^xsd:string ;
+    fo:hasResultGap "00:00:35.303000"^^xsd:time ;
+    fo:hasResultTime "01:57:24.197000"^^xsd:time ;
+    fo:hasStartingGridPosition 8 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
 fo:s_partecipation23 a fo:SprintPartecipation ;
     fo:hasCarNumber 3 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver817 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap23,
+        17 ;
     fo:hasFastestLapTime "00:01:24.291000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1688612 ;
@@ -2427,11 +2732,202 @@ fo:s_partecipation23 a fo:SprintPartecipation ;
     fo:hasStatus fo:status1 ;
     fo:partecipatedInSprint fo:sprint1065 .
 
+fo:s_partecipation230 a fo:SprintPartecipation ;
+    fo:hasCarNumber 81 ;
+    fo:hasConstructor fo:constructor1 ;
+    fo:hasDriver fo:driver857 ;
+    fo:hasFastestLap fo:s_lap230,
+        2 ;
+    fo:hasFastestLapTime "00:01:15.463000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1845428 ;
+    fo:hasPoints 0 ;
+    fo:hasPosition 10 ;
+    fo:hasPositionOrder 10 ;
+    fo:hasPositionText "10"^^xsd:string ;
+    fo:hasResultGap "00:00:38.219000"^^xsd:time ;
+    fo:hasResultTime "01:57:27.113000"^^xsd:time ;
+    fo:hasStartingGridPosition 10 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation231 a fo:SprintPartecipation ;
+    fo:hasCarNumber 14 ;
+    fo:hasConstructor fo:constructor117 ;
+    fo:hasDriver fo:driver4 ;
+    fo:hasFastestLap fo:s_lap231,
+        4 ;
+    fo:hasFastestLapTime "00:01:15.477000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1846270 ;
+    fo:hasPoints 0 ;
+    fo:hasPosition 11 ;
+    fo:hasPositionOrder 11 ;
+    fo:hasPositionText "11"^^xsd:string ;
+    fo:hasResultGap "00:00:39.061000"^^xsd:time ;
+    fo:hasResultTime "01:57:27.955000"^^xsd:time ;
+    fo:hasStartingGridPosition 15 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation232 a fo:SprintPartecipation ;
+    fo:hasCarNumber 18 ;
+    fo:hasConstructor fo:constructor117 ;
+    fo:hasDriver fo:driver840 ;
+    fo:hasFastestLap fo:s_lap232,
+        3 ;
+    fo:hasFastestLapTime "00:01:15.467000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1846687 ;
+    fo:hasPoints 0 ;
+    fo:hasPosition 12 ;
+    fo:hasPositionOrder 12 ;
+    fo:hasPositionText "12"^^xsd:string ;
+    fo:hasResultGap "00:00:39.478000"^^xsd:time ;
+    fo:hasResultTime "01:57:28.372000"^^xsd:time ;
+    fo:hasStartingGridPosition 17 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation233 a fo:SprintPartecipation ;
+    fo:hasCarNumber 10 ;
+    fo:hasConstructor fo:constructor214 ;
+    fo:hasDriver fo:driver842 ;
+    fo:hasFastestLap fo:s_lap233,
+        3 ;
+    fo:hasFastestLapTime "00:01:15.209000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1847830 ;
+    fo:hasPoints 0 ;
+    fo:hasPosition 13 ;
+    fo:hasPositionOrder 13 ;
+    fo:hasPositionText "13"^^xsd:string ;
+    fo:hasResultGap "00:00:40.621000"^^xsd:time ;
+    fo:hasResultTime "01:57:29.515000"^^xsd:time ;
+    fo:hasStartingGridPosition 13 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation234 a fo:SprintPartecipation ;
+    fo:hasCarNumber 31 ;
+    fo:hasConstructor fo:constructor214 ;
+    fo:hasDriver fo:driver839 ;
+    fo:hasFastestLap fo:s_lap234,
+        3 ;
+    fo:hasFastestLapTime "00:01:15.536000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1850057 ;
+    fo:hasPoints 0 ;
+    fo:hasPosition 14 ;
+    fo:hasPositionOrder 14 ;
+    fo:hasPositionText "14"^^xsd:string ;
+    fo:hasResultGap "00:00:42.848000"^^xsd:time ;
+    fo:hasResultTime "01:57:31.742000"^^xsd:time ;
+    fo:hasStartingGridPosition 16 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation235 a fo:SprintPartecipation ;
+    fo:hasCarNumber 23 ;
+    fo:hasConstructor fo:constructor3 ;
+    fo:hasDriver fo:driver848 ;
+    fo:hasFastestLap fo:s_lap235,
+        3 ;
+    fo:hasFastestLapTime "00:01:15.598000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1850603 ;
+    fo:hasPoints 0 ;
+    fo:hasPosition 15 ;
+    fo:hasPositionOrder 15 ;
+    fo:hasPositionText "15"^^xsd:string ;
+    fo:hasResultGap "00:00:43.394000"^^xsd:time ;
+    fo:hasResultTime "01:57:32.288000"^^xsd:time ;
+    fo:hasStartingGridPosition 19 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation236 a fo:SprintPartecipation ;
+    fo:hasCarNumber 20 ;
+    fo:hasConstructor fo:constructor210 ;
+    fo:hasDriver fo:driver825 ;
+    fo:hasFastestLap fo:s_lap236,
+        3 ;
+    fo:hasFastestLapTime "00:01:15.464000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1863716 ;
+    fo:hasPoints 0 ;
+    fo:hasPosition 16 ;
+    fo:hasPositionOrder 16 ;
+    fo:hasPositionText "16"^^xsd:string ;
+    fo:hasResultGap "00:00:56.507000"^^xsd:time ;
+    fo:hasResultTime "01:57:45.401000"^^xsd:time ;
+    fo:hasStartingGridPosition 11 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation237 a fo:SprintPartecipation ;
+    fo:hasCarNumber 24 ;
+    fo:hasConstructor fo:constructor51 ;
+    fo:hasDriver fo:driver855 ;
+    fo:hasFastestLap fo:s_lap237,
+        3 ;
+    fo:hasFastestLapTime "00:01:15.837000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1865932 ;
+    fo:hasPoints 0 ;
+    fo:hasPosition 17 ;
+    fo:hasPositionOrder 17 ;
+    fo:hasPositionText "17"^^xsd:string ;
+    fo:hasResultGap "00:00:58.723000"^^xsd:time ;
+    fo:hasResultTime "01:57:47.617000"^^xsd:time ;
+    fo:hasStartingGridPosition 18 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation238 a fo:SprintPartecipation ;
+    fo:hasCarNumber 27 ;
+    fo:hasConstructor fo:constructor210 ;
+    fo:hasDriver fo:driver807 ;
+    fo:hasFastestLap fo:s_lap238,
+        3 ;
+    fo:hasFastestLapTime "00:01:15.472000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1867539 ;
+    fo:hasPoints 0 ;
+    fo:hasPosition 18 ;
+    fo:hasPositionOrder 18 ;
+    fo:hasPositionText "18"^^xsd:string ;
+    fo:hasResultGap "00:01:00.330000"^^xsd:time ;
+    fo:hasResultTime "01:57:49.224000"^^xsd:time ;
+    fo:hasStartingGridPosition 12 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
+fo:s_partecipation239 a fo:SprintPartecipation ;
+    fo:hasCarNumber 77 ;
+    fo:hasConstructor fo:constructor51 ;
+    fo:hasDriver fo:driver822 ;
+    fo:hasFastestLap fo:s_lap239,
+        3 ;
+    fo:hasFastestLapTime "00:01:15.738000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1867958 ;
+    fo:hasPoints 0 ;
+    fo:hasPosition 19 ;
+    fo:hasPositionOrder 19 ;
+    fo:hasPositionText "19"^^xsd:string ;
+    fo:hasResultGap "00:01:00.749000"^^xsd:time ;
+    fo:hasResultTime "01:57:49.643000"^^xsd:time ;
+    fo:hasStartingGridPosition 14 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
 fo:s_partecipation24 a fo:SprintPartecipation ;
     fo:hasCarNumber 4 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver846 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap24,
+        9 ;
     fo:hasFastestLapTime "00:01:24.554000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1692913 ;
@@ -2445,11 +2941,31 @@ fo:s_partecipation24 a fo:SprintPartecipation ;
     fo:hasStatus fo:status1 ;
     fo:partecipatedInSprint fo:sprint1065 .
 
+fo:s_partecipation240 a fo:SprintPartecipation ;
+    fo:hasCarNumber 2 ;
+    fo:hasConstructor fo:constructor3 ;
+    fo:hasDriver fo:driver858 ;
+    fo:hasFastestLap fo:s_lap240,
+        4 ;
+    fo:hasFastestLapTime "00:01:15.496000"^^xsd:time ;
+    fo:hasLaps 24 ;
+    fo:hasMillisecondsResultTime 1868154 ;
+    fo:hasPoints 0 ;
+    fo:hasPosition 20 ;
+    fo:hasPositionOrder 20 ;
+    fo:hasPositionText "20"^^xsd:string ;
+    fo:hasResultGap "00:01:00.945000"^^xsd:time ;
+    fo:hasResultTime "01:57:49.839000"^^xsd:time ;
+    fo:hasStartingGridPosition 20 ;
+    fo:hasStatus fo:status1 ;
+    fo:partecipatedInSprint fo:sprint1118 .
+
 fo:s_partecipation25 a fo:SprintPartecipation ;
     fo:hasCarNumber 44 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver1 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap25,
+        9 ;
     fo:hasFastestLapTime "00:01:24.253000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1694089 ;
@@ -2467,7 +2983,8 @@ fo:s_partecipation26 a fo:SprintPartecipation ;
     fo:hasCarNumber 16 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver844 ;
-    fo:hasFastestLap 18 ;
+    fo:hasFastestLap fo:s_lap26,
+        18 ;
     fo:hasFastestLapTime "00:01:24.677000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1697520 ;
@@ -2485,7 +3002,8 @@ fo:s_partecipation27 a fo:SprintPartecipation ;
     fo:hasCarNumber 55 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver832 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap27,
+        8 ;
     fo:hasFastestLapTime "00:01:24.918000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1702030 ;
@@ -2503,7 +3021,8 @@ fo:s_partecipation28 a fo:SprintPartecipation ;
     fo:hasCarNumber 99 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver841 ;
-    fo:hasFastestLap 10 ;
+    fo:hasFastestLap fo:s_lap28,
+        10 ;
     fo:hasFastestLapTime "00:01:25.126000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1705167 ;
@@ -2521,7 +3040,8 @@ fo:s_partecipation29 a fo:SprintPartecipation ;
     fo:hasCarNumber 11 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver815 ;
-    fo:hasFastestLap 12 ;
+    fo:hasFastestLap fo:s_lap29,
+        12 ;
     fo:hasFastestLapTime "00:01:24.211000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1705758 ;
@@ -2539,7 +3059,8 @@ fo:s_partecipation3 a fo:SprintPartecipation ;
     fo:hasCarNumber 77 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver822 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap3,
+        17 ;
     fo:hasFastestLapTime "00:01:29.958000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1545928 ;
@@ -2557,7 +3078,8 @@ fo:s_partecipation30 a fo:SprintPartecipation ;
     fo:hasCarNumber 18 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver840 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap30,
+        8 ;
     fo:hasFastestLapTime "00:01:25.349000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1712749 ;
@@ -2575,7 +3097,8 @@ fo:s_partecipation31 a fo:SprintPartecipation ;
     fo:hasCarNumber 14 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver4 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap31,
+        8 ;
     fo:hasFastestLapTime "00:01:25.225000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1713873 ;
@@ -2593,7 +3116,8 @@ fo:s_partecipation32 a fo:SprintPartecipation ;
     fo:hasCarNumber 5 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver20 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap32,
+        8 ;
     fo:hasFastestLapTime "00:01:25.493000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1715255 ;
@@ -2611,7 +3135,8 @@ fo:s_partecipation33 a fo:SprintPartecipation ;
     fo:hasCarNumber 31 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver839 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap33,
+        8 ;
     fo:hasFastestLapTime "00:01:25.613000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1717451 ;
@@ -2629,7 +3154,8 @@ fo:s_partecipation34 a fo:SprintPartecipation ;
     fo:hasCarNumber 6 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver849 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap34,
+        9 ;
     fo:hasFastestLapTime "00:01:25.711000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1720055 ;
@@ -2647,7 +3173,8 @@ fo:s_partecipation35 a fo:SprintPartecipation ;
     fo:hasCarNumber 63 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver847 ;
-    fo:hasFastestLap 15 ;
+    fo:hasFastestLap fo:s_lap35,
+        15 ;
     fo:hasFastestLapTime "00:01:25.835000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1720899 ;
@@ -2665,7 +3192,8 @@ fo:s_partecipation36 a fo:SprintPartecipation ;
     fo:hasCarNumber 22 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver852 ;
-    fo:hasFastestLap 18 ;
+    fo:hasFastestLap fo:s_lap36,
+        18 ;
     fo:hasFastestLapTime "00:01:25.847000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1724055 ;
@@ -2683,7 +3211,8 @@ fo:s_partecipation37 a fo:SprintPartecipation ;
     fo:hasCarNumber 9 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver853 ;
-    fo:hasFastestLap 7 ;
+    fo:hasFastestLap fo:s_lap37,
+        7 ;
     fo:hasFastestLapTime "00:01:26.613000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1736677 ;
@@ -2701,7 +3230,8 @@ fo:s_partecipation38 a fo:SprintPartecipation ;
     fo:hasCarNumber 88 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver9 ;
-    fo:hasFastestLap 12 ;
+    fo:hasFastestLap fo:s_lap38,
+        12 ;
     fo:hasFastestLapTime "00:01:26.772000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1739174 ;
@@ -2719,7 +3249,8 @@ fo:s_partecipation39 a fo:SprintPartecipation ;
     fo:hasCarNumber 47 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver854 ;
-    fo:hasFastestLap 7 ;
+    fo:hasFastestLap fo:s_lap39,
+        7 ;
     fo:hasFastestLapTime "00:01:26.819000"^^xsd:time ;
     fo:hasLaps 18 ;
     fo:hasMillisecondsResultTime 1740232 ;
@@ -2737,7 +3268,8 @@ fo:s_partecipation4 a fo:SprintPartecipation ;
     fo:hasCarNumber 16 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver844 ;
-    fo:hasFastestLap 16 ;
+    fo:hasFastestLap fo:s_lap4,
+        16 ;
     fo:hasFastestLapTime "00:01:30.163000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1549704 ;
@@ -2767,7 +3299,8 @@ fo:s_partecipation41 a fo:SprintPartecipation ;
     fo:hasCarNumber 77 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver822 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap41,
+        8 ;
     fo:hasFastestLapTime "00:01:12.300000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1749559 ;
@@ -2785,7 +3318,8 @@ fo:s_partecipation42 a fo:SprintPartecipation ;
     fo:hasCarNumber 33 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver830 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap42,
+        9 ;
     fo:hasFastestLapTime "00:01:12.114000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1750729 ;
@@ -2803,7 +3337,8 @@ fo:s_partecipation43 a fo:SprintPartecipation ;
     fo:hasCarNumber 55 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver832 ;
-    fo:hasFastestLap 13 ;
+    fo:hasFastestLap fo:s_lap43,
+        13 ;
     fo:hasFastestLapTime "00:01:13.167000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1768282 ;
@@ -2821,7 +3356,8 @@ fo:s_partecipation44 a fo:SprintPartecipation ;
     fo:hasCarNumber 11 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver815 ;
-    fo:hasFastestLap 13 ;
+    fo:hasFastestLap fo:s_lap44,
+        13 ;
     fo:hasFastestLapTime "00:01:13.110000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1769346 ;
@@ -2839,7 +3375,8 @@ fo:s_partecipation45 a fo:SprintPartecipation ;
     fo:hasCarNumber 44 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver1 ;
-    fo:hasFastestLap 5 ;
+    fo:hasFastestLap fo:s_lap45,
+        5 ;
     fo:hasFastestLapTime "00:01:12.357000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1770431 ;
@@ -2857,7 +3394,8 @@ fo:s_partecipation46 a fo:SprintPartecipation ;
     fo:hasCarNumber 4 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver846 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap46,
+        8 ;
     fo:hasFastestLapTime "00:01:12.994000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1772117 ;
@@ -2875,7 +3413,8 @@ fo:s_partecipation47 a fo:SprintPartecipation ;
     fo:hasCarNumber 16 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver844 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap47,
+        4 ;
     fo:hasFastestLapTime "00:01:13.140000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1774615 ;
@@ -2893,7 +3432,8 @@ fo:s_partecipation48 a fo:SprintPartecipation ;
     fo:hasCarNumber 10 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver842 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap48,
+        4 ;
     fo:hasFastestLapTime "00:01:13.342000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1783717 ;
@@ -2911,7 +3451,8 @@ fo:s_partecipation49 a fo:SprintPartecipation ;
     fo:hasCarNumber 31 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver839 ;
-    fo:hasFastestLap 11 ;
+    fo:hasFastestLap fo:s_lap49,
+        11 ;
     fo:hasFastestLapTime "00:01:13.615000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1784191 ;
@@ -2929,7 +3470,8 @@ fo:s_partecipation5 a fo:SprintPartecipation ;
     fo:hasCarNumber 4 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver846 ;
-    fo:hasFastestLap 16 ;
+    fo:hasFastestLap fo:s_lap5,
+        16 ;
     fo:hasFastestLapTime "00:01:30.566000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1562537 ;
@@ -2947,7 +3489,8 @@ fo:s_partecipation50 a fo:SprintPartecipation ;
     fo:hasCarNumber 5 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver20 ;
-    fo:hasFastestLap 5 ;
+    fo:hasFastestLap fo:s_lap50,
+        5 ;
     fo:hasFastestLapTime "00:01:13.558000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1784426 ;
@@ -2965,7 +3508,8 @@ fo:s_partecipation51 a fo:SprintPartecipation ;
     fo:hasCarNumber 3 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver817 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap51,
+        9 ;
     fo:hasFastestLapTime "00:01:13.463000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1785428 ;
@@ -2983,7 +3527,8 @@ fo:s_partecipation52 a fo:SprintPartecipation ;
     fo:hasCarNumber 14 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver4 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap52,
+        4 ;
     fo:hasFastestLapTime "00:01:13.397000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1786137 ;
@@ -3001,7 +3546,8 @@ fo:s_partecipation53 a fo:SprintPartecipation ;
     fo:hasCarNumber 99 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver841 ;
-    fo:hasFastestLap 11 ;
+    fo:hasFastestLap fo:s_lap53,
+        11 ;
     fo:hasFastestLapTime "00:01:13.627000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1791439 ;
@@ -3019,7 +3565,8 @@ fo:s_partecipation54 a fo:SprintPartecipation ;
     fo:hasCarNumber 18 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver840 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap54,
+        9 ;
     fo:hasFastestLapTime "00:01:13.666000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1793596 ;
@@ -3037,7 +3584,8 @@ fo:s_partecipation55 a fo:SprintPartecipation ;
     fo:hasCarNumber 22 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver852 ;
-    fo:hasFastestLap 11 ;
+    fo:hasFastestLap fo:s_lap55,
+        11 ;
     fo:hasFastestLapTime "00:01:13.747000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1795709 ;
@@ -3055,7 +3603,8 @@ fo:s_partecipation56 a fo:SprintPartecipation ;
     fo:hasCarNumber 6 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver849 ;
-    fo:hasFastestLap 7 ;
+    fo:hasFastestLap fo:s_lap56,
+        7 ;
     fo:hasFastestLapTime "00:01:13.934000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1796319 ;
@@ -3073,7 +3622,8 @@ fo:s_partecipation57 a fo:SprintPartecipation ;
     fo:hasCarNumber 63 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver847 ;
-    fo:hasFastestLap 14 ;
+    fo:hasFastestLap fo:s_lap57,
+        14 ;
     fo:hasFastestLapTime "00:01:14.056000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1797298 ;
@@ -3091,7 +3641,8 @@ fo:s_partecipation58 a fo:SprintPartecipation ;
     fo:hasCarNumber 7 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver8 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap58,
+        9 ;
     fo:hasFastestLapTime "00:01:13.900000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1799573 ;
@@ -3109,7 +3660,8 @@ fo:s_partecipation59 a fo:SprintPartecipation ;
     fo:hasCarNumber 47 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver854 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap59,
+        9 ;
     fo:hasFastestLapTime "00:01:14.387000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1811239 ;
@@ -3127,7 +3679,8 @@ fo:s_partecipation6 a fo:SprintPartecipation ;
     fo:hasCarNumber 3 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver817 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap6,
+        17 ;
     fo:hasFastestLapTime "00:01:30.640000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1569385 ;
@@ -3145,7 +3698,8 @@ fo:s_partecipation60 a fo:SprintPartecipation ;
     fo:hasCarNumber 9 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver853 ;
-    fo:hasFastestLap 6 ;
+    fo:hasFastestLap fo:s_lap60,
+        6 ;
     fo:hasFastestLapTime "00:01:14.583000"^^xsd:time ;
     fo:hasLaps 24 ;
     fo:hasMillisecondsResultTime 1817033 ;
@@ -3163,7 +3717,8 @@ fo:s_partecipation61 a fo:SprintPartecipation ;
     fo:hasCarNumber 1 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver830 ;
-    fo:hasFastestLap 14 ;
+    fo:hasFastestLap fo:s_lap61,
+        14 ;
     fo:hasFastestLapTime "00:01:19.154000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1839567 ;
@@ -3181,7 +3736,8 @@ fo:s_partecipation62 a fo:SprintPartecipation ;
     fo:hasCarNumber 16 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver844 ;
-    fo:hasFastestLap 11 ;
+    fo:hasFastestLap fo:s_lap62,
+        11 ;
     fo:hasFastestLapTime "00:01:19.044000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1842542 ;
@@ -3199,7 +3755,8 @@ fo:s_partecipation63 a fo:SprintPartecipation ;
     fo:hasCarNumber 11 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver815 ;
-    fo:hasFastestLap 14 ;
+    fo:hasFastestLap fo:s_lap63,
+        14 ;
     fo:hasFastestLapTime "00:01:19.012000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1844288 ;
@@ -3217,7 +3774,8 @@ fo:s_partecipation64 a fo:SprintPartecipation ;
     fo:hasCarNumber 55 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver832 ;
-    fo:hasFastestLap 14 ;
+    fo:hasFastestLap fo:s_lap64,
+        14 ;
     fo:hasFastestLapTime "00:01:19.251000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1857145 ;
@@ -3235,7 +3793,8 @@ fo:s_partecipation65 a fo:SprintPartecipation ;
     fo:hasCarNumber 4 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver846 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap65,
+        9 ;
     fo:hasFastestLapTime "00:01:20.030000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1864128 ;
@@ -3253,7 +3812,8 @@ fo:s_partecipation66 a fo:SprintPartecipation ;
     fo:hasCarNumber 3 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver817 ;
-    fo:hasFastestLap 12 ;
+    fo:hasFastestLap fo:s_lap66,
+        12 ;
     fo:hasFastestLapTime "00:01:20.328000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1867307 ;
@@ -3271,7 +3831,8 @@ fo:s_partecipation67 a fo:SprintPartecipation ;
     fo:hasCarNumber 77 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver822 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap67,
+        9 ;
     fo:hasFastestLapTime "00:01:20.219000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1867700 ;
@@ -3289,7 +3850,8 @@ fo:s_partecipation68 a fo:SprintPartecipation ;
     fo:hasCarNumber 20 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver825 ;
-    fo:hasFastestLap 6 ;
+    fo:hasFastestLap fo:s_lap68,
+        6 ;
     fo:hasFastestLapTime "00:01:20.557000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1870279 ;
@@ -3307,7 +3869,8 @@ fo:s_partecipation69 a fo:SprintPartecipation ;
     fo:hasCarNumber 14 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver4 ;
-    fo:hasFastestLap 10 ;
+    fo:hasFastestLap fo:s_lap69,
+        10 ;
     fo:hasFastestLapTime "00:01:20.639000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1871845 ;
@@ -3325,7 +3888,8 @@ fo:s_partecipation7 a fo:SprintPartecipation ;
     fo:hasCarNumber 14 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver4 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap7,
+        17 ;
     fo:hasFastestLapTime "00:01:31.773000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1581953 ;
@@ -3343,7 +3907,8 @@ fo:s_partecipation70 a fo:SprintPartecipation ;
     fo:hasCarNumber 47 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver854 ;
-    fo:hasFastestLap 15 ;
+    fo:hasFastestLap fo:s_lap70,
+        15 ;
     fo:hasFastestLapTime "00:01:20.567000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1873340 ;
@@ -3361,7 +3926,8 @@ fo:s_partecipation71 a fo:SprintPartecipation ;
     fo:hasCarNumber 63 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver847 ;
-    fo:hasFastestLap 19 ;
+    fo:hasFastestLap fo:s_lap71,
+        19 ;
     fo:hasFastestLapTime "00:01:20.756000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1875851 ;
@@ -3379,7 +3945,8 @@ fo:s_partecipation72 a fo:SprintPartecipation ;
     fo:hasCarNumber 22 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver852 ;
-    fo:hasFastestLap 20 ;
+    fo:hasFastestLap fo:s_lap72,
+        20 ;
     fo:hasFastestLapTime "00:01:20.909000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1877865 ;
@@ -3397,7 +3964,8 @@ fo:s_partecipation73 a fo:SprintPartecipation ;
     fo:hasCarNumber 5 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver20 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap73,
+        8 ;
     fo:hasFastestLapTime "00:01:21.044000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1879744 ;
@@ -3415,7 +3983,8 @@ fo:s_partecipation74 a fo:SprintPartecipation ;
     fo:hasCarNumber 44 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver1 ;
-    fo:hasFastestLap 9 ;
+    fo:hasFastestLap fo:s_lap74,
+        9 ;
     fo:hasFastestLapTime "00:01:20.663000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1881026 ;
@@ -3433,7 +4002,8 @@ fo:s_partecipation75 a fo:SprintPartecipation ;
     fo:hasCarNumber 18 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver840 ;
-    fo:hasFastestLap 14 ;
+    fo:hasFastestLap fo:s_lap75,
+        14 ;
     fo:hasFastestLapTime "00:01:20.948000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1882477 ;
@@ -3451,7 +4021,8 @@ fo:s_partecipation76 a fo:SprintPartecipation ;
     fo:hasCarNumber 31 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver839 ;
-    fo:hasFastestLap 14 ;
+    fo:hasFastestLap fo:s_lap76,
+        14 ;
     fo:hasFastestLapTime "00:01:20.995000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1883084 ;
@@ -3469,7 +4040,8 @@ fo:s_partecipation77 a fo:SprintPartecipation ;
     fo:hasCarNumber 10 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver842 ;
-    fo:hasFastestLap 18 ;
+    fo:hasFastestLap fo:s_lap77,
+        18 ;
     fo:hasFastestLapTime "00:01:20.599000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1883361 ;
@@ -3487,7 +4059,8 @@ fo:s_partecipation78 a fo:SprintPartecipation ;
     fo:hasCarNumber 23 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver848 ;
-    fo:hasFastestLap 14 ;
+    fo:hasFastestLap fo:s_lap78,
+        14 ;
     fo:hasFastestLapTime "00:01:21.020000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1888438 ;
@@ -3505,7 +4078,8 @@ fo:s_partecipation79 a fo:SprintPartecipation ;
     fo:hasCarNumber 6 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver849 ;
-    fo:hasFastestLap 16 ;
+    fo:hasFastestLap fo:s_lap79,
+        16 ;
     fo:hasFastestLapTime "00:01:21.437000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasMillisecondsResultTime 1891584 ;
@@ -3523,7 +4097,8 @@ fo:s_partecipation8 a fo:SprintPartecipation ;
     fo:hasCarNumber 5 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver20 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap8,
+        17 ;
     fo:hasFastestLapTime "00:01:31.687000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1582865 ;
@@ -3553,7 +4128,8 @@ fo:s_partecipation81 a fo:SprintPartecipation ;
     fo:hasCarNumber 1 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver830 ;
-    fo:hasFastestLap 5 ;
+    fo:hasFastestLap fo:s_lap81,
+        5 ;
     fo:hasFastestLapTime "00:01:08.455000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1590059 ;
@@ -3571,7 +4147,8 @@ fo:s_partecipation82 a fo:SprintPartecipation ;
     fo:hasCarNumber 16 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver844 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap82,
+        4 ;
     fo:hasFastestLapTime "00:01:08.321000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1591734 ;
@@ -3589,7 +4166,8 @@ fo:s_partecipation83 a fo:SprintPartecipation ;
     fo:hasCarNumber 55 ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver832 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap83,
+        4 ;
     fo:hasFastestLapTime "00:01:08.409000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1595703 ;
@@ -3607,7 +4185,8 @@ fo:s_partecipation84 a fo:SprintPartecipation ;
     fo:hasCarNumber 63 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver847 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap84,
+        4 ;
     fo:hasFastestLapTime "00:01:08.979000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1603488 ;
@@ -3625,7 +4204,8 @@ fo:s_partecipation85 a fo:SprintPartecipation ;
     fo:hasCarNumber 11 ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver815 ;
-    fo:hasFastestLap 14 ;
+    fo:hasFastestLap fo:s_lap85,
+        14 ;
     fo:hasFastestLapTime "00:01:09.137000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1608361 ;
@@ -3643,7 +4223,8 @@ fo:s_partecipation86 a fo:SprintPartecipation ;
     fo:hasCarNumber 31 ;
     fo:hasConstructor fo:constructor214 ;
     fo:hasDriver fo:driver839 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap86,
+        4 ;
     fo:hasFastestLapTime "00:01:09.384000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1621091 ;
@@ -3661,7 +4242,8 @@ fo:s_partecipation87 a fo:SprintPartecipation ;
     fo:hasCarNumber 20 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver825 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap87,
+        4 ;
     fo:hasFastestLapTime "00:01:09.232000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1624598 ;
@@ -3679,7 +4261,8 @@ fo:s_partecipation88 a fo:SprintPartecipation ;
     fo:hasCarNumber 44 ;
     fo:hasConstructor fo:constructor131 ;
     fo:hasDriver fo:driver1 ;
-    fo:hasFastestLap 7 ;
+    fo:hasFastestLap fo:s_lap88,
+        7 ;
     fo:hasFastestLapTime "00:01:09.516000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1625506 ;
@@ -3697,7 +4280,8 @@ fo:s_partecipation89 a fo:SprintPartecipation ;
     fo:hasCarNumber 47 ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver854 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap89,
+        4 ;
     fo:hasFastestLapTime "00:01:09.457000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1627222 ;
@@ -3715,7 +4299,8 @@ fo:s_partecipation9 a fo:SprintPartecipation ;
     fo:hasCarNumber 63 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver847 ;
-    fo:hasFastestLap 17 ;
+    fo:hasFastestLap fo:s_lap9,
+        17 ;
     fo:hasFastestLapTime "00:01:32.208000"^^xsd:time ;
     fo:hasLaps 17 ;
     fo:hasMillisecondsResultTime 1585078 ;
@@ -3733,7 +4318,8 @@ fo:s_partecipation90 a fo:SprintPartecipation ;
     fo:hasCarNumber 77 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver822 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap90,
+        4 ;
     fo:hasFastestLapTime "00:01:09.674000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1627616 ;
@@ -3751,7 +4337,8 @@ fo:s_partecipation91 a fo:SprintPartecipation ;
     fo:hasCarNumber 4 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver846 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap91,
+        8 ;
     fo:hasFastestLapTime "00:01:09.909000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1628639 ;
@@ -3769,7 +4356,8 @@ fo:s_partecipation92 a fo:SprintPartecipation ;
     fo:hasCarNumber 3 ;
     fo:hasConstructor fo:constructor1 ;
     fo:hasDriver fo:driver817 ;
-    fo:hasFastestLap 8 ;
+    fo:hasFastestLap fo:s_lap92,
+        8 ;
     fo:hasFastestLapTime "00:01:09.996000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1629797 ;
@@ -3787,7 +4375,8 @@ fo:s_partecipation93 a fo:SprintPartecipation ;
     fo:hasCarNumber 18 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver840 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap93,
+        4 ;
     fo:hasFastestLapTime "00:01:10.295000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1638300 ;
@@ -3805,7 +4394,8 @@ fo:s_partecipation94 a fo:SprintPartecipation ;
     fo:hasCarNumber 24 ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver855 ;
-    fo:hasFastestLap 11 ;
+    fo:hasFastestLap fo:s_lap94,
+        11 ;
     fo:hasFastestLapTime "00:01:10.165000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1640812 ;
@@ -3823,7 +4413,8 @@ fo:s_partecipation95 a fo:SprintPartecipation ;
     fo:hasCarNumber 10 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver842 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap95,
+        4 ;
     fo:hasFastestLapTime "00:01:10.409000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1642184 ;
@@ -3841,7 +4432,8 @@ fo:s_partecipation96 a fo:SprintPartecipation ;
     fo:hasCarNumber 23 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver848 ;
-    fo:hasFastestLap 5 ;
+    fo:hasFastestLap fo:s_lap96,
+        5 ;
     fo:hasFastestLapTime "00:01:10.367000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1642471 ;
@@ -3859,7 +4451,8 @@ fo:s_partecipation97 a fo:SprintPartecipation ;
     fo:hasCarNumber 22 ;
     fo:hasConstructor fo:constructor213 ;
     fo:hasDriver fo:driver852 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap97,
+        4 ;
     fo:hasFastestLapTime "00:01:10.267000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1644615 ;
@@ -3877,7 +4470,8 @@ fo:s_partecipation98 a fo:SprintPartecipation ;
     fo:hasCarNumber 6 ;
     fo:hasConstructor fo:constructor3 ;
     fo:hasDriver fo:driver849 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap98,
+        4 ;
     fo:hasFastestLapTime "00:01:10.284000"^^xsd:time ;
     fo:hasLaps 23 ;
     fo:hasMillisecondsResultTime 1658753 ;
@@ -3895,7 +4489,8 @@ fo:s_partecipation99 a fo:SprintPartecipation ;
     fo:hasCarNumber 5 ;
     fo:hasConstructor fo:constructor117 ;
     fo:hasDriver fo:driver20 ;
-    fo:hasFastestLap 4 ;
+    fo:hasFastestLap fo:s_lap99,
+        4 ;
     fo:hasFastestLapTime "00:01:10.317000"^^xsd:time ;
     fo:hasLaps 21 ;
     fo:hasPoints 0 ;
@@ -3905,6 +4500,938 @@ fo:s_partecipation99 a fo:SprintPartecipation ;
     fo:hasStartingGridPosition 20 ;
     fo:hasStatus fo:status130 ;
     fo:partecipatedInSprint fo:sprint1084 .
+
+fo:s_lap1 a fo:SprintLap ;
+    fo:hasLapNumber 14 ;
+    fo:hasLapTime "00:01:30.013000"^^xsd:time .
+
+fo:s_lap10 a fo:SprintLap ;
+    fo:hasLapNumber 16 ;
+    fo:hasLapTime "00:01:32.183000"^^xsd:time .
+
+fo:s_lap101 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:14.233000"^^xsd:time .
+
+fo:s_lap102 a fo:SprintLap ;
+    fo:hasLapNumber 2 ;
+    fo:hasLapTime "00:01:14.522000"^^xsd:time .
+
+fo:s_lap103 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:14.317000"^^xsd:time .
+
+fo:s_lap104 a fo:SprintLap ;
+    fo:hasLapNumber 5 ;
+    fo:hasLapTime "00:01:14.507000"^^xsd:time .
+
+fo:s_lap105 a fo:SprintLap ;
+    fo:hasLapNumber 5 ;
+    fo:hasLapTime "00:01:14.699000"^^xsd:time .
+
+fo:s_lap106 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:15.236000"^^xsd:time .
+
+fo:s_lap107 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:15.380000"^^xsd:time .
+
+fo:s_lap108 a fo:SprintLap ;
+    fo:hasLapNumber 2 ;
+    fo:hasLapTime "00:01:15.110000"^^xsd:time .
+
+fo:s_lap109 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:15.451000"^^xsd:time .
+
+fo:s_lap11 a fo:SprintLap ;
+    fo:hasLapNumber 10 ;
+    fo:hasLapTime "00:01:31.991000"^^xsd:time .
+
+fo:s_lap110 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:15.290000"^^xsd:time .
+
+fo:s_lap111 a fo:SprintLap ;
+    fo:hasLapNumber 5 ;
+    fo:hasLapTime "00:01:15.385000"^^xsd:time .
+
+fo:s_lap112 a fo:SprintLap ;
+    fo:hasLapNumber 5 ;
+    fo:hasLapTime "00:01:15.771000"^^xsd:time .
+
+fo:s_lap113 a fo:SprintLap ;
+    fo:hasLapNumber 7 ;
+    fo:hasLapTime "00:01:15.765000"^^xsd:time .
+
+fo:s_lap114 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:15.980000"^^xsd:time .
+
+fo:s_lap115 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:16.413000"^^xsd:time .
+
+fo:s_lap116 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:15.425000"^^xsd:time .
+
+fo:s_lap117 a fo:SprintLap ;
+    fo:hasLapNumber 5 ;
+    fo:hasLapTime "00:01:16.097000"^^xsd:time .
+
+fo:s_lap118 a fo:SprintLap ;
+    fo:hasLapNumber 5 ;
+    fo:hasLapTime "00:01:14.764000"^^xsd:time .
+
+fo:s_lap119 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:16.525000"^^xsd:time .
+
+fo:s_lap12 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:32.072000"^^xsd:time .
+
+fo:s_lap120 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:15.998000"^^xsd:time .
+
+fo:s_lap121 a fo:SprintLap ;
+    fo:hasLapNumber 11 ;
+    fo:hasLapTime "00:01:43.616000"^^xsd:time .
+
+fo:s_lap122 a fo:SprintLap ;
+    fo:hasLapNumber 12 ;
+    fo:hasLapTime "00:01:43.646000"^^xsd:time .
+
+fo:s_lap123 a fo:SprintLap ;
+    fo:hasLapNumber 10 ;
+    fo:hasLapTime "00:01:43.723000"^^xsd:time .
+
+fo:s_lap124 a fo:SprintLap ;
+    fo:hasLapNumber 10 ;
+    fo:hasLapTime "00:01:44.409000"^^xsd:time .
+
+fo:s_lap125 a fo:SprintLap ;
+    fo:hasLapNumber 11 ;
+    fo:hasLapTime "00:01:44.398000"^^xsd:time .
+
+fo:s_lap126 a fo:SprintLap ;
+    fo:hasLapNumber 12 ;
+    fo:hasLapTime "00:01:44.544000"^^xsd:time .
+
+fo:s_lap127 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:44.601000"^^xsd:time .
+
+fo:s_lap128 a fo:SprintLap ;
+    fo:hasLapNumber 14 ;
+    fo:hasLapTime "00:01:44.855000"^^xsd:time .
+
+fo:s_lap129 a fo:SprintLap ;
+    fo:hasLapNumber 10 ;
+    fo:hasLapTime "00:01:44.915000"^^xsd:time .
+
+fo:s_lap13 a fo:SprintLap ;
+    fo:hasLapNumber 12 ;
+    fo:hasLapTime "00:01:32.139000"^^xsd:time .
+
+fo:s_lap130 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:44.776000"^^xsd:time .
+
+fo:s_lap131 a fo:SprintLap ;
+    fo:hasLapNumber 14 ;
+    fo:hasLapTime "00:01:45.349000"^^xsd:time .
+
+fo:s_lap132 a fo:SprintLap ;
+    fo:hasLapNumber 16 ;
+    fo:hasLapTime "00:01:45.766000"^^xsd:time .
+
+fo:s_lap133 a fo:SprintLap ;
+    fo:hasLapNumber 12 ;
+    fo:hasLapTime "00:01:45.883000"^^xsd:time .
+
+fo:s_lap134 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:45.768000"^^xsd:time .
+
+fo:s_lap135 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:45.971000"^^xsd:time .
+
+fo:s_lap136 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:46.277000"^^xsd:time .
+
+fo:s_lap137 a fo:SprintLap ;
+    fo:hasLapNumber 15 ;
+    fo:hasLapTime "00:01:44.484000"^^xsd:time .
+
+fo:s_lap138 a fo:SprintLap ;
+    fo:hasLapNumber 15 ;
+    fo:hasLapTime "00:01:45.090000"^^xsd:time .
+
+fo:s_lap14 a fo:SprintLap ;
+    fo:hasLapNumber 12 ;
+    fo:hasLapTime "00:01:32.210000"^^xsd:time .
+
+fo:s_lap141 a fo:SprintLap ;
+    fo:hasLapNumber 19 ;
+    fo:hasLapTime "00:01:14.292000"^^xsd:time .
+
+fo:s_lap142 a fo:SprintLap ;
+    fo:hasLapNumber 16 ;
+    fo:hasLapTime "00:01:15.492000"^^xsd:time .
+
+fo:s_lap143 a fo:SprintLap ;
+    fo:hasLapNumber 16 ;
+    fo:hasLapTime "00:01:15.457000"^^xsd:time .
+
+fo:s_lap144 a fo:SprintLap ;
+    fo:hasLapNumber 23 ;
+    fo:hasLapTime "00:01:15.531000"^^xsd:time .
+
+fo:s_lap145 a fo:SprintLap ;
+    fo:hasLapNumber 18 ;
+    fo:hasLapTime "00:01:14.978000"^^xsd:time .
+
+fo:s_lap146 a fo:SprintLap ;
+    fo:hasLapNumber 24 ;
+    fo:hasLapTime "00:01:10.180000"^^xsd:time .
+
+fo:s_lap147 a fo:SprintLap ;
+    fo:hasLapNumber 22 ;
+    fo:hasLapTime "00:01:15.512000"^^xsd:time .
+
+fo:s_lap148 a fo:SprintLap ;
+    fo:hasLapNumber 23 ;
+    fo:hasLapTime "00:01:10.385000"^^xsd:time .
+
+fo:s_lap149 a fo:SprintLap ;
+    fo:hasLapNumber 19 ;
+    fo:hasLapTime "00:01:15.627000"^^xsd:time .
+
+fo:s_lap15 a fo:SprintLap ;
+    fo:hasLapNumber 14 ;
+    fo:hasLapTime "00:01:32.457000"^^xsd:time .
+
+fo:s_lap150 a fo:SprintLap ;
+    fo:hasLapNumber 24 ;
+    fo:hasLapTime "00:01:10.775000"^^xsd:time .
+
+fo:s_lap151 a fo:SprintLap ;
+    fo:hasLapNumber 24 ;
+    fo:hasLapTime "00:01:10.274000"^^xsd:time .
+
+fo:s_lap152 a fo:SprintLap ;
+    fo:hasLapNumber 24 ;
+    fo:hasLapTime "00:01:10.686000"^^xsd:time .
+
+fo:s_lap153 a fo:SprintLap ;
+    fo:hasLapNumber 24 ;
+    fo:hasLapTime "00:01:11.635000"^^xsd:time .
+
+fo:s_lap154 a fo:SprintLap ;
+    fo:hasLapNumber 23 ;
+    fo:hasLapTime "00:01:10.539000"^^xsd:time .
+
+fo:s_lap155 a fo:SprintLap ;
+    fo:hasLapNumber 22 ;
+    fo:hasLapTime "00:01:16.109000"^^xsd:time .
+
+fo:s_lap156 a fo:SprintLap ;
+    fo:hasLapNumber 23 ;
+    fo:hasLapTime "00:01:11.363000"^^xsd:time .
+
+fo:s_lap157 a fo:SprintLap ;
+    fo:hasLapNumber 22 ;
+    fo:hasLapTime "00:01:11.701000"^^xsd:time .
+
+fo:s_lap158 a fo:SprintLap ;
+    fo:hasLapNumber 21 ;
+    fo:hasLapTime "00:01:11.829000"^^xsd:time .
+
+fo:s_lap159 a fo:SprintLap ;
+    fo:hasLapNumber 22 ;
+    fo:hasLapTime "00:01:11.305000"^^xsd:time .
+
+fo:s_lap16 a fo:SprintLap ;
+    fo:hasLapNumber 14 ;
+    fo:hasLapTime "00:01:32.270000"^^xsd:time .
+
+fo:s_lap160 a fo:SprintLap ;
+    fo:hasLapNumber 22 ;
+    fo:hasLapTime "00:01:16.758000"^^xsd:time .
+
+fo:s_lap161 a fo:SprintLap ;
+    fo:hasLapNumber 6 ;
+    fo:hasLapTime "00:01:58.943000"^^xsd:time .
+
+fo:s_lap162 a fo:SprintLap ;
+    fo:hasLapNumber 2 ;
+    fo:hasLapTime "00:02:00.360000"^^xsd:time .
+
+fo:s_lap163 a fo:SprintLap ;
+    fo:hasLapNumber 6 ;
+    fo:hasLapTime "00:02:01.857000"^^xsd:time .
+
+fo:s_lap164 a fo:SprintLap ;
+    fo:hasLapNumber 7 ;
+    fo:hasLapTime "00:02:01.472000"^^xsd:time .
+
+fo:s_lap165 a fo:SprintLap ;
+    fo:hasLapNumber 7 ;
+    fo:hasLapTime "00:02:02.635000"^^xsd:time .
+
+fo:s_lap166 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:02:02.085000"^^xsd:time .
+
+fo:s_lap167 a fo:SprintLap ;
+    fo:hasLapNumber 7 ;
+    fo:hasLapTime "00:02:00.920000"^^xsd:time .
+
+fo:s_lap168 a fo:SprintLap ;
+    fo:hasLapNumber 10 ;
+    fo:hasLapTime "00:02:01.935000"^^xsd:time .
+
+fo:s_lap169 a fo:SprintLap ;
+    fo:hasLapNumber 6 ;
+    fo:hasLapTime "00:02:03.061000"^^xsd:time .
+
+fo:s_lap17 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:32.143000"^^xsd:time .
+
+fo:s_lap170 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:02:02.967000"^^xsd:time .
+
+fo:s_lap171 a fo:SprintLap ;
+    fo:hasLapNumber 6 ;
+    fo:hasLapTime "00:02:03.356000"^^xsd:time .
+
+fo:s_lap172 a fo:SprintLap ;
+    fo:hasLapNumber 6 ;
+    fo:hasLapTime "00:02:03.674000"^^xsd:time .
+
+fo:s_lap173 a fo:SprintLap ;
+    fo:hasLapNumber 6 ;
+    fo:hasLapTime "00:02:03.595000"^^xsd:time .
+
+fo:s_lap174 a fo:SprintLap ;
+    fo:hasLapNumber 6 ;
+    fo:hasLapTime "00:02:03.965000"^^xsd:time .
+
+fo:s_lap175 a fo:SprintLap ;
+    fo:hasLapNumber 6 ;
+    fo:hasLapTime "00:02:04.760000"^^xsd:time .
+
+fo:s_lap176 a fo:SprintLap ;
+    fo:hasLapNumber 6 ;
+    fo:hasLapTime "00:02:03.482000"^^xsd:time .
+
+fo:s_lap177 a fo:SprintLap ;
+    fo:hasLapNumber 6 ;
+    fo:hasLapTime "00:02:03.472000"^^xsd:time .
+
+fo:s_lap178 a fo:SprintLap ;
+    fo:hasLapNumber 7 ;
+    fo:hasLapTime "00:02:02.080000"^^xsd:time .
+
+fo:s_lap179 a fo:SprintLap ;
+    fo:hasLapNumber 2 ;
+    fo:hasLapTime "00:02:02.516000"^^xsd:time .
+
+fo:s_lap18 a fo:SprintLap ;
+    fo:hasLapNumber 15 ;
+    fo:hasLapTime "00:01:32.567000"^^xsd:time .
+
+fo:s_lap181 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:25.926000"^^xsd:time .
+
+fo:s_lap182 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:25.604000"^^xsd:time .
+
+fo:s_lap183 a fo:SprintLap ;
+    fo:hasLapNumber 19 ;
+    fo:hasLapTime "00:01:25.662000"^^xsd:time .
+
+fo:s_lap184 a fo:SprintLap ;
+    fo:hasLapNumber 18 ;
+    fo:hasLapTime "00:01:27.220000"^^xsd:time .
+
+fo:s_lap185 a fo:SprintLap ;
+    fo:hasLapNumber 19 ;
+    fo:hasLapTime "00:01:27.968000"^^xsd:time .
+
+fo:s_lap186 a fo:SprintLap ;
+    fo:hasLapNumber 7 ;
+    fo:hasLapTime "00:01:28.644000"^^xsd:time .
+
+fo:s_lap187 a fo:SprintLap ;
+    fo:hasLapNumber 16 ;
+    fo:hasLapTime "00:01:28.717000"^^xsd:time .
+
+fo:s_lap188 a fo:SprintLap ;
+    fo:hasLapNumber 16 ;
+    fo:hasLapTime "00:01:28.717000"^^xsd:time .
+
+fo:s_lap189 a fo:SprintLap ;
+    fo:hasLapNumber 16 ;
+    fo:hasLapTime "00:01:28.769000"^^xsd:time .
+
+fo:s_lap19 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:33.462000"^^xsd:time .
+
+fo:s_lap190 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:29.017000"^^xsd:time .
+
+fo:s_lap191 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:29.381000"^^xsd:time .
+
+fo:s_lap192 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:28.759000"^^xsd:time .
+
+fo:s_lap193 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:29.536000"^^xsd:time .
+
+fo:s_lap194 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:29.560000"^^xsd:time .
+
+fo:s_lap195 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:29.553000"^^xsd:time .
+
+fo:s_lap196 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:29.307000"^^xsd:time .
+
+fo:s_lap197 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:29.388000"^^xsd:time .
+
+fo:s_lap198 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:28.584000"^^xsd:time .
+
+fo:s_lap199 a fo:SprintLap ;
+    fo:hasLapNumber 2 ;
+    fo:hasLapTime "00:02:03.562000"^^xsd:time .
+
+fo:s_lap2 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:29.937000"^^xsd:time .
+
+fo:s_lap20 a fo:SprintLap ;
+    fo:hasLapNumber 6 ;
+    fo:hasLapTime "00:01:31.465000"^^xsd:time .
+
+fo:s_lap201 a fo:SprintLap ;
+    fo:hasLapNumber 2 ;
+    fo:hasLapTime "00:01:39.060000"^^xsd:time .
+
+fo:s_lap202 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:39.138000"^^xsd:time .
+
+fo:s_lap203 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:39.634000"^^xsd:time .
+
+fo:s_lap204 a fo:SprintLap ;
+    fo:hasLapNumber 15 ;
+    fo:hasLapTime "00:01:39.795000"^^xsd:time .
+
+fo:s_lap205 a fo:SprintLap ;
+    fo:hasLapNumber 6 ;
+    fo:hasLapTime "00:01:39.824000"^^xsd:time .
+
+fo:s_lap206 a fo:SprintLap ;
+    fo:hasLapNumber 5 ;
+    fo:hasLapTime "00:01:40.223000"^^xsd:time .
+
+fo:s_lap207 a fo:SprintLap ;
+    fo:hasLapNumber 5 ;
+    fo:hasLapTime "00:01:40.155000"^^xsd:time .
+
+fo:s_lap208 a fo:SprintLap ;
+    fo:hasLapNumber 10 ;
+    fo:hasLapTime "00:01:40.253000"^^xsd:time .
+
+fo:s_lap209 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:40.094000"^^xsd:time .
+
+fo:s_lap21 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:23.540000"^^xsd:time .
+
+fo:s_lap210 a fo:SprintLap ;
+    fo:hasLapNumber 16 ;
+    fo:hasLapTime "00:01:41.037000"^^xsd:time .
+
+fo:s_lap211 a fo:SprintLap ;
+    fo:hasLapNumber 15 ;
+    fo:hasLapTime "00:01:41.013000"^^xsd:time .
+
+fo:s_lap212 a fo:SprintLap ;
+    fo:hasLapNumber 14 ;
+    fo:hasLapTime "00:01:40.434000"^^xsd:time .
+
+fo:s_lap213 a fo:SprintLap ;
+    fo:hasLapNumber 16 ;
+    fo:hasLapTime "00:01:40.805000"^^xsd:time .
+
+fo:s_lap214 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:40.632000"^^xsd:time .
+
+fo:s_lap215 a fo:SprintLap ;
+    fo:hasLapNumber 18 ;
+    fo:hasLapTime "00:01:41.232000"^^xsd:time .
+
+fo:s_lap216 a fo:SprintLap ;
+    fo:hasLapNumber 18 ;
+    fo:hasLapTime "00:01:41.503000"^^xsd:time .
+
+fo:s_lap217 a fo:SprintLap ;
+    fo:hasLapNumber 18 ;
+    fo:hasLapTime "00:01:41.595000"^^xsd:time .
+
+fo:s_lap218 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:41.699000"^^xsd:time .
+
+fo:s_lap219 a fo:SprintLap ;
+    fo:hasLapNumber 6 ;
+    fo:hasLapTime "00:01:41.947000"^^xsd:time .
+
+fo:s_lap22 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:23.502000"^^xsd:time .
+
+fo:s_lap220 a fo:SprintLap ;
+    fo:hasLapNumber 5 ;
+    fo:hasLapTime "00:01:41.460000"^^xsd:time .
+
+fo:s_lap221 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:14.540000"^^xsd:time .
+
+fo:s_lap222 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:14.647000"^^xsd:time .
+
+fo:s_lap223 a fo:SprintLap ;
+    fo:hasLapNumber 2 ;
+    fo:hasLapTime "00:01:15.008000"^^xsd:time .
+
+fo:s_lap224 a fo:SprintLap ;
+    fo:hasLapNumber 2 ;
+    fo:hasLapTime "00:01:14.422000"^^xsd:time .
+
+fo:s_lap225 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:15.411000"^^xsd:time .
+
+fo:s_lap226 a fo:SprintLap ;
+    fo:hasLapNumber 2 ;
+    fo:hasLapTime "00:01:15.532000"^^xsd:time .
+
+fo:s_lap227 a fo:SprintLap ;
+    fo:hasLapNumber 2 ;
+    fo:hasLapTime "00:01:15.276000"^^xsd:time .
+
+fo:s_lap228 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:15.362000"^^xsd:time .
+
+fo:s_lap229 a fo:SprintLap ;
+    fo:hasLapNumber 2 ;
+    fo:hasLapTime "00:01:15.460000"^^xsd:time .
+
+fo:s_lap23 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:24.291000"^^xsd:time .
+
+fo:s_lap230 a fo:SprintLap ;
+    fo:hasLapNumber 2 ;
+    fo:hasLapTime "00:01:15.463000"^^xsd:time .
+
+fo:s_lap231 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:15.477000"^^xsd:time .
+
+fo:s_lap232 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:15.467000"^^xsd:time .
+
+fo:s_lap233 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:15.209000"^^xsd:time .
+
+fo:s_lap234 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:15.536000"^^xsd:time .
+
+fo:s_lap235 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:15.598000"^^xsd:time .
+
+fo:s_lap236 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:15.464000"^^xsd:time .
+
+fo:s_lap237 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:15.837000"^^xsd:time .
+
+fo:s_lap238 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:15.472000"^^xsd:time .
+
+fo:s_lap239 a fo:SprintLap ;
+    fo:hasLapNumber 3 ;
+    fo:hasLapTime "00:01:15.738000"^^xsd:time .
+
+fo:s_lap24 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:24.554000"^^xsd:time .
+
+fo:s_lap240 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:15.496000"^^xsd:time .
+
+fo:s_lap25 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:24.253000"^^xsd:time .
+
+fo:s_lap26 a fo:SprintLap ;
+    fo:hasLapNumber 18 ;
+    fo:hasLapTime "00:01:24.677000"^^xsd:time .
+
+fo:s_lap27 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:24.918000"^^xsd:time .
+
+fo:s_lap28 a fo:SprintLap ;
+    fo:hasLapNumber 10 ;
+    fo:hasLapTime "00:01:25.126000"^^xsd:time .
+
+fo:s_lap29 a fo:SprintLap ;
+    fo:hasLapNumber 12 ;
+    fo:hasLapTime "00:01:24.211000"^^xsd:time .
+
+fo:s_lap3 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:29.958000"^^xsd:time .
+
+fo:s_lap30 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:25.349000"^^xsd:time .
+
+fo:s_lap31 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:25.225000"^^xsd:time .
+
+fo:s_lap32 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:25.493000"^^xsd:time .
+
+fo:s_lap33 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:25.613000"^^xsd:time .
+
+fo:s_lap34 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:25.711000"^^xsd:time .
+
+fo:s_lap35 a fo:SprintLap ;
+    fo:hasLapNumber 15 ;
+    fo:hasLapTime "00:01:25.835000"^^xsd:time .
+
+fo:s_lap36 a fo:SprintLap ;
+    fo:hasLapNumber 18 ;
+    fo:hasLapTime "00:01:25.847000"^^xsd:time .
+
+fo:s_lap37 a fo:SprintLap ;
+    fo:hasLapNumber 7 ;
+    fo:hasLapTime "00:01:26.613000"^^xsd:time .
+
+fo:s_lap38 a fo:SprintLap ;
+    fo:hasLapNumber 12 ;
+    fo:hasLapTime "00:01:26.772000"^^xsd:time .
+
+fo:s_lap39 a fo:SprintLap ;
+    fo:hasLapNumber 7 ;
+    fo:hasLapTime "00:01:26.819000"^^xsd:time .
+
+fo:s_lap4 a fo:SprintLap ;
+    fo:hasLapNumber 16 ;
+    fo:hasLapTime "00:01:30.163000"^^xsd:time .
+
+fo:s_lap41 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:12.300000"^^xsd:time .
+
+fo:s_lap42 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:12.114000"^^xsd:time .
+
+fo:s_lap43 a fo:SprintLap ;
+    fo:hasLapNumber 13 ;
+    fo:hasLapTime "00:01:13.167000"^^xsd:time .
+
+fo:s_lap44 a fo:SprintLap ;
+    fo:hasLapNumber 13 ;
+    fo:hasLapTime "00:01:13.110000"^^xsd:time .
+
+fo:s_lap45 a fo:SprintLap ;
+    fo:hasLapNumber 5 ;
+    fo:hasLapTime "00:01:12.357000"^^xsd:time .
+
+fo:s_lap46 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:12.994000"^^xsd:time .
+
+fo:s_lap47 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:13.140000"^^xsd:time .
+
+fo:s_lap48 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:13.342000"^^xsd:time .
+
+fo:s_lap49 a fo:SprintLap ;
+    fo:hasLapNumber 11 ;
+    fo:hasLapTime "00:01:13.615000"^^xsd:time .
+
+fo:s_lap5 a fo:SprintLap ;
+    fo:hasLapNumber 16 ;
+    fo:hasLapTime "00:01:30.566000"^^xsd:time .
+
+fo:s_lap50 a fo:SprintLap ;
+    fo:hasLapNumber 5 ;
+    fo:hasLapTime "00:01:13.558000"^^xsd:time .
+
+fo:s_lap51 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:13.463000"^^xsd:time .
+
+fo:s_lap52 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:13.397000"^^xsd:time .
+
+fo:s_lap53 a fo:SprintLap ;
+    fo:hasLapNumber 11 ;
+    fo:hasLapTime "00:01:13.627000"^^xsd:time .
+
+fo:s_lap54 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:13.666000"^^xsd:time .
+
+fo:s_lap55 a fo:SprintLap ;
+    fo:hasLapNumber 11 ;
+    fo:hasLapTime "00:01:13.747000"^^xsd:time .
+
+fo:s_lap56 a fo:SprintLap ;
+    fo:hasLapNumber 7 ;
+    fo:hasLapTime "00:01:13.934000"^^xsd:time .
+
+fo:s_lap57 a fo:SprintLap ;
+    fo:hasLapNumber 14 ;
+    fo:hasLapTime "00:01:14.056000"^^xsd:time .
+
+fo:s_lap58 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:13.900000"^^xsd:time .
+
+fo:s_lap59 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:14.387000"^^xsd:time .
+
+fo:s_lap6 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:30.640000"^^xsd:time .
+
+fo:s_lap60 a fo:SprintLap ;
+    fo:hasLapNumber 6 ;
+    fo:hasLapTime "00:01:14.583000"^^xsd:time .
+
+fo:s_lap61 a fo:SprintLap ;
+    fo:hasLapNumber 14 ;
+    fo:hasLapTime "00:01:19.154000"^^xsd:time .
+
+fo:s_lap62 a fo:SprintLap ;
+    fo:hasLapNumber 11 ;
+    fo:hasLapTime "00:01:19.044000"^^xsd:time .
+
+fo:s_lap63 a fo:SprintLap ;
+    fo:hasLapNumber 14 ;
+    fo:hasLapTime "00:01:19.012000"^^xsd:time .
+
+fo:s_lap64 a fo:SprintLap ;
+    fo:hasLapNumber 14 ;
+    fo:hasLapTime "00:01:19.251000"^^xsd:time .
+
+fo:s_lap65 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:20.030000"^^xsd:time .
+
+fo:s_lap66 a fo:SprintLap ;
+    fo:hasLapNumber 12 ;
+    fo:hasLapTime "00:01:20.328000"^^xsd:time .
+
+fo:s_lap67 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:20.219000"^^xsd:time .
+
+fo:s_lap68 a fo:SprintLap ;
+    fo:hasLapNumber 6 ;
+    fo:hasLapTime "00:01:20.557000"^^xsd:time .
+
+fo:s_lap69 a fo:SprintLap ;
+    fo:hasLapNumber 10 ;
+    fo:hasLapTime "00:01:20.639000"^^xsd:time .
+
+fo:s_lap7 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:31.773000"^^xsd:time .
+
+fo:s_lap70 a fo:SprintLap ;
+    fo:hasLapNumber 15 ;
+    fo:hasLapTime "00:01:20.567000"^^xsd:time .
+
+fo:s_lap71 a fo:SprintLap ;
+    fo:hasLapNumber 19 ;
+    fo:hasLapTime "00:01:20.756000"^^xsd:time .
+
+fo:s_lap72 a fo:SprintLap ;
+    fo:hasLapNumber 20 ;
+    fo:hasLapTime "00:01:20.909000"^^xsd:time .
+
+fo:s_lap73 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:21.044000"^^xsd:time .
+
+fo:s_lap74 a fo:SprintLap ;
+    fo:hasLapNumber 9 ;
+    fo:hasLapTime "00:01:20.663000"^^xsd:time .
+
+fo:s_lap75 a fo:SprintLap ;
+    fo:hasLapNumber 14 ;
+    fo:hasLapTime "00:01:20.948000"^^xsd:time .
+
+fo:s_lap76 a fo:SprintLap ;
+    fo:hasLapNumber 14 ;
+    fo:hasLapTime "00:01:20.995000"^^xsd:time .
+
+fo:s_lap77 a fo:SprintLap ;
+    fo:hasLapNumber 18 ;
+    fo:hasLapTime "00:01:20.599000"^^xsd:time .
+
+fo:s_lap78 a fo:SprintLap ;
+    fo:hasLapNumber 14 ;
+    fo:hasLapTime "00:01:21.020000"^^xsd:time .
+
+fo:s_lap79 a fo:SprintLap ;
+    fo:hasLapNumber 16 ;
+    fo:hasLapTime "00:01:21.437000"^^xsd:time .
+
+fo:s_lap8 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:31.687000"^^xsd:time .
+
+fo:s_lap81 a fo:SprintLap ;
+    fo:hasLapNumber 5 ;
+    fo:hasLapTime "00:01:08.455000"^^xsd:time .
+
+fo:s_lap82 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:08.321000"^^xsd:time .
+
+fo:s_lap83 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:08.409000"^^xsd:time .
+
+fo:s_lap84 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:08.979000"^^xsd:time .
+
+fo:s_lap85 a fo:SprintLap ;
+    fo:hasLapNumber 14 ;
+    fo:hasLapTime "00:01:09.137000"^^xsd:time .
+
+fo:s_lap86 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:09.384000"^^xsd:time .
+
+fo:s_lap87 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:09.232000"^^xsd:time .
+
+fo:s_lap88 a fo:SprintLap ;
+    fo:hasLapNumber 7 ;
+    fo:hasLapTime "00:01:09.516000"^^xsd:time .
+
+fo:s_lap89 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:09.457000"^^xsd:time .
+
+fo:s_lap9 a fo:SprintLap ;
+    fo:hasLapNumber 17 ;
+    fo:hasLapTime "00:01:32.208000"^^xsd:time .
+
+fo:s_lap90 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:09.674000"^^xsd:time .
+
+fo:s_lap91 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:09.909000"^^xsd:time .
+
+fo:s_lap92 a fo:SprintLap ;
+    fo:hasLapNumber 8 ;
+    fo:hasLapTime "00:01:09.996000"^^xsd:time .
+
+fo:s_lap93 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:10.295000"^^xsd:time .
+
+fo:s_lap94 a fo:SprintLap ;
+    fo:hasLapNumber 11 ;
+    fo:hasLapTime "00:01:10.165000"^^xsd:time .
+
+fo:s_lap95 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:10.409000"^^xsd:time .
+
+fo:s_lap96 a fo:SprintLap ;
+    fo:hasLapNumber 5 ;
+    fo:hasLapTime "00:01:10.367000"^^xsd:time .
+
+fo:s_lap97 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:10.267000"^^xsd:time .
+
+fo:s_lap98 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:10.284000"^^xsd:time .
+
+fo:s_lap99 a fo:SprintLap ;
+    fo:hasLapNumber 4 ;
+    fo:hasLapTime "00:01:10.317000"^^xsd:time .
 
 fo:sprint1061 a fo:Sprint ;
     fo:hasDate "2021-07-17"^^xsd:date .
@@ -3946,4 +5473,8 @@ fo:sprint1115 a fo:Sprint ;
 fo:sprint1116 a fo:Sprint ;
     fo:hasDate "2023-10-21"^^xsd:date ;
     fo:hasTime "22:00:00"^^xsd:time .
+
+fo:sprint1118 a fo:Sprint ;
+    fo:hasDate "2023-11-04"^^xsd:date ;
+    fo:hasTime "18:30:00"^^xsd:time .
 

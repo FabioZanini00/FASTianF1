@@ -38,6 +38,96 @@ fo:q_partecipation1000 a fo:QualifPartecipation ;
     fo:hasQ2Time "00:01:15.397000"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying64 .
 
+fo:q_partecipation10000 a fo:QualifPartecipation ;
+    fo:hasCarNumber 63 ;
+    fo:hasConstructor fo:constructor131 ;
+    fo:hasDriver fo:driver847 ;
+    fo:hasPosition 8 ;
+    fo:hasQ1Time "00:01:18.893000"^^xsd:time ;
+    fo:hasQ2Time "00:01:17.673000"^^xsd:time ;
+    fo:hasQ3Time "00:01:17.674000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation10001 a fo:QualifPartecipation ;
+    fo:hasCarNumber 77 ;
+    fo:hasConstructor fo:constructor51 ;
+    fo:hasDriver fo:driver822 ;
+    fo:hasPosition 9 ;
+    fo:hasQ1Time "00:01:18.429000"^^xsd:time ;
+    fo:hasQ2Time "00:01:18.016000"^^xsd:time ;
+    fo:hasQ3Time "00:01:18.032000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation10002 a fo:QualifPartecipation ;
+    fo:hasCarNumber 24 ;
+    fo:hasConstructor fo:constructor51 ;
+    fo:hasDriver fo:driver855 ;
+    fo:hasPosition 10 ;
+    fo:hasQ1Time "00:01:19.016000"^^xsd:time ;
+    fo:hasQ2Time "00:01:18.440000"^^xsd:time ;
+    fo:hasQ3Time "00:01:18.050000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation10003 a fo:QualifPartecipation ;
+    fo:hasCarNumber 10 ;
+    fo:hasConstructor fo:constructor214 ;
+    fo:hasDriver fo:driver842 ;
+    fo:hasPosition 11 ;
+    fo:hasQ1Time "00:01:18.945000"^^xsd:time ;
+    fo:hasQ2Time "00:01:18.521000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation10004 a fo:QualifPartecipation ;
+    fo:hasCarNumber 27 ;
+    fo:hasConstructor fo:constructor210 ;
+    fo:hasDriver fo:driver807 ;
+    fo:hasPosition 12 ;
+    fo:hasQ1Time "00:01:18.969000"^^xsd:time ;
+    fo:hasQ2Time "00:01:18.524000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation10005 a fo:QualifPartecipation ;
+    fo:hasCarNumber 14 ;
+    fo:hasConstructor fo:constructor117 ;
+    fo:hasDriver fo:driver4 ;
+    fo:hasPosition 13 ;
+    fo:hasQ1Time "00:01:18.848000"^^xsd:time ;
+    fo:hasQ2Time "00:01:18.738000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation10006 a fo:QualifPartecipation ;
+    fo:hasCarNumber 23 ;
+    fo:hasConstructor fo:constructor3 ;
+    fo:hasDriver fo:driver848 ;
+    fo:hasPosition 14 ;
+    fo:hasQ1Time "00:01:18.828000"^^xsd:time ;
+    fo:hasQ2Time "00:01:19.147000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation10007 a fo:QualifPartecipation ;
+    fo:hasCarNumber 22 ;
+    fo:hasConstructor fo:constructor213 ;
+    fo:hasDriver fo:driver852 ;
+    fo:hasPosition 15 ;
+    fo:hasQ1Time "00:01:18.890000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation10008 a fo:QualifPartecipation ;
+    fo:hasCarNumber 31 ;
+    fo:hasConstructor fo:constructor214 ;
+    fo:hasDriver fo:driver839 ;
+    fo:hasPosition 16 ;
+    fo:hasQ1Time "00:01:19.080000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation10009 a fo:QualifPartecipation ;
+    fo:hasCarNumber 20 ;
+    fo:hasConstructor fo:constructor210 ;
+    fo:hasDriver fo:driver825 ;
+    fo:hasPosition 17 ;
+    fo:hasQ1Time "00:01:19.163000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
 fo:q_partecipation1001 a fo:QualifPartecipation ;
     fo:hasCarNumber 20 ;
     fo:hasConstructor fo:constructor5 ;
@@ -45,6 +135,99 @@ fo:q_partecipation1001 a fo:QualifPartecipation ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:16.399000"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying64 .
+
+fo:q_partecipation10010 a fo:QualifPartecipation ;
+    fo:hasCarNumber 18 ;
+    fo:hasConstructor fo:constructor117 ;
+    fo:hasDriver fo:driver840 ;
+    fo:hasPosition 18 ;
+    fo:hasQ1Time "00:01:19.227000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation10011 a fo:QualifPartecipation ;
+    fo:hasCarNumber 4 ;
+    fo:hasConstructor fo:constructor1 ;
+    fo:hasDriver fo:driver846 ;
+    fo:hasPosition 19 ;
+    fo:hasQ1Time "00:01:21.554000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation10012 a fo:QualifPartecipation ;
+    fo:hasCarNumber 2 ;
+    fo:hasConstructor fo:constructor3 ;
+    fo:hasDriver fo:driver858 ;
+    fo:hasPosition 20 ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation10013 a fo:QualifPartecipation ;
+    fo:hasCarNumber 1 ;
+    fo:hasConstructor fo:constructor9 ;
+    fo:hasDriver fo:driver830 ;
+    fo:hasPosition 1 ;
+    fo:hasQ1Time "00:01:10.436000"^^xsd:time ;
+    fo:hasQ2Time "00:01:10.162000"^^xsd:time ;
+    fo:hasQ3Time "00:01:10.727000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10014 a fo:QualifPartecipation ;
+    fo:hasCarNumber 16 ;
+    fo:hasConstructor fo:constructor6 ;
+    fo:hasDriver fo:driver844 ;
+    fo:hasPosition 2 ;
+    fo:hasQ1Time "00:01:10.472000"^^xsd:time ;
+    fo:hasQ2Time "00:01:10.303000"^^xsd:time ;
+    fo:hasQ3Time "00:01:11.021000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10015 a fo:QualifPartecipation ;
+    fo:hasCarNumber 18 ;
+    fo:hasConstructor fo:constructor117 ;
+    fo:hasDriver fo:driver840 ;
+    fo:hasPosition 3 ;
+    fo:hasQ1Time "00:01:10.551000"^^xsd:time ;
+    fo:hasQ2Time "00:01:10.375000"^^xsd:time ;
+    fo:hasQ3Time "00:01:11.344000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10016 a fo:QualifPartecipation ;
+    fo:hasCarNumber 14 ;
+    fo:hasConstructor fo:constructor117 ;
+    fo:hasDriver fo:driver4 ;
+    fo:hasPosition 4 ;
+    fo:hasQ1Time "00:01:10.557000"^^xsd:time ;
+    fo:hasQ2Time "00:01:10.237000"^^xsd:time ;
+    fo:hasQ3Time "00:01:11.387000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10017 a fo:QualifPartecipation ;
+    fo:hasCarNumber 44 ;
+    fo:hasConstructor fo:constructor131 ;
+    fo:hasDriver fo:driver1 ;
+    fo:hasPosition 5 ;
+    fo:hasQ1Time "00:01:10.604000"^^xsd:time ;
+    fo:hasQ2Time "00:01:10.266000"^^xsd:time ;
+    fo:hasQ3Time "00:01:11.469000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10018 a fo:QualifPartecipation ;
+    fo:hasCarNumber 63 ;
+    fo:hasConstructor fo:constructor131 ;
+    fo:hasDriver fo:driver847 ;
+    fo:hasPosition 6 ;
+    fo:hasQ1Time "00:01:10.340000"^^xsd:time ;
+    fo:hasQ2Time "00:01:10.316000"^^xsd:time ;
+    fo:hasQ3Time "00:01:11.590000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10019 a fo:QualifPartecipation ;
+    fo:hasCarNumber 4 ;
+    fo:hasConstructor fo:constructor1 ;
+    fo:hasDriver fo:driver846 ;
+    fo:hasPosition 7 ;
+    fo:hasQ1Time "00:01:10.623000"^^xsd:time ;
+    fo:hasQ2Time "00:01:10.021000"^^xsd:time ;
+    fo:hasQ3Time "00:01:11.987000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
 
 fo:q_partecipation1002 a fo:QualifPartecipation ;
     fo:hasCarNumber 19 ;
@@ -54,6 +237,96 @@ fo:q_partecipation1002 a fo:QualifPartecipation ;
     fo:hasQ1Time "00:01:17.093000"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying64 .
 
+fo:q_partecipation10020 a fo:QualifPartecipation ;
+    fo:hasCarNumber 55 ;
+    fo:hasConstructor fo:constructor6 ;
+    fo:hasDriver fo:driver832 ;
+    fo:hasPosition 8 ;
+    fo:hasQ1Time "00:01:10.624000"^^xsd:time ;
+    fo:hasQ2Time "00:01:10.254000"^^xsd:time ;
+    fo:hasQ3Time "00:01:11.989000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10021 a fo:QualifPartecipation ;
+    fo:hasCarNumber 11 ;
+    fo:hasConstructor fo:constructor9 ;
+    fo:hasDriver fo:driver815 ;
+    fo:hasPosition 9 ;
+    fo:hasQ1Time "00:01:10.668000"^^xsd:time ;
+    fo:hasQ2Time "00:01:10.219000"^^xsd:time ;
+    fo:hasQ3Time "00:01:12.321000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10022 a fo:QualifPartecipation ;
+    fo:hasCarNumber 81 ;
+    fo:hasConstructor fo:constructor1 ;
+    fo:hasDriver fo:driver857 ;
+    fo:hasPosition 10 ;
+    fo:hasQ1Time "00:01:10.519000"^^xsd:time ;
+    fo:hasQ2Time "00:01:10.330000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10023 a fo:QualifPartecipation ;
+    fo:hasCarNumber 27 ;
+    fo:hasConstructor fo:constructor210 ;
+    fo:hasDriver fo:driver807 ;
+    fo:hasPosition 11 ;
+    fo:hasQ1Time "00:01:10.475000"^^xsd:time ;
+    fo:hasQ2Time "00:01:10.547000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10024 a fo:QualifPartecipation ;
+    fo:hasCarNumber 31 ;
+    fo:hasConstructor fo:constructor214 ;
+    fo:hasDriver fo:driver839 ;
+    fo:hasPosition 12 ;
+    fo:hasQ1Time "00:01:10.763000"^^xsd:time ;
+    fo:hasQ2Time "00:01:10.562000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10025 a fo:QualifPartecipation ;
+    fo:hasCarNumber 10 ;
+    fo:hasConstructor fo:constructor214 ;
+    fo:hasDriver fo:driver842 ;
+    fo:hasPosition 13 ;
+    fo:hasQ1Time "00:01:10.793000"^^xsd:time ;
+    fo:hasQ2Time "00:01:10.567000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10026 a fo:QualifPartecipation ;
+    fo:hasCarNumber 20 ;
+    fo:hasConstructor fo:constructor210 ;
+    fo:hasDriver fo:driver825 ;
+    fo:hasPosition 14 ;
+    fo:hasQ1Time "00:01:10.602000"^^xsd:time ;
+    fo:hasQ2Time "00:01:10.723000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10027 a fo:QualifPartecipation ;
+    fo:hasCarNumber 23 ;
+    fo:hasConstructor fo:constructor3 ;
+    fo:hasDriver fo:driver848 ;
+    fo:hasPosition 15 ;
+    fo:hasQ1Time "00:01:10.621000"^^xsd:time ;
+    fo:hasQ2Time "00:01:10.840000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10028 a fo:QualifPartecipation ;
+    fo:hasCarNumber 22 ;
+    fo:hasConstructor fo:constructor213 ;
+    fo:hasDriver fo:driver852 ;
+    fo:hasPosition 16 ;
+    fo:hasQ1Time "00:01:10.837000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10029 a fo:QualifPartecipation ;
+    fo:hasCarNumber 3 ;
+    fo:hasConstructor fo:constructor213 ;
+    fo:hasDriver fo:driver817 ;
+    fo:hasPosition 17 ;
+    fo:hasQ1Time "00:01:10.843000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
 fo:q_partecipation1003 a fo:QualifPartecipation ;
     fo:hasCarNumber 22 ;
     fo:hasConstructor fo:constructor8 ;
@@ -61,6 +334,100 @@ fo:q_partecipation1003 a fo:QualifPartecipation ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:17.185000"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying64 .
+
+fo:q_partecipation10030 a fo:QualifPartecipation ;
+    fo:hasCarNumber 77 ;
+    fo:hasConstructor fo:constructor51 ;
+    fo:hasDriver fo:driver822 ;
+    fo:hasPosition 18 ;
+    fo:hasQ1Time "00:01:10.955000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10031 a fo:QualifPartecipation ;
+    fo:hasCarNumber 2 ;
+    fo:hasConstructor fo:constructor3 ;
+    fo:hasDriver fo:driver858 ;
+    fo:hasPosition 19 ;
+    fo:hasQ1Time "00:01:11.035000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10032 a fo:QualifPartecipation ;
+    fo:hasCarNumber 24 ;
+    fo:hasConstructor fo:constructor51 ;
+    fo:hasDriver fo:driver855 ;
+    fo:hasPosition 20 ;
+    fo:hasQ1Time "00:01:11.275000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1118 .
+
+fo:q_partecipation10033 a fo:QualifPartecipation ;
+    fo:hasCarNumber 16 ;
+    fo:hasConstructor fo:constructor6 ;
+    fo:hasDriver fo:driver844 ;
+    fo:hasPosition 1 ;
+    fo:hasQ1Time "00:01:33.617000"^^xsd:time ;
+    fo:hasQ2Time "00:01:32.775000"^^xsd:time ;
+    fo:hasQ3Time "00:01:32.726000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10034 a fo:QualifPartecipation ;
+    fo:hasCarNumber 55 ;
+    fo:hasConstructor fo:constructor6 ;
+    fo:hasDriver fo:driver832 ;
+    fo:hasPosition 2 ;
+    fo:hasQ1Time "00:01:33.851000"^^xsd:time ;
+    fo:hasQ2Time "00:01:33.338000"^^xsd:time ;
+    fo:hasQ3Time "00:01:32.770000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10035 a fo:QualifPartecipation ;
+    fo:hasCarNumber 1 ;
+    fo:hasConstructor fo:constructor9 ;
+    fo:hasDriver fo:driver830 ;
+    fo:hasPosition 3 ;
+    fo:hasQ1Time "00:01:34.190000"^^xsd:time ;
+    fo:hasQ2Time "00:01:33.572000"^^xsd:time ;
+    fo:hasQ3Time "00:01:33.104000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10036 a fo:QualifPartecipation ;
+    fo:hasCarNumber 63 ;
+    fo:hasConstructor fo:constructor131 ;
+    fo:hasDriver fo:driver847 ;
+    fo:hasPosition 4 ;
+    fo:hasQ1Time "00:01:34.137000"^^xsd:time ;
+    fo:hasQ2Time "00:01:33.351000"^^xsd:time ;
+    fo:hasQ3Time "00:01:33.112000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10037 a fo:QualifPartecipation ;
+    fo:hasCarNumber 10 ;
+    fo:hasConstructor fo:constructor214 ;
+    fo:hasDriver fo:driver842 ;
+    fo:hasPosition 5 ;
+    fo:hasQ1Time "00:01:34.272000"^^xsd:time ;
+    fo:hasQ2Time "00:01:33.494000"^^xsd:time ;
+    fo:hasQ3Time "00:01:33.239000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10038 a fo:QualifPartecipation ;
+    fo:hasCarNumber 23 ;
+    fo:hasConstructor fo:constructor3 ;
+    fo:hasDriver fo:driver848 ;
+    fo:hasPosition 6 ;
+    fo:hasQ1Time "00:01:34.634000"^^xsd:time ;
+    fo:hasQ2Time "00:01:33.588000"^^xsd:time ;
+    fo:hasQ3Time "00:01:33.323000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10039 a fo:QualifPartecipation ;
+    fo:hasCarNumber 2 ;
+    fo:hasConstructor fo:constructor3 ;
+    fo:hasDriver fo:driver858 ;
+    fo:hasPosition 7 ;
+    fo:hasQ1Time "00:01:34.525000"^^xsd:time ;
+    fo:hasQ2Time "00:01:33.733000"^^xsd:time ;
+    fo:hasQ3Time "00:01:33.513000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
 
 fo:q_partecipation1004 a fo:QualifPartecipation ;
     fo:hasCarNumber 18 ;
@@ -70,6 +437,97 @@ fo:q_partecipation1004 a fo:QualifPartecipation ;
     fo:hasQ1Time "00:01:17.836000"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying64 .
 
+fo:q_partecipation10040 a fo:QualifPartecipation ;
+    fo:hasCarNumber 77 ;
+    fo:hasConstructor fo:constructor51 ;
+    fo:hasDriver fo:driver822 ;
+    fo:hasPosition 8 ;
+    fo:hasQ1Time "00:01:34.305000"^^xsd:time ;
+    fo:hasQ2Time "00:01:33.809000"^^xsd:time ;
+    fo:hasQ3Time "00:01:33.525000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10041 a fo:QualifPartecipation ;
+    fo:hasCarNumber 20 ;
+    fo:hasConstructor fo:constructor210 ;
+    fo:hasDriver fo:driver825 ;
+    fo:hasPosition 9 ;
+    fo:hasQ1Time "00:01:34.337000"^^xsd:time ;
+    fo:hasQ2Time "00:01:33.664000"^^xsd:time ;
+    fo:hasQ3Time "00:01:33.537000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10042 a fo:QualifPartecipation ;
+    fo:hasCarNumber 14 ;
+    fo:hasConstructor fo:constructor117 ;
+    fo:hasDriver fo:driver4 ;
+    fo:hasPosition 10 ;
+    fo:hasQ1Time "00:01:34.422000"^^xsd:time ;
+    fo:hasQ2Time "00:01:33.617000"^^xsd:time ;
+    fo:hasQ3Time "00:01:33.555000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10043 a fo:QualifPartecipation ;
+    fo:hasCarNumber 44 ;
+    fo:hasConstructor fo:constructor131 ;
+    fo:hasDriver fo:driver1 ;
+    fo:hasPosition 11 ;
+    fo:hasQ1Time "00:01:34.307000"^^xsd:time ;
+    fo:hasQ2Time "00:01:33.837000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10044 a fo:QualifPartecipation ;
+    fo:hasCarNumber 11 ;
+    fo:hasConstructor fo:constructor9 ;
+    fo:hasDriver fo:driver815 ;
+    fo:hasPosition 12 ;
+    fo:hasQ1Time "00:01:34.574000"^^xsd:time ;
+    fo:hasQ2Time "00:01:33.855000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10045 a fo:QualifPartecipation ;
+    fo:hasCarNumber 27 ;
+    fo:hasConstructor fo:constructor210 ;
+    fo:hasDriver fo:driver807 ;
+    fo:hasPosition 13 ;
+    fo:hasQ1Time "00:01:34.265000"^^xsd:time ;
+    fo:hasQ2Time "00:01:33.979000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10046 a fo:QualifPartecipation ;
+    fo:hasCarNumber 18 ;
+    fo:hasConstructor fo:constructor117 ;
+    fo:hasDriver fo:driver840 ;
+    fo:hasPosition 14 ;
+    fo:hasQ1Time "00:01:34.504000"^^xsd:time ;
+    fo:hasQ2Time "00:01:34.199000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10047 a fo:QualifPartecipation ;
+    fo:hasCarNumber 3 ;
+    fo:hasConstructor fo:constructor213 ;
+    fo:hasDriver fo:driver817 ;
+    fo:hasPosition 15 ;
+    fo:hasQ1Time "00:01:34.683000"^^xsd:time ;
+    fo:hasQ2Time "00:01:34.308000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10048 a fo:QualifPartecipation ;
+    fo:hasCarNumber 4 ;
+    fo:hasConstructor fo:constructor1 ;
+    fo:hasDriver fo:driver846 ;
+    fo:hasPosition 16 ;
+    fo:hasQ1Time "00:01:34.703000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10049 a fo:QualifPartecipation ;
+    fo:hasCarNumber 31 ;
+    fo:hasConstructor fo:constructor214 ;
+    fo:hasDriver fo:driver839 ;
+    fo:hasPosition 17 ;
+    fo:hasQ1Time "00:01:34.834000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
 fo:q_partecipation1005 a fo:QualifPartecipation ;
     fo:hasCarNumber 23 ;
     fo:hasConstructor fo:constructor8 ;
@@ -78,12 +536,206 @@ fo:q_partecipation1005 a fo:QualifPartecipation ;
     fo:hasQ1Time "00:01:20.444000"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying64 .
 
+fo:q_partecipation10050 a fo:QualifPartecipation ;
+    fo:hasCarNumber 24 ;
+    fo:hasConstructor fo:constructor51 ;
+    fo:hasDriver fo:driver855 ;
+    fo:hasPosition 18 ;
+    fo:hasQ1Time "00:01:34.849000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10051 a fo:QualifPartecipation ;
+    fo:hasCarNumber 81 ;
+    fo:hasConstructor fo:constructor1 ;
+    fo:hasDriver fo:driver857 ;
+    fo:hasPosition 19 ;
+    fo:hasQ1Time "00:01:34.850000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10052 a fo:QualifPartecipation ;
+    fo:hasCarNumber 22 ;
+    fo:hasConstructor fo:constructor213 ;
+    fo:hasDriver fo:driver852 ;
+    fo:hasPosition 20 ;
+    fo:hasQ1Time "00:01:36.447000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1119 .
+
+fo:q_partecipation10053 a fo:QualifPartecipation ;
+    fo:hasCarNumber 1 ;
+    fo:hasConstructor fo:constructor9 ;
+    fo:hasDriver fo:driver830 ;
+    fo:hasPosition 1 ;
+    fo:hasQ1Time "00:01:24.160000"^^xsd:time ;
+    fo:hasQ2Time "00:01:23.740000"^^xsd:time ;
+    fo:hasQ3Time "00:01:23.445000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10054 a fo:QualifPartecipation ;
+    fo:hasCarNumber 16 ;
+    fo:hasConstructor fo:constructor6 ;
+    fo:hasDriver fo:driver844 ;
+    fo:hasPosition 2 ;
+    fo:hasQ1Time "00:01:24.459000"^^xsd:time ;
+    fo:hasQ2Time "00:01:23.969000"^^xsd:time ;
+    fo:hasQ3Time "00:01:23.584000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10055 a fo:QualifPartecipation ;
+    fo:hasCarNumber 81 ;
+    fo:hasConstructor fo:constructor1 ;
+    fo:hasDriver fo:driver857 ;
+    fo:hasPosition 3 ;
+    fo:hasQ1Time "00:01:24.487000"^^xsd:time ;
+    fo:hasQ2Time "00:01:24.278000"^^xsd:time ;
+    fo:hasQ3Time "00:01:23.782000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10056 a fo:QualifPartecipation ;
+    fo:hasCarNumber 63 ;
+    fo:hasConstructor fo:constructor131 ;
+    fo:hasDriver fo:driver847 ;
+    fo:hasPosition 4 ;
+    fo:hasQ1Time "00:01:24.337000"^^xsd:time ;
+    fo:hasQ2Time "00:01:24.013000"^^xsd:time ;
+    fo:hasQ3Time "00:01:23.788000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10057 a fo:QualifPartecipation ;
+    fo:hasCarNumber 4 ;
+    fo:hasConstructor fo:constructor1 ;
+    fo:hasDriver fo:driver846 ;
+    fo:hasPosition 5 ;
+    fo:hasQ1Time "00:01:24.368000"^^xsd:time ;
+    fo:hasQ2Time "00:01:23.920000"^^xsd:time ;
+    fo:hasQ3Time "00:01:23.816000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10058 a fo:QualifPartecipation ;
+    fo:hasCarNumber 22 ;
+    fo:hasConstructor fo:constructor213 ;
+    fo:hasDriver fo:driver852 ;
+    fo:hasPosition 6 ;
+    fo:hasQ1Time "00:01:24.286000"^^xsd:time ;
+    fo:hasQ2Time "00:01:24.207000"^^xsd:time ;
+    fo:hasQ3Time "00:01:23.968000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10059 a fo:QualifPartecipation ;
+    fo:hasCarNumber 14 ;
+    fo:hasConstructor fo:constructor117 ;
+    fo:hasDriver fo:driver4 ;
+    fo:hasPosition 7 ;
+    fo:hasQ1Time "00:01:24.501000"^^xsd:time ;
+    fo:hasQ2Time "00:01:24.131000"^^xsd:time ;
+    fo:hasQ3Time "00:01:24.084000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
 fo:q_partecipation1006 a fo:QualifPartecipation ;
     fo:hasCarNumber 21 ;
     fo:hasConstructor fo:constructor5 ;
     fo:hasDriver fo:driver26 ;
     fo:hasPosition 22 ;
     fo:partecipatedInQualif fo:qualifying64 .
+
+fo:q_partecipation10060 a fo:QualifPartecipation ;
+    fo:hasCarNumber 27 ;
+    fo:hasConstructor fo:constructor210 ;
+    fo:hasDriver fo:driver807 ;
+    fo:hasPosition 8 ;
+    fo:hasQ1Time "00:01:24.425000"^^xsd:time ;
+    fo:hasQ2Time "00:01:24.213000"^^xsd:time ;
+    fo:hasQ3Time "00:01:24.108000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10061 a fo:QualifPartecipation ;
+    fo:hasCarNumber 11 ;
+    fo:hasConstructor fo:constructor9 ;
+    fo:hasDriver fo:driver815 ;
+    fo:hasPosition 9 ;
+    fo:hasQ1Time "00:01:24.209000"^^xsd:time ;
+    fo:hasQ2Time "00:01:24.116000"^^xsd:time ;
+    fo:hasQ3Time "00:01:24.171000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10062 a fo:QualifPartecipation ;
+    fo:hasCarNumber 10 ;
+    fo:hasConstructor fo:constructor214 ;
+    fo:hasDriver fo:driver842 ;
+    fo:hasPosition 10 ;
+    fo:hasQ1Time "00:01:24.600000"^^xsd:time ;
+    fo:hasQ2Time "00:01:24.078000"^^xsd:time ;
+    fo:hasQ3Time "00:01:24.548000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10063 a fo:QualifPartecipation ;
+    fo:hasCarNumber 44 ;
+    fo:hasConstructor fo:constructor131 ;
+    fo:hasDriver fo:driver1 ;
+    fo:hasPosition 11 ;
+    fo:hasQ1Time "00:01:24.437000"^^xsd:time ;
+    fo:hasQ2Time "00:01:24.359000"^^xsd:time ;
+    fo:hasQ3Time "00:00:00"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10064 a fo:QualifPartecipation ;
+    fo:hasCarNumber 31 ;
+    fo:hasConstructor fo:constructor214 ;
+    fo:hasDriver fo:driver839 ;
+    fo:hasPosition 12 ;
+    fo:hasQ1Time "00:01:24.565000"^^xsd:time ;
+    fo:hasQ2Time "00:01:24.391000"^^xsd:time ;
+    fo:hasQ3Time "00:00:00"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10065 a fo:QualifPartecipation ;
+    fo:hasCarNumber 18 ;
+    fo:hasConstructor fo:constructor117 ;
+    fo:hasDriver fo:driver840 ;
+    fo:hasPosition 13 ;
+    fo:hasQ1Time "00:01:24.405000"^^xsd:time ;
+    fo:hasQ2Time "00:01:24.422000"^^xsd:time ;
+    fo:hasQ3Time "00:00:00"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10066 a fo:QualifPartecipation ;
+    fo:hasCarNumber 23 ;
+    fo:hasConstructor fo:constructor3 ;
+    fo:hasDriver fo:driver848 ;
+    fo:hasPosition 14 ;
+    fo:hasQ1Time "00:01:24.298000"^^xsd:time ;
+    fo:hasQ2Time "00:01:24.439000"^^xsd:time ;
+    fo:hasQ3Time "00:00:00"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10067 a fo:QualifPartecipation ;
+    fo:hasCarNumber 3 ;
+    fo:hasConstructor fo:constructor213 ;
+    fo:hasDriver fo:driver817 ;
+    fo:hasPosition 15 ;
+    fo:hasQ1Time "00:01:24.461000"^^xsd:time ;
+    fo:hasQ2Time "00:01:24.442000"^^xsd:time ;
+    fo:hasQ3Time "00:00:00"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10068 a fo:QualifPartecipation ;
+    fo:hasCarNumber 55 ;
+    fo:hasConstructor fo:constructor6 ;
+    fo:hasDriver fo:driver832 ;
+    fo:hasPosition 16 ;
+    fo:hasQ1Time "00:01:24.738000"^^xsd:time ;
+    fo:hasQ2Time "00:00:00"^^xsd:time ;
+    fo:hasQ3Time "00:00:00"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10069 a fo:QualifPartecipation ;
+    fo:hasCarNumber 20 ;
+    fo:hasConstructor fo:constructor210 ;
+    fo:hasDriver fo:driver825 ;
+    fo:hasPosition 17 ;
+    fo:hasQ1Time "00:01:24.764000"^^xsd:time ;
+    fo:hasQ2Time "00:00:00"^^xsd:time ;
+    fo:hasQ3Time "00:00:00"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
 
 fo:q_partecipation1007 a fo:QualifPartecipation ;
     fo:hasCarNumber 3 ;
@@ -94,6 +746,33 @@ fo:q_partecipation1007 a fo:QualifPartecipation ;
     fo:hasQ2Time "00:01:19.704000"^^xsd:time ;
     fo:hasQ3Time "00:01:19.599000"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying65 .
+
+fo:q_partecipation10070 a fo:QualifPartecipation ;
+    fo:hasCarNumber 77 ;
+    fo:hasConstructor fo:constructor51 ;
+    fo:hasDriver fo:driver822 ;
+    fo:hasPosition 18 ;
+    fo:hasQ1Time "00:01:24.788000"^^xsd:time ;
+    fo:hasQ2Time "00:00:00"^^xsd:time ;
+    fo:hasQ3Time "00:00:00"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10071 a fo:QualifPartecipation ;
+    fo:hasCarNumber 24 ;
+    fo:hasConstructor fo:constructor51 ;
+    fo:hasDriver fo:driver855 ;
+    fo:hasPosition 19 ;
+    fo:hasQ1Time "00:01:25.159000"^^xsd:time ;
+    fo:hasQ2Time "00:00:00"^^xsd:time ;
+    fo:hasQ3Time "00:00:00"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1120 .
+
+fo:q_partecipation10072 a fo:QualifPartecipation ;
+    fo:hasCarNumber 2 ;
+    fo:hasConstructor fo:constructor3 ;
+    fo:hasDriver fo:driver858 ;
+    fo:hasPosition 20 ;
+    fo:partecipatedInQualif fo:qualifying1120 .
 
 fo:q_partecipation1008 a fo:QualifPartecipation ;
     fo:hasCarNumber 6 ;
@@ -27034,8 +27713,6 @@ fo:q_partecipation3882 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver23 ;
     fo:hasPosition 1 ;
     fo:hasQ1Time "00:01:15.259000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3883 a fo:QualifPartecipation ;
@@ -27044,8 +27721,6 @@ fo:q_partecipation3883 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver8 ;
     fo:hasPosition 2 ;
     fo:hasQ1Time "00:01:15.295000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3884 a fo:QualifPartecipation ;
@@ -27054,8 +27729,6 @@ fo:q_partecipation3884 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver31 ;
     fo:hasPosition 3 ;
     fo:hasQ1Time "00:01:15.415000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3885 a fo:QualifPartecipation ;
@@ -27064,8 +27737,6 @@ fo:q_partecipation3885 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver15 ;
     fo:hasPosition 4 ;
     fo:hasQ1Time "00:01:15.500000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3886 a fo:QualifPartecipation ;
@@ -27074,8 +27745,6 @@ fo:q_partecipation3886 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver30 ;
     fo:hasPosition 5 ;
     fo:hasQ1Time "00:01:15.644000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3887 a fo:QualifPartecipation ;
@@ -27084,8 +27753,6 @@ fo:q_partecipation3887 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver14 ;
     fo:hasPosition 6 ;
     fo:hasQ1Time "00:01:15.700000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3888 a fo:QualifPartecipation ;
@@ -27094,8 +27761,6 @@ fo:q_partecipation3888 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver22 ;
     fo:hasPosition 7 ;
     fo:hasQ1Time "00:01:15.820000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3889 a fo:QualifPartecipation ;
@@ -27104,8 +27769,6 @@ fo:q_partecipation3889 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver4 ;
     fo:hasPosition 8 ;
     fo:hasQ1Time "00:01:15.884000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation389 a fo:QualifPartecipation ;
@@ -27122,8 +27785,6 @@ fo:q_partecipation3890 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver17 ;
     fo:hasPosition 9 ;
     fo:hasQ1Time "00:01:16.237000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3891 a fo:QualifPartecipation ;
@@ -27132,8 +27793,6 @@ fo:q_partecipation3891 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver43 ;
     fo:hasPosition 10 ;
     fo:hasQ1Time "00:01:16.744000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3892 a fo:QualifPartecipation ;
@@ -27142,8 +27801,6 @@ fo:q_partecipation3892 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver35 ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:16.755000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3893 a fo:QualifPartecipation ;
@@ -27152,8 +27809,6 @@ fo:q_partecipation3893 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver21 ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:16.967000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3894 a fo:QualifPartecipation ;
@@ -27162,8 +27817,6 @@ fo:q_partecipation3894 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver42 ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:17.103000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3895 a fo:QualifPartecipation ;
@@ -27172,8 +27825,6 @@ fo:q_partecipation3895 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver2 ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:17.176000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3896 a fo:QualifPartecipation ;
@@ -27182,8 +27833,6 @@ fo:q_partecipation3896 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver49 ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:17.402000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3897 a fo:QualifPartecipation ;
@@ -27192,8 +27841,6 @@ fo:q_partecipation3897 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver52 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:17.452000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3898 a fo:QualifPartecipation ;
@@ -27202,8 +27849,6 @@ fo:q_partecipation3898 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver44 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:17.464000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3899 a fo:QualifPartecipation ;
@@ -27212,8 +27857,6 @@ fo:q_partecipation3899 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver50 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:18.706000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation39 a fo:QualifPartecipation ;
@@ -27238,8 +27881,6 @@ fo:q_partecipation3900 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver51 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:20.063000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying114 .
 
 fo:q_partecipation3901 a fo:QualifPartecipation ;
@@ -61879,7 +62520,6 @@ fo:q_partecipation7390 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:38.511000"^^xsd:time ;
     fo:hasQ2Time "00:01:37.582000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying981 .
 
 fo:q_partecipation7391 a fo:QualifPartecipation ;
@@ -61889,7 +62529,6 @@ fo:q_partecipation7391 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:39.242000"^^xsd:time ;
     fo:hasQ2Time "00:01:38.059000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying981 .
 
 fo:q_partecipation7392 a fo:QualifPartecipation ;
@@ -61899,7 +62538,6 @@ fo:q_partecipation7392 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:39.134000"^^xsd:time ;
     fo:hasQ2Time "00:01:38.202000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying981 .
 
 fo:q_partecipation7393 a fo:QualifPartecipation ;
@@ -61909,7 +62547,6 @@ fo:q_partecipation7393 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:39.183000"^^xsd:time ;
     fo:hasQ2Time "00:01:38.245000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying981 .
 
 fo:q_partecipation7394 a fo:QualifPartecipation ;
@@ -61919,7 +62556,6 @@ fo:q_partecipation7394 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:39.788000"^^xsd:time ;
     fo:hasQ2Time "00:01:38.526000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying981 .
 
 fo:q_partecipation7395 a fo:QualifPartecipation ;
@@ -61928,8 +62564,6 @@ fo:q_partecipation7395 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver825 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:40.489000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying981 .
 
 fo:q_partecipation7396 a fo:QualifPartecipation ;
@@ -61938,8 +62572,6 @@ fo:q_partecipation7396 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver835 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:40.646000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying981 .
 
 fo:q_partecipation7397 a fo:QualifPartecipation ;
@@ -61948,8 +62580,6 @@ fo:q_partecipation7397 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver828 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:41.732000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying981 .
 
 fo:q_partecipation7398 a fo:QualifPartecipation ;
@@ -61958,8 +62588,6 @@ fo:q_partecipation7398 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver836 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:41.875000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying981 .
 
 fo:q_partecipation7399 a fo:QualifPartecipation ;
@@ -62234,9 +62862,6 @@ fo:q_partecipation7424 a fo:QualifPartecipation ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver20 ;
     fo:hasPosition 20 ;
-    fo:hasQ1Time "00:00:00"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying983 .
 
 fo:q_partecipation7425 a fo:QualifPartecipation ;
@@ -62306,7 +62931,6 @@ fo:q_partecipation7430 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:32.267000"^^xsd:time ;
     fo:hasQ2Time "00:01:32.034000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying983 .
 
 fo:q_partecipation7431 a fo:QualifPartecipation ;
@@ -62316,7 +62940,6 @@ fo:q_partecipation7431 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:32.576000"^^xsd:time ;
     fo:hasQ2Time "00:01:32.100000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying983 .
 
 fo:q_partecipation7432 a fo:QualifPartecipation ;
@@ -62326,7 +62949,6 @@ fo:q_partecipation7432 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:33"^^xsd:time ;
     fo:hasQ2Time "00:01:32.307000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying983 .
 
 fo:q_partecipation7433 a fo:QualifPartecipation ;
@@ -62336,7 +62958,6 @@ fo:q_partecipation7433 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:32.650000"^^xsd:time ;
     fo:hasQ2Time "00:01:32.402000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying983 .
 
 fo:q_partecipation7434 a fo:QualifPartecipation ;
@@ -62346,7 +62967,6 @@ fo:q_partecipation7434 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:32.547000"^^xsd:time ;
     fo:hasQ2Time "00:01:32.558000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying983 .
 
 fo:q_partecipation7435 a fo:QualifPartecipation ;
@@ -62355,8 +62975,6 @@ fo:q_partecipation7435 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver154 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:33.308000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying983 .
 
 fo:q_partecipation7436 a fo:QualifPartecipation ;
@@ -62365,8 +62983,6 @@ fo:q_partecipation7436 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver825 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:33.434000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying983 .
 
 fo:q_partecipation7437 a fo:QualifPartecipation ;
@@ -62375,8 +62991,6 @@ fo:q_partecipation7437 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver836 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:33.483000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying983 .
 
 fo:q_partecipation7438 a fo:QualifPartecipation ;
@@ -62385,8 +62999,6 @@ fo:q_partecipation7438 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver828 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:33.970000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying983 .
 
 fo:q_partecipation7439 a fo:QualifPartecipation ;
@@ -63129,7 +63741,6 @@ fo:q_partecipation7509 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:10.168000"^^xsd:time ;
     fo:hasQ2Time "00:01:09.830000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying987 .
 
 fo:q_partecipation751 a fo:QualifPartecipation ;
@@ -63149,7 +63760,6 @@ fo:q_partecipation7510 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:10.148000"^^xsd:time ;
     fo:hasQ2Time "00:01:09.879000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying987 .
 
 fo:q_partecipation7511 a fo:QualifPartecipation ;
@@ -63159,7 +63769,6 @@ fo:q_partecipation7511 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:10.286000"^^xsd:time ;
     fo:hasQ2Time "00:01:10.116000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying987 .
 
 fo:q_partecipation7512 a fo:QualifPartecipation ;
@@ -63169,7 +63778,6 @@ fo:q_partecipation7512 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:10.521000"^^xsd:time ;
     fo:hasQ2Time "00:01:10.154000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying987 .
 
 fo:q_partecipation7513 a fo:QualifPartecipation ;
@@ -63178,8 +63786,6 @@ fo:q_partecipation7513 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver843 ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:10.625000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying987 .
 
 fo:q_partecipation7514 a fo:QualifPartecipation ;
@@ -63188,8 +63794,6 @@ fo:q_partecipation7514 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver836 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:10.678000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying987 .
 
 fo:q_partecipation7515 a fo:QualifPartecipation ;
@@ -63198,8 +63802,6 @@ fo:q_partecipation7515 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver842 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:10.686000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying987 .
 
 fo:q_partecipation7516 a fo:QualifPartecipation ;
@@ -63208,8 +63810,6 @@ fo:q_partecipation7516 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver840 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:10.776000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying987 .
 
 fo:q_partecipation7517 a fo:QualifPartecipation ;
@@ -63218,8 +63818,6 @@ fo:q_partecipation7517 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver828 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:10.875000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying987 .
 
 fo:q_partecipation7519 a fo:QualifPartecipation ;
@@ -63539,7 +64137,6 @@ fo:q_partecipation7549 a fo:QualifPartecipation ;
     fo:hasPosition 10 ;
     fo:hasQ1Time "00:01:23.686000"^^xsd:time ;
     fo:hasQ2Time "00:01:22.089000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying989 .
 
 fo:q_partecipation755 a fo:QualifPartecipation ;
@@ -63558,7 +64155,6 @@ fo:q_partecipation7550 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:23.597000"^^xsd:time ;
     fo:hasQ2Time "00:01:23.692000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying989 .
 
 fo:q_partecipation7551 a fo:QualifPartecipation ;
@@ -63568,7 +64164,6 @@ fo:q_partecipation7551 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:24.073000"^^xsd:time ;
     fo:hasQ2Time "00:01:23.853000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying989 .
 
 fo:q_partecipation7552 a fo:QualifPartecipation ;
@@ -63578,7 +64173,6 @@ fo:q_partecipation7552 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:24.344000"^^xsd:time ;
     fo:hasQ2Time "00:01:24.005000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying989 .
 
 fo:q_partecipation7553 a fo:QualifPartecipation ;
@@ -63588,7 +64182,6 @@ fo:q_partecipation7553 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:24.464000"^^xsd:time ;
     fo:hasQ2Time "00:01:24.230000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying989 .
 
 fo:q_partecipation7554 a fo:QualifPartecipation ;
@@ -63598,7 +64191,6 @@ fo:q_partecipation7554 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:24.503000"^^xsd:time ;
     fo:hasQ2Time "00:01:24.786000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying989 .
 
 fo:q_partecipation7555 a fo:QualifPartecipation ;
@@ -63607,8 +64199,6 @@ fo:q_partecipation7555 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver843 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:24.532000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying989 .
 
 fo:q_partecipation7556 a fo:QualifPartecipation ;
@@ -63617,8 +64207,6 @@ fo:q_partecipation7556 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver828 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:24.556000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying989 .
 
 fo:q_partecipation7557 a fo:QualifPartecipation ;
@@ -63627,8 +64215,6 @@ fo:q_partecipation7557 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver844 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:24.636000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying989 .
 
 fo:q_partecipation7558 a fo:QualifPartecipation ;
@@ -63637,8 +64223,6 @@ fo:q_partecipation7558 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver845 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:24.922000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying989 .
 
 fo:q_partecipation7559 a fo:QualifPartecipation ;
@@ -63647,8 +64231,6 @@ fo:q_partecipation7559 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver842 ;
     fo:hasPosition 20 ;
     fo:hasQ1Time "00:01:25.295000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying989 .
 
 fo:q_partecipation756 a fo:QualifPartecipation ;
@@ -64188,7 +64770,6 @@ fo:q_partecipation7610 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:44.359000"^^xsd:time ;
     fo:hasQ2Time "00:01:43.585000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying992 .
 
 fo:q_partecipation7611 a fo:QualifPartecipation ;
@@ -64198,7 +64779,6 @@ fo:q_partecipation7611 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:44.261000"^^xsd:time ;
     fo:hasQ2Time "00:01:43.886000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying992 .
 
 fo:q_partecipation7612 a fo:QualifPartecipation ;
@@ -64208,7 +64788,6 @@ fo:q_partecipation7612 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:44.010000"^^xsd:time ;
     fo:hasQ2Time "00:01:44.019000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying992 .
 
 fo:q_partecipation7613 a fo:QualifPartecipation ;
@@ -64218,7 +64797,6 @@ fo:q_partecipation7613 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:43.752000"^^xsd:time ;
     fo:hasQ2Time "00:01:44.074000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying992 .
 
 fo:q_partecipation7614 a fo:QualifPartecipation ;
@@ -64228,7 +64806,6 @@ fo:q_partecipation7614 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:43.674000"^^xsd:time ;
     fo:hasQ2Time "00:01:44.759000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying992 .
 
 fo:q_partecipation7615 a fo:QualifPartecipation ;
@@ -64237,8 +64814,6 @@ fo:q_partecipation7615 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver838 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:44.489000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying992 .
 
 fo:q_partecipation7616 a fo:QualifPartecipation ;
@@ -64247,8 +64822,6 @@ fo:q_partecipation7616 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver842 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:44.496000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying992 .
 
 fo:q_partecipation7617 a fo:QualifPartecipation ;
@@ -64257,8 +64830,6 @@ fo:q_partecipation7617 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver828 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:45.541000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying992 .
 
 fo:q_partecipation7618 a fo:QualifPartecipation ;
@@ -64399,7 +64970,6 @@ fo:q_partecipation7630 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:18.885000"^^xsd:time ;
     fo:hasQ2Time "00:01:18.323000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying993 .
 
 fo:q_partecipation7631 a fo:QualifPartecipation ;
@@ -64409,7 +64979,6 @@ fo:q_partecipation7631 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:18.550000"^^xsd:time ;
     fo:hasQ2Time "00:01:18.463000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying993 .
 
 fo:q_partecipation7632 a fo:QualifPartecipation ;
@@ -64419,7 +64988,6 @@ fo:q_partecipation7632 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:18.813000"^^xsd:time ;
     fo:hasQ2Time "00:01:18.696000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying993 .
 
 fo:q_partecipation7633 a fo:QualifPartecipation ;
@@ -64429,7 +64997,6 @@ fo:q_partecipation7633 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:18.661000"^^xsd:time ;
     fo:hasQ2Time "00:01:18.910000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying993 .
 
 fo:q_partecipation7634 a fo:QualifPartecipation ;
@@ -64439,7 +65006,6 @@ fo:q_partecipation7634 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:18.740000"^^xsd:time ;
     fo:hasQ2Time "00:01:19.098000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying993 .
 
 fo:q_partecipation7635 a fo:QualifPartecipation ;
@@ -64448,8 +65014,6 @@ fo:q_partecipation7635 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver807 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:18.923000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying993 .
 
 fo:q_partecipation7636 a fo:QualifPartecipation ;
@@ -64458,8 +65022,6 @@ fo:q_partecipation7636 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver828 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:19.493000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying993 .
 
 fo:q_partecipation7637 a fo:QualifPartecipation ;
@@ -64468,8 +65030,6 @@ fo:q_partecipation7637 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver845 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:19.695000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying993 .
 
 fo:q_partecipation7638 a fo:QualifPartecipation ;
@@ -64478,8 +65038,6 @@ fo:q_partecipation7638 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver840 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:20.225000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying993 .
 
 fo:q_partecipation7639 a fo:QualifPartecipation ;
@@ -64487,9 +65045,6 @@ fo:q_partecipation7639 a fo:QualifPartecipation ;
     fo:hasConstructor fo:constructor5 ;
     fo:hasDriver fo:driver843 ;
     fo:hasPosition 20 ;
-    fo:hasQ1Time "00:00:00"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying993 .
 
 fo:q_partecipation764 a fo:QualifPartecipation ;
@@ -64586,7 +65141,6 @@ fo:q_partecipation7648 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:12.463000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.440000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying994 .
 
 fo:q_partecipation7649 a fo:QualifPartecipation ;
@@ -64596,7 +65150,6 @@ fo:q_partecipation7649 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:12.706000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.521000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying994 .
 
 fo:q_partecipation765 a fo:QualifPartecipation ;
@@ -64616,7 +65169,6 @@ fo:q_partecipation7650 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:12.829000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.714000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying994 .
 
 fo:q_partecipation7651 a fo:QualifPartecipation ;
@@ -64626,7 +65178,6 @@ fo:q_partecipation7651 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:12.930000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.728000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying994 .
 
 fo:q_partecipation7652 a fo:QualifPartecipation ;
@@ -64635,8 +65186,6 @@ fo:q_partecipation7652 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver843 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:13.179000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying994 .
 
 fo:q_partecipation7653 a fo:QualifPartecipation ;
@@ -64645,8 +65194,6 @@ fo:q_partecipation7653 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver828 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:13.265000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying994 .
 
 fo:q_partecipation7654 a fo:QualifPartecipation ;
@@ -64655,8 +65202,6 @@ fo:q_partecipation7654 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver840 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:13.323000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying994 .
 
 fo:q_partecipation7655 a fo:QualifPartecipation ;
@@ -64665,8 +65210,6 @@ fo:q_partecipation7655 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver825 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:13.393000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying994 .
 
 fo:q_partecipation7656 a fo:QualifPartecipation ;
@@ -64674,9 +65217,6 @@ fo:q_partecipation7656 a fo:QualifPartecipation ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver830 ;
     fo:hasPosition 20 ;
-    fo:hasQ1Time "00:00:00"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying994 .
 
 fo:q_partecipation7657 a fo:QualifPartecipation ;
@@ -64706,7 +65246,6 @@ fo:q_partecipation7659 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:13.065000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.411000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying994 .
 
 fo:q_partecipation766 a fo:QualifPartecipation ;
@@ -64836,7 +65375,6 @@ fo:q_partecipation7670 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:12.587000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.635000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying995 .
 
 fo:q_partecipation7671 a fo:QualifPartecipation ;
@@ -64846,7 +65384,6 @@ fo:q_partecipation7671 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:12.979000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.856000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying995 .
 
 fo:q_partecipation7672 a fo:QualifPartecipation ;
@@ -64856,7 +65393,6 @@ fo:q_partecipation7672 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:12.998000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.865000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying995 .
 
 fo:q_partecipation7673 a fo:QualifPartecipation ;
@@ -64865,8 +65401,6 @@ fo:q_partecipation7673 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver842 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:13.047000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying995 .
 
 fo:q_partecipation7674 a fo:QualifPartecipation ;
@@ -64875,8 +65409,6 @@ fo:q_partecipation7674 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver840 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:13.590000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying995 .
 
 fo:q_partecipation7675 a fo:QualifPartecipation ;
@@ -64885,8 +65417,6 @@ fo:q_partecipation7675 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver845 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:13.643000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying995 .
 
 fo:q_partecipation7676 a fo:QualifPartecipation ;
@@ -64895,8 +65425,6 @@ fo:q_partecipation7676 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver828 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:14.593000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying995 .
 
 fo:q_partecipation7677 a fo:QualifPartecipation ;
@@ -64904,9 +65432,6 @@ fo:q_partecipation7677 a fo:QualifPartecipation ;
     fo:hasConstructor fo:constructor210 ;
     fo:hasDriver fo:driver154 ;
     fo:hasPosition 20 ;
-    fo:hasQ1Time "00:00:00"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying995 .
 
 fo:q_partecipation7678 a fo:QualifPartecipation ;
@@ -65472,7 +65997,6 @@ fo:q_partecipation7730 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:28.017000"^^xsd:time ;
     fo:hasQ2Time "00:01:27.901000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying998 .
 
 fo:q_partecipation7731 a fo:QualifPartecipation ;
@@ -65482,7 +66006,6 @@ fo:q_partecipation7731 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:28.210000"^^xsd:time ;
     fo:hasQ2Time "00:01:27.928000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying998 .
 
 fo:q_partecipation7732 a fo:QualifPartecipation ;
@@ -65492,7 +66015,6 @@ fo:q_partecipation7732 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:28.187000"^^xsd:time ;
     fo:hasQ2Time "00:01:28.139000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying998 .
 
 fo:q_partecipation7733 a fo:QualifPartecipation ;
@@ -65502,7 +66024,6 @@ fo:q_partecipation7733 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:28.399000"^^xsd:time ;
     fo:hasQ2Time "00:01:28.343000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying998 .
 
 fo:q_partecipation7734 a fo:QualifPartecipation ;
@@ -65512,7 +66033,6 @@ fo:q_partecipation7734 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:28.249000"^^xsd:time ;
     fo:hasQ2Time "00:01:28.391000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying998 .
 
 fo:q_partecipation7735 a fo:QualifPartecipation ;
@@ -65521,8 +66041,6 @@ fo:q_partecipation7735 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver832 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:28.456000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying998 .
 
 fo:q_partecipation7736 a fo:QualifPartecipation ;
@@ -65531,8 +66049,6 @@ fo:q_partecipation7736 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver838 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:29.096000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying998 .
 
 fo:q_partecipation7737 a fo:QualifPartecipation ;
@@ -65541,8 +66057,6 @@ fo:q_partecipation7737 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver845 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:29.252000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying998 .
 
 fo:q_partecipation7738 a fo:QualifPartecipation ;
@@ -65856,7 +66370,6 @@ fo:q_partecipation7768 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:18.208000"^^xsd:time ;
     fo:hasQ2Time "00:01:35.214000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1000 .
 
 fo:q_partecipation7769 a fo:QualifPartecipation ;
@@ -65866,7 +66379,6 @@ fo:q_partecipation7769 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:18.540000"^^xsd:time ;
     fo:hasQ2Time "00:01:36.442000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1000 .
 
 fo:q_partecipation777 a fo:QualifPartecipation ;
@@ -65885,7 +66397,6 @@ fo:q_partecipation7770 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:17.905000"^^xsd:time ;
     fo:hasQ2Time "00:01:36.506000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1000 .
 
 fo:q_partecipation7771 a fo:QualifPartecipation ;
@@ -65895,7 +66406,6 @@ fo:q_partecipation7771 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:18.641000"^^xsd:time ;
     fo:hasQ2Time "00:01:37.075000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1000 .
 
 fo:q_partecipation7772 a fo:QualifPartecipation ;
@@ -65904,8 +66414,6 @@ fo:q_partecipation7772 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver840 ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:18.560000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1000 .
 
 fo:q_partecipation7773 a fo:QualifPartecipation ;
@@ -65914,8 +66422,6 @@ fo:q_partecipation7773 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver838 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:18.782000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1000 .
 
 fo:q_partecipation7774 a fo:QualifPartecipation ;
@@ -65924,8 +66430,6 @@ fo:q_partecipation7774 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver844 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:18.817000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1000 .
 
 fo:q_partecipation7775 a fo:QualifPartecipation ;
@@ -65934,8 +66438,6 @@ fo:q_partecipation7775 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver839 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:19.142000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1000 .
 
 fo:q_partecipation7776 a fo:QualifPartecipation ;
@@ -65944,8 +66446,6 @@ fo:q_partecipation7776 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver815 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:19.200000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1000 .
 
 fo:q_partecipation7777 a fo:QualifPartecipation ;
@@ -65954,8 +66454,6 @@ fo:q_partecipation7777 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver845 ;
     fo:hasPosition 20 ;
     fo:hasQ1Time "00:01:19.301000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1000 .
 
 fo:q_partecipation7778 a fo:QualifPartecipation ;
@@ -66510,7 +67008,6 @@ fo:q_partecipation7830 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:39.022000"^^xsd:time ;
     fo:hasQ2Time "00:01:38.641000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1003 .
 
 fo:q_partecipation7831 a fo:QualifPartecipation ;
@@ -66520,7 +67017,6 @@ fo:q_partecipation7831 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:39.103000"^^xsd:time ;
     fo:hasQ2Time "00:01:38.716000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1003 .
 
 fo:q_partecipation7832 a fo:QualifPartecipation ;
@@ -66530,7 +67026,6 @@ fo:q_partecipation7832 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:39.206000"^^xsd:time ;
     fo:hasQ2Time "00:01:38.747000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1003 .
 
 fo:q_partecipation7833 a fo:QualifPartecipation ;
@@ -66540,7 +67035,6 @@ fo:q_partecipation7833 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:39.366000"^^xsd:time ;
     fo:hasQ2Time "00:01:39.453000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1003 .
 
 fo:q_partecipation7834 a fo:QualifPartecipation ;
@@ -66550,7 +67044,6 @@ fo:q_partecipation7834 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:39.614000"^^xsd:time ;
     fo:hasQ2Time "00:01:39.691000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1003 .
 
 fo:q_partecipation7835 a fo:QualifPartecipation ;
@@ -66559,8 +67052,6 @@ fo:q_partecipation7835 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver825 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:39.644000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1003 .
 
 fo:q_partecipation7836 a fo:QualifPartecipation ;
@@ -66569,8 +67060,6 @@ fo:q_partecipation7836 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver843 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:39.809000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1003 .
 
 fo:q_partecipation7837 a fo:QualifPartecipation ;
@@ -66579,8 +67068,6 @@ fo:q_partecipation7837 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver838 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:39.864000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1003 .
 
 fo:q_partecipation7838 a fo:QualifPartecipation ;
@@ -66589,8 +67076,6 @@ fo:q_partecipation7838 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver845 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:41.263000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1003 .
 
 fo:q_partecipation7839 a fo:QualifPartecipation ;
@@ -66599,8 +67084,6 @@ fo:q_partecipation7839 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver840 ;
     fo:hasPosition 20 ;
     fo:hasQ1Time "00:01:41.334000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1003 .
 
 fo:q_partecipation784 a fo:QualifPartecipation ;
@@ -66924,7 +67407,6 @@ fo:q_partecipation7870 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:29.706000"^^xsd:time ;
     fo:hasQ2Time "00:01:29.864000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1005 .
 
 fo:q_partecipation7871 a fo:QualifPartecipation ;
@@ -66934,7 +67416,6 @@ fo:q_partecipation7871 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:30.219000"^^xsd:time ;
     fo:hasQ2Time "00:01:30.226000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1005 .
 
 fo:q_partecipation7872 a fo:QualifPartecipation ;
@@ -66944,7 +67425,6 @@ fo:q_partecipation7872 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:30.236000"^^xsd:time ;
     fo:hasQ2Time "00:01:30.490000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1005 .
 
 fo:q_partecipation7873 a fo:QualifPartecipation ;
@@ -66954,7 +67434,6 @@ fo:q_partecipation7873 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:30.317000"^^xsd:time ;
     fo:hasQ2Time "00:01:30.714000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1005 .
 
 fo:q_partecipation7874 a fo:QualifPartecipation ;
@@ -66963,8 +67442,6 @@ fo:q_partecipation7874 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver817 ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:29.806000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1005 .
 
 fo:q_partecipation7875 a fo:QualifPartecipation ;
@@ -66973,8 +67450,6 @@ fo:q_partecipation7875 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver807 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:30.361000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1005 .
 
 fo:q_partecipation7876 a fo:QualifPartecipation ;
@@ -66983,8 +67458,6 @@ fo:q_partecipation7876 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver845 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:30.372000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1005 .
 
 fo:q_partecipation7877 a fo:QualifPartecipation ;
@@ -66993,8 +67466,6 @@ fo:q_partecipation7877 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver4 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:30.573000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1005 .
 
 fo:q_partecipation7878 a fo:QualifPartecipation ;
@@ -67003,8 +67474,6 @@ fo:q_partecipation7878 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver838 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:31.041000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1005 .
 
 fo:q_partecipation7879 a fo:QualifPartecipation ;
@@ -67013,8 +67482,6 @@ fo:q_partecipation7879 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver828 ;
     fo:hasPosition 20 ;
     fo:hasQ1Time "00:01:31.213000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1005 .
 
 fo:q_partecipation788 a fo:QualifPartecipation ;
@@ -67355,7 +67822,6 @@ fo:q_partecipation7910 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:16.252000"^^xsd:time ;
     fo:hasQ2Time "00:01:16.844000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1007 .
 
 fo:q_partecipation7911 a fo:QualifPartecipation ;
@@ -67365,7 +67831,6 @@ fo:q_partecipation7911 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:16.242000"^^xsd:time ;
     fo:hasQ2Time "00:01:17.167000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1007 .
 
 fo:q_partecipation7912 a fo:QualifPartecipation ;
@@ -67375,7 +67840,6 @@ fo:q_partecipation7912 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:16.682000"^^xsd:time ;
     fo:hasQ2Time "00:01:17.184000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1007 .
 
 fo:q_partecipation7913 a fo:QualifPartecipation ;
@@ -67384,8 +67848,6 @@ fo:q_partecipation7913 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver842 ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:16.828000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1007 .
 
 fo:q_partecipation7914 a fo:QualifPartecipation ;
@@ -67394,8 +67856,6 @@ fo:q_partecipation7914 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver154 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:16.911000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1007 .
 
 fo:q_partecipation7915 a fo:QualifPartecipation ;
@@ -67404,8 +67864,6 @@ fo:q_partecipation7915 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver838 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:16.966000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1007 .
 
 fo:q_partecipation7916 a fo:QualifPartecipation ;
@@ -67414,8 +67872,6 @@ fo:q_partecipation7916 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver825 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:17.599000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1007 .
 
 fo:q_partecipation7917 a fo:QualifPartecipation ;
@@ -67424,8 +67880,6 @@ fo:q_partecipation7917 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver840 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:17.689000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1007 .
 
 fo:q_partecipation7918 a fo:QualifPartecipation ;
@@ -67434,8 +67888,6 @@ fo:q_partecipation7918 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver845 ;
     fo:hasPosition 20 ;
     fo:hasQ1Time "00:01:17.886000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1007 .
 
 fo:q_partecipation7919 a fo:QualifPartecipation ;
@@ -67445,7 +67897,6 @@ fo:q_partecipation7919 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:16.857000"^^xsd:time ;
     fo:hasQ2Time "00:01:16.871000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1007 .
 
 fo:q_partecipation792 a fo:QualifPartecipation ;
@@ -68379,7 +68830,6 @@ fo:q_partecipation8008 a fo:QualifPartecipation ;
     fo:hasPosition 9 ;
     fo:hasQ1Time "00:01:34.036000"^^xsd:time ;
     fo:hasQ2Time "00:01:33.150000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1012 .
 
 fo:q_partecipation8009 a fo:QualifPartecipation ;
@@ -68389,7 +68839,6 @@ fo:q_partecipation8009 a fo:QualifPartecipation ;
     fo:hasPosition 10 ;
     fo:hasQ1Time "00:01:33.752000"^^xsd:time ;
     fo:hasQ2Time "00:01:33.156000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1012 .
 
 fo:q_partecipation801 a fo:QualifPartecipation ;
@@ -68408,7 +68857,6 @@ fo:q_partecipation8010 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:33.783000"^^xsd:time ;
     fo:hasQ2Time "00:01:33.236000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1012 .
 
 fo:q_partecipation8011 a fo:QualifPartecipation ;
@@ -68418,7 +68866,6 @@ fo:q_partecipation8011 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:34.026000"^^xsd:time ;
     fo:hasQ2Time "00:01:33.299000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1012 .
 
 fo:q_partecipation8012 a fo:QualifPartecipation ;
@@ -68428,7 +68875,6 @@ fo:q_partecipation8012 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:34.125000"^^xsd:time ;
     fo:hasQ2Time "00:01:33.419000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1012 .
 
 fo:q_partecipation8013 a fo:QualifPartecipation ;
@@ -68438,7 +68884,6 @@ fo:q_partecipation8013 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:33.686000"^^xsd:time ;
     fo:hasQ2Time "00:01:33.523000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1012 .
 
 fo:q_partecipation8014 a fo:QualifPartecipation ;
@@ -68448,7 +68893,6 @@ fo:q_partecipation8014 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:34.148000"^^xsd:time ;
     fo:hasQ2Time "00:01:33.967000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1012 .
 
 fo:q_partecipation8015 a fo:QualifPartecipation ;
@@ -68457,8 +68901,6 @@ fo:q_partecipation8015 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver840 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:34.292000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1012 .
 
 fo:q_partecipation8016 a fo:QualifPartecipation ;
@@ -68467,8 +68909,6 @@ fo:q_partecipation8016 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver847 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:35.253000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1012 .
 
 fo:q_partecipation8017 a fo:QualifPartecipation ;
@@ -68477,8 +68917,6 @@ fo:q_partecipation8017 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver9 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:35.281000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1012 .
 
 fo:q_partecipation8018 a fo:QualifPartecipation ;
@@ -68576,7 +69014,6 @@ fo:q_partecipation8026 a fo:QualifPartecipation ;
     fo:hasPosition 9 ;
     fo:hasQ1Time "00:01:41.426000"^^xsd:time ;
     fo:hasQ2Time "00:01:41.995000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1013 .
 
 fo:q_partecipation8027 a fo:QualifPartecipation ;
@@ -68586,7 +69023,6 @@ fo:q_partecipation8027 a fo:QualifPartecipation ;
     fo:hasPosition 10 ;
     fo:hasQ1Time "00:01:41.936000"^^xsd:time ;
     fo:hasQ2Time "00:01:42.398000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1013 .
 
 fo:q_partecipation8028 a fo:QualifPartecipation ;
@@ -68596,7 +69032,6 @@ fo:q_partecipation8028 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:42.486000"^^xsd:time ;
     fo:hasQ2Time "00:01:42.477000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1013 .
 
 fo:q_partecipation8029 a fo:QualifPartecipation ;
@@ -68606,7 +69041,6 @@ fo:q_partecipation8029 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:42.154000"^^xsd:time ;
     fo:hasQ2Time "00:01:42.494000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1013 .
 
 fo:q_partecipation803 a fo:QualifPartecipation ;
@@ -68624,7 +69058,6 @@ fo:q_partecipation8030 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:42.382000"^^xsd:time ;
     fo:hasQ2Time "00:01:42.699000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1013 .
 
 fo:q_partecipation8031 a fo:QualifPartecipation ;
@@ -68633,8 +69066,6 @@ fo:q_partecipation8031 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver840 ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:42.630000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1013 .
 
 fo:q_partecipation8032 a fo:QualifPartecipation ;
@@ -68643,8 +69074,6 @@ fo:q_partecipation8032 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver154 ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:43.407000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1013 .
 
 fo:q_partecipation8033 a fo:QualifPartecipation ;
@@ -68653,8 +69082,6 @@ fo:q_partecipation8033 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver807 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:43.427000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1013 .
 
 fo:q_partecipation8034 a fo:QualifPartecipation ;
@@ -68663,8 +69090,6 @@ fo:q_partecipation8034 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver847 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:45.062000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1013 .
 
 fo:q_partecipation8035 a fo:QualifPartecipation ;
@@ -68673,8 +69098,6 @@ fo:q_partecipation8035 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver9 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:45.455000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1013 .
 
 fo:q_partecipation8036 a fo:QualifPartecipation ;
@@ -68682,9 +69105,6 @@ fo:q_partecipation8036 a fo:QualifPartecipation ;
     fo:hasConstructor fo:constructor51 ;
     fo:hasDriver fo:driver8 ;
     fo:hasPosition 19 ;
-    fo:hasQ1Time "00:00:00"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1013 .
 
 fo:q_partecipation8037 a fo:QualifPartecipation ;
@@ -68692,9 +69112,6 @@ fo:q_partecipation8037 a fo:QualifPartecipation ;
     fo:hasConstructor fo:constructor9 ;
     fo:hasDriver fo:driver842 ;
     fo:hasPosition 20 ;
-    fo:hasQ1Time "00:00:00"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1013 .
 
 fo:q_partecipation8038 a fo:QualifPartecipation ;
@@ -70030,7 +70447,6 @@ fo:q_partecipation8167 a fo:QualifPartecipation ;
     fo:hasPosition 10 ;
     fo:hasQ1Time "00:01:12.229000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.344000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1020 .
 
 fo:q_partecipation8168 a fo:QualifPartecipation ;
@@ -70040,7 +70456,6 @@ fo:q_partecipation8168 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:13.170000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.786000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1020 .
 
 fo:q_partecipation8169 a fo:QualifPartecipation ;
@@ -70050,7 +70465,6 @@ fo:q_partecipation8169 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:13.103000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.789000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1020 .
 
 fo:q_partecipation817 a fo:QualifPartecipation ;
@@ -70070,7 +70484,6 @@ fo:q_partecipation8170 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:13.131000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.799000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1020 .
 
 fo:q_partecipation8171 a fo:QualifPartecipation ;
@@ -70080,7 +70493,6 @@ fo:q_partecipation8171 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:13.278000"^^xsd:time ;
     fo:hasQ2Time "00:01:13.135000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1020 .
 
 fo:q_partecipation8172 a fo:QualifPartecipation ;
@@ -70090,7 +70502,6 @@ fo:q_partecipation8172 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:13.256000"^^xsd:time ;
     fo:hasQ2Time "00:01:13.450000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1020 .
 
 fo:q_partecipation8173 a fo:QualifPartecipation ;
@@ -70099,8 +70510,6 @@ fo:q_partecipation8173 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver846 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:13.333000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1020 .
 
 fo:q_partecipation8174 a fo:QualifPartecipation ;
@@ -70109,8 +70518,6 @@ fo:q_partecipation8174 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver848 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:13.461000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1020 .
 
 fo:q_partecipation8175 a fo:QualifPartecipation ;
@@ -70119,8 +70526,6 @@ fo:q_partecipation8175 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver847 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:14.721000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1020 .
 
 fo:q_partecipation8176 a fo:QualifPartecipation ;
@@ -70129,8 +70534,6 @@ fo:q_partecipation8176 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver9 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:14.839000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1020 .
 
 fo:q_partecipation8177 a fo:QualifPartecipation ;
@@ -70138,9 +70541,6 @@ fo:q_partecipation8177 a fo:QualifPartecipation ;
     fo:hasConstructor fo:constructor6 ;
     fo:hasDriver fo:driver20 ;
     fo:hasPosition 20 ;
-    fo:hasQ1Time "00:00:00"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1020 .
 
 fo:q_partecipation8178 a fo:QualifPartecipation ;
@@ -70472,7 +70872,6 @@ fo:q_partecipation8208 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:45.694000"^^xsd:time ;
     fo:hasQ2Time "00:01:44.797000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1022 .
 
 fo:q_partecipation8209 a fo:QualifPartecipation ;
@@ -70482,7 +70881,6 @@ fo:q_partecipation8209 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:46.154000"^^xsd:time ;
     fo:hasQ2Time "00:01:44.847000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1022 .
 
 fo:q_partecipation821 a fo:QualifPartecipation ;
@@ -70501,7 +70899,6 @@ fo:q_partecipation8210 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:46"^^xsd:time ;
     fo:hasQ2Time "00:01:45.047000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1022 .
 
 fo:q_partecipation8211 a fo:QualifPartecipation ;
@@ -70511,7 +70908,6 @@ fo:q_partecipation8211 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:45.528000"^^xsd:time ;
     fo:hasQ2Time "00:01:45.799000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1022 .
 
 fo:q_partecipation8212 a fo:QualifPartecipation ;
@@ -70520,8 +70916,6 @@ fo:q_partecipation8212 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver841 ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:45.637000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1022 .
 
 fo:q_partecipation8213 a fo:QualifPartecipation ;
@@ -70530,8 +70924,6 @@ fo:q_partecipation8213 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver842 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:46.435000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1022 .
 
 fo:q_partecipation8214 a fo:QualifPartecipation ;
@@ -70540,8 +70932,6 @@ fo:q_partecipation8214 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver832 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:46.507000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1022 .
 
 fo:q_partecipation8215 a fo:QualifPartecipation ;
@@ -70550,8 +70940,6 @@ fo:q_partecipation8215 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver826 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:46.518000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1022 .
 
 fo:q_partecipation8216 a fo:QualifPartecipation ;
@@ -70560,8 +70948,6 @@ fo:q_partecipation8216 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver847 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:47.548000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1022 .
 
 fo:q_partecipation8217 a fo:QualifPartecipation ;
@@ -70657,7 +71043,6 @@ fo:q_partecipation8225 a fo:QualifPartecipation ;
     fo:hasPosition 8 ;
     fo:hasQ1Time "00:01:20.382000"^^xsd:time ;
     fo:hasQ2Time "00:01:20.021000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1023 .
 
 fo:q_partecipation8226 a fo:QualifPartecipation ;
@@ -70667,7 +71052,6 @@ fo:q_partecipation8226 a fo:QualifPartecipation ;
     fo:hasPosition 9 ;
     fo:hasQ1Time "00:01:20.643000"^^xsd:time ;
     fo:hasQ2Time "00:01:20.498000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1023 .
 
 fo:q_partecipation8227 a fo:QualifPartecipation ;
@@ -70677,7 +71061,6 @@ fo:q_partecipation8227 a fo:QualifPartecipation ;
     fo:hasPosition 10 ;
     fo:hasQ1Time "00:01:20.634000"^^xsd:time ;
     fo:hasQ2Time "00:01:20.515000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1023 .
 
 fo:q_partecipation8228 a fo:QualifPartecipation ;
@@ -70687,7 +71070,6 @@ fo:q_partecipation8228 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:20.657000"^^xsd:time ;
     fo:hasQ2Time "00:01:20.517000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1023 .
 
 fo:q_partecipation8229 a fo:QualifPartecipation ;
@@ -70697,7 +71079,6 @@ fo:q_partecipation8229 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:20.616000"^^xsd:time ;
     fo:hasQ2Time "00:01:20.615000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1023 .
 
 fo:q_partecipation823 a fo:QualifPartecipation ;
@@ -70716,7 +71097,6 @@ fo:q_partecipation8230 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:20.723000"^^xsd:time ;
     fo:hasQ2Time "00:01:20.630000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1023 .
 
 fo:q_partecipation8231 a fo:QualifPartecipation ;
@@ -70726,7 +71106,6 @@ fo:q_partecipation8231 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:20.646000"^^xsd:time ;
     fo:hasQ2Time "00:01:21.068000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1023 .
 
 fo:q_partecipation8232 a fo:QualifPartecipation ;
@@ -70736,7 +71115,6 @@ fo:q_partecipation8232 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:20.508000"^^xsd:time ;
     fo:hasQ2Time "00:01:21.125000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1023 .
 
 fo:q_partecipation8233 a fo:QualifPartecipation ;
@@ -70745,8 +71123,6 @@ fo:q_partecipation8233 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver154 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:20.784000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1023 .
 
 fo:q_partecipation8234 a fo:QualifPartecipation ;
@@ -70755,8 +71131,6 @@ fo:q_partecipation8234 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver815 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:21.291000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1023 .
 
 fo:q_partecipation8235 a fo:QualifPartecipation ;
@@ -70765,8 +71139,6 @@ fo:q_partecipation8235 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver847 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:21.800000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1023 .
 
 fo:q_partecipation8236 a fo:QualifPartecipation ;
@@ -70775,8 +71147,6 @@ fo:q_partecipation8236 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver9 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:22.356000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1023 .
 
 fo:q_partecipation8237 a fo:QualifPartecipation ;
@@ -70892,7 +71262,6 @@ fo:q_partecipation8247 a fo:QualifPartecipation ;
     fo:hasPosition 10 ;
     fo:hasQ1Time "00:01:39.909000"^^xsd:time ;
     fo:hasQ2Time "00:01:38.520000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1024 .
 
 fo:q_partecipation8248 a fo:QualifPartecipation ;
@@ -70902,7 +71271,6 @@ fo:q_partecipation8248 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:39.272000"^^xsd:time ;
     fo:hasQ2Time "00:01:38.697000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1024 .
 
 fo:q_partecipation8249 a fo:QualifPartecipation ;
@@ -70912,7 +71280,6 @@ fo:q_partecipation8249 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:39.085000"^^xsd:time ;
     fo:hasQ2Time "00:01:38.699000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1024 .
 
 fo:q_partecipation825 a fo:QualifPartecipation ;
@@ -70930,7 +71297,6 @@ fo:q_partecipation8250 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:39.454000"^^xsd:time ;
     fo:hasQ2Time "00:01:38.858000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1024 .
 
 fo:q_partecipation8251 a fo:QualifPartecipation ;
@@ -70940,7 +71306,6 @@ fo:q_partecipation8251 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:39.942000"^^xsd:time ;
     fo:hasQ2Time "00:01:39.650000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1024 .
 
 fo:q_partecipation8252 a fo:QualifPartecipation ;
@@ -70949,8 +71314,6 @@ fo:q_partecipation8252 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver826 ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:39.957000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1024 .
 
 fo:q_partecipation8253 a fo:QualifPartecipation ;
@@ -70959,8 +71322,6 @@ fo:q_partecipation8253 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver840 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:39.979000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1024 .
 
 fo:q_partecipation8254 a fo:QualifPartecipation ;
@@ -70969,8 +71330,6 @@ fo:q_partecipation8254 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver154 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:40.277000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1024 .
 
 fo:q_partecipation8255 a fo:QualifPartecipation ;
@@ -70979,8 +71338,6 @@ fo:q_partecipation8255 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver847 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:40.867000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1024 .
 
 fo:q_partecipation8256 a fo:QualifPartecipation ;
@@ -70989,8 +71346,6 @@ fo:q_partecipation8256 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver9 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:41.186000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1024 .
 
 fo:q_partecipation8257 a fo:QualifPartecipation ;
@@ -70998,9 +71353,6 @@ fo:q_partecipation8257 a fo:QualifPartecipation ;
     fo:hasConstructor fo:constructor4 ;
     fo:hasDriver fo:driver817 ;
     fo:hasPosition 20 ;
-    fo:hasQ1Time "00:00:00"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1024 .
 
 fo:q_partecipation8258 a fo:QualifPartecipation ;
@@ -71118,7 +71470,6 @@ fo:q_partecipation8268 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:34.456000"^^xsd:time ;
     fo:hasQ2Time "00:01:33.950000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1025 .
 
 fo:q_partecipation8269 a fo:QualifPartecipation ;
@@ -71128,7 +71479,6 @@ fo:q_partecipation8269 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:34.336000"^^xsd:time ;
     fo:hasQ2Time "00:01:33.958000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1025 .
 
 fo:q_partecipation827 a fo:QualifPartecipation ;
@@ -71146,7 +71496,6 @@ fo:q_partecipation8270 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:34.755000"^^xsd:time ;
     fo:hasQ2Time "00:01:34.037000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1025 .
 
 fo:q_partecipation8271 a fo:QualifPartecipation ;
@@ -71156,7 +71505,6 @@ fo:q_partecipation8271 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:33.889000"^^xsd:time ;
     fo:hasQ2Time "00:01:34.082000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1025 .
 
 fo:q_partecipation8272 a fo:QualifPartecipation ;
@@ -71166,7 +71514,6 @@ fo:q_partecipation8272 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:34.287000"^^xsd:time ;
     fo:hasQ2Time "00:01:34.233000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1025 .
 
 fo:q_partecipation8273 a fo:QualifPartecipation ;
@@ -71175,8 +71522,6 @@ fo:q_partecipation8273 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver8 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:34.840000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1025 .
 
 fo:q_partecipation8274 a fo:QualifPartecipation ;
@@ -71185,8 +71530,6 @@ fo:q_partecipation8274 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver847 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:35.356000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1025 .
 
 fo:q_partecipation8275 a fo:QualifPartecipation ;
@@ -71195,8 +71538,6 @@ fo:q_partecipation8275 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver9 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:36.474000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1025 .
 
 fo:q_partecipation8276 a fo:QualifPartecipation ;
@@ -71205,8 +71546,6 @@ fo:q_partecipation8276 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver848 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:39.197000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1025 .
 
 fo:q_partecipation8277 a fo:QualifPartecipation ;
@@ -71215,8 +71554,6 @@ fo:q_partecipation8277 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver826 ;
     fo:hasPosition 20 ;
     fo:hasQ1Time "00:01:39.544000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1025 .
 
 fo:q_partecipation8278 a fo:QualifPartecipation ;
@@ -71334,7 +71671,6 @@ fo:q_partecipation8288 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:29.604000"^^xsd:time ;
     fo:hasQ2Time "00:01:29.254000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1026 .
 
 fo:q_partecipation8289 a fo:QualifPartecipation ;
@@ -71344,7 +71680,6 @@ fo:q_partecipation8289 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:29.594000"^^xsd:time ;
     fo:hasQ2Time "00:01:29.345000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1026 .
 
 fo:q_partecipation829 a fo:QualifPartecipation ;
@@ -71362,7 +71697,6 @@ fo:q_partecipation8290 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:29.636000"^^xsd:time ;
     fo:hasQ2Time "00:01:29.358000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1026 .
 
 fo:q_partecipation8291 a fo:QualifPartecipation ;
@@ -71372,7 +71706,6 @@ fo:q_partecipation8291 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:29.723000"^^xsd:time ;
     fo:hasQ2Time "00:01:29.563000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1026 .
 
 fo:q_partecipation8292 a fo:QualifPartecipation ;
@@ -71382,7 +71715,6 @@ fo:q_partecipation8292 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:29.619000"^^xsd:time ;
     fo:hasQ2Time "00:01:30.112000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1026 .
 
 fo:q_partecipation8293 a fo:QualifPartecipation ;
@@ -71391,8 +71723,6 @@ fo:q_partecipation8293 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver817 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:29.822000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1026 .
 
 fo:q_partecipation8294 a fo:QualifPartecipation ;
@@ -71401,8 +71731,6 @@ fo:q_partecipation8294 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver815 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:30.344000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1026 .
 
 fo:q_partecipation8295 a fo:QualifPartecipation ;
@@ -71411,8 +71739,6 @@ fo:q_partecipation8295 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver847 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:30.364000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1026 .
 
 fo:q_partecipation8296 a fo:QualifPartecipation ;
@@ -71962,7 +72288,6 @@ fo:q_partecipation8348 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:08.891000"^^xsd:time ;
     fo:hasQ2Time "00:01:08.868000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1029 .
 
 fo:q_partecipation8349 a fo:QualifPartecipation ;
@@ -71972,7 +72297,6 @@ fo:q_partecipation8349 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:09.086000"^^xsd:time ;
     fo:hasQ2Time "00:01:08.903000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1029 .
 
 fo:q_partecipation835 a fo:QualifPartecipation ;
@@ -71992,7 +72316,6 @@ fo:q_partecipation8350 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:09.175000"^^xsd:time ;
     fo:hasQ2Time "00:01:08.919000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1029 .
 
 fo:q_partecipation8351 a fo:QualifPartecipation ;
@@ -72002,7 +72325,6 @@ fo:q_partecipation8351 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:09.050000"^^xsd:time ;
     fo:hasQ2Time "00:01:08.921000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1029 .
 
 fo:q_partecipation8352 a fo:QualifPartecipation ;
@@ -72012,7 +72334,6 @@ fo:q_partecipation8352 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:09.288000"^^xsd:time ;
     fo:hasQ2Time "00:01:09.035000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1029 .
 
 fo:q_partecipation8353 a fo:QualifPartecipation ;
@@ -72021,8 +72342,6 @@ fo:q_partecipation8353 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver826 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:09.320000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1029 .
 
 fo:q_partecipation8354 a fo:QualifPartecipation ;
@@ -72031,8 +72350,6 @@ fo:q_partecipation8354 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver840 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:09.536000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1029 .
 
 fo:q_partecipation8355 a fo:QualifPartecipation ;
@@ -72041,8 +72358,6 @@ fo:q_partecipation8355 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver847 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:10.126000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1029 .
 
 fo:q_partecipation8356 a fo:QualifPartecipation ;
@@ -72051,8 +72366,6 @@ fo:q_partecipation8356 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver9 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:10.614000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1029 .
 
 fo:q_partecipation8357 a fo:QualifPartecipation ;
@@ -74652,7 +74965,6 @@ fo:q_partecipation8624 a fo:QualifPartecipation ;
     fo:hasPosition 10 ;
     fo:hasQ1Time "00:01:17.621000"^^xsd:time ;
     fo:hasQ2Time "00:01:17.481000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1042 .
 
 fo:q_partecipation8625 a fo:QualifPartecipation ;
@@ -74662,7 +74974,6 @@ fo:q_partecipation8625 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:17.775000"^^xsd:time ;
     fo:hasQ2Time "00:01:17.614000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1042 .
 
 fo:q_partecipation8626 a fo:QualifPartecipation ;
@@ -74672,7 +74983,6 @@ fo:q_partecipation8626 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:17.667000"^^xsd:time ;
     fo:hasQ2Time "00:01:17.626000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1042 .
 
 fo:q_partecipation8627 a fo:QualifPartecipation ;
@@ -74682,7 +74992,6 @@ fo:q_partecipation8627 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:17.841000"^^xsd:time ;
     fo:hasQ2Time "00:01:17.728000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1042 .
 
 fo:q_partecipation8628 a fo:QualifPartecipation ;
@@ -74692,7 +75001,6 @@ fo:q_partecipation8628 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:17.931000"^^xsd:time ;
     fo:hasQ2Time "00:01:17.788000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1042 .
 
 fo:q_partecipation8629 a fo:QualifPartecipation ;
@@ -74702,7 +75010,6 @@ fo:q_partecipation8629 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:17.446000"^^xsd:time ;
     fo:hasQ2Time "00:01:17.919000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1042 .
 
 fo:q_partecipation863 a fo:QualifPartecipation ;
@@ -74720,8 +75027,6 @@ fo:q_partecipation8630 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver8 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:18.201000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1042 .
 
 fo:q_partecipation8631 a fo:QualifPartecipation ;
@@ -74730,8 +75035,6 @@ fo:q_partecipation8631 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver841 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:18.323000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1042 .
 
 fo:q_partecipation8632 a fo:QualifPartecipation ;
@@ -74740,8 +75043,6 @@ fo:q_partecipation8632 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver154 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:18.364000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1042 .
 
 fo:q_partecipation8633 a fo:QualifPartecipation ;
@@ -74750,8 +75051,6 @@ fo:q_partecipation8633 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver825 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:18.508000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1042 .
 
 fo:q_partecipation8634 a fo:QualifPartecipation ;
@@ -74760,8 +75059,6 @@ fo:q_partecipation8634 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver849 ;
     fo:hasPosition 20 ;
     fo:hasQ1Time "00:01:18.777000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1042 .
 
 fo:q_partecipation8635 a fo:QualifPartecipation ;
@@ -75494,7 +75791,6 @@ fo:q_partecipation8705 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:00:54.309000"^^xsd:time ;
     fo:hasQ2Time "00:00:53.995000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1046 .
 
 fo:q_partecipation8706 a fo:QualifPartecipation ;
@@ -75504,7 +75800,6 @@ fo:q_partecipation8706 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:00:54.620000"^^xsd:time ;
     fo:hasQ2Time "00:00:54.026000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1046 .
 
 fo:q_partecipation8707 a fo:QualifPartecipation ;
@@ -75514,7 +75809,6 @@ fo:q_partecipation8707 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:00:54.301000"^^xsd:time ;
     fo:hasQ2Time "00:00:54.175000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1046 .
 
 fo:q_partecipation8708 a fo:QualifPartecipation ;
@@ -75524,7 +75818,6 @@ fo:q_partecipation8708 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:00:54.523000"^^xsd:time ;
     fo:hasQ2Time "00:00:54.377000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1046 .
 
 fo:q_partecipation8709 a fo:QualifPartecipation ;
@@ -75534,7 +75827,6 @@ fo:q_partecipation8709 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:00:54.194000"^^xsd:time ;
     fo:hasQ2Time "00:00:54.693000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1046 .
 
 fo:q_partecipation871 a fo:QualifPartecipation ;
@@ -75551,8 +75843,6 @@ fo:q_partecipation8710 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver825 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:00:54.705000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1046 .
 
 fo:q_partecipation8711 a fo:QualifPartecipation ;
@@ -75561,8 +75851,6 @@ fo:q_partecipation8711 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver849 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:00:54.796000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1046 .
 
 fo:q_partecipation8712 a fo:QualifPartecipation ;
@@ -75571,8 +75859,6 @@ fo:q_partecipation8712 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver851 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:00:54.892000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1046 .
 
 fo:q_partecipation8713 a fo:QualifPartecipation ;
@@ -75581,8 +75867,6 @@ fo:q_partecipation8713 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver8 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:00:54.963000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1046 .
 
 fo:q_partecipation8714 a fo:QualifPartecipation ;
@@ -75591,8 +75875,6 @@ fo:q_partecipation8714 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver850 ;
     fo:hasPosition 20 ;
     fo:hasQ1Time "00:00:55.426000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1046 .
 
 fo:q_partecipation8715 a fo:QualifPartecipation ;
@@ -80847,7 +81129,6 @@ fo:q_partecipation9242 a fo:QualifPartecipation ;
     fo:hasPosition 10 ;
     fo:hasQ1Time "00:01:19.192000"^^xsd:time ;
     fo:hasQ2Time "00:01:18.815000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1076 .
 
 fo:q_partecipation9243 a fo:QualifPartecipation ;
@@ -80857,7 +81138,6 @@ fo:q_partecipation9243 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:19.580000"^^xsd:time ;
     fo:hasQ2Time "00:01:19.226000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1076 .
 
 fo:q_partecipation9244 a fo:QualifPartecipation ;
@@ -80867,7 +81147,6 @@ fo:q_partecipation9244 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:19.251000"^^xsd:time ;
     fo:hasQ2Time "00:01:19.410000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1076 .
 
 fo:q_partecipation9245 a fo:QualifPartecipation ;
@@ -80877,7 +81156,6 @@ fo:q_partecipation9245 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:19.742000"^^xsd:time ;
     fo:hasQ2Time "00:01:19.424000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1076 .
 
 fo:q_partecipation9246 a fo:QualifPartecipation ;
@@ -80887,7 +81165,6 @@ fo:q_partecipation9246 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:19.910000"^^xsd:time ;
     fo:hasQ2Time "00:01:20.155000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1076 .
 
 fo:q_partecipation9247 a fo:QualifPartecipation ;
@@ -80897,7 +81174,6 @@ fo:q_partecipation9247 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:20.104000"^^xsd:time ;
     fo:hasQ2Time "00:01:20.465000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1076 .
 
 fo:q_partecipation9248 a fo:QualifPartecipation ;
@@ -80906,8 +81182,6 @@ fo:q_partecipation9248 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver848 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:20.135000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1076 .
 
 fo:q_partecipation9249 a fo:QualifPartecipation ;
@@ -80916,8 +81190,6 @@ fo:q_partecipation9249 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver825 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:20.254000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1076 .
 
 fo:q_partecipation925 a fo:QualifPartecipation ;
@@ -80936,8 +81208,6 @@ fo:q_partecipation9250 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver20 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:21.149000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1076 .
 
 fo:q_partecipation9251 a fo:QualifPartecipation ;
@@ -80946,8 +81216,6 @@ fo:q_partecipation9251 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver849 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:21.372000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1076 .
 
 fo:q_partecipation9252 a fo:QualifPartecipation ;
@@ -81064,7 +81332,6 @@ fo:q_partecipation9262 a fo:QualifPartecipation ;
     fo:hasPosition 10 ;
     fo:hasQ1Time "00:01:19.305000"^^xsd:time ;
     fo:hasQ2Time "00:01:18.990000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1077 .
 
 fo:q_partecipation9263 a fo:QualifPartecipation ;
@@ -81074,7 +81341,6 @@ fo:q_partecipation9263 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:20.383000"^^xsd:time ;
     fo:hasQ2Time "00:01:20.757000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1077 .
 
 fo:q_partecipation9264 a fo:QualifPartecipation ;
@@ -81084,7 +81350,6 @@ fo:q_partecipation9264 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:20.422000"^^xsd:time ;
     fo:hasQ2Time "00:01:20.916000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1077 .
 
 fo:q_partecipation9265 a fo:QualifPartecipation ;
@@ -81094,7 +81359,6 @@ fo:q_partecipation9265 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:20.470000"^^xsd:time ;
     fo:hasQ2Time "00:01:21.138000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1077 .
 
 fo:q_partecipation9266 a fo:QualifPartecipation ;
@@ -81104,7 +81368,6 @@ fo:q_partecipation9266 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:19.730000"^^xsd:time ;
     fo:hasQ2Time "00:01:21.434000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1077 .
 
 fo:q_partecipation9267 a fo:QualifPartecipation ;
@@ -81114,7 +81377,6 @@ fo:q_partecipation9267 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:20.342000"^^xsd:time ;
     fo:hasQ2Time "00:01:28.119000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1077 .
 
 fo:q_partecipation9268 a fo:QualifPartecipation ;
@@ -81123,8 +81385,6 @@ fo:q_partecipation9268 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver852 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:20.474000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1077 .
 
 fo:q_partecipation9269 a fo:QualifPartecipation ;
@@ -81133,8 +81393,6 @@ fo:q_partecipation9269 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver842 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:20.732000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1077 .
 
 fo:q_partecipation927 a fo:QualifPartecipation ;
@@ -81153,8 +81411,6 @@ fo:q_partecipation9270 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver849 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:21.971000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1077 .
 
 fo:q_partecipation9271 a fo:QualifPartecipation ;
@@ -81163,8 +81419,6 @@ fo:q_partecipation9271 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver839 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:22.338000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1077 .
 
 fo:q_partecipation9272 a fo:QualifPartecipation ;
@@ -81291,7 +81545,6 @@ fo:q_partecipation9283 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:30.407000"^^xsd:time ;
     fo:hasQ2Time "00:01:30.160000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1078 .
 
 fo:q_partecipation9284 a fo:QualifPartecipation ;
@@ -81301,7 +81554,6 @@ fo:q_partecipation9284 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:30.490000"^^xsd:time ;
     fo:hasQ2Time "00:01:30.173000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1078 .
 
 fo:q_partecipation9285 a fo:QualifPartecipation ;
@@ -81311,7 +81563,6 @@ fo:q_partecipation9285 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:30.677000"^^xsd:time ;
     fo:hasQ2Time "00:01:30.214000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1078 .
 
 fo:q_partecipation9286 a fo:QualifPartecipation ;
@@ -81321,7 +81572,6 @@ fo:q_partecipation9286 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:30.583000"^^xsd:time ;
     fo:hasQ2Time "00:01:30.310000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1078 .
 
 fo:q_partecipation9287 a fo:QualifPartecipation ;
@@ -81331,7 +81581,6 @@ fo:q_partecipation9287 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:30.645000"^^xsd:time ;
     fo:hasQ2Time "00:01:30.423000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1078 .
 
 fo:q_partecipation9288 a fo:QualifPartecipation ;
@@ -81340,8 +81589,6 @@ fo:q_partecipation9288 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver825 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:30.975000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1078 .
 
 fo:q_partecipation9289 a fo:QualifPartecipation ;
@@ -81350,8 +81597,6 @@ fo:q_partecipation9289 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver855 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:31.020000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1078 .
 
 fo:q_partecipation929 a fo:QualifPartecipation ;
@@ -81369,8 +81614,6 @@ fo:q_partecipation9290 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver848 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:31.266000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1078 .
 
 fo:q_partecipation9291 a fo:QualifPartecipation ;
@@ -81379,8 +81622,6 @@ fo:q_partecipation9291 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver849 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:31.325000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1078 .
 
 fo:q_partecipation9292 a fo:QualifPartecipation ;
@@ -81719,7 +81960,6 @@ fo:q_partecipation9323 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:13.110000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.797000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1080 .
 
 fo:q_partecipation9324 a fo:QualifPartecipation ;
@@ -81729,7 +81969,6 @@ fo:q_partecipation9324 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:13.541000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.909000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1080 .
 
 fo:q_partecipation9325 a fo:QualifPartecipation ;
@@ -81739,7 +81978,6 @@ fo:q_partecipation9325 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:13.069000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.921000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1080 .
 
 fo:q_partecipation9326 a fo:QualifPartecipation ;
@@ -81749,7 +81987,6 @@ fo:q_partecipation9326 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:13.338000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.964000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1080 .
 
 fo:q_partecipation9327 a fo:QualifPartecipation ;
@@ -81759,7 +81996,6 @@ fo:q_partecipation9327 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:13.469000"^^xsd:time ;
     fo:hasQ2Time "00:01:13.081000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1080 .
 
 fo:q_partecipation9328 a fo:QualifPartecipation ;
@@ -81768,8 +82004,6 @@ fo:q_partecipation9328 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver848 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:13.611000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1080 .
 
 fo:q_partecipation9329 a fo:QualifPartecipation ;
@@ -81778,8 +82012,6 @@ fo:q_partecipation9329 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver842 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:13.660000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1080 .
 
 fo:q_partecipation933 a fo:QualifPartecipation ;
@@ -81797,8 +82029,6 @@ fo:q_partecipation9330 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver840 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:13.678000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1080 .
 
 fo:q_partecipation9331 a fo:QualifPartecipation ;
@@ -81807,8 +82037,6 @@ fo:q_partecipation9331 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver849 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:14.403000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1080 .
 
 fo:q_partecipation9332 a fo:QualifPartecipation ;
@@ -81817,8 +82045,6 @@ fo:q_partecipation9332 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver855 ;
     fo:hasPosition 20 ;
     fo:hasQ1Time "00:01:15.606000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1080 .
 
 fo:q_partecipation9333 a fo:QualifPartecipation ;
@@ -84588,7 +84814,6 @@ fo:q_partecipation9602 a fo:QualifPartecipation ;
     fo:hasPosition 10 ;
     fo:hasQ1Time "00:01:14.486000"^^xsd:time ;
     fo:hasQ2Time "00:01:10.950000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1095 .
 
 fo:q_partecipation9603 a fo:QualifPartecipation ;
@@ -84598,7 +84823,6 @@ fo:q_partecipation9603 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:14.324000"^^xsd:time ;
     fo:hasQ2Time "00:01:11.631000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1095 .
 
 fo:q_partecipation9604 a fo:QualifPartecipation ;
@@ -84608,7 +84832,6 @@ fo:q_partecipation9604 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:14.371000"^^xsd:time ;
     fo:hasQ2Time "00:01:11.675000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1095 .
 
 fo:q_partecipation9605 a fo:QualifPartecipation ;
@@ -84618,7 +84841,6 @@ fo:q_partecipation9605 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:13.597000"^^xsd:time ;
     fo:hasQ2Time "00:01:11.678000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1095 .
 
 fo:q_partecipation9606 a fo:QualifPartecipation ;
@@ -84628,7 +84850,6 @@ fo:q_partecipation9606 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:14.931000"^^xsd:time ;
     fo:hasQ2Time "00:01:12.140000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1095 .
 
 fo:q_partecipation9607 a fo:QualifPartecipation ;
@@ -85211,7 +85432,6 @@ fo:q_partecipation9663 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:29.547000"^^xsd:time ;
     fo:hasQ2Time "00:01:29.451000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1099 .
 
 fo:q_partecipation9664 a fo:QualifPartecipation ;
@@ -85221,7 +85441,6 @@ fo:q_partecipation9664 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:29.654000"^^xsd:time ;
     fo:hasQ2Time "00:01:29.461000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1099 .
 
 fo:q_partecipation9665 a fo:QualifPartecipation ;
@@ -85231,7 +85450,6 @@ fo:q_partecipation9665 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:29.744000"^^xsd:time ;
     fo:hasQ2Time "00:01:29.634000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1099 .
 
 fo:q_partecipation9666 a fo:QualifPartecipation ;
@@ -85241,7 +85459,6 @@ fo:q_partecipation9666 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:29.929000"^^xsd:time ;
     fo:hasQ2Time "00:01:29.668000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1099 .
 
 fo:q_partecipation9667 a fo:QualifPartecipation ;
@@ -85251,7 +85468,6 @@ fo:q_partecipation9667 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:28.761000"^^xsd:time ;
     fo:hasQ2Time "00:01:49.953000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1099 .
 
 fo:q_partecipation9668 a fo:QualifPartecipation ;
@@ -85260,8 +85476,6 @@ fo:q_partecipation9668 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver852 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:29.939000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1099 .
 
 fo:q_partecipation9669 a fo:QualifPartecipation ;
@@ -85270,8 +85484,6 @@ fo:q_partecipation9669 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver848 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:29.994000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1099 .
 
 fo:q_partecipation967 a fo:QualifPartecipation ;
@@ -85290,8 +85502,6 @@ fo:q_partecipation9670 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver856 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:30.244000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1099 .
 
 fo:q_partecipation9671 a fo:QualifPartecipation ;
@@ -85300,8 +85510,6 @@ fo:q_partecipation9671 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver846 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:30.447000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1099 .
 
 fo:q_partecipation9672 a fo:QualifPartecipation ;
@@ -85310,8 +85518,6 @@ fo:q_partecipation9672 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver858 ;
     fo:hasPosition 20 ;
     fo:hasQ1Time "00:02:08.510000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1099 .
 
 fo:q_partecipation9673 a fo:QualifPartecipation ;
@@ -85431,7 +85637,6 @@ fo:q_partecipation9683 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:17.770000"^^xsd:time ;
     fo:hasQ2Time "00:01:17.768000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1100 .
 
 fo:q_partecipation9684 a fo:QualifPartecipation ;
@@ -85441,7 +85646,6 @@ fo:q_partecipation9684 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:18.471000"^^xsd:time ;
     fo:hasQ2Time "00:01:18.099000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1100 .
 
 fo:q_partecipation9685 a fo:QualifPartecipation ;
@@ -85451,7 +85655,6 @@ fo:q_partecipation9685 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:18.243000"^^xsd:time ;
     fo:hasQ2Time "00:01:18.119000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1100 .
 
 fo:q_partecipation9686 a fo:QualifPartecipation ;
@@ -85461,7 +85664,6 @@ fo:q_partecipation9686 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:18.159000"^^xsd:time ;
     fo:hasQ2Time "00:01:18.129000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1100 .
 
 fo:q_partecipation9687 a fo:QualifPartecipation ;
@@ -85471,7 +85673,6 @@ fo:q_partecipation9687 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:18.450000"^^xsd:time ;
     fo:hasQ2Time "00:01:18.335000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1100 .
 
 fo:q_partecipation9688 a fo:QualifPartecipation ;
@@ -85480,8 +85681,6 @@ fo:q_partecipation9688 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver857 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:18.517000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1100 .
 
 fo:q_partecipation9689 a fo:QualifPartecipation ;
@@ -85490,8 +85689,6 @@ fo:q_partecipation9689 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver855 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:18.540000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1100 .
 
 fo:q_partecipation969 a fo:QualifPartecipation ;
@@ -85510,8 +85707,6 @@ fo:q_partecipation9690 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver858 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:18.557000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1100 .
 
 fo:q_partecipation9691 a fo:QualifPartecipation ;
@@ -85520,8 +85715,6 @@ fo:q_partecipation9691 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver822 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:18.714000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1100 .
 
 fo:q_partecipation9692 a fo:QualifPartecipation ;
@@ -85658,7 +85851,6 @@ fo:q_partecipation9703 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:42.073000"^^xsd:time ;
     fo:hasQ2Time "00:01:41.654000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1101 .
 
 fo:q_partecipation9704 a fo:QualifPartecipation ;
@@ -85668,7 +85860,6 @@ fo:q_partecipation9704 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:42.622000"^^xsd:time ;
     fo:hasQ2Time "00:01:41.798000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1101 .
 
 fo:q_partecipation9705 a fo:QualifPartecipation ;
@@ -85678,7 +85869,6 @@ fo:q_partecipation9705 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:42.171000"^^xsd:time ;
     fo:hasQ2Time "00:01:41.818000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1101 .
 
 fo:q_partecipation9706 a fo:QualifPartecipation ;
@@ -85688,7 +85878,6 @@ fo:q_partecipation9706 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:42.582000"^^xsd:time ;
     fo:hasQ2Time "00:01:42.259000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1101 .
 
 fo:q_partecipation9707 a fo:QualifPartecipation ;
@@ -85698,7 +85887,6 @@ fo:q_partecipation9707 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:42.242000"^^xsd:time ;
     fo:hasQ2Time "00:01:42.395000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1101 .
 
 fo:q_partecipation9708 a fo:QualifPartecipation ;
@@ -85707,8 +85895,6 @@ fo:q_partecipation9708 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver855 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:42.642000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1101 .
 
 fo:q_partecipation9709 a fo:QualifPartecipation ;
@@ -85717,8 +85903,6 @@ fo:q_partecipation9709 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver807 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:42.755000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1101 .
 
 fo:q_partecipation971 a fo:QualifPartecipation ;
@@ -85737,8 +85921,6 @@ fo:q_partecipation9710 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver825 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:43.417000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1101 .
 
 fo:q_partecipation9711 a fo:QualifPartecipation ;
@@ -85747,8 +85929,6 @@ fo:q_partecipation9711 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver842 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:44.853000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1101 .
 
 fo:q_partecipation9712 a fo:QualifPartecipation ;
@@ -88126,7 +88306,6 @@ fo:q_partecipation9943 a fo:QualifPartecipation ;
     fo:hasPosition 11 ;
     fo:hasQ1Time "00:01:30.425000"^^xsd:time ;
     fo:hasQ2Time "00:01:30.508000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1114 .
 
 fo:q_partecipation9944 a fo:QualifPartecipation ;
@@ -88136,7 +88315,6 @@ fo:q_partecipation9944 a fo:QualifPartecipation ;
     fo:hasPosition 12 ;
     fo:hasQ1Time "00:01:30.843000"^^xsd:time ;
     fo:hasQ2Time "00:01:30.509000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1114 .
 
 fo:q_partecipation9945 a fo:QualifPartecipation ;
@@ -88146,7 +88324,6 @@ fo:q_partecipation9945 a fo:QualifPartecipation ;
     fo:hasPosition 13 ;
     fo:hasQ1Time "00:01:30.941000"^^xsd:time ;
     fo:hasQ2Time "00:01:30.537000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1114 .
 
 fo:q_partecipation9946 a fo:QualifPartecipation ;
@@ -88156,7 +88333,6 @@ fo:q_partecipation9946 a fo:QualifPartecipation ;
     fo:hasPosition 14 ;
     fo:hasQ1Time "00:01:30.960000"^^xsd:time ;
     fo:hasQ2Time "00:01:30.586000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1114 .
 
 fo:q_partecipation9947 a fo:QualifPartecipation ;
@@ -88166,7 +88342,6 @@ fo:q_partecipation9947 a fo:QualifPartecipation ;
     fo:hasPosition 15 ;
     fo:hasQ1Time "00:01:30.976000"^^xsd:time ;
     fo:hasQ2Time "00:01:30.665000"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1114 .
 
 fo:q_partecipation9948 a fo:QualifPartecipation ;
@@ -88175,8 +88350,6 @@ fo:q_partecipation9948 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver822 ;
     fo:hasPosition 16 ;
     fo:hasQ1Time "00:01:31.049000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1114 .
 
 fo:q_partecipation9949 a fo:QualifPartecipation ;
@@ -88185,8 +88358,6 @@ fo:q_partecipation9949 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver840 ;
     fo:hasPosition 17 ;
     fo:hasQ1Time "00:01:31.181000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1114 .
 
 fo:q_partecipation995 a fo:QualifPartecipation ;
@@ -88204,8 +88375,6 @@ fo:q_partecipation9950 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver807 ;
     fo:hasPosition 18 ;
     fo:hasQ1Time "00:01:31.299000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1114 .
 
 fo:q_partecipation9951 a fo:QualifPartecipation ;
@@ -88214,8 +88383,6 @@ fo:q_partecipation9951 a fo:QualifPartecipation ;
     fo:hasDriver fo:driver855 ;
     fo:hasPosition 19 ;
     fo:hasQ1Time "00:01:31.398000"^^xsd:time ;
-    fo:hasQ2Time "00:00:00"^^xsd:time ;
-    fo:hasQ3Time "00:00:00"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1114 .
 
 fo:q_partecipation9952 a fo:QualifPartecipation ;
@@ -88630,6 +88797,76 @@ fo:q_partecipation9992 a fo:QualifPartecipation ;
     fo:hasQ1Time "00:01:36.827000"^^xsd:time ;
     fo:partecipatedInQualif fo:qualifying1116 .
 
+fo:q_partecipation9993 a fo:QualifPartecipation ;
+    fo:hasCarNumber 16 ;
+    fo:hasConstructor fo:constructor6 ;
+    fo:hasDriver fo:driver844 ;
+    fo:hasPosition 1 ;
+    fo:hasQ1Time "00:01:18.401000"^^xsd:time ;
+    fo:hasQ2Time "00:01:17.901000"^^xsd:time ;
+    fo:hasQ3Time "00:01:17.166000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation9994 a fo:QualifPartecipation ;
+    fo:hasCarNumber 55 ;
+    fo:hasConstructor fo:constructor6 ;
+    fo:hasDriver fo:driver832 ;
+    fo:hasPosition 2 ;
+    fo:hasQ1Time "00:01:18.755000"^^xsd:time ;
+    fo:hasQ2Time "00:01:18.382000"^^xsd:time ;
+    fo:hasQ3Time "00:01:17.233000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation9995 a fo:QualifPartecipation ;
+    fo:hasCarNumber 1 ;
+    fo:hasConstructor fo:constructor9 ;
+    fo:hasDriver fo:driver830 ;
+    fo:hasPosition 3 ;
+    fo:hasQ1Time "00:01:18.099000"^^xsd:time ;
+    fo:hasQ2Time "00:01:17.625000"^^xsd:time ;
+    fo:hasQ3Time "00:01:17.263000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation9996 a fo:QualifPartecipation ;
+    fo:hasCarNumber 3 ;
+    fo:hasConstructor fo:constructor213 ;
+    fo:hasDriver fo:driver817 ;
+    fo:hasPosition 4 ;
+    fo:hasQ1Time "00:01:18.341000"^^xsd:time ;
+    fo:hasQ2Time "00:01:17.706000"^^xsd:time ;
+    fo:hasQ3Time "00:01:17.382000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation9997 a fo:QualifPartecipation ;
+    fo:hasCarNumber 11 ;
+    fo:hasConstructor fo:constructor9 ;
+    fo:hasDriver fo:driver815 ;
+    fo:hasPosition 5 ;
+    fo:hasQ1Time "00:01:18.553000"^^xsd:time ;
+    fo:hasQ2Time "00:01:18.124000"^^xsd:time ;
+    fo:hasQ3Time "00:01:17.423000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation9998 a fo:QualifPartecipation ;
+    fo:hasCarNumber 44 ;
+    fo:hasConstructor fo:constructor131 ;
+    fo:hasDriver fo:driver1 ;
+    fo:hasPosition 6 ;
+    fo:hasQ1Time "00:01:18.677000"^^xsd:time ;
+    fo:hasQ2Time "00:01:17.571000"^^xsd:time ;
+    fo:hasQ3Time "00:01:17.454000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
+fo:q_partecipation9999 a fo:QualifPartecipation ;
+    fo:hasCarNumber 81 ;
+    fo:hasConstructor fo:constructor1 ;
+    fo:hasDriver fo:driver857 ;
+    fo:hasPosition 7 ;
+    fo:hasQ1Time "00:01:18.241000"^^xsd:time ;
+    fo:hasQ2Time "00:01:17.874000"^^xsd:time ;
+    fo:hasQ3Time "00:01:17.623000"^^xsd:time ;
+    fo:partecipatedInQualif fo:qualifying1117 .
+
 fo:race1 fo:hasA fo:qualifying1 .
 
 fo:race10 fo:hasA fo:qualifying10 .
@@ -88880,7 +89117,15 @@ fo:race1115 fo:hasA fo:qualifying1115 .
 
 fo:race1116 fo:hasA fo:qualifying1116 .
 
+fo:race1117 fo:hasA fo:qualifying1117 .
+
+fo:race1118 fo:hasA fo:qualifying1118 .
+
+fo:race1119 fo:hasA fo:qualifying1119 .
+
 fo:race112 fo:hasA fo:qualifying112 .
+
+fo:race1120 fo:hasA fo:qualifying1120 .
 
 fo:race113 fo:hasA fo:qualifying113 .
 
@@ -89938,7 +90183,23 @@ fo:qualifying1116 a fo:Qualifying ;
     fo:hasDate "2023-10-20"^^xsd:date ;
     fo:hasTime "21:00:00"^^xsd:time .
 
+fo:qualifying1117 a fo:Qualifying ;
+    fo:hasDate "2023-10-28"^^xsd:date ;
+    fo:hasTime "21:00:00"^^xsd:time .
+
+fo:qualifying1118 a fo:Qualifying ;
+    fo:hasDate "2023-11-03"^^xsd:date ;
+    fo:hasTime "18:00:00"^^xsd:time .
+
+fo:qualifying1119 a fo:Qualifying ;
+    fo:hasDate "2023-11-17"^^xsd:date ;
+    fo:hasTime "08:00:00"^^xsd:time .
+
 fo:qualifying112 a fo:Qualifying .
+
+fo:qualifying1120 a fo:Qualifying ;
+    fo:hasDate "2023-11-25"^^xsd:date ;
+    fo:hasTime "14:00:00"^^xsd:time .
 
 fo:qualifying113 a fo:Qualifying .
 

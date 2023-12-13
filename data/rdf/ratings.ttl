@@ -304,7 +304,6 @@ fo:rating119 a fo:Rating ;
     fo:hasAwareness 73 ;
     fo:hasBuyout "500000"^^xsd:long ;
     fo:hasContractCost "1500000"^^xsd:long ;
-    fo:hasDriver fo:driver855 ;
     fo:hasExperience 47 ;
     fo:hasPace 67 ;
     fo:hasPeriod "2022-01-01"^^xsd:date ;
@@ -551,7 +550,6 @@ fo:rating136 a fo:Rating ;
     fo:hasAwareness 74 ;
     fo:hasBuyout "1250000"^^xsd:long ;
     fo:hasContractCost "3750000"^^xsd:long ;
-    fo:hasDriver fo:driver855 ;
     fo:hasExperience 63 ;
     fo:hasPace 81 ;
     fo:hasPeriod "2023-01-01"^^xsd:date ;
@@ -863,7 +861,6 @@ fo:rating158 a fo:Rating ;
     fo:hasAwareness 79 ;
     fo:hasBuyout "1250000"^^xsd:long ;
     fo:hasContractCost "3750000"^^xsd:long ;
-    fo:hasDriver fo:driver855 ;
     fo:hasExperience 67 ;
     fo:hasPace 82 ;
     fo:hasPeriod "2023-01-01"^^xsd:date ;
@@ -993,6 +990,7 @@ fo:rating167 a fo:Rating ;
     fo:hasAwareness 83 ;
     fo:hasBuyout "2000000"^^xsd:long ;
     fo:hasContractCost "6000000"^^xsd:long ;
+    fo:hasDriver fo:driver815 ;
     fo:hasExperience 92 ;
     fo:hasPace 83 ;
     fo:hasPeriod "2023-01-01"^^xsd:date ;
@@ -1096,7 +1094,6 @@ fo:rating174 a fo:Rating ;
     fo:hasAwareness 79 ;
     fo:hasBuyout "1250000"^^xsd:long ;
     fo:hasContractCost "3750000"^^xsd:long ;
-    fo:hasDriver fo:driver855 ;
     fo:hasExperience 69 ;
     fo:hasPace 84 ;
     fo:hasPeriod "2023-01-01"^^xsd:date ;
@@ -1122,6 +1119,7 @@ fo:rating176 a fo:Rating ;
     fo:hasAwareness 81 ;
     fo:hasBuyout "1500000"^^xsd:long ;
     fo:hasContractCost "4500000"^^xsd:long ;
+    fo:hasDriver fo:driver807 ;
     fo:hasExperience 86 ;
     fo:hasPace 79 ;
     fo:hasPeriod "2023-01-01"^^xsd:date ;
@@ -1182,6 +1180,136 @@ fo:rating18 a fo:Rating ;
     fo:hasSalary "4000000"^^xsd:long ;
     fo:inSeason fo:season2020 .
 
+fo:rating180 a fo:Rating ;
+    fo:hasAwareness 84 ;
+    fo:hasBuyout "3500000"^^xsd:long ;
+    fo:hasContractCost "10500000"^^xsd:long ;
+    fo:hasDriver fo:driver830 ;
+    fo:hasExperience 86 ;
+    fo:hasPace 98 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 98 ;
+    fo:hasRating 96 ;
+    fo:hasSalary "7000000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating181 a fo:Rating ;
+    fo:hasAwareness 78 ;
+    fo:hasBuyout "1500000"^^xsd:long ;
+    fo:hasContractCost "4500000"^^xsd:long ;
+    fo:hasDriver fo:driver4 ;
+    fo:hasExperience 99 ;
+    fo:hasPace 93 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 95 ;
+    fo:hasRating 93 ;
+    fo:hasSalary "3000000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating182 a fo:Rating ;
+    fo:hasAwareness 84 ;
+    fo:hasBuyout "4000000"^^xsd:long ;
+    fo:hasContractCost "12000000"^^xsd:long ;
+    fo:hasDriver fo:driver1 ;
+    fo:hasExperience 98 ;
+    fo:hasPace 91 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 95 ;
+    fo:hasRating 92 ;
+    fo:hasSalary "8000000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating183 a fo:Rating ;
+    fo:hasAwareness 82 ;
+    fo:hasBuyout "2500000"^^xsd:long ;
+    fo:hasContractCost "7500000"^^xsd:long ;
+    fo:hasDriver fo:driver844 ;
+    fo:hasExperience 79 ;
+    fo:hasPace 90 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 94 ;
+    fo:hasRating 90 ;
+    fo:hasSalary "5000000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating184 a fo:Rating ;
+    fo:hasAwareness 82 ;
+    fo:hasBuyout "2000000"^^xsd:long ;
+    fo:hasContractCost "6000000"^^xsd:long ;
+    fo:hasDriver fo:driver832 ;
+    fo:hasExperience 86 ;
+    fo:hasPace 88 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 96 ;
+    fo:hasRating 90 ;
+    fo:hasSalary "4000000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating185 a fo:Rating ;
+    fo:hasAwareness 78 ;
+    fo:hasBuyout "2000000"^^xsd:long ;
+    fo:hasContractCost "6000000"^^xsd:long ;
+    fo:hasDriver fo:driver846 ;
+    fo:hasExperience 79 ;
+    fo:hasPace 90 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 90 ;
+    fo:hasRating 88 ;
+    fo:hasSalary "4000000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating186 a fo:Rating ;
+    fo:hasAwareness 80 ;
+    fo:hasBuyout "2000000"^^xsd:long ;
+    fo:hasContractCost "6000000"^^xsd:long ;
+    fo:hasDriver fo:driver847 ;
+    fo:hasExperience 79 ;
+    fo:hasPace 89 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 88 ;
+    fo:hasRating 87 ;
+    fo:hasSalary "4000000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating187 a fo:Rating ;
+    fo:hasAwareness 83 ;
+    fo:hasBuyout "2000000"^^xsd:long ;
+    fo:hasContractCost "6000000"^^xsd:long ;
+    fo:hasDriver fo:driver815 ;
+    fo:hasExperience 92 ;
+    fo:hasPace 84 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 94 ;
+    fo:hasRating 87 ;
+    fo:hasSalary "4000000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating188 a fo:Rating ;
+    fo:hasAwareness 76 ;
+    fo:hasBuyout "1250000"^^xsd:long ;
+    fo:hasContractCost "3750000"^^xsd:long ;
+    fo:hasDriver fo:driver848 ;
+    fo:hasExperience 78 ;
+    fo:hasPace 90 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 82 ;
+    fo:hasRating 86 ;
+    fo:hasSalary "2500000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating189 a fo:Rating ;
+    fo:hasAwareness 75 ;
+    fo:hasBuyout "1500000"^^xsd:long ;
+    fo:hasContractCost "4500000"^^xsd:long ;
+    fo:hasDriver fo:driver842 ;
+    fo:hasExperience 80 ;
+    fo:hasPace 87 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 88 ;
+    fo:hasRating 86 ;
+    fo:hasSalary "3000000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
 fo:rating19 a fo:Rating ;
     fo:hasAwareness 78 ;
     fo:hasBuyout "2000000"^^xsd:long ;
@@ -1194,6 +1322,135 @@ fo:rating19 a fo:Rating ;
     fo:hasRating 79 ;
     fo:hasSalary "4000000"^^xsd:long ;
     fo:inSeason fo:season2020 .
+
+fo:rating190 a fo:Rating ;
+    fo:hasAwareness 84 ;
+    fo:hasBuyout "500000"^^xsd:long ;
+    fo:hasContractCost "1500000"^^xsd:long ;
+    fo:hasDriver fo:driver857 ;
+    fo:hasExperience 63 ;
+    fo:hasPace 86 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 87 ;
+    fo:hasRating 85 ;
+    fo:hasSalary "1000000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating191 a fo:Rating ;
+    fo:hasAwareness 76 ;
+    fo:hasBuyout "1500000"^^xsd:long ;
+    fo:hasContractCost "4500000"^^xsd:long ;
+    fo:hasDriver fo:driver839 ;
+    fo:hasExperience 80 ;
+    fo:hasPace 83 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 91 ;
+    fo:hasRating 85 ;
+    fo:hasSalary "3000000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating192 a fo:Rating ;
+    fo:hasAwareness 84 ;
+    fo:hasBuyout "2000000"^^xsd:long ;
+    fo:hasContractCost "6000000"^^xsd:long ;
+    fo:hasDriver fo:driver817 ;
+    fo:hasExperience 91 ;
+    fo:hasPace 84 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 82 ;
+    fo:hasRating 84 ;
+    fo:hasSalary "4000000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating193 a fo:Rating ;
+    fo:hasAwareness 74 ;
+    fo:hasBuyout "1250000"^^xsd:long ;
+    fo:hasContractCost "3750000"^^xsd:long ;
+    fo:hasDriver fo:driver852 ;
+    fo:hasExperience 73 ;
+    fo:hasPace 88 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 77 ;
+    fo:hasRating 83 ;
+    fo:hasSalary "2500000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating194 a fo:Rating ;
+    fo:hasAwareness 79 ;
+    fo:hasBuyout "1250000"^^xsd:long ;
+    fo:hasContractCost "3750000"^^xsd:long ;
+    fo:hasExperience 69 ;
+    fo:hasPace 85 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 78 ;
+    fo:hasRating 81 ;
+    fo:hasSalary "2500000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating195 a fo:Rating ;
+    fo:hasAwareness 89 ;
+    fo:hasBuyout "2000000"^^xsd:long ;
+    fo:hasContractCost "6000000"^^xsd:long ;
+    fo:hasDriver fo:driver822 ;
+    fo:hasExperience 89 ;
+    fo:hasPace 81 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 79 ;
+    fo:hasRating 81 ;
+    fo:hasSalary "4000000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating196 a fo:Rating ;
+    fo:hasAwareness 77 ;
+    fo:hasBuyout "1250000"^^xsd:long ;
+    fo:hasContractCost "3750000"^^xsd:long ;
+    fo:hasDriver fo:driver840 ;
+    fo:hasExperience 81 ;
+    fo:hasPace 78 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 86 ;
+    fo:hasRating 80 ;
+    fo:hasSalary "2500000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating197 a fo:Rating ;
+    fo:hasAwareness 81 ;
+    fo:hasBuyout "1500000"^^xsd:long ;
+    fo:hasContractCost "4500000"^^xsd:long ;
+    fo:hasDriver fo:driver807 ;
+    fo:hasExperience 86 ;
+    fo:hasPace 79 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 80 ;
+    fo:hasRating 80 ;
+    fo:hasSalary "3000000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating198 a fo:Rating ;
+    fo:hasAwareness 80 ;
+    fo:hasBuyout "1250000"^^xsd:long ;
+    fo:hasContractCost "3750000"^^xsd:long ;
+    fo:hasDriver fo:driver825 ;
+    fo:hasExperience 83 ;
+    fo:hasPace 82 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 68 ;
+    fo:hasRating 78 ;
+    fo:hasSalary "2500000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
+
+fo:rating199 a fo:Rating ;
+    fo:hasAwareness 74 ;
+    fo:hasBuyout "500000"^^xsd:long ;
+    fo:hasContractCost "1500000"^^xsd:long ;
+    fo:hasDriver fo:driver858 ;
+    fo:hasExperience 64 ;
+    fo:hasPace 70 ;
+    fo:hasPeriod "2023-01-01"^^xsd:date ;
+    fo:hasRaceCraft 68 ;
+    fo:hasRating 69 ;
+    fo:hasSalary "1000000"^^xsd:long ;
+    fo:inSeason fo:season2023 .
 
 fo:rating2 a fo:Rating ;
     fo:hasAwareness 80 ;

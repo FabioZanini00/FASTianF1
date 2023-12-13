@@ -6329,7 +6329,7 @@ fo:driver806 a fo:Driver ;
     fo:hasForename "Óscar"^^xsd:string ;
     fo:hasNation countries:uy ;
     fo:hasSurname "González"^^xsd:string ;
-    fo:hasURL "http://en.wikipedia.org/wiki/Oscar_Gonz%C3%A1lez_(racing_driver)"^^xsd:string .
+    fo:hasURL "http://en.wikipedia.org/wiki/%C3%93scar_Gonz%C3%A1lez_(racing_driver)"^^xsd:string .
 
 fo:driver807 a fo:Driver ;
     fo:hasCode "HUL"^^xsd:string ;
@@ -6837,9 +6837,9 @@ fo:driver855 a fo:Driver ;
     fo:hasDateOfBirth "1999-05-30"^^xsd:date ;
     fo:hasDriverNumber 24 ;
     fo:hasDriverRef "zhou"^^xsd:string ;
-    fo:hasForename "Zhou"^^xsd:string ;
+    fo:hasForename "Guanyu"^^xsd:string ;
     fo:hasNation countries:cn ;
-    fo:hasSurname "Guanyu"^^xsd:string ;
+    fo:hasSurname "Zhou"^^xsd:string ;
     fo:hasURL "http://en.wikipedia.org/wiki/Zhou_Guanyu"^^xsd:string .
 
 fo:driver856 a fo:Driver ;
@@ -6875,7 +6875,7 @@ fo:driver858 a fo:Driver ;
 fo:driver859 a fo:Driver ;
     fo:hasCode "LAW"^^xsd:string ;
     fo:hasDateOfBirth "2002-02-11"^^xsd:date ;
-    fo:hasDriverNumber 15 ;
+    fo:hasDriverNumber 40 ;
     fo:hasDriverRef "lawson"^^xsd:string ;
     fo:hasForename "Liam"^^xsd:string ;
     fo:hasSurname "Lawson"^^xsd:string ;

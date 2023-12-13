@@ -15417,6 +15417,254 @@ fo:r_partecipation26198 fo:hasPitStop fo:stop10340,
 
 fo:r_partecipation26199 fo:hasPitStop fo:stop10372 .
 
+fo:r_partecipation26200 fo:hasPitStop fo:stop10375,
+        fo:stop10390,
+        fo:stop10393 .
+
+fo:r_partecipation26201 fo:hasPitStop fo:stop10380,
+        fo:stop10395 .
+
+fo:r_partecipation26202 fo:hasPitStop fo:stop10388,
+        fo:stop10394 .
+
+fo:r_partecipation26203 fo:hasPitStop fo:stop10386,
+        fo:stop10396 .
+
+fo:r_partecipation26204 fo:hasPitStop fo:stop10374,
+        fo:stop10391,
+        fo:stop10402 .
+
+fo:r_partecipation26205 fo:hasPitStop fo:stop10382,
+        fo:stop10399 .
+
+fo:r_partecipation26206 fo:hasPitStop fo:stop10383,
+        fo:stop10397 .
+
+fo:r_partecipation26207 fo:hasPitStop fo:stop10381,
+        fo:stop10398 .
+
+fo:r_partecipation26208 fo:hasPitStop fo:stop10392,
+        fo:stop10404 .
+
+fo:r_partecipation26209 fo:hasPitStop fo:stop10406 .
+
+fo:r_partecipation26210 fo:hasPitStop fo:stop10384,
+        fo:stop10403 .
+
+fo:r_partecipation26211 fo:hasPitStop fo:stop10373,
+        fo:stop10400 .
+
+fo:r_partecipation26212 fo:hasPitStop fo:stop10378,
+        fo:stop10401 .
+
+fo:r_partecipation26213 fo:hasPitStop fo:stop10376,
+        fo:stop10405 .
+
+fo:r_partecipation26214 fo:hasPitStop fo:stop10389,
+        fo:stop10408 .
+
+fo:r_partecipation26215 fo:hasPitStop fo:stop10377,
+        fo:stop10407 .
+
+fo:r_partecipation26216 fo:hasPitStop fo:stop10387,
+        fo:stop10409 .
+
+fo:r_partecipation26217 fo:hasPitStop fo:stop10385,
+        fo:stop10410 .
+
+fo:r_partecipation26218 fo:hasPitStop fo:stop10379 .
+
+fo:r_partecipation26220 fo:hasPitStop fo:stop10411,
+        fo:stop10428,
+        fo:stop10459,
+        fo:stop10475 .
+
+fo:r_partecipation26221 fo:hasPitStop fo:stop10412,
+        fo:stop10429,
+        fo:stop10460,
+        fo:stop10477 .
+
+fo:r_partecipation26222 fo:hasPitStop fo:stop10414,
+        fo:stop10431,
+        fo:stop10454,
+        fo:stop10469 .
+
+fo:r_partecipation26223 fo:hasPitStop fo:stop10417,
+        fo:stop10434,
+        fo:stop10451,
+        fo:stop10465 .
+
+fo:r_partecipation26224 fo:hasPitStop fo:stop10415,
+        fo:stop10432,
+        fo:stop10453,
+        fo:stop10472 .
+
+fo:r_partecipation26225 fo:hasPitStop fo:stop10418,
+        fo:stop10435,
+        fo:stop10456,
+        fo:stop10470 .
+
+fo:r_partecipation26226 fo:hasPitStop fo:stop10422,
+        fo:stop10438,
+        fo:stop10457,
+        fo:stop10467 .
+
+fo:r_partecipation26227 fo:hasPitStop fo:stop10413,
+        fo:stop10430,
+        fo:stop10448,
+        fo:stop10466 .
+
+fo:r_partecipation26228 fo:hasPitStop fo:stop10421,
+        fo:stop10437,
+        fo:stop10458,
+        fo:stop10474 .
+
+fo:r_partecipation26229 fo:hasPitStop fo:stop10419,
+        fo:stop10436,
+        fo:stop10445,
+        fo:stop10462,
+        fo:stop10471 .
+
+fo:r_partecipation26230 fo:hasPitStop fo:stop10425,
+        fo:stop10441,
+        fo:stop10447,
+        fo:stop10463 .
+
+fo:r_partecipation26231 fo:hasPitStop fo:stop10427,
+        fo:stop10442,
+        fo:stop10452,
+        fo:stop10468 .
+
+fo:r_partecipation26232 fo:hasPitStop fo:stop10426,
+        fo:stop10444,
+        fo:stop10461,
+        fo:stop10476 .
+
+fo:r_partecipation26233 fo:hasPitStop fo:stop10420,
+        fo:stop10443,
+        fo:stop10455,
+        fo:stop10473 .
+
+fo:r_partecipation26234 fo:hasPitStop fo:stop10416,
+        fo:stop10433,
+        fo:stop10450,
+        fo:stop10464 .
+
+fo:r_partecipation26235 fo:hasPitStop fo:stop10423,
+        fo:stop10439,
+        fo:stop10449 .
+
+fo:r_partecipation26236 fo:hasPitStop fo:stop10424,
+        fo:stop10440,
+        fo:stop10446 .
+
+fo:r_partecipation26240 fo:hasPitStop fo:stop10488,
+        fo:stop10500 .
+
+fo:r_partecipation26241 fo:hasPitStop fo:stop10495 .
+
+fo:r_partecipation26242 fo:hasPitStop fo:stop10478,
+        fo:stop10498 .
+
+fo:r_partecipation26243 fo:hasPitStop fo:stop10494 .
+
+fo:r_partecipation26244 fo:hasPitStop fo:stop10481,
+        fo:stop10499 .
+
+fo:r_partecipation26245 fo:hasPitStop fo:stop10482,
+        fo:stop10502 .
+
+fo:r_partecipation26246 fo:hasPitStop fo:stop10492,
+        fo:stop10507 .
+
+fo:r_partecipation26247 fo:hasPitStop fo:stop10486,
+        fo:stop10501 .
+
+fo:r_partecipation26248 fo:hasPitStop fo:stop10479,
+        fo:stop10503 .
+
+fo:r_partecipation26249 fo:hasPitStop fo:stop10490,
+        fo:stop10508 .
+
+fo:r_partecipation26250 fo:hasPitStop fo:stop10491 .
+
+fo:r_partecipation26251 fo:hasPitStop fo:stop10489 .
+
+fo:r_partecipation26252 fo:hasPitStop fo:stop10485,
+        fo:stop10505 .
+
+fo:r_partecipation26253 fo:hasPitStop fo:stop10493 .
+
+fo:r_partecipation26254 fo:hasPitStop fo:stop10504 .
+
+fo:r_partecipation26255 fo:hasPitStop fo:stop10487 .
+
+fo:r_partecipation26256 fo:hasPitStop fo:stop10480,
+        fo:stop10497 .
+
+fo:r_partecipation26257 fo:hasPitStop fo:stop10483,
+        fo:stop10496 .
+
+fo:r_partecipation26258 fo:hasPitStop fo:stop10484,
+        fo:stop10506 .
+
+fo:r_partecipation26260 fo:hasPitStop fo:stop10520,
+        fo:stop10543 .
+
+fo:r_partecipation26261 fo:hasPitStop fo:stop10522,
+        fo:stop10535 .
+
+fo:r_partecipation26262 fo:hasPitStop fo:stop10516,
+        fo:stop10534 .
+
+fo:r_partecipation26263 fo:hasPitStop fo:stop10523,
+        fo:stop10541 .
+
+fo:r_partecipation26264 fo:hasPitStop fo:stop10515,
+        fo:stop10532 .
+
+fo:r_partecipation26265 fo:hasPitStop fo:stop10512,
+        fo:stop10537 .
+
+fo:r_partecipation26266 fo:hasPitStop fo:stop10511,
+        fo:stop10538 .
+
+fo:r_partecipation26267 fo:hasPitStop fo:stop10525 .
+
+fo:r_partecipation26268 fo:hasPitStop fo:stop10517,
+        fo:stop10536 .
+
+fo:r_partecipation26269 fo:hasPitStop fo:stop10526,
+        fo:stop10542 .
+
+fo:r_partecipation26270 fo:hasPitStop fo:stop10510,
+        fo:stop10530 .
+
+fo:r_partecipation26271 fo:hasPitStop fo:stop10518 .
+
+fo:r_partecipation26272 fo:hasPitStop fo:stop10524,
+        fo:stop10531 .
+
+fo:r_partecipation26273 fo:hasPitStop fo:stop10521,
+        fo:stop10544 .
+
+fo:r_partecipation26274 fo:hasPitStop fo:stop10513,
+        fo:stop10533 .
+
+fo:r_partecipation26275 fo:hasPitStop fo:stop10519,
+        fo:stop10540 .
+
+fo:r_partecipation26276 fo:hasPitStop fo:stop10514,
+        fo:stop10539 .
+
+fo:r_partecipation26277 fo:hasPitStop fo:stop10528,
+        fo:stop10545 .
+
+fo:r_partecipation26278 fo:hasPitStop fo:stop10529 .
+
+fo:r_partecipation26279 fo:hasPitStop fo:stop10509,
+        fo:stop10527 .
+
 fo:stop0 a fo:PitStop ;
     fo:hasDuration "00:00:26.898000"^^xsd:time ;
     fo:hasMillisecondsTime 26898 ;
@@ -18339,7 +18587,57 @@ fo:stop10371 a fo:PitStop ;
 fo:stop10372 a fo:PitStop ;
     fo:hasDuration "00:00:23.963000"^^xsd:time ;
     fo:hasMillisecondsTime 23963 ;
+    fo:hasPitStopLap fo:lap557987 ;
     fo:hasPitStopTimeOfDay "14:43:10"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10373 a fo:PitStop ;
+    fo:hasDuration "00:00:30.121000"^^xsd:time ;
+    fo:hasMillisecondsTime 30121 ;
+    fo:hasPitStopLap fo:lap558959 ;
+    fo:hasPitStopTimeOfDay "14:16:34"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10374 a fo:PitStop ;
+    fo:hasDuration "00:00:23.408000"^^xsd:time ;
+    fo:hasMillisecondsTime 23408 ;
+    fo:hasPitStopLap fo:lap559032 ;
+    fo:hasPitStopTimeOfDay "14:19:23"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10375 a fo:PitStop ;
+    fo:hasDuration "00:00:22.427000"^^xsd:time ;
+    fo:hasMillisecondsTime 22427 ;
+    fo:hasPitStopLap fo:lap558039 ;
+    fo:hasPitStopTimeOfDay "14:30:10"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10376 a fo:PitStop ;
+    fo:hasDuration "00:00:22.817000"^^xsd:time ;
+    fo:hasMillisecondsTime 22817 ;
+    fo:hasPitStopLap fo:lap558680 ;
+    fo:hasPitStopTimeOfDay "14:33:34"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10377 a fo:PitStop ;
+    fo:hasDuration "00:00:23.945000"^^xsd:time ;
+    fo:hasMillisecondsTime 23945 ;
+    fo:hasPitStopLap fo:lap559114 ;
+    fo:hasPitStopTimeOfDay "14:35:03"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10378 a fo:PitStop ;
+    fo:hasDuration "00:00:23.144000"^^xsd:time ;
+    fo:hasMillisecondsTime 23144 ;
+    fo:hasPitStopLap fo:lap558540 ;
+    fo:hasPitStopTimeOfDay "14:36:19"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10379 a fo:PitStop ;
+    fo:hasDuration "00:00:23.642000"^^xsd:time ;
+    fo:hasMillisecondsTime 23642 ;
+    fo:hasPitStopLap fo:lap558895 ;
+    fo:hasPitStopTimeOfDay "14:36:27"^^xsd:time ;
     fo:hasStopNumber 1 .
 
 fo:stop1038 a fo:PitStop ;
@@ -18349,11 +18647,151 @@ fo:stop1038 a fo:PitStop ;
     fo:hasPitStopTimeOfDay "18:03:42"^^xsd:time ;
     fo:hasStopNumber 2 .
 
+fo:stop10380 a fo:PitStop ;
+    fo:hasDuration "00:00:22.210000"^^xsd:time ;
+    fo:hasMillisecondsTime 22210 ;
+    fo:hasPitStopLap fo:lap558328 ;
+    fo:hasPitStopTimeOfDay "14:37:21"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10381 a fo:PitStop ;
+    fo:hasDuration "00:00:23.734000"^^xsd:time ;
+    fo:hasMillisecondsTime 23734 ;
+    fo:hasPitStopLap fo:lap558400 ;
+    fo:hasPitStopTimeOfDay "14:38:53"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10382 a fo:PitStop ;
+    fo:hasDuration "00:00:22.311000"^^xsd:time ;
+    fo:hasMillisecondsTime 22311 ;
+    fo:hasPitStopLap fo:lap558472 ;
+    fo:hasPitStopTimeOfDay "14:40:18"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10383 a fo:PitStop ;
+    fo:hasDuration "00:00:22.406000"^^xsd:time ;
+    fo:hasMillisecondsTime 22406 ;
+    fo:hasPitStopLap fo:lap558260 ;
+    fo:hasPitStopTimeOfDay "14:41:39"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10384 a fo:PitStop ;
+    fo:hasDuration "00:00:22.627000"^^xsd:time ;
+    fo:hasMillisecondsTime 22627 ;
+    fo:hasPitStopLap fo:lap558616 ;
+    fo:hasPitStopTimeOfDay "14:43:24"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10385 a fo:PitStop ;
+    fo:hasDuration "00:00:22.844000"^^xsd:time ;
+    fo:hasMillisecondsTime 22844 ;
+    fo:hasPitStopLap fo:lap558932 ;
+    fo:hasPitStopTimeOfDay "14:45:06"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10386 a fo:PitStop ;
+    fo:hasDuration "00:00:22.067000"^^xsd:time ;
+    fo:hasMillisecondsTime 22067 ;
+    fo:hasPitStopLap fo:lap558192 ;
+    fo:hasPitStopTimeOfDay "14:45:46"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10387 a fo:PitStop ;
+    fo:hasDuration "00:00:22.582000"^^xsd:time ;
+    fo:hasMillisecondsTime 22582 ;
+    fo:hasPitStopLap fo:lap559263 ;
+    fo:hasPitStopTimeOfDay "14:46:28"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10388 a fo:PitStop ;
+    fo:hasDuration "00:00:22.248000"^^xsd:time ;
+    fo:hasMillisecondsTime 22248 ;
+    fo:hasPitStopLap fo:lap558122 ;
+    fo:hasPitStopTimeOfDay "14:47:01"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10389 a fo:PitStop ;
+    fo:hasDuration "00:00:23.638000"^^xsd:time ;
+    fo:hasMillisecondsTime 23638 ;
+    fo:hasPitStopLap fo:lap558832 ;
+    fo:hasPitStopTimeOfDay "14:47:48"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
 fo:stop1039 a fo:PitStop ;
     fo:hasDuration "00:00:20.534000"^^xsd:time ;
     fo:hasMillisecondsTime 20534 ;
     fo:hasPitStopLap fo:lap22238 ;
     fo:hasPitStopTimeOfDay "18:05:35"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10390 a fo:PitStop ;
+    fo:hasDuration "00:00:22.372000"^^xsd:time ;
+    fo:hasMillisecondsTime 22372 ;
+    fo:hasPitStopLap fo:lap558053 ;
+    fo:hasPitStopTimeOfDay "14:50:02"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10391 a fo:PitStop ;
+    fo:hasDuration "00:00:22.563000"^^xsd:time ;
+    fo:hasMillisecondsTime 22563 ;
+    fo:hasPitStopLap fo:lap559054 ;
+    fo:hasPitStopTimeOfDay "14:50:50"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10392 a fo:PitStop ;
+    fo:hasDuration "00:00:23.680000"^^xsd:time ;
+    fo:hasMillisecondsTime 23680 ;
+    fo:hasPitStopLap fo:lap558763 ;
+    fo:hasPitStopTimeOfDay "14:50:54"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10393 a fo:PitStop ;
+    fo:hasDuration "00:20:09.136000"^^xsd:time ;
+    fo:hasMillisecondsTime 1209136 ;
+    fo:hasPitStopLap fo:lap558054 ;
+    fo:hasPitStopTimeOfDay "14:52:56"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10394 a fo:PitStop ;
+    fo:hasDuration "00:20:10.512000"^^xsd:time ;
+    fo:hasMillisecondsTime 1210512 ;
+    fo:hasPitStopLap fo:lap558125 ;
+    fo:hasPitStopTimeOfDay "14:52:57"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10395 a fo:PitStop ;
+    fo:hasDuration "00:20:12.908000"^^xsd:time ;
+    fo:hasMillisecondsTime 1212908 ;
+    fo:hasPitStopLap fo:lap558338 ;
+    fo:hasPitStopTimeOfDay "14:52:59"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10396 a fo:PitStop ;
+    fo:hasDuration "00:20:15.432000"^^xsd:time ;
+    fo:hasMillisecondsTime 1215432 ;
+    fo:hasPitStopLap fo:lap558196 ;
+    fo:hasPitStopTimeOfDay "14:53:00"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10397 a fo:PitStop ;
+    fo:hasDuration "00:20:17.136000"^^xsd:time ;
+    fo:hasMillisecondsTime 1217136 ;
+    fo:hasPitStopLap fo:lap558267 ;
+    fo:hasPitStopTimeOfDay "14:53:02"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10398 a fo:PitStop ;
+    fo:hasDuration "00:20:19.064000"^^xsd:time ;
+    fo:hasMillisecondsTime 1219064 ;
+    fo:hasPitStopLap fo:lap558409 ;
+    fo:hasPitStopTimeOfDay "14:53:04"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10399 a fo:PitStop ;
+    fo:hasDuration "00:20:18.200000"^^xsd:time ;
+    fo:hasMillisecondsTime 1218200 ;
+    fo:hasPitStopLap fo:lap558480 ;
+    fo:hasPitStopTimeOfDay "14:53:10"^^xsd:time ;
     fo:hasStopNumber 2 .
 
 fo:stop104 a fo:PitStop ;
@@ -18370,6 +18808,76 @@ fo:stop1040 a fo:PitStop ;
     fo:hasPitStopTimeOfDay "18:06:07"^^xsd:time ;
     fo:hasStopNumber 2 .
 
+fo:stop10400 a fo:PitStop ;
+    fo:hasDuration "00:20:18.057000"^^xsd:time ;
+    fo:hasMillisecondsTime 1218057 ;
+    fo:hasPitStopLap fo:lap558984 ;
+    fo:hasPitStopTimeOfDay "14:53:13"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10401 a fo:PitStop ;
+    fo:hasDuration "00:20:19.826000"^^xsd:time ;
+    fo:hasMillisecondsTime 1219826 ;
+    fo:hasPitStopLap fo:lap558551 ;
+    fo:hasPitStopTimeOfDay "14:53:15"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10402 a fo:PitStop ;
+    fo:hasDuration "00:20:26.386000"^^xsd:time ;
+    fo:hasMillisecondsTime 1226386 ;
+    fo:hasPitStopLap fo:lap559055 ;
+    fo:hasPitStopTimeOfDay "14:53:17"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10403 a fo:PitStop ;
+    fo:hasDuration "00:20:25.698000"^^xsd:time ;
+    fo:hasMillisecondsTime 1225698 ;
+    fo:hasPitStopLap fo:lap558622 ;
+    fo:hasPitStopTimeOfDay "14:53:20"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10404 a fo:PitStop ;
+    fo:hasDuration "00:20:27.980000"^^xsd:time ;
+    fo:hasMillisecondsTime 1227980 ;
+    fo:hasPitStopLap fo:lap558764 ;
+    fo:hasPitStopTimeOfDay "14:53:22"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10405 a fo:PitStop ;
+    fo:hasDuration "00:20:29.539000"^^xsd:time ;
+    fo:hasMillisecondsTime 1229539 ;
+    fo:hasPitStopLap fo:lap558693 ;
+    fo:hasPitStopTimeOfDay "14:53:24"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10406 a fo:PitStop ;
+    fo:hasDuration "00:20:26.296000"^^xsd:time ;
+    fo:hasMillisecondsTime 1226296 ;
+    fo:hasPitStopLap fo:lap559196 ;
+    fo:hasPitStopTimeOfDay "14:53:30"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10407 a fo:PitStop ;
+    fo:hasDuration "00:20:27.718000"^^xsd:time ;
+    fo:hasMillisecondsTime 1227718 ;
+    fo:hasPitStopLap fo:lap559126 ;
+    fo:hasPitStopTimeOfDay "14:53:33"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10408 a fo:PitStop ;
+    fo:hasDuration "00:20:29.349000"^^xsd:time ;
+    fo:hasMillisecondsTime 1229349 ;
+    fo:hasPitStopLap fo:lap558835 ;
+    fo:hasPitStopTimeOfDay "14:53:35"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10409 a fo:PitStop ;
+    fo:hasDuration "00:20:29.686000"^^xsd:time ;
+    fo:hasMillisecondsTime 1229686 ;
+    fo:hasPitStopLap fo:lap559267 ;
+    fo:hasPitStopTimeOfDay "14:53:38"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
 fo:stop1041 a fo:PitStop ;
     fo:hasDuration "00:00:21.363000"^^xsd:time ;
     fo:hasMillisecondsTime 21363 ;
@@ -18377,11 +18885,151 @@ fo:stop1041 a fo:PitStop ;
     fo:hasPitStopTimeOfDay "18:06:16"^^xsd:time ;
     fo:hasStopNumber 2 .
 
+fo:stop10410 a fo:PitStop ;
+    fo:hasDuration "00:20:29.837000"^^xsd:time ;
+    fo:hasMillisecondsTime 1229837 ;
+    fo:hasPitStopLap fo:lap558937 ;
+    fo:hasPitStopTimeOfDay "14:53:42"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10411 a fo:PitStop ;
+    fo:hasDuration "00:00:18.535000"^^xsd:time ;
+    fo:hasMillisecondsTime 18535 ;
+    fo:hasPitStopLap fo:lap559301 ;
+    fo:hasPitStopTimeOfDay "14:05:19"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10412 a fo:PitStop ;
+    fo:hasDuration "00:00:19.386000"^^xsd:time ;
+    fo:hasMillisecondsTime 19386 ;
+    fo:hasPitStopLap fo:lap559372 ;
+    fo:hasPitStopTimeOfDay "14:05:21"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10413 a fo:PitStop ;
+    fo:hasDuration "00:00:18.521000"^^xsd:time ;
+    fo:hasMillisecondsTime 18521 ;
+    fo:hasPitStopLap fo:lap559443 ;
+    fo:hasPitStopTimeOfDay "14:05:24"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10414 a fo:PitStop ;
+    fo:hasDuration "00:00:18.487000"^^xsd:time ;
+    fo:hasMillisecondsTime 18487 ;
+    fo:hasPitStopLap fo:lap559514 ;
+    fo:hasPitStopTimeOfDay "14:05:26"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10415 a fo:PitStop ;
+    fo:hasDuration "00:00:18.504000"^^xsd:time ;
+    fo:hasMillisecondsTime 18504 ;
+    fo:hasPitStopLap fo:lap559585 ;
+    fo:hasPitStopTimeOfDay "14:05:28"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10416 a fo:PitStop ;
+    fo:hasDuration "00:00:20.449000"^^xsd:time ;
+    fo:hasMillisecondsTime 20449 ;
+    fo:hasPitStopLap fo:lap559656 ;
+    fo:hasPitStopTimeOfDay "14:05:30"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10417 a fo:PitStop ;
+    fo:hasDuration "00:00:20.811000"^^xsd:time ;
+    fo:hasMillisecondsTime 20811 ;
+    fo:hasPitStopLap fo:lap559713 ;
+    fo:hasPitStopTimeOfDay "14:05:32"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10418 a fo:PitStop ;
+    fo:hasDuration "00:00:23.030000"^^xsd:time ;
+    fo:hasMillisecondsTime 23030 ;
+    fo:hasPitStopLap fo:lap559784 ;
+    fo:hasPitStopTimeOfDay "14:05:33"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10419 a fo:PitStop ;
+    fo:hasDuration "00:00:22.209000"^^xsd:time ;
+    fo:hasMillisecondsTime 22209 ;
+    fo:hasPitStopLap fo:lap559855 ;
+    fo:hasPitStopTimeOfDay "14:05:35"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
 fo:stop1042 a fo:PitStop ;
     fo:hasDuration "00:00:20.301000"^^xsd:time ;
     fo:hasMillisecondsTime 20301 ;
     fo:hasPitStopLap fo:lap21406 ;
     fo:hasPitStopTimeOfDay "18:07:45"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10420 a fo:PitStop ;
+    fo:hasDuration "00:26:24.007000"^^xsd:time ;
+    fo:hasMillisecondsTime 1584007 ;
+    fo:hasPitStopLap fo:lap559925 ;
+    fo:hasPitStopTimeOfDay "14:05:36"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10421 a fo:PitStop ;
+    fo:hasDuration "00:00:20.969000"^^xsd:time ;
+    fo:hasMillisecondsTime 20969 ;
+    fo:hasPitStopLap fo:lap559994 ;
+    fo:hasPitStopTimeOfDay "14:05:39"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10422 a fo:PitStop ;
+    fo:hasDuration "00:00:20.523000"^^xsd:time ;
+    fo:hasMillisecondsTime 20523 ;
+    fo:hasPitStopLap fo:lap560065 ;
+    fo:hasPitStopTimeOfDay "14:05:40"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10423 a fo:PitStop ;
+    fo:hasDuration "00:00:20.732000"^^xsd:time ;
+    fo:hasMillisecondsTime 20732 ;
+    fo:hasPitStopLap fo:lap560136 ;
+    fo:hasPitStopTimeOfDay "14:05:41"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10424 a fo:PitStop ;
+    fo:hasDuration "00:00:21.256000"^^xsd:time ;
+    fo:hasMillisecondsTime 21256 ;
+    fo:hasPitStopLap fo:lap560175 ;
+    fo:hasPitStopTimeOfDay "14:05:45"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10425 a fo:PitStop ;
+    fo:hasDuration "00:00:27.472000"^^xsd:time ;
+    fo:hasMillisecondsTime 27472 ;
+    fo:hasPitStopLap fo:lap560197 ;
+    fo:hasPitStopTimeOfDay "14:05:46"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10426 a fo:PitStop ;
+    fo:hasDuration "00:26:16.725000"^^xsd:time ;
+    fo:hasMillisecondsTime 1576725 ;
+    fo:hasPitStopLap fo:lap560267 ;
+    fo:hasPitStopTimeOfDay "14:05:47"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10427 a fo:PitStop ;
+    fo:hasDuration "00:00:34.261000"^^xsd:time ;
+    fo:hasMillisecondsTime 34261 ;
+    fo:hasPitStopLap fo:lap560337 ;
+    fo:hasPitStopTimeOfDay "14:05:49"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10428 a fo:PitStop ;
+    fo:hasDuration "00:23:22.632000"^^xsd:time ;
+    fo:hasMillisecondsTime 1402632 ;
+    fo:hasPitStopLap fo:lap559302 ;
+    fo:hasPitStopTimeOfDay "14:07:42"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10429 a fo:PitStop ;
+    fo:hasDuration "00:23:24.611000"^^xsd:time ;
+    fo:hasMillisecondsTime 1404611 ;
+    fo:hasPitStopLap fo:lap559373 ;
+    fo:hasPitStopTimeOfDay "14:07:44"^^xsd:time ;
     fo:hasStopNumber 2 .
 
 fo:stop1043 a fo:PitStop ;
@@ -18391,11 +19039,151 @@ fo:stop1043 a fo:PitStop ;
     fo:hasPitStopTimeOfDay "18:08:17"^^xsd:time ;
     fo:hasStopNumber 2 .
 
+fo:stop10430 a fo:PitStop ;
+    fo:hasDuration "00:23:26.375000"^^xsd:time ;
+    fo:hasMillisecondsTime 1406375 ;
+    fo:hasPitStopLap fo:lap559444 ;
+    fo:hasPitStopTimeOfDay "14:07:46"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10431 a fo:PitStop ;
+    fo:hasDuration "00:23:28.154000"^^xsd:time ;
+    fo:hasMillisecondsTime 1408154 ;
+    fo:hasPitStopLap fo:lap559515 ;
+    fo:hasPitStopTimeOfDay "14:07:47"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10432 a fo:PitStop ;
+    fo:hasDuration "00:23:29.984000"^^xsd:time ;
+    fo:hasMillisecondsTime 1409984 ;
+    fo:hasPitStopLap fo:lap559586 ;
+    fo:hasPitStopTimeOfDay "14:07:50"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10433 a fo:PitStop ;
+    fo:hasDuration "00:23:30.984000"^^xsd:time ;
+    fo:hasMillisecondsTime 1410984 ;
+    fo:hasPitStopLap fo:lap559657 ;
+    fo:hasPitStopTimeOfDay "14:07:53"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10434 a fo:PitStop ;
+    fo:hasDuration "00:23:31.712000"^^xsd:time ;
+    fo:hasMillisecondsTime 1411712 ;
+    fo:hasPitStopLap fo:lap559714 ;
+    fo:hasPitStopTimeOfDay "14:07:55"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10435 a fo:PitStop ;
+    fo:hasDuration "00:23:33.704000"^^xsd:time ;
+    fo:hasMillisecondsTime 1413704 ;
+    fo:hasPitStopLap fo:lap559785 ;
+    fo:hasPitStopTimeOfDay "14:07:57"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10436 a fo:PitStop ;
+    fo:hasDuration "00:23:34.725000"^^xsd:time ;
+    fo:hasMillisecondsTime 1414725 ;
+    fo:hasPitStopLap fo:lap559856 ;
+    fo:hasPitStopTimeOfDay "14:07:59"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10437 a fo:PitStop ;
+    fo:hasDuration "00:23:35.420000"^^xsd:time ;
+    fo:hasMillisecondsTime 1415420 ;
+    fo:hasPitStopLap fo:lap559995 ;
+    fo:hasPitStopTimeOfDay "14:08:02"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10438 a fo:PitStop ;
+    fo:hasDuration "00:23:36.706000"^^xsd:time ;
+    fo:hasMillisecondsTime 1416706 ;
+    fo:hasPitStopLap fo:lap560066 ;
+    fo:hasPitStopTimeOfDay "14:08:04"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10439 a fo:PitStop ;
+    fo:hasDuration "00:23:38.156000"^^xsd:time ;
+    fo:hasMillisecondsTime 1418156 ;
+    fo:hasPitStopLap fo:lap560137 ;
+    fo:hasPitStopTimeOfDay "14:08:05"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
 fo:stop1044 a fo:PitStop ;
     fo:hasDuration "00:00:12.959000"^^xsd:time ;
     fo:hasMillisecondsTime 12959 ;
     fo:hasPitStopLap fo:lap22186 ;
     fo:hasPitStopTimeOfDay "18:09:34"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10440 a fo:PitStop ;
+    fo:hasDuration "00:23:39.945000"^^xsd:time ;
+    fo:hasMillisecondsTime 1419945 ;
+    fo:hasPitStopLap fo:lap560176 ;
+    fo:hasPitStopTimeOfDay "14:08:09"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10441 a fo:PitStop ;
+    fo:hasDuration "00:23:41.207000"^^xsd:time ;
+    fo:hasMillisecondsTime 1421207 ;
+    fo:hasPitStopLap fo:lap560198 ;
+    fo:hasPitStopTimeOfDay "14:08:10"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10442 a fo:PitStop ;
+    fo:hasDuration "00:23:41.069000"^^xsd:time ;
+    fo:hasMillisecondsTime 1421069 ;
+    fo:hasPitStopLap fo:lap560338 ;
+    fo:hasPitStopTimeOfDay "14:08:14"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10443 a fo:PitStop ;
+    fo:hasDuration "00:00:38.489000"^^xsd:time ;
+    fo:hasMillisecondsTime 38489 ;
+    fo:hasPitStopLap fo:lap559926 ;
+    fo:hasPitStopTimeOfDay "14:33:41"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10444 a fo:PitStop ;
+    fo:hasDuration "00:00:32.770000"^^xsd:time ;
+    fo:hasMillisecondsTime 32770 ;
+    fo:hasPitStopLap fo:lap560268 ;
+    fo:hasPitStopTimeOfDay "14:33:47"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10445 a fo:PitStop ;
+    fo:hasDuration "00:00:24.037000"^^xsd:time ;
+    fo:hasMillisecondsTime 24037 ;
+    fo:hasPitStopLap fo:lap559868 ;
+    fo:hasPitStopTimeOfDay "14:48:20"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10446 a fo:PitStop ;
+    fo:hasDuration "00:00:23.953000"^^xsd:time ;
+    fo:hasMillisecondsTime 23953 ;
+    fo:hasPitStopLap fo:lap560189 ;
+    fo:hasPitStopTimeOfDay "14:49:40"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10447 a fo:PitStop ;
+    fo:hasDuration "00:00:24.367000"^^xsd:time ;
+    fo:hasMillisecondsTime 24367 ;
+    fo:hasPitStopLap fo:lap560213 ;
+    fo:hasPitStopTimeOfDay "14:52:18"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10448 a fo:PitStop ;
+    fo:hasDuration "00:00:23.571000"^^xsd:time ;
+    fo:hasMillisecondsTime 23571 ;
+    fo:hasPitStopLap fo:lap559460 ;
+    fo:hasPitStopTimeOfDay "14:53:23"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10449 a fo:PitStop ;
+    fo:hasDuration "00:00:24.077000"^^xsd:time ;
+    fo:hasMillisecondsTime 24077 ;
+    fo:hasPitStopLap fo:lap560153 ;
+    fo:hasPitStopTimeOfDay "14:53:31"^^xsd:time ;
     fo:hasStopNumber 3 .
 
 fo:stop1045 a fo:PitStop ;
@@ -18405,12 +19193,152 @@ fo:stop1045 a fo:PitStop ;
     fo:hasPitStopTimeOfDay "18:12:53"^^xsd:time ;
     fo:hasStopNumber 2 .
 
+fo:stop10450 a fo:PitStop ;
+    fo:hasDuration "00:00:23.730000"^^xsd:time ;
+    fo:hasMillisecondsTime 23730 ;
+    fo:hasPitStopLap fo:lap559674 ;
+    fo:hasPitStopTimeOfDay "14:54:41"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10451 a fo:PitStop ;
+    fo:hasDuration "00:00:23.164000"^^xsd:time ;
+    fo:hasMillisecondsTime 23164 ;
+    fo:hasPitStopLap fo:lap559732 ;
+    fo:hasPitStopTimeOfDay "14:55:57"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10452 a fo:PitStop ;
+    fo:hasDuration "00:00:24.401000"^^xsd:time ;
+    fo:hasMillisecondsTime 24401 ;
+    fo:hasPitStopLap fo:lap560357 ;
+    fo:hasPitStopTimeOfDay "14:57:33"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10453 a fo:PitStop ;
+    fo:hasDuration "00:00:23.558000"^^xsd:time ;
+    fo:hasMillisecondsTime 23558 ;
+    fo:hasPitStopLap fo:lap559606 ;
+    fo:hasPitStopTimeOfDay "14:58:34"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10454 a fo:PitStop ;
+    fo:hasDuration "00:00:24.204000"^^xsd:time ;
+    fo:hasMillisecondsTime 24204 ;
+    fo:hasPitStopLap fo:lap559538 ;
+    fo:hasPitStopTimeOfDay "15:02:12"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10455 a fo:PitStop ;
+    fo:hasDuration "00:00:23.536000"^^xsd:time ;
+    fo:hasMillisecondsTime 23536 ;
+    fo:hasPitStopLap fo:lap559948 ;
+    fo:hasPitStopTimeOfDay "15:02:38"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10456 a fo:PitStop ;
+    fo:hasDuration "00:00:23.557000"^^xsd:time ;
+    fo:hasMillisecondsTime 23557 ;
+    fo:hasPitStopLap fo:lap559809 ;
+    fo:hasPitStopTimeOfDay "15:03:43"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10457 a fo:PitStop ;
+    fo:hasDuration "00:00:25.295000"^^xsd:time ;
+    fo:hasMillisecondsTime 25295 ;
+    fo:hasPitStopLap fo:lap560090 ;
+    fo:hasPitStopTimeOfDay "15:03:46"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10458 a fo:PitStop ;
+    fo:hasDuration "00:00:27.114000"^^xsd:time ;
+    fo:hasMillisecondsTime 27114 ;
+    fo:hasPitStopLap fo:lap560019 ;
+    fo:hasPitStopTimeOfDay "15:03:48"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10459 a fo:PitStop ;
+    fo:hasDuration "00:00:22.994000"^^xsd:time ;
+    fo:hasMillisecondsTime 22994 ;
+    fo:hasPitStopLap fo:lap559327 ;
+    fo:hasPitStopTimeOfDay "15:04:35"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
 fo:stop1046 a fo:PitStop ;
     fo:hasDuration "00:00:19.350000"^^xsd:time ;
     fo:hasMillisecondsTime 19350 ;
     fo:hasPitStopLap fo:lap21300 ;
     fo:hasPitStopTimeOfDay "18:14:22"^^xsd:time ;
     fo:hasStopNumber 2 .
+
+fo:stop10460 a fo:PitStop ;
+    fo:hasDuration "00:00:23.806000"^^xsd:time ;
+    fo:hasMillisecondsTime 23806 ;
+    fo:hasPitStopLap fo:lap559398 ;
+    fo:hasPitStopTimeOfDay "15:04:39"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10461 a fo:PitStop ;
+    fo:hasDuration "00:00:23.955000"^^xsd:time ;
+    fo:hasMillisecondsTime 23955 ;
+    fo:hasPitStopLap fo:lap560292 ;
+    fo:hasPitStopTimeOfDay "15:05:07"^^xsd:time ;
+    fo:hasStopNumber 3 .
+
+fo:stop10462 a fo:PitStop ;
+    fo:hasDuration "00:00:24.406000"^^xsd:time ;
+    fo:hasMillisecondsTime 24406 ;
+    fo:hasPitStopLap fo:lap559885 ;
+    fo:hasPitStopTimeOfDay "15:10:28"^^xsd:time ;
+    fo:hasStopNumber 4 .
+
+fo:stop10463 a fo:PitStop ;
+    fo:hasDuration "00:00:24.137000"^^xsd:time ;
+    fo:hasMillisecondsTime 24137 ;
+    fo:hasPitStopLap fo:lap560240 ;
+    fo:hasPitStopTimeOfDay "15:27:16"^^xsd:time ;
+    fo:hasStopNumber 4 .
+
+fo:stop10464 a fo:PitStop ;
+    fo:hasDuration "00:00:23.962000"^^xsd:time ;
+    fo:hasMillisecondsTime 23962 ;
+    fo:hasPitStopLap fo:lap559700 ;
+    fo:hasPitStopTimeOfDay "15:28:17"^^xsd:time ;
+    fo:hasStopNumber 4 .
+
+fo:stop10465 a fo:PitStop ;
+    fo:hasDuration "00:00:23.522000"^^xsd:time ;
+    fo:hasMillisecondsTime 23522 ;
+    fo:hasPitStopLap fo:lap559758 ;
+    fo:hasPitStopTimeOfDay "15:29:13"^^xsd:time ;
+    fo:hasStopNumber 4 .
+
+fo:stop10466 a fo:PitStop ;
+    fo:hasDuration "00:00:24.074000"^^xsd:time ;
+    fo:hasMillisecondsTime 24074 ;
+    fo:hasPitStopLap fo:lap559488 ;
+    fo:hasPitStopTimeOfDay "15:29:28"^^xsd:time ;
+    fo:hasStopNumber 4 .
+
+fo:stop10467 a fo:PitStop ;
+    fo:hasDuration "00:00:23.583000"^^xsd:time ;
+    fo:hasMillisecondsTime 23583 ;
+    fo:hasPitStopLap fo:lap560110 ;
+    fo:hasPitStopTimeOfDay "15:29:32"^^xsd:time ;
+    fo:hasStopNumber 4 .
+
+fo:stop10468 a fo:PitStop ;
+    fo:hasDuration "00:00:23.841000"^^xsd:time ;
+    fo:hasMillisecondsTime 23841 ;
+    fo:hasPitStopLap fo:lap560382 ;
+    fo:hasPitStopTimeOfDay "15:30:00"^^xsd:time ;
+    fo:hasStopNumber 4 .
+
+fo:stop10469 a fo:PitStop ;
+    fo:hasDuration "00:00:23.830000"^^xsd:time ;
+    fo:hasMillisecondsTime 23830 ;
+    fo:hasPitStopLap fo:lap559560 ;
+    fo:hasPitStopTimeOfDay "15:30:25"^^xsd:time ;
+    fo:hasStopNumber 4 .
 
 fo:stop1047 a fo:PitStop ;
     fo:hasDuration "00:00:20.652000"^^xsd:time ;
@@ -18419,6 +19347,76 @@ fo:stop1047 a fo:PitStop ;
     fo:hasPitStopTimeOfDay "18:14:52"^^xsd:time ;
     fo:hasStopNumber 2 .
 
+fo:stop10470 a fo:PitStop ;
+    fo:hasDuration "00:00:23.704000"^^xsd:time ;
+    fo:hasMillisecondsTime 23704 ;
+    fo:hasPitStopLap fo:lap559834 ;
+    fo:hasPitStopTimeOfDay "15:35:44"^^xsd:time ;
+    fo:hasStopNumber 4 .
+
+fo:stop10471 a fo:PitStop ;
+    fo:hasDuration "00:00:23.599000"^^xsd:time ;
+    fo:hasMillisecondsTime 23599 ;
+    fo:hasPitStopLap fo:lap559905 ;
+    fo:hasPitStopTimeOfDay "15:36:12"^^xsd:time ;
+    fo:hasStopNumber 5 .
+
+fo:stop10472 a fo:PitStop ;
+    fo:hasDuration "00:00:25.294000"^^xsd:time ;
+    fo:hasMillisecondsTime 25294 ;
+    fo:hasPitStopLap fo:lap559636 ;
+    fo:hasPitStopTimeOfDay "15:36:55"^^xsd:time ;
+    fo:hasStopNumber 4 .
+
+fo:stop10473 a fo:PitStop ;
+    fo:hasDuration "00:00:23.338000"^^xsd:time ;
+    fo:hasMillisecondsTime 23338 ;
+    fo:hasPitStopLap fo:lap559976 ;
+    fo:hasPitStopTimeOfDay "15:38:37"^^xsd:time ;
+    fo:hasStopNumber 4 .
+
+fo:stop10474 a fo:PitStop ;
+    fo:hasDuration "00:00:23.453000"^^xsd:time ;
+    fo:hasMillisecondsTime 23453 ;
+    fo:hasPitStopLap fo:lap560048 ;
+    fo:hasPitStopTimeOfDay "15:41:00"^^xsd:time ;
+    fo:hasStopNumber 4 .
+
+fo:stop10475 a fo:PitStop ;
+    fo:hasDuration "00:00:23.397000"^^xsd:time ;
+    fo:hasMillisecondsTime 23397 ;
+    fo:hasPitStopLap fo:lap559356 ;
+    fo:hasPitStopTimeOfDay "15:41:21"^^xsd:time ;
+    fo:hasStopNumber 4 .
+
+fo:stop10476 a fo:PitStop ;
+    fo:hasDuration "00:00:23.508000"^^xsd:time ;
+    fo:hasMillisecondsTime 23508 ;
+    fo:hasPitStopLap fo:lap560321 ;
+    fo:hasPitStopTimeOfDay "15:42:16"^^xsd:time ;
+    fo:hasStopNumber 4 .
+
+fo:stop10477 a fo:PitStop ;
+    fo:hasDuration "00:00:23.664000"^^xsd:time ;
+    fo:hasMillisecondsTime 23664 ;
+    fo:hasPitStopLap fo:lap559430 ;
+    fo:hasPitStopTimeOfDay "15:45:16"^^xsd:time ;
+    fo:hasStopNumber 4 .
+
+fo:stop10478 a fo:PitStop ;
+    fo:hasDuration "00:00:33.599000"^^xsd:time ;
+    fo:hasMillisecondsTime 33599 ;
+    fo:hasPitStopLap fo:lap560902 ;
+    fo:hasPitStopTimeOfDay "22:06:05"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10479 a fo:PitStop ;
+    fo:hasDuration "00:00:29.304000"^^xsd:time ;
+    fo:hasMillisecondsTime 29304 ;
+    fo:hasPitStopLap fo:lap561250 ;
+    fo:hasPitStopTimeOfDay "22:06:26"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
 fo:stop1048 a fo:PitStop ;
     fo:hasDuration "00:00:20.035000"^^xsd:time ;
     fo:hasMillisecondsTime 20035 ;
@@ -18426,11 +19424,151 @@ fo:stop1048 a fo:PitStop ;
     fo:hasPitStopTimeOfDay "18:14:54"^^xsd:time ;
     fo:hasStopNumber 2 .
 
+fo:stop10480 a fo:PitStop ;
+    fo:hasDuration "00:00:43.914000"^^xsd:time ;
+    fo:hasMillisecondsTime 43914 ;
+    fo:hasPitStopLap fo:lap561300 ;
+    fo:hasPitStopTimeOfDay "22:06:30"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10481 a fo:PitStop ;
+    fo:hasDuration "00:00:22.222000"^^xsd:time ;
+    fo:hasMillisecondsTime 22222 ;
+    fo:hasPitStopLap fo:lap560809 ;
+    fo:hasPitStopTimeOfDay "22:10:06"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10482 a fo:PitStop ;
+    fo:hasDuration "00:00:21.261000"^^xsd:time ;
+    fo:hasMillisecondsTime 21261 ;
+    fo:hasPitStopLap fo:lap561202 ;
+    fo:hasPitStopTimeOfDay "22:10:19"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10483 a fo:PitStop ;
+    fo:hasDuration "00:00:20.619000"^^xsd:time ;
+    fo:hasMillisecondsTime 20619 ;
+    fo:hasPitStopLap fo:lap560961 ;
+    fo:hasPitStopTimeOfDay "22:25:26"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10484 a fo:PitStop ;
+    fo:hasDuration "00:00:22.154000"^^xsd:time ;
+    fo:hasMillisecondsTime 22154 ;
+    fo:hasPitStopLap fo:lap560868 ;
+    fo:hasPitStopTimeOfDay "22:28:45"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10485 a fo:PitStop ;
+    fo:hasDuration "00:00:21.611000"^^xsd:time ;
+    fo:hasMillisecondsTime 21611 ;
+    fo:hasPitStopLap fo:lap560720 ;
+    fo:hasPitStopTimeOfDay "22:32:02"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10486 a fo:PitStop ;
+    fo:hasDuration "00:00:21.257000"^^xsd:time ;
+    fo:hasMillisecondsTime 21257 ;
+    fo:hasPitStopLap fo:lap560521 ;
+    fo:hasPitStopTimeOfDay "22:33:29"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10487 a fo:PitStop ;
+    fo:hasDuration "00:00:21.367000"^^xsd:time ;
+    fo:hasMillisecondsTime 21367 ;
+    fo:hasPitStopLap fo:lap560671 ;
+    fo:hasPitStopTimeOfDay "22:33:40"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10488 a fo:PitStop ;
+    fo:hasDuration "00:00:26.686000"^^xsd:time ;
+    fo:hasMillisecondsTime 26686 ;
+    fo:hasPitStopLap fo:lap560422 ;
+    fo:hasPitStopTimeOfDay "22:35:04"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10489 a fo:PitStop ;
+    fo:hasDuration "00:00:21.242000"^^xsd:time ;
+    fo:hasMillisecondsTime 21242 ;
+    fo:hasPitStopLap fo:lap560622 ;
+    fo:hasPitStopTimeOfDay "22:35:17"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
 fo:stop1049 a fo:PitStop ;
     fo:hasDuration "00:00:20.638000"^^xsd:time ;
     fo:hasMillisecondsTime 20638 ;
     fo:hasPitStopLap fo:lap21632 ;
     fo:hasPitStopTimeOfDay "18:18:51"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10490 a fo:PitStop ;
+    fo:hasDuration "00:00:23.269000"^^xsd:time ;
+    fo:hasMillisecondsTime 23269 ;
+    fo:hasPitStopLap fo:lap561013 ;
+    fo:hasPitStopTimeOfDay "22:35:19"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10491 a fo:PitStop ;
+    fo:hasDuration "00:00:22.262000"^^xsd:time ;
+    fo:hasMillisecondsTime 22262 ;
+    fo:hasPitStopLap fo:lap560573 ;
+    fo:hasPitStopTimeOfDay "22:36:53"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10492 a fo:PitStop ;
+    fo:hasDuration "00:00:25.047000"^^xsd:time ;
+    fo:hasMillisecondsTime 25047 ;
+    fo:hasPitStopLap fo:lap561066 ;
+    fo:hasPitStopTimeOfDay "22:37:11"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10493 a fo:PitStop ;
+    fo:hasDuration "00:00:22.242000"^^xsd:time ;
+    fo:hasMillisecondsTime 22242 ;
+    fo:hasPitStopLap fo:lap561116 ;
+    fo:hasPitStopTimeOfDay "22:37:13"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10494 a fo:PitStop ;
+    fo:hasDuration "00:00:21.763000"^^xsd:time ;
+    fo:hasMillisecondsTime 21763 ;
+    fo:hasPitStopLap fo:lap560776 ;
+    fo:hasPitStopTimeOfDay "22:41:58"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10495 a fo:PitStop ;
+    fo:hasDuration "00:00:22.559000"^^xsd:time ;
+    fo:hasMillisecondsTime 22559 ;
+    fo:hasPitStopLap fo:lap560477 ;
+    fo:hasPitStopTimeOfDay "22:43:18"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10496 a fo:PitStop ;
+    fo:hasDuration "00:00:20.894000"^^xsd:time ;
+    fo:hasMillisecondsTime 20894 ;
+    fo:hasPitStopLap fo:lap560972 ;
+    fo:hasPitStopTimeOfDay "22:44:16"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10497 a fo:PitStop ;
+    fo:hasDuration "00:00:21.575000"^^xsd:time ;
+    fo:hasMillisecondsTime 21575 ;
+    fo:hasPitStopLap fo:lap561323 ;
+    fo:hasPitStopTimeOfDay "22:49:10"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10498 a fo:PitStop ;
+    fo:hasDuration "00:00:21.568000"^^xsd:time ;
+    fo:hasMillisecondsTime 21568 ;
+    fo:hasPitStopLap fo:lap560927 ;
+    fo:hasPitStopTimeOfDay "22:51:52"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10499 a fo:PitStop ;
+    fo:hasDuration "00:00:22.570000"^^xsd:time ;
+    fo:hasMillisecondsTime 22570 ;
+    fo:hasPitStopLap fo:lap560832 ;
+    fo:hasPitStopTimeOfDay "22:52:07"^^xsd:time ;
     fo:hasStopNumber 2 .
 
 fo:stop105 a fo:PitStop ;
@@ -18447,12 +19585,152 @@ fo:stop1050 a fo:PitStop ;
     fo:hasPitStopTimeOfDay "18:19:37"^^xsd:time ;
     fo:hasStopNumber 2 .
 
+fo:stop10500 a fo:PitStop ;
+    fo:hasDuration "00:00:21.323000"^^xsd:time ;
+    fo:hasMillisecondsTime 21323 ;
+    fo:hasPitStopLap fo:lap560432 ;
+    fo:hasPitStopTimeOfDay "22:52:08"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10501 a fo:PitStop ;
+    fo:hasDuration "00:00:21.952000"^^xsd:time ;
+    fo:hasMillisecondsTime 21952 ;
+    fo:hasPitStopLap fo:lap560532 ;
+    fo:hasPitStopTimeOfDay "22:52:11"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10502 a fo:PitStop ;
+    fo:hasDuration "00:00:22.630000"^^xsd:time ;
+    fo:hasMillisecondsTime 22630 ;
+    fo:hasPitStopLap fo:lap561225 ;
+    fo:hasPitStopTimeOfDay "22:52:13"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10503 a fo:PitStop ;
+    fo:hasDuration "00:00:23.214000"^^xsd:time ;
+    fo:hasMillisecondsTime 23214 ;
+    fo:hasPitStopLap fo:lap561275 ;
+    fo:hasPitStopTimeOfDay "22:52:17"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10504 a fo:PitStop ;
+    fo:hasDuration "00:00:22.155000"^^xsd:time ;
+    fo:hasMillisecondsTime 22155 ;
+    fo:hasPitStopLap fo:lap561175 ;
+    fo:hasPitStopTimeOfDay "22:52:26"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10505 a fo:PitStop ;
+    fo:hasDuration "00:00:21.868000"^^xsd:time ;
+    fo:hasMillisecondsTime 21868 ;
+    fo:hasPitStopLap fo:lap560732 ;
+    fo:hasPitStopTimeOfDay "22:52:38"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10506 a fo:PitStop ;
+    fo:hasDuration "00:00:25.453000"^^xsd:time ;
+    fo:hasMillisecondsTime 25453 ;
+    fo:hasPitStopLap fo:lap560882 ;
+    fo:hasPitStopTimeOfDay "22:52:42"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10507 a fo:PitStop ;
+    fo:hasDuration "00:00:22.508000"^^xsd:time ;
+    fo:hasMillisecondsTime 22508 ;
+    fo:hasPitStopLap fo:lap561075 ;
+    fo:hasPitStopTimeOfDay "22:52:49"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10508 a fo:PitStop ;
+    fo:hasDuration "00:00:20.535000"^^xsd:time ;
+    fo:hasMillisecondsTime 20535 ;
+    fo:hasPitStopLap fo:lap561040 ;
+    fo:hasPitStopTimeOfDay "23:22:11"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10509 a fo:PitStop ;
+    fo:hasDuration "00:00:22.764000"^^xsd:time ;
+    fo:hasMillisecondsTime 22764 ;
+    fo:hasPitStopLap fo:lap562396 ;
+    fo:hasPitStopTimeOfDay "17:11:16"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
 fo:stop1051 a fo:PitStop ;
     fo:hasDuration "00:00:21.314000"^^xsd:time ;
     fo:hasMillisecondsTime 21314 ;
     fo:hasPitStopLap fo:lap21358 ;
     fo:hasPitStopTimeOfDay "18:19:38"^^xsd:time ;
     fo:hasStopNumber 2 .
+
+fo:stop10510 a fo:PitStop ;
+    fo:hasDuration "00:00:21.692000"^^xsd:time ;
+    fo:hasMillisecondsTime 21692 ;
+    fo:hasPitStopLap fo:lap562167 ;
+    fo:hasPitStopTimeOfDay "17:14:15"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10511 a fo:PitStop ;
+    fo:hasDuration "00:00:22.462000"^^xsd:time ;
+    fo:hasMillisecondsTime 22462 ;
+    fo:hasPitStopLap fo:lap561709 ;
+    fo:hasPitStopTimeOfDay "17:21:44"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10512 a fo:PitStop ;
+    fo:hasDuration "00:00:21.697000"^^xsd:time ;
+    fo:hasMillisecondsTime 21697 ;
+    fo:hasPitStopLap fo:lap561478 ;
+    fo:hasPitStopTimeOfDay "17:23:13"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10513 a fo:PitStop ;
+    fo:hasDuration "00:00:21.861000"^^xsd:time ;
+    fo:hasMillisecondsTime 21861 ;
+    fo:hasPitStopLap fo:lap562058 ;
+    fo:hasPitStopTimeOfDay "17:23:25"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10514 a fo:PitStop ;
+    fo:hasDuration "00:00:22.867000"^^xsd:time ;
+    fo:hasMillisecondsTime 22867 ;
+    fo:hasPitStopLap fo:lap562346 ;
+    fo:hasPitStopTimeOfDay "17:23:27"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10515 a fo:PitStop ;
+    fo:hasDuration "00:00:24.061000"^^xsd:time ;
+    fo:hasMillisecondsTime 24061 ;
+    fo:hasPitStopLap fo:lap561537 ;
+    fo:hasPitStopTimeOfDay "17:24:40"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10516 a fo:PitStop ;
+    fo:hasDuration "00:00:21.650000"^^xsd:time ;
+    fo:hasMillisecondsTime 21650 ;
+    fo:hasPitStopLap fo:lap561595 ;
+    fo:hasPitStopTimeOfDay "17:24:42"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10517 a fo:PitStop ;
+    fo:hasDuration "00:00:22.195000"^^xsd:time ;
+    fo:hasMillisecondsTime 22195 ;
+    fo:hasPitStopLap fo:lap561828 ;
+    fo:hasPitStopTimeOfDay "17:26:21"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10518 a fo:PitStop ;
+    fo:hasDuration "00:00:22.160000"^^xsd:time ;
+    fo:hasMillisecondsTime 22160 ;
+    fo:hasPitStopLap fo:lap561944 ;
+    fo:hasPitStopTimeOfDay "17:26:22"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10519 a fo:PitStop ;
+    fo:hasDuration "00:00:22.124000"^^xsd:time ;
+    fo:hasMillisecondsTime 22124 ;
+    fo:hasPitStopLap fo:lap562463 ;
+    fo:hasPitStopTimeOfDay "17:26:35"^^xsd:time ;
+    fo:hasStopNumber 1 .
 
 fo:stop1052 a fo:PitStop ;
     fo:hasDuration "00:00:20.791000"^^xsd:time ;
@@ -18461,6 +19739,76 @@ fo:stop1052 a fo:PitStop ;
     fo:hasPitStopTimeOfDay "18:20:55"^^xsd:time ;
     fo:hasStopNumber 2 .
 
+fo:stop10520 a fo:PitStop ;
+    fo:hasDuration "00:00:21.662000"^^xsd:time ;
+    fo:hasMillisecondsTime 21662 ;
+    fo:hasPitStopLap fo:lap561365 ;
+    fo:hasPitStopTimeOfDay "17:27:36"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10521 a fo:PitStop ;
+    fo:hasDuration "00:00:22.170000"^^xsd:time ;
+    fo:hasMillisecondsTime 22170 ;
+    fo:hasPitStopLap fo:lap562291 ;
+    fo:hasPitStopTimeOfDay "17:28:04"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10522 a fo:PitStop ;
+    fo:hasDuration "00:00:21.919000"^^xsd:time ;
+    fo:hasMillisecondsTime 21919 ;
+    fo:hasPitStopLap fo:lap561424 ;
+    fo:hasPitStopTimeOfDay "17:29:09"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10523 a fo:PitStop ;
+    fo:hasDuration "00:00:21.446000"^^xsd:time ;
+    fo:hasMillisecondsTime 21446 ;
+    fo:hasPitStopLap fo:lap561888 ;
+    fo:hasPitStopTimeOfDay "17:29:21"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10524 a fo:PitStop ;
+    fo:hasDuration "00:00:23.091000"^^xsd:time ;
+    fo:hasMillisecondsTime 23091 ;
+    fo:hasPitStopLap fo:lap561772 ;
+    fo:hasPitStopTimeOfDay "17:29:26"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10525 a fo:PitStop ;
+    fo:hasDuration "00:00:21.486000"^^xsd:time ;
+    fo:hasMillisecondsTime 21486 ;
+    fo:hasPitStopLap fo:lap561661 ;
+    fo:hasPitStopTimeOfDay "17:36:54"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10526 a fo:PitStop ;
+    fo:hasDuration "00:00:21.866000"^^xsd:time ;
+    fo:hasMillisecondsTime 21866 ;
+    fo:hasPitStopLap fo:lap562009 ;
+    fo:hasPitStopTimeOfDay "17:36:59"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10527 a fo:PitStop ;
+    fo:hasDuration "00:00:22.163000"^^xsd:time ;
+    fo:hasMillisecondsTime 22163 ;
+    fo:hasPitStopLap fo:lap562413 ;
+    fo:hasPitStopTimeOfDay "17:37:30"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10528 a fo:PitStop ;
+    fo:hasDuration "00:00:21.229000"^^xsd:time ;
+    fo:hasMillisecondsTime 21229 ;
+    fo:hasPitStopLap fo:lap562126 ;
+    fo:hasPitStopTimeOfDay "17:38:36"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
+fo:stop10529 a fo:PitStop ;
+    fo:hasDuration "00:00:22.665000"^^xsd:time ;
+    fo:hasMillisecondsTime 22665 ;
+    fo:hasPitStopLap fo:lap562247 ;
+    fo:hasPitStopTimeOfDay "17:48:01"^^xsd:time ;
+    fo:hasStopNumber 1 .
+
 fo:stop1053 a fo:PitStop ;
     fo:hasDuration "00:00:20.561000"^^xsd:time ;
     fo:hasMillisecondsTime 20561 ;
@@ -18468,11 +19816,123 @@ fo:stop1053 a fo:PitStop ;
     fo:hasPitStopTimeOfDay "18:24:59"^^xsd:time ;
     fo:hasStopNumber 2 .
 
+fo:stop10530 a fo:PitStop ;
+    fo:hasDuration "00:00:21.740000"^^xsd:time ;
+    fo:hasMillisecondsTime 21740 ;
+    fo:hasPitStopLap fo:lap562191 ;
+    fo:hasPitStopTimeOfDay "17:50:51"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10531 a fo:PitStop ;
+    fo:hasDuration "00:00:23.478000"^^xsd:time ;
+    fo:hasMillisecondsTime 23478 ;
+    fo:hasPitStopLap fo:lap561787 ;
+    fo:hasPitStopTimeOfDay "17:52:26"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10532 a fo:PitStop ;
+    fo:hasDuration "00:00:21.432000"^^xsd:time ;
+    fo:hasMillisecondsTime 21432 ;
+    fo:hasPitStopLap fo:lap561556 ;
+    fo:hasPitStopTimeOfDay "17:53:31"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10533 a fo:PitStop ;
+    fo:hasDuration "00:00:22.081000"^^xsd:time ;
+    fo:hasMillisecondsTime 22081 ;
+    fo:hasPitStopLap fo:lap562078 ;
+    fo:hasPitStopTimeOfDay "17:54:04"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10534 a fo:PitStop ;
+    fo:hasDuration "00:00:22.084000"^^xsd:time ;
+    fo:hasMillisecondsTime 22084 ;
+    fo:hasPitStopLap fo:lap561615 ;
+    fo:hasPitStopTimeOfDay "17:54:57"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10535 a fo:PitStop ;
+    fo:hasDuration "00:00:21.246000"^^xsd:time ;
+    fo:hasMillisecondsTime 21246 ;
+    fo:hasPitStopLap fo:lap561442 ;
+    fo:hasPitStopTimeOfDay "17:56:25"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10536 a fo:PitStop ;
+    fo:hasDuration "00:00:22.045000"^^xsd:time ;
+    fo:hasMillisecondsTime 22045 ;
+    fo:hasPitStopLap fo:lap561848 ;
+    fo:hasPitStopTimeOfDay "17:56:42"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10537 a fo:PitStop ;
+    fo:hasDuration "00:00:21.156000"^^xsd:time ;
+    fo:hasMillisecondsTime 21156 ;
+    fo:hasPitStopLap fo:lap561501 ;
+    fo:hasPitStopTimeOfDay "17:58:08"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10538 a fo:PitStop ;
+    fo:hasDuration "00:00:21.841000"^^xsd:time ;
+    fo:hasMillisecondsTime 21841 ;
+    fo:hasPitStopLap fo:lap561733 ;
+    fo:hasPitStopTimeOfDay "17:58:11"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10539 a fo:PitStop ;
+    fo:hasDuration "00:00:22.345000"^^xsd:time ;
+    fo:hasMillisecondsTime 22345 ;
+    fo:hasPitStopLap fo:lap562370 ;
+    fo:hasPitStopTimeOfDay "18:00:12"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
 fo:stop1054 a fo:PitStop ;
     fo:hasDuration "00:00:19.907000"^^xsd:time ;
     fo:hasMillisecondsTime 19907 ;
     fo:hasPitStopLap fo:lap21583 ;
     fo:hasPitStopTimeOfDay "18:29:04"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10540 a fo:PitStop ;
+    fo:hasDuration "00:00:21.880000"^^xsd:time ;
+    fo:hasMillisecondsTime 21880 ;
+    fo:hasPitStopLap fo:lap562489 ;
+    fo:hasPitStopTimeOfDay "18:06:20"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10541 a fo:PitStop ;
+    fo:hasDuration "00:00:21.274000"^^xsd:time ;
+    fo:hasMillisecondsTime 21274 ;
+    fo:hasPitStopLap fo:lap561913 ;
+    fo:hasPitStopTimeOfDay "18:06:56"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10542 a fo:PitStop ;
+    fo:hasDuration "00:00:21.667000"^^xsd:time ;
+    fo:hasMillisecondsTime 21667 ;
+    fo:hasPitStopLap fo:lap562029 ;
+    fo:hasPitStopTimeOfDay "18:07:20"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10543 a fo:PitStop ;
+    fo:hasDuration "00:00:21.275000"^^xsd:time ;
+    fo:hasMillisecondsTime 21275 ;
+    fo:hasPitStopLap fo:lap561392 ;
+    fo:hasPitStopTimeOfDay "18:08:09"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10544 a fo:PitStop ;
+    fo:hasDuration "00:00:21.919000"^^xsd:time ;
+    fo:hasMillisecondsTime 21919 ;
+    fo:hasPitStopLap fo:lap562318 ;
+    fo:hasPitStopTimeOfDay "18:09:09"^^xsd:time ;
+    fo:hasStopNumber 2 .
+
+fo:stop10545 a fo:PitStop ;
+    fo:hasDuration "00:00:21.564000"^^xsd:time ;
+    fo:hasMillisecondsTime 21564 ;
+    fo:hasPitStopLap fo:lap562159 ;
+    fo:hasPitStopTimeOfDay "18:28:24"^^xsd:time ;
     fo:hasStopNumber 2 .
 
 fo:stop1055 a fo:PitStop ;
