@@ -1106,12 +1106,6 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasURL"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment>This class represents the circuits on which the F1 races are done.</rdfs:comment>
     </owl:Class>
     
@@ -1135,12 +1129,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasName"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasURL"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1204,12 +1192,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasSurname"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasURL"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1435,12 +1417,6 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasURL"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment>This class represents a particular F1 race.</rdfs:comment>
     </owl:Class>
     
@@ -1490,6 +1466,12 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLap"/>
+                <owl:allValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#RaceLap"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasConstructorPoints"/>
@@ -1604,12 +1586,6 @@
     <owl:Class rdf:about="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Season">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasURL"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasYear"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
             </owl:Restriction>
@@ -1658,6 +1634,12 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#Partecipation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasFastestLap"/>
+                <owl:allValuesFrom rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#SprintLap"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.dei.unipd.it/db2/groupProject/FASTianF1#hasLaps"/>
