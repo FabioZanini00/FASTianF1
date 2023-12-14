@@ -41,4 +41,5 @@ The repository also contains some SPARQL queries to show how the database works.
     <img src="FASTianF1schemeWhite.png" width="800" alt="FASTianF1 ontology schema"/>
   </a>
 </div>
+
 The [list of all data properties](Ontology/DataPropertiesList.md) for each class is available in the Ontology folder.
